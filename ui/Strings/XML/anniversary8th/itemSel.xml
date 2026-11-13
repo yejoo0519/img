@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<itemSel version="1.2">
+  <Image name="img_bg" type="3" subinfo="scene/event/anniversary2020/scale9/popupBg.png:(8.0, 7.0, 8.0, 9.0)" x="0" y="0" z="0" width="730" height="420">
+    <Image name="img_sub_bg" type="3" subinfo="scene/event/anniversary2020/scale9/popupSubBg.png:(14.0, 26.0, 26.0, 14.0)" x="0" y="30" z="0" width="710" height="350" />
+    <Image name="btn_btncancel" type="4" subinfo="scene/event/anniversary2020/spiritSel/btn_disable.png" x="0" y="-170" z="0" width="108" height="49" />
+  </Image>
+</itemSel>

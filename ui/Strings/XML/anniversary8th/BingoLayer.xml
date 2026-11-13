@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BingoLayer version="1.2">
+  <Image name="img_curr_key_tag" type="3" subinfo="scene/event/anniversary2020/scale9/key_box_right.png:(7.0, 6.0, 6.0, 6.0)" x="264.9" y="93.7" z="0" width="94.9" height="31">
+    <Text type="5" name="label_curr_key" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="10000" x="14" y="-0.1" z="0" width="86" height="70" />
+    <Image name="img_curr_key_effect" type="2" subinfo="scene/event/anniversary2020/bingo/key_choice_effect.png" x="-36.80002" y="1.525879E-05" z="0" width="66" height="67" />
+    <Image name="img_curr_key" type="2" subinfo="scene/event/anniversary2020/bingo/key_choice.png" x="-36.8" y="0" z="0" width="42" height="48" />
+  </Image>
+  <Image name="img_text_panel_1" type="2" subinfo="scale9/txt_box2.png" x="265" y="-99.1" z="0" width="110" height="117.4">
+    <Image name="img_period_tag" type="2" subinfo="scene/event/christmas2019/xmas_event_bingo_reward_b.png" x="2.700012" y="37.3" z="0" width="90" height="30">
+      <Text type="5" name="label_period" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="1/22~25" x="0" y="0" z="0" width="86" height="70" />
+    </Image>
+    <Text type="5" name="label_dragon_cup" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="드래곤 컵 선발전 참여 N개" x="2.700012" y="-6.600002" z="0" width="78.7" height="51.2" />
+    <Text type="5" name="label_dragon_cup_count" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="20 / 20" x="2.700012" y="-42" z="0" width="46.1" height="16.5" />
+    <Image name="btn_dragon_cup" type="4" subinfo="scene/event/anniversary2020/accept_bt_off.png" x="2.7" y="-65.8" z="0" width="88" height="29" />
+  </Image>
+  <Image name="img_text_panel_2" type="3" subinfo="scene/event/anniversary2020/scale9/key_box_right.png:(7.0, 6.0, 6.0, 6.0)" x="265" y="25.6" z="0" width="110" height="54.9">
+    <Text type="5" name="label_complete" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="빙고판 완성 1개" x="0" y="0" z="0" width="86" height="70" />
+    <Image name="btn_complete" type="4" subinfo="scene/event/anniversary2020/accept_bt_off.png" x="0" y="-40.4" z="0" width="88" height="29" />
+  </Image>
+  <Tranform type="1" name="node_bingo_panel" x="0" y="0" z="0" width="100" height="100">
+    <Image name="img_bingo_1" type="2" subinfo="scene/event/anniversary2020/bingo/bingo_bt.png" x="-190.4001" y="97" z="0" width="90" height="70">
+      <Tranform type="1" name="node_bingo_pos_1" x="0" y="12" z="0" width="83" height="40" />
+      <Text type="5" name="label_bingo_1" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="0 / 0" x="0" y="-12" z="0" width="86" height="70" />
+    </Image>
+    <Image name="img_bingo_2" type="2" subinfo="scene/event/anniversary2020/bingo/bingo_bt.png" x="-97.20007" y="97" z="0" width="90" height="70">
+      <Tranform type="1" name="node_bingo_pos_2" x="0" y="12" z="0" width="83" height="40" />
+      <Text type="5" name="label_bingo_2" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="0 / 0" x="0" y="-12" z="0" width="86" height="70" />
+    </Image>
+    <Image name="img_bingo_3" type="2" subinfo="scene/event/anniversary2020/bingo/bingo_bt.png" x="-4.000061" y="97" z="0" width="90" height="70">
+      <Tranform type="1" name="node_bingo_pos_3" x="0" y="12" z="0" width="83" height="40" />
+      <Text type="5" name="label_bingo_3" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="0 / 0" x="0" y="-12" z="0" width="86" height="70" />
+    </Image>
+    <Image name="img_bingo_4" type="2" subinfo="scene/event/anniversary2020/bingo/bingo_bt.png" x="90.09993" y="97" z="0" width="90" height="70">
+      <Tranform type="1" name="node_bingo_pos_4" x="0" y="12" z="0" width="83" height="40" />
+      <Text type="5" name="label_bingo_4" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="0 / 0" x="0" y="-12" z="0" width="86" height="70" />
+    </Image>
+    <Image name="img_bingo_5" type="2" subinfo="scene/event/anniversary2020/bingo/bingo_bt.png" x="-190.4001" y="27" z="0" width="90" height="70">
+      <Tranform type="1" name="node_bingo_pos_5" x="0" y="12" z="0" width="83" height="40" />
+      <Text type="5" name="label_bingo_5" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="0 / 0" x="0" y="-12" z="0" width="86" height="70" />
+    </Image>
+    <Image name="img_bingo_6" type="2" subinfo="scene/event/anniversary2020/bingo/bingo_bt.png" x="-97.20007" y="27" z="0" width="90" height="70">
+      <Tranform type="1" name="node_bingo_pos_6" x="0" y="12" z="0" width="83" height="40" />
+      <Text type="5" name="label_bingo_6" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="0 / 0" x="0" y="-12" z="0" width="86" height="70" />
+    </Image>
+    <Image name="img_bingo_7" type="2" subinfo="scene/event/anniversary2020/bingo/bingo_bt.png" x="-4" y="27" z="0" width="90" height="70">
+      <Tranform type="1" name="node_bingo_pos_7" x="0" y="12" z="0" width="83" height="40" />
+      <Text type="5" name="label_bingo_7" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="0 / 0" x="0" y="-12" z="0" width="86" height="70" />
+    </Image>
+    <Image name="img_bingo_8" type="2" subinfo="scene/event/anniversary2020/bingo/bingo_bt.png" x="90.09985" y="27" z="0" width="90" height="70">
+      <Tranform type="1" name="node_bingo_pos_8" x="0" y="12" z="0" width="83" height="40" />
+      <Text type="5" name="label_bingo_8" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="0 / 0" x="0" y="-12" z="0" width="86" height="70" />
+    </Image>
+    <Image name="img_bingo_9" type="2" subinfo="scene/event/anniversary2020/bingo/bingo_bt.png" x="-190.4001" y="-43" z="0" width="90" height="70">
+      <Tranform type="1" name="node_bingo_pos_9" x="0" y="12" z="0" width="83" height="40" />
+      <Text type="5" name="label_bingo_9" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="0 / 0" x="0" y="-12" z="0" width="86" height="70" />
+    </Image>
+    <Image name="img_bingo_10" type="2" subinfo="scene/event/anniversary2020/bingo/bingo_bt.png" x="-97.20007" y="-43" z="0" width="90" height="70">
+      <Tranform type="1" name="node_bingo_pos_10" x="0" y="12" z="0" width="83" height="40" />
+      <Text type="5" name="label_bingo_10" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="0 / 0" x="0" y="-12" z="0" width="86" height="70" />
+    </Image>
+    <Image name="img_bingo_11" type="2" subinfo="scene/event/anniversary2020/bingo/bingo_bt.png" x="-4" y="-43" z="0" width="90" height="70">
+      <Tranform type="1" name="node_bingo_pos_11" x="0" y="12" z="0" width="83" height="40" />
+      <Text type="5" name="label_bingo_11" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="0 / 0" x="0" y="-12" z="0" width="86" height="70" />
+    </Image>
+    <Image name="img_bingo_12" type="2" subinfo="scene/event/anniversary2020/bingo/bingo_bt.png" x="90.09985" y="-43" z="0" width="90" height="70">
+      <Tranform type="1" name="node_bingo_pos_12" x="0" y="12" z="0" width="83" height="40" />
+      <Text type="5" name="label_bingo_12" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="0 / 0" x="0" y="-12" z="0" width="86" height="70" />
+    </Image>
+    <Image name="img_bingo_13" type="2" subinfo="scene/event/anniversary2020/bingo/bingo_bt.png" x="-190.4001" y="-113" z="0" width="90" height="70">
+      <Tranform type="1" name="node_bingo_pos_13" x="0" y="12" z="0" width="83" height="40" />
+      <Text type="5" name="label_bingo_13" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="0 / 0" x="0" y="-12" z="0" width="86" height="70" />
+    </Image>
+    <Image name="img_bingo_14" type="2" subinfo="scene/event/anniversary2020/bingo/bingo_bt.png" x="-97.20007" y="-113" z="0" width="90" height="70">
+      <Tranform type="1" name="node_bingo_pos_14" x="0" y="12" z="0" width="83" height="40" />
+      <Text type="5" name="label_bingo_14" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="0 / 0" x="0" y="-12" z="0" width="86" height="70" />
+    </Image>
+    <Image name="img_bingo_15" type="2" subinfo="scene/event/anniversary2020/bingo/bingo_bt.png" x="-4" y="-113" z="0" width="90" height="70">
+      <Tranform type="1" name="node_bingo_pos_15" x="0" y="12" z="0" width="83" height="40" />
+      <Text type="5" name="label_bingo_15" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="0 / 0" x="0" y="-12" z="0" width="86" height="70" />
+    </Image>
+    <Image name="img_bingo_16" type="2" subinfo="scene/event/anniversary2020/bingo/bingo_bt.png" x="90.09985" y="-113" z="0" width="90" height="70">
+      <Tranform type="1" name="node_bingo_pos_16" x="0" y="12" z="0" width="83" height="40" />
+      <Text type="5" name="label_bingo_16" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="0 / 0" x="0" y="-12" z="0" width="86" height="70" />
+    </Image>
+  </Tranform>
+  <Tranform type="1" name="node_receive" x="0" y="0" z="0" width="100" height="100">
+    <Image name="btn_receive_1" type="4" subinfo="scene/event/anniversary2020/bingo/key_box_disable.png" x="169.1" y="100.6" z="0" width="54" height="54">
+      <Image name="img_key_effect_1" type="2" subinfo="scene/event/anniversary2020/bingo/key_disable_effect.png" x="0" y="0" z="0" width="54" height="54" />
+      <Image name="img_key_1" type="2" subinfo="scene/event/anniversary2020/bingo/key_disable.png" x="0" y="0" z="0" width="37" height="42" />
+      <Image name="img_bling_bling_1" type="2" subinfo="scene/event/anniversary2020/bingo/key_choice_star.png" x="0" y="9" z="0" width="54" height="41" />
+      <Image name="img_chreck_1" type="2" subinfo="scene/event/anniversary2020/bingo/check.png" x="0" y="0" z="0" width="38" height="36" />
+    </Image>
+    <Image name="btn_receive_2" type="4" subinfo="scene/event/anniversary2020/bingo/key_box_disable.png" x="169.1" y="30.60001" z="0" width="54" height="54">
+      <Image name="img_key_effect_2" type="2" subinfo="scene/event/anniversary2020/bingo/key_disable_effect.png" x="0" y="0" z="0" width="54" height="54" />
+      <Image name="img_key_2" type="2" subinfo="scene/event/anniversary2020/bingo/key_disable.png" x="0" y="0" z="0" width="37" height="42" />
+      <Image name="img_bling_bling_2" type="2" subinfo="scene/event/anniversary2020/bingo/key_choice_star.png" x="0" y="9" z="0" width="54" height="41" />
+      <Image name="img_chreck_2" type="2" subinfo="scene/event/anniversary2020/bingo/check.png" x="0" y="0" z="0" width="38" height="36" />
+    </Image>
+    <Image name="btn_receive_3" type="4" subinfo="scene/event/anniversary2020/bingo/key_box_disable.png" x="169.1" y="-39.39999" z="0" width="54" height="54">
+      <Image name="img_key_effect_3" type="2" subinfo="scene/event/anniversary2020/bingo/key_disable_effect.png" x="0" y="0" z="0" width="54" height="54" />
+      <Image name="img_key_3" type="2" subinfo="scene/event/anniversary2020/bingo/key_disable.png" x="0" y="0" z="0" width="37" height="42" />
+      <Image name="img_bling_bling_3" type="2" subinfo="scene/event/anniversary2020/bingo/key_choice_star.png" x="0" y="9" z="0" width="54" height="41" />
+      <Image name="img_chreck_3" type="2" subinfo="scene/event/anniversary2020/bingo/check.png" x="0" y="0" z="0" width="38" height="36" />
+    </Image>
+    <Image name="btn_receive_4" type="4" subinfo="scene/event/anniversary2020/bingo/key_box_disable.png" x="169.1" y="-109.4" z="0" width="54" height="54">
+      <Image name="img_key_effect_4" type="2" subinfo="scene/event/anniversary2020/bingo/key_disable_effect.png" x="0" y="0" z="0" width="54" height="54" />
+      <Image name="img_key_4" type="2" subinfo="scene/event/anniversary2020/bingo/key_disable.png" x="0" y="0" z="0" width="37" height="42" />
+      <Image name="img_bling_bling_4" type="2" subinfo="scene/event/anniversary2020/bingo/key_choice_star.png" x="0" y="9" z="0" width="54" height="41" />
+      <Image name="img_chreck_4" type="2" subinfo="scene/event/anniversary2020/bingo/check.png" x="0" y="0" z="0" width="38" height="36" />
+    </Image>
+    <Image name="btn_receive_5" type="4" subinfo="scene/event/anniversary2020/bingo/key_box_disable.png" x="169.1" y="-173" z="0" width="54" height="54">
+      <Image name="img_key_effect_5" type="2" subinfo="scene/event/anniversary2020/bingo/key_disable_effect.png" x="0" y="0" z="0" width="54" height="54" />
+      <Image name="img_key_5" type="2" subinfo="scene/event/anniversary2020/bingo/key_disable.png" x="0" y="0" z="0" width="37" height="42" />
+      <Image name="img_bling_bling_5" type="2" subinfo="scene/event/anniversary2020/bingo/key_choice_star.png" x="0" y="9" z="0" width="54" height="41" />
+      <Image name="img_chreck_5" type="2" subinfo="scene/event/anniversary2020/bingo/check.png" x="0" y="0" z="0" width="38" height="36" />
+    </Image>
+    <Image name="btn_receive_6" type="4" subinfo="scene/event/anniversary2020/bingo/key_box_disable.png" x="90.09985" y="-173" z="0" width="54" height="54">
+      <Image name="img_key_effect_6" type="2" subinfo="scene/event/anniversary2020/bingo/key_disable_effect.png" x="0" y="0" z="0" width="54" height="54" />
+      <Image name="img_key_6" type="2" subinfo="scene/event/anniversary2020/bingo/key_disable.png" x="0" y="0" z="0" width="37" height="42" />
+      <Image name="img_bling_bling_6" type="2" subinfo="scene/event/anniversary2020/bingo/key_choice_star.png" x="0" y="9" z="0" width="54" height="41" />
+      <Image name="img_chreck_6" type="2" subinfo="scene/event/anniversary2020/bingo/check.png" x="0" y="0" z="0" width="38" height="36" />
+    </Image>
+    <Image name="btn_receive_7" type="4" subinfo="scene/event/anniversary2020/bingo/key_box_disable.png" x="-4" y="-173" z="0" width="54" height="54">
+      <Image name="img_key_effect_7" type="2" subinfo="scene/event/anniversary2020/bingo/key_disable_effect.png" x="0" y="0" z="0" width="54" height="54" />
+      <Image name="img_key_7" type="2" subinfo="scene/event/anniversary2020/bingo/key_disable.png" x="0" y="0" z="0" width="37" height="42" />
+      <Image name="img_bling_bling_7" type="2" subinfo="scene/event/anniversary2020/bingo/key_choice_star.png" x="0" y="9" z="0" width="54" height="41" />
+      <Image name="img_chreck_7" type="2" subinfo="scene/event/anniversary2020/bingo/check.png" x="0" y="0" z="0" width="38" height="36" />
+    </Image>
+    <Image name="btn_receive_8" type="4" subinfo="scene/event/anniversary2020/bingo/key_box_disable.png" x="-97.20007" y="-173" z="0" width="54" height="54">
+      <Image name="img_key_effect_8" type="2" subinfo="scene/event/anniversary2020/bingo/key_disable_effect.png" x="0" y="0" z="0" width="54" height="54" />
+      <Image name="img_key_8" type="2" subinfo="scene/event/anniversary2020/bingo/key_disable.png" x="0" y="0" z="0" width="37" height="42" />
+      <Image name="img_bling_bling_8" type="2" subinfo="scene/event/anniversary2020/bingo/key_choice_star.png" x="0" y="9" z="0" width="54" height="41" />
+      <Image name="img_chreck_8" type="2" subinfo="scene/event/anniversary2020/bingo/check.png" x="0" y="0" z="0" width="38" height="36" />
+    </Image>
+    <Image name="btn_receive_9" type="4" subinfo="scene/event/anniversary2020/bingo/key_box_disable.png" x="-190.4001" y="-173" z="0" width="54" height="54">
+      <Image name="img_key_effect_9" type="2" subinfo="scene/event/anniversary2020/bingo/key_disable_effect.png" x="0" y="0" z="0" width="54" height="54" />
+      <Image name="img_key_9" type="2" subinfo="scene/event/anniversary2020/bingo/key_disable.png" x="0" y="0" z="0" width="37" height="42" />
+      <Image name="img_bling_bling_9" type="2" subinfo="scene/event/anniversary2020/bingo/key_choice_star.png" x="0" y="9" z="0" width="54" height="41" />
+      <Image name="img_chreck_9" type="2" subinfo="scene/event/anniversary2020/bingo/check.png" x="0" y="0" z="0" width="38" height="36" />
+    </Image>
+    <Image name="btn_receive_10" type="4" subinfo="scene/event/anniversary2020/bingo/key_box_disable.png" x="-262" y="-173" z="0" width="54" height="54">
+      <Image name="img_key_effect_10" type="2" subinfo="scene/event/anniversary2020/bingo/key_disable_effect.png" x="0" y="0" z="0" width="54" height="54" />
+      <Image name="img_key_10" type="2" subinfo="scene/event/anniversary2020/bingo/key_disable.png" x="0" y="0" z="0" width="37" height="42" />
+      <Image name="img_bling_bling_10" type="2" subinfo="scene/event/anniversary2020/bingo/key_choice_star.png" x="0" y="9" z="0" width="54" height="41" />
+      <Image name="img_chreck_10" type="2" subinfo="scene/event/anniversary2020/bingo/check.png" x="0" y="0" z="0" width="38" height="36" />
+    </Image>
+  </Tranform>
+</BingoLayer>

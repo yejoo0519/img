@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="1.2">
+  <Tranform type="1" name="node_target" x="0" y="0" z="0" width="100" height="100">
+    <Image name="img_target_bg" type="2" subinfo="scene/spirit/bg_targetselect2.png" x="-184" y="-36.5" z="0" width="416" height="394">
+      <Tranform type="1" name="btn_toolBelt" x="-51" y="160.5" z="0" width="10" height="10">
+        <Image type="4" name="btn_sort_1" subinfo="scale9/bt_1.png:(15.0, 8.0, 8.0, 16.0)" x="-100" y="0" z="0" width="90" height="34">
+          <Image name="btn_sortArrow_1" type="2" subinfo="scene/spirit/sort_direct2.png" x="25" y="0" z="0" width="17" height="14"/>
+          <Text type="5" name="label_sort_1" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):13" localizeinfo="FILTER_GRADE" x="-5" y="0" z="0" width="90" height="34"/>
+        </Image>
+        <Image type="4" name="btn_sort_2" subinfo="scale9/bt_1.png:(15.0, 8.0, 8.0, 16.0)" x="5" y="0" z="0" width="110" height="34">
+          <Image name="btn_sortArrow_2" type="2" subinfo="scene/spirit/sort_direct2.png" x="35" y="0" z="0" width="17" height="14"/>
+          <Text type="5" name="label_sort_2" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):13" localizeinfo="FILTER_ENHANCE" x="-5" y="0" z="0" width="100" height="34"/>
+        </Image>
+        <Image type="4" name="btn_sort_3" subinfo="scale9/bt_1.png:(15.0, 8.0, 8.0, 16.0)" x="110" y="0" z="0" width="90" height="34">
+          <Image name="btn_sortArrow_3" type="2" subinfo="scene/spirit/sort_direct2.png" x="25" y="0" z="0" width="17" height="14"/>
+          <Text type="5" name="label_sort_3" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):13" localizeinfo="FILTER_LEVEL" x="-5" y="0" z="0" width="90" height="34"/>
+        </Image>
+        <Tranform type="1" name="node_element_pos" x="218.5" y="0" z="0" width="100" height="100">
+          <Image name="btn_element_sort" type="4" subinfo="common/elemen_8.png" x="0" y="0" z="0" width="47.52" height="52.56"/>
+        </Tranform>
+      </Tranform>
+      <Tranform type="1" name="node_game_object" x="-186" y="-132" z="0" width="0" height="0"/>
+    </Image>
+    <Image name="btn_btnspirit_limit" type="4" subinfo="scene/spirit/btn_blue.png" x="-93.60001" y="-199" z="0" width="192" height="46">
+      <Text type="5" name="label_number" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="0 / 0" x="-5.400002" y="0" z="0" width="160" height="30"/>
+      <Image name="img_image" type="2" subinfo="scene/spirit/icon_wplus.png" x="-60" y="0" z="0" width="32" height="32"/>
+    </Image>
+    <Image name="btn_btnspirit_help" type="4" subinfo="common/bt_help.png" x="-360" y="-199" z="0" width="50" height="50"/>
+  </Tranform>
+</root>

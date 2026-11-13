@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ChildrensDayRulePopup version="1.2.1">
+  <Image name="img_rule_popup_back_pannel" type="3" subinfo="scale9/pop2_2_bg.png:(18.0, 4.0, 4.0, 18.0)" x="25" y="-20" z="1" width="600" height="300" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Image name="btn_rule_popup_exit" type="4" subinfo="scene/event/anniversary2021/btn_x.png" x="297" y="144" z="0" width="40" height="46" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Tranform type="1" name="node_pannel" x="0" y="0" z="0" width="0" height="0" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Text type="5" name="label_help" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="NEWCHILDREN_HELP_0" x="1" y="36.05001" z="0" width="570" height="166.8" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+      <Text type="5" name="label_help_text2" subinfo="RGBA(1.000, 0.000, 0.000, 1.000):14" localizeinfo="NEWCHILDREN_HELP_1" x="-1" y="-91.99999" z="0" width="570" height="89.3" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    </Tranform>
+  </Image>
+</ChildrensDayRulePopup>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dragonSel version="1.2">
+  <Image name="img_bg" type="3" subinfo="scene/event/anniversary2020/scale9/popupBg.png:(8.0, 7.0, 8.0, 9.0)" x="0" y="0" z="0" width="630" height="380">
+    <Image name="btn_btnexit" type="4" subinfo="common/exit_1.png" x="305" y="185" z="0" width="50" height="52" />
+    <Image name="img_sub_bg" type="3" subinfo="scene/event/anniversary2020/scale9/popupSubBg.png:(14.0, 26.0, 26.0, 14.0)" x="0" y="-25" z="0" width="610" height="310" />
+    <Tranform type="1" name="node_elements" x="0" y="158" z="0" width="0" height="0">
+      <Image name="btn_elem_0" type="4" subinfo="common/elemen_8.png" x="-280" y="0" z="0" width="26.4" height="29.2" />
+      <Image name="btn_elem_1" type="4" subinfo="common/elemen_1.png" x="-250" y="0" z="0" width="26.4" height="29.2" />
+      <Image name="btn_elem_2" type="4" subinfo="common/elemen_2.png" x="-220" y="0" z="0" width="26.4" height="29.2" />
+      <Image name="btn_elem_3" type="4" subinfo="common/elemen_3.png" x="-190" y="0" z="0" width="26.4" height="29.2" />
+      <Image name="btn_elem_4" type="4" subinfo="common/elemen_4.png" x="-160" y="0" z="0" width="26.4" height="29.2" />
+      <Image name="btn_elem_5" type="4" subinfo="common/elemen_5.png" x="-130" y="0" z="0" width="26.4" height="29.2" />
+      <Image name="btn_elem_6" type="4" subinfo="common/elemen_6.png" x="-100" y="0" z="0" width="26.4" height="29.2" />
+      <Image name="btn_elem_7" type="4" subinfo="common/elemen_11.png" x="-70" y="0" z="0" width="26.4" height="29.2" />
+      <Image name="btn_elem_8" type="4" subinfo="common/elemen_9.png" x="-40" y="0" z="0" width="26.4" height="29.2" />
+      <Image name="btn_elem_9" type="4" subinfo="common/elemen_10.png" x="-10" y="0" z="0" width="26.4" height="29.2" />
+    </Tranform>
+    <Image name="img_img" type="2" subinfo="scene/event/anniversary2020/dragonSel/dragon_name_box.png" x="74.8" y="157.5" z="0" width="108" height="46">
+      <Text type="5" name="label_name" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):12" localizeinfo="드래곤 이름" x="0" y="0" z="0" width="95.6" height="33.3" />
+    </Image>
+    <Image name="btn_select" type="4" subinfo="scene/event/anniversary2020/dragonSel/choice_bt.png" x="197.9" y="156.2" z="0" width="108" height="49" />
+  </Image>
+</dragonSel>

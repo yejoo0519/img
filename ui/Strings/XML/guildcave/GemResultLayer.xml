@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GemResultLayer version="1.2.1">
+  <Tranform type="1" name="node_gem_result_layer" x="0" y="0" z="0" width="800" height="480" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Image name="img_sub_bg4" type="2" subinfo="scene/fortune/newGem/frame_gembg52.png" x="0" y="0" z="0" width="624" height="368" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image name="img_title" type="8" subinfo="scene/fortune/newGem/txt_resulttitle.png" sublanginfo="scene/fortune/newGem/txt_resulttitle_en.png" x="0.5" y="145" z="1" width="119" height="45" subwidth="98" subheight="42" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image name="img_gem_result" type="2" subinfo="scene/fortune/newGem/frame_result_box2.png" x="0" y="40" z="2" width="120" height="135" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Text type="5" name="label_gem_result_name" subinfo="RGBA(1.00,1.00,1.00,1.00):16" localizeinfo="" x="0" y="-40" z="3" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    <Image name="img_result" x="0" y="-84" z="4" width="614" height="50" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scale9/chat_black.png:(9,9,18,18)">
+      <Text name="label_success" x="-100" y="13" z="0" width="100" height="100" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(1.00,1.00,1.00,1.00):16" localizeinfo="Success_GuildGem" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0">
+        <Text name="label_suc_count" x="0" y="-24" z="0" width="100" height="100" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(1.00,1.00,1.00,1.00):16" localizeinfo="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+      </Text>
+      <Text name="label_fail" x="100" y="13" z="1" width="100" height="100" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(1.00,0.00,0.00,1.00):16" localizeinfo="Fail_GuildGem" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0">
+        <Text name="label_fail_count" x="0" y="-24" z="0" width="100" height="100" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(1.00,0.00,0.00,1.00):16" localizeinfo="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+      </Text>
+    </Image>
+    <Image name="btn_ok" type="4" subinfo="scene/fortune/newGem/bt_gem_on.png" x="0" y="-140" z="5" width="170" height="44" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image name="img_ok_on" type="8" subinfo="scene/fortune/newGem/txt_ok.png" sublanginfo="scene/fortune/newGem/txt_ok_en.png" x="0" y="0" z="0" width="40" height="21" subwidth="34" subheight="18" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    </Image>
+  </Tranform>
+</GemResultLayer>

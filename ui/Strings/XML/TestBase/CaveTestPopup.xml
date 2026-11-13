@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CaveTestPopup version="1.2.1">
+  <Image name="img_main_bg" type="2" subinfo="scene/event/OneTwoThree/frame_123eventbg1.png" x="0" y="0" z="0" width="644" height="398">
+    <Image name="img_back_ground" type="2" subinfo="scene/cave/cave_skin/cave_skin1.jpg" x="0" y="0" z="0" width="800" height="480">
+      <Tranform type="1" name="node_dragon_spine" x="0" y="-2" z="0" width="0" height="0" />
+    </Image>
+    <Image name="img_dragon_name" type="2" subinfo="scene/cave/dragon_name_bg.png" x="0" y="210" z="0" width="305" height="57" />
+    <Image name="img_dragon_exp" type="2" subinfo="scene/cave/exp_bar_bg.png" x="-10.1" y="183.4" z="0" width="235" height="18" />
+    <Image name="img_dragon_stat" type="3" subinfo="scene/cave/back_under.png:(17.0, 39.0, 6.0, 4.0)" x="0" y="-232.5" z="0" width="600" height="59" />
+    <Image name="img_dragon_item" type="3" subinfo="scene/cave/back_under.png:(17.0, 39.0, 6.0, 4.0)" x="0" y="-174.8" z="0" width="394" height="59">
+      <Image name="img_item_1" type="2" subinfo="scene/cave/back_item.png" x="-155.8" y="-2" z="0" width="47" height="47" />
+      <Image name="img_item_2" type="2" subinfo="scene/cave/back_item.png" x="-104.2" y="-2" z="0" width="47" height="47" />
+      <Image name="img_item_3" type="2" subinfo="scene/cave/back_item.png" x="-51" y="-2" z="0" width="47" height="47" />
+      <Image name="img_item_4" type="2" subinfo="scene/cave/back_item.png" x="3.4" y="-2" z="0" width="47" height="47" />
+      <Image name="img_item_5" type="2" subinfo="scene/cave/back_item.png" x="56.1" y="-2" z="0" width="47" height="47" />
+      <Image name="img_item_6" type="2" subinfo="scene/cave/back_item.png" x="108.9" y="-2" z="0" width="47" height="47" />
+      <Image name="img_item_7" type="2" subinfo="scene/cave/back_item.png" x="158.7" y="-2" z="0" width="47" height="47" />
+    </Image>
+    <Image name="img_dragon_asc" type="2" subinfo="scene/cave/bt_ascension.png" x="214.8" y="190.3" z="0" width="65" height="72" />
+    <Image name="img_dragon_shelter" type="2" subinfo="scene/cave/bt_rest.png" x="301.7" y="192.7" z="0" width="92" height="62" />
+    <Image name="btn_exit" type="4" subinfo="common/exit_1.png" x="371.1" y="209.8" z="0" width="50" height="52" />
+    <Image name="img_cave_skin" type="2" subinfo="scene/cave/bt_skin.png" x="352" y="59" z="0" width="66" height="57" />
+    <Image name="img_book" type="2" subinfo="scene/cave/bt_card.png" x="352" y="-9" z="0" width="66" height="58" />
+    <Image name="img_bag" type="2" subinfo="scene/cave/bt_inven.png" x="352" y="-82" z="0" width="61" height="60" />
+    <Image name="img_dragon_list" type="3" subinfo="scene/cave/back_mid.png:(1.0, 20.0, 20.0, 21.0)" x="-352.6" y="8" z="0" width="95" height="430">
+      <Tranform type="1" name="node_dragon_list_scroll" x="0.5" y="-14.60001" z="0" width="85" height="350" />
+    </Image>
+  </Image>
+</CaveTestPopup>

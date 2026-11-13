@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="1.2.1">
+  <Image name="img_frame" type="2" subinfo="scene/event/world_raid/frame_buy_ticket.png" x="0" y="0" z="0" width="366" height="214" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Image name="img_frame_dia" type="2" subinfo="scene/event/world_raid/frame_dia.png" x="-86" y="128" z="0" width="195" height="36" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Text name="label_dia" type="6" subinfo="RGBA(1.00,1.00,1.00,1.00):16" localizeinfo="0" x="15" y="0" z="0" width="195" height="25" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    </Image>
+    <Text name="label_able_ticket" type="6" subinfo="RGBA(1.00,1.00,1.00,1.00):16" localizeinfo="" x="0" y="77" z="1" width="330" height="25" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    <Image name="img_icon_dia" type="2" subinfo="scene/shop/icon_dia.png" x="-50" y="-15" z="2" width="33" height="26" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Text name="label_dia_cost" type="6" subinfo="RGBA(1.00,1.00,1.00,1.00):16" localizeinfo="0" x="29" y="-14" z="3" width="100" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    <Tranform name="node_count" x="0" y="30" z="4" width="0" height="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1">
+      <Image name="btn_left_2" x="-94" y="1" z="0" width="30" height="37" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="scene/autolevelup/bt_left2.png" click_mode="2"/>
+      <Image name="btn_left_1" x="-60" y="0" z="1" width="30" height="37" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="scene/autolevelup/bt_left.png" click_mode="2"/>
+      <Image name="btn_count" x="0" y="0" z="2" width="73" height="32" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="common/frame_calculator.png" click_mode="2">
+        <Text name="label_count" x="0" y="0" z="0" width="100" height="100" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(1.00,1.00,1.00,1.00):20" localizeinfo="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+      </Image>
+      <Image name="btn_right_1" x="60" y="0" z="3" width="30" height="37" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="scene/autolevelup/bt_right.png" click_mode="2"/>
+      <Image name="btn_right_2" x="94" y="0" z="4" width="30" height="37" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="scene/autolevelup/bt_right2.png" click_mode="2"/>
+    </Tranform>
+    <Image name="btn_confirm" x="-82" y="-67" z="5" width="120" height="40" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="4" subinfo="scale9/bt_1.png:(19,1,1,19)" click_mode="2" anchored_click_effect="0">
+      <Text name="label_confirm" x="0" y="0" z="0" width="100" height="30" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="5" subinfo="RGBA(1.00,1.00,1.00,1.00):18" localizeinfo="buy" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+    </Image>
+    <Image name="btn_cancel" x="62" y="-67" z="6" width="120" height="40" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="4" subinfo="scale9/bt_2.png:(19,1,1,19)" click_mode="2" anchored_click_effect="0">
+      <Text name="label_cancel" x="0" y="0" z="0" width="100" height="30" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="5" subinfo="RGBA(1.00,1.00,1.00,1.00):18" localizeinfo="BTN_CANCEL" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+    </Image>
+  </Image>
+</root>

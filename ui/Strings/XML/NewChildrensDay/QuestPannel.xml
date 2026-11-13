@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuestPannel version="1.2.1">
+  <Tranform type="1" name="node_quest_back_pannel" x="0" y="0" z="1" width="0" height="0" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Tranform type="1" name="node_quest_bg" x="0" y="0" z="0" width="0" height="0" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image name="img_medal" x="-237" y="1.5" z="1" width="46" height="66" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="scene/event/NewChildrensDay/medal_icon.png"/>
+    <Image name="img_quest_deco" x="-170" y="12" z="1" width="23" height="22" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="scene/event/NewChildrensDay/star_deco.png"/>
+    <Image name="img_quest_reward_icon" type="2" subinfo="scene/event/NewChildrensDay/item_cell.png" x="235" y="0" z="2" width="64" height="65" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image name="img_quest_progress_bar" type="2" subinfo="scene/event/NewChildrensDay/gauge_bg.png" x="-30" y="-13" z="3" width="310" height="21" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Text type="5" name="label_quest_cnt" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):18" localizeinfo="0/35" x="-30" y="-13" z="4" width="56" height="20" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    <Text type="5" name="label_quest_title" subinfo="RGBA(0.26274510,0.12549020,0.03921569,1.00000000):18" localizeinfo="" x="-2.5" y="13" z="5" width="300" height="25" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="0" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    <Image name="img_quest_success" x="0" y="0" z="7" width="564" height="87" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scale9/back_unlock.png:(9,8,18,18)"/>
+  </Tranform>
+</QuestPannel>

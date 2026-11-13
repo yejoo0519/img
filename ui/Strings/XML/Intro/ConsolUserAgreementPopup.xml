@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="1.3.0">
+  <Tranform name="node_popup" x="0" y="0" z="0" width="660" height="370" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="1">
+    <Image name="img_bg" x="0" y="0" z="0" width="660" height="370" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="3" subinfo="scale9/pop.png:(16,16,12,12)"/>
+    <Tranform name="node_terms" x="-162" y="-22" z="1" width="312" height="302" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="1">
+      <Image name="img_terms_bg" x="0" y="0" z="0" width="312" height="302" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="3" subinfo="scale9/pop.png:(16,16,12,12)"/>
+      <Image name="img_terms_text_bg" x="0" y="45" z="1" width="288" height="188" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="3" subinfo="scale9/pop_gray.png:(16,16,12,12)"/>
+      <Text name="label_terms_body" x="0" y="45" z="2" width="264" height="164" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="5" subinfo="RGBA(0.00,0.00,0.00,1.00):15:GodoM" localizeinfo="userAgreement" HorizontalAlignment="0" VerticalAlignment="1" autoSize="1" singleLine="0"/>
+      <Image name="btn_terms_detail" x="0" y="-81" z="3" width="140" height="40" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="4" subinfo="scale9/bt_4.png:(17,2,2,18)" click_mode="2" anchored_click_effect="0">
+        <Text name="label_terms_detail" x="0" y="0" z="0" width="128" height="40" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="6" subinfo="RGBA(1.00,1.00,1.00,1.00):18" localizeinfo="inDetail" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0" anchor_max_x="1" anchor_max_y="1" offset_left="6" offset_right="6" offset_top="0" offset_bottom="0" anchored_x="0" anchored_y="0" stroke_color="RGBA(0.36,0.15,0.15,1.00)" stroke_size="1"/>
+      </Image>
+      <Tranform name="node_terms_agree" x="0" y="-126" z="4" width="288" height="26" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="1">
+        <Image name="btn_terms_agree" x="-131" y="0" z="0" width="26" height="26" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="4" subinfo="intro/tab3.png" click_mode="2" anchored_click_effect="0"/>
+        <Text name="label_terms_agree" x="-112" y="0" z="1" width="256" height="26" anchor_x="0" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="5" subinfo="RGBA(0.00,0.00,0.00,1.00):15:GodoM" localizeinfo="TERMS_AGREE" HorizontalAlignment="0" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+      </Tranform>
+    </Tranform>
+    <Tranform name="node_privacy" x="162" y="-22" z="2" width="312" height="302" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="1">
+      <Image name="img_privacy_bg" x="0" y="0" z="0" width="312" height="302" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="3" subinfo="scale9/pop.png:(16,16,12,12)"/>
+      <Image name="img_privacy_text_bg" x="0" y="45" z="1" width="288" height="188" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="3" subinfo="scale9/pop_gray.png:(16,16,12,12)"/>
+      <Text name="label_privacy_body" x="0" y="45" z="2" width="264" height="164" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="5" subinfo="RGBA(0.00,0.00,0.00,1.00):15:GodoM" localizeinfo="personalAgreement" HorizontalAlignment="0" VerticalAlignment="1" autoSize="1" singleLine="0"/>
+      <Image name="btn_privacy_detail" x="0" y="-81" z="3" width="140" height="40" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="4" subinfo="scale9/bt_4.png:(17,2,2,18)" click_mode="2" anchored_click_effect="0">
+        <Text name="label_privacy_detail" x="0" y="0" z="0" width="128" height="40" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="6" subinfo="RGBA(1.00,1.00,1.00,1.00):18" localizeinfo="inDetail" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0" anchor_max_x="1" anchor_max_y="1" offset_left="6" offset_right="6" offset_top="0" offset_bottom="0" anchored_x="0" anchored_y="0" stroke_color="RGBA(0.36,0.15,0.15,1.00)" stroke_size="1"/>
+      </Image>
+      <Tranform name="node_privacy_agree" x="0" y="-126" z="4" width="288" height="26" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="1">
+        <Image name="btn_privacy_agree" x="-131" y="0" z="0" width="26" height="26" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="4" subinfo="intro/tab3.png" click_mode="2" anchored_click_effect="0"/>
+        <Text name="label_privacy_agree" x="-112" y="0" z="1" width="256" height="26" anchor_x="0" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="5" subinfo="RGBA(0.00,0.00,0.00,1.00):15:GodoM" localizeinfo="PRIVACY_AGREE" HorizontalAlignment="0" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+      </Tranform>
+    </Tranform>
+    <Image name="img_head" x="0" y="185" z="3" width="660" height="44" anchor_x="0.5" anchor_y="1" rotationX="0" rotationY="0" rotation="0" visible="1" type="3" subinfo="scale9/pop_main.png:(16,16,12,1)" color="RGBA(0.00,0.00,0.00,1.00)"/>
+    <Text name="label_title" x="-310" y="163" z="4" width="400" height="34" anchor_x="0" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="5" subinfo="RGBA(1.00,1.00,1.00,1.00):25:GodoM" localizeinfo="TERMS_AGREE_TITLE" HorizontalAlignment="0" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+    <Image name="btn_close" x="297" y="163" z="5" width="26" height="25" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="4" subinfo="intro/bt_exit.png" click_mode="2" anchored_click_effect="0"/>
+  </Tranform>
+</root>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UnequipItemsPopup version="1.2.1">
+  <Image name="img_back_pannel" type="3" subinfo="scale9/pop_bg_dark.png:(20,20,40,40)" x="0" y="0" z="0" width="500" height="300" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Text name="label_title" x="0" y="116" z="0" width="450" height="50" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(1.00,1.00,1.00,1.00):26" localizeinfo="TEXT_CAVE_UNEQUIP_ALL" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    <Image name="img_option_pannel" type="3" subinfo="scale9/pop3_3_bg_dark.png:(10,10,22,22)" x="0" y="10" z="0" width="430" height="143" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Tranform type="1" name="node_check_0" x="0" y="45" z="0" width="430" height="35" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Text name="label_check_label_0" x="-25" y="0" z="0" width="340" height="35" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(1.00,1.00,1.00,1.00):16" localizeinfo="TEXT_CAVE_UNEQUIP_GEM" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+        <Image name="btn_check_btn_0" type="4" subinfo="scene/adventure/AdventurePopup/AdventureOption/CheckBox.png" x="185" y="0" z="1" width="23" height="23" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" layout_mode="anchored" anchor_min_x="1" anchor_min_y="0.5" anchor_max_x="1" anchor_max_y="0.5" anchored_x="-30" anchored_y="0" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0">
+          <Image name="img_check_image_0" type="2" subinfo="scene/adventure/mission_on.png" x="-1" y="1" z="0" width="25" height="18.5" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        </Image>
+      </Tranform>
+      <Tranform type="1" name="node_check_1" x="0" y="10" z="2" width="430" height="35" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Text name="label_check_label_1" x="-25" y="0" z="0" width="340" height="35" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(1.00,1.00,1.00,1.00):16" localizeinfo="TEXT_CAVE_UNEQUIP_ACC" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+        <Image name="btn_check_btn_1" type="4" subinfo="scene/adventure/AdventurePopup/AdventureOption/CheckBox.png" x="185" y="0" z="1" width="23" height="23" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" layout_mode="anchored" anchor_min_x="1" anchor_min_y="0.5" anchor_max_x="1" anchor_max_y="0.5" anchored_x="-30" anchored_y="0" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0">
+          <Image name="img_check_image_1" type="2" subinfo="scene/adventure/mission_on.png" x="0" y="0" z="0" width="25" height="18.5" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        </Image>
+      </Tranform>
+      <Tranform name="node_check_2" x="0" y="-25" z="3" width="430" height="35" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1">
+        <Text name="label_check_label_2" x="-25" y="0" z="0" width="340" height="35" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(1.00,1.00,1.00,1.00):16" localizeinfo="TEXT_CAVE_UNEQUIP_PEN" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+        <Image name="btn_check_btn_2" type="4" subinfo="scene/adventure/AdventurePopup/AdventureOption/CheckBox.png" x="185" y="0" z="1" width="23" height="23" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" layout_mode="anchored" anchor_min_x="1" anchor_min_y="0.5" anchor_max_x="1" anchor_max_y="0.5" anchored_x="-30" anchored_y="0" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0">
+          <Image name="img_check_image_2" type="2" subinfo="scene/adventure/mission_on.png" x="0" y="0" z="0" width="25" height="18.5" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        </Image>
+      </Tranform>
+    </Image>
+    <Image name="btn_save" type="4" subinfo="scale9/bt_1.png:(17,20,2,2)" x="-100" y="-100" z="2" width="150" height="47" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Text name="label_save" x="0" y="0" z="1" width="150" height="47" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(1.00,1.00,1.00,1.00):20" localizeinfo="TEXT_CAVE_UNEQUIP" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    </Image>
+    <Image name="btn_close" type="4" subinfo="scale9/bt_2.png:(17,20,2,2)" x="100" y="-100" z="3" width="151" height="47" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Text name="label_close" x="0" y="0" z="1" width="150" height="47" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(1.00,1.00,1.00,1.00):20" localizeinfo="BTN_CANCEL" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    </Image>
+  </Image>
+</UnequipItemsPopup>

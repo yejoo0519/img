@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recon_setting version="1.2">
+  <Image type="3" name="img_gray" subinfo="scale9/chat_bg.png:(9,9,20,20)" x="0" y="0" z="0" width="800" height="480" />
+  <Image type="3" name="img_layer1" subinfo="scale9/pop2_1_bg.png:(11.0, 16.0, 18.0, 12.0)" x="-110" y="0" z="0" width="550" height="430">
+    <Image type="3" name="img_dragon_list" subinfo="scale9/pop2_2_bg.png:(14.0, 12.0, 12.0, 14.0)" x="0" y="63" z="0" width="500" height="230" />
+    <Image type="3" name="img_selected_dragons" subinfo="scale9/pop2_2_bg.png:(14.0, 12.0, 12.0, 14.0)" x="-127" y="-132" z="0" width="246" height="140">
+      <Image type="2" name="img_slot1" subinfo="scene/archa/recon/slot_plus.png" x="-80" y="0" z="0" width="73" height="73">
+        <Image type="2" name="img_slot1_highlight" subinfo="scene/archa/recon/slot_plus_glow.png" x="0" y="0" z="0" width="73" height="73" />
+      </Image>
+      <Image type="2" name="img_slot2" subinfo="scene/archa/recon/slot_plus.png" x="0" y="0" z="0" width="73" height="73">
+        <Image type="2" name="img_slot2_highlight" subinfo="scene/archa/recon/slot_plus_glow.png" x="0" y="0" z="0" width="73" height="73" />
+      </Image>
+      <Image type="2" name="img_slot3" subinfo="scene/archa/recon/slot_plus.png" x="80" y="0" z="0" width="73" height="73">
+        <Image type="2" name="img_slot3_highlight" subinfo="scene/archa/recon/slot_plus_glow.png" x="0" y="0" z="0" width="73" height="73" />
+      </Image>
+    </Image>
+    <Image type="3" name="img_reward_2" subinfo="scale9/pop2_2_bg.png:(14.0, 12.0, 12.0, 14.0)" x="126" y="-132" z="0" width="247" height="140">
+      <Image type="2" name="img_reward" subinfo="scene/archa/txt_reward2.png" x="0" y="45" z="0" width="104" height="20" />
+      <Image type="2" name="img_image" subinfo="item/medium/essence_random.png" x="-60" y="-14.9" z="0" width="80" height="80">
+        <Text type="5" name="label_reward_cnt" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):25" localizeinfo="1" x="0" y="-35" z="0" width="160" height="30" />
+      </Image>
+      <Image type="2" name="img_image" subinfo="scene/archa/recon/txt_spiritexp.png" x="60" y="-5" z="0" width="90" height="48">
+        <Text type="5" name="label_reward_exp" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):25" localizeinfo="100,000" x="0" y="-46" z="0" width="160" height="30" />
+      </Image>
+    </Image>
+    <Image type="4" name="btn_all" subinfo="common/elemen_8.png" x="-197" y="193" z="0" width="29.7" height="32.85">
+      <Image type="2" name="img_highlight_all" subinfo="common/elemen_s_select.png" x="0" y="0" z="0" width="34" height="34" />
+    </Image>
+    <Image type="4" name="btn_earth" subinfo="common/elemen_1.png" x="-167" y="193" z="0" width="29.7" height="32.85">
+      <Image type="2" name="img_highlight_earth" subinfo="common/elemen_s_select.png" x="0" y="0" z="0" width="34" height="34" />
+    </Image>
+    <Image type="4" name="btn_water" subinfo="common/elemen_2.png" x="-137" y="193" z="0" width="29.7" height="32.85">
+      <Image type="2" name="img_highlight_water" subinfo="common/elemen_s_select.png" x="0" y="0" z="0" width="34" height="34" />
+    </Image>
+    <Image type="4" name="btn_fire" subinfo="common/elemen_3.png" x="-107" y="193" z="0" width="29.7" height="32.85">
+      <Image type="2" name="img_highlight_fire" subinfo="common/elemen_s_select.png" x="0" y="0" z="0" width="34" height="34" />
+    </Image>
+    <Image type="4" name="btn_wind" subinfo="common/elemen_4.png" x="-77" y="193" z="0" width="29.7" height="32.85">
+      <Image type="2" name="img_highlight_wind" subinfo="common/elemen_s_select.png" x="0" y="0" z="0" width="34" height="34" />
+    </Image>
+    <Image type="4" name="btn_light" subinfo="common/elemen_5.png" x="-47" y="193" z="0" width="29.7" height="32.85">
+      <Image type="2" name="img_highlight_light" subinfo="common/elemen_s_select.png" x="0" y="0" z="0" width="34" height="34" />
+    </Image>
+    <Image type="4" name="btn_dark" subinfo="common/elemen_6.png" x="-17.00003" y="193" z="0" width="29.7" height="32.85">
+      <Image type="2" name="img_highlight_dark" subinfo="common/elemen_s_select.png" x="0" y="0" z="0" width="34" height="34" />
+    </Image>
+    <Image type="4" name="btn_dawn" subinfo="common/elemen_9.png" x="12.99997" y="193" z="0" width="29.7" height="32.85">
+      <Image type="2" name="img_highlight_dawn" subinfo="common/elemen_s_select.png" x="0" y="0" z="0" width="34" height="34" />
+    </Image>
+    <Image type="4" name="btn_nightmare" subinfo="common/elemen_10.png" x="42.99997" y="193" z="0" width="29.7" height="32.85">
+      <Image type="2" name="img_highlight_nightmare" subinfo="common/elemen_s_select.png" x="0" y="0" z="0" width="34" height="34" />
+    </Image>
+    <Image type="4" name="btn_dusk" subinfo="common/elemen_11.png" x="72.99997" y="193" z="0" width="29.7" height="32.85">
+      <Image type="2" name="img_highlight_dusk" subinfo="common/elemen_s_select.png" x="0" y="0" z="0" width="34" height="34" />
+    </Image>
+    <Image type="4" name="btn_tier" subinfo="scene/gate/bt_algin.png" x="133" y="188" z="0" width="66" height="30">
+      <Image type="2" name="img_tier" subinfo="scene/gate/txt_all.png" x="0" y="0" z="0" width="31" height="15" />
+      <Image type="2" name="img_sub_tier" subinfo="scene/gate/back_algin2.png" x="0" y="-76" z="0" width="71" height="122">
+        <Image type="4" name="btn_tall" subinfo="scene/gate/txt_all.png" x="0" y="48" z="0" width="31" height="15" />
+        <Image type="4" name="btn_adult" subinfo="scene/gate/txt_adult.png" x="0" y="26" z="0" width="49" height="16" />
+        <Image type="4" name="btn_cap" subinfo="scene/gate/txt_cap.png" x="0" y="3" z="0" width="33" height="16" />
+        <Image type="4" name="btn_awake" subinfo="scene/gate/txt_awake.png" x="0" y="-21" z="0" width="49" height="16" />
+        <Image type="4" name="btn_transcend" subinfo="scene/gate/txt_transcend.png" x="0" y="-44" z="0" width="69" height="12" />
+      </Image>
+    </Image>
+    <Image type="4" name="btn_sort" subinfo="scene/gate/bt_algin.png" x="209" y="188" z="0" width="66" height="30">
+      <Image type="2" name="img_sort" subinfo="scene/gate/txt_day.png" x="0" y="0" z="0" width="46" height="16" />
+      <Image type="2" name="img_sub_sort" subinfo="scene/gate/back_algin.png" x="0" y="-85" z="0" width="71" height="142">
+        <Image type="4" name="btn_bday" subinfo="scene/gate/txt_day.png" x="0" y="57" z="0" width="46" height="16" />
+        <Image type="4" name="btn_lv" subinfo="scene/gate/txt_level.png" x="0" y="35" z="0" width="21" height="16" />
+        <Image type="4" name="btn_eval" subinfo="scene/gate/txt_eval.png" x="0" y="13" z="0" width="40" height="16" />
+        <Image type="4" name="btn_hp" subinfo="scene/gate/txt_hp.png" x="0" y="-10" z="0" width="25" height="16" />
+        <Image type="4" name="btn_atk" subinfo="scene/gate/txt_atk.png" x="0" y="-33" z="0" width="31" height="16" />
+        <Image type="4" name="btn_def" subinfo="scene/gate/txt_def.png" x="0" y="-56" z="0" width="32" height="16" />
+      </Image>
+    </Image>
+  </Image>
+  <Image type="3" name="img_layer2" subinfo="scale9/pop2_1_bg.png:(11.0, 16.0, 18.0, 12.0)" x="280" y="0" z="0" width="210" height="430">
+    <Image type="2" name="img_start" subinfo="scene/archa/recon/bt_search_start_off.png" x="0" y="-130" z="0" width="171" height="138" />
+    <Image type="4" name="btn_start" subinfo="scene/archa/recon/bt_search_start_on.png" x="0" y="-130" z="0" width="171" height="138" />
+    <Text type="5" name="label_location" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):24" localizeinfo="" x="0" y="170" z="0" width="160" height="30" />
+    <Image type="3" name="img_time_layer" subinfo="scale9/pop2_2_bg.png:(14.0, 12.0, 12.0, 14.0)" x="0" y="50" z="0" width="180" height="200">
+      <Image type="4" name="btn_2h" subinfo="scene/archa/recon/bt_search_set_off.png" x="0" y="60" z="0" width="148" height="51">
+        <Image type="2" name="img_enable_2_h" subinfo="scene/archa/recon/bt_search_set_on.png" x="0" y="0" z="0" width="148" height="51" />
+        <Text type="5" name="label_txtbtn" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="ARCHA83" x="0" y="0" z="0" width="160" height="30" />
+      </Image>
+      <Image type="4" name="btn_6h" subinfo="scene/archa/recon/bt_search_set_off.png" x="0" y="0" z="0" width="148" height="51">
+        <Image type="2" name="img_enable_6_h" subinfo="scene/archa/recon/bt_search_set_on.png" x="0" y="0" z="0" width="148" height="51" />
+        <Text type="5" name="label_txtbtn" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="ARCHA84" x="0" y="0" z="0" width="160" height="30" />
+      </Image>
+      <Image type="4" name="btn_12h" subinfo="scene/archa/recon/bt_search_set_off.png" x="0" y="-60" z="0" width="148" height="51">
+        <Image type="2" name="img_enable_12_h" subinfo="scene/archa/recon/bt_search_set_on.png" x="0" y="0" z="0" width="148" height="51" />
+        <Text type="5" name="label_txtbtn" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="ARCHA85" x="0" y="0" z="0" width="160" height="30" />
+      </Image>
+    </Image>
+  </Image>
+  <Image type="4" name="btn_exit" subinfo="common/exit_1.png" x="367" y="200" z="0" width="50" height="52" />
+</recon_setting>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<thxgiving2017>
+  <Image type="3" name="img_panel" subinfo="scene/event/thxgiving2017/scale9/bg.png:(1.0, 2.0, 2.0, 1.0)" x="4" y="0" z="0" width="620" height="360" />
+  <Image type="2" name="img_bottom_1" subinfo="scene/event/thxgiving2017/scale9/bottom.png" x="-190" y="-189" z="0" width="235" height="30" />
+  <Image type="2" name="img_bottom_2" subinfo="scene/event/thxgiving2017/scale9/bottom.png" x="198" y="-189" z="0" width="235" height="30" />
+  <Image type="3" name="img_bottom_3" subinfo="scene/event/thxgiving2017/scale9/deco_1.png:(49.0, 3.0, 4.0, 29.0)" x="12" y="-186" z="0" width="232" height="59" />
+  <Image type="4" name="btn_ranking" subinfo="common/bt_side3.png" x="342" y="-37" z="0" width="41" height="127">
+    <Text type="6" name="label_rank" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="한가위 랭킹" x="3.099998" y="0" z="0" width="172" height="128" rotation="-270" />
+  </Image>
+  <Image type="4" name="btn_thxgiving_shop" subinfo="common/bt_side4.png" x="342" y="68" z="0" width="41" height="127">
+    <Text type="6" name="label_shop" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="한가위 상점" x="3.099998" y="0" z="0" width="127" height="128" rotation="-270" />
+  </Image>
+  <Tranform type="1" name="node_main" x="4" y="0" z="0" width="100" height="100">
+    <Image type="4" name="btn_help" subinfo="scene/colosseum/bt_ranking_help.png" x="-246" y="108" z="0" width="50" height="50" />
+    <Text type="6" name="label_title" subinfo="RGBA(1.000, 0.722, 0.494, 1.000):14" localizeinfo="모든 유저가 힘을 합쳐 박을 깨트려라" x="0" y="119" z="0" width="300" height="30" />
+    <Image type="2" name="img_cloud_1" subinfo="scene/event/thxgiving2017/cloud.png" x="-174" y="33" z="0" width="103" height="67" />
+    <Image type="2" name="img_deco_1" subinfo="scene/event/thxgiving2017/leaf_6.png" x="-110" y="-115" z="0" width="84" height="83" />
+    <Image type="2" name="img_deco_2" subinfo="scene/event/thxgiving2017/leaf_5.png" x="-124" y="-55" z="0" width="84" height="83" />
+    <Image type="2" name="img_deco_3" subinfo="scene/event/thxgiving2017/leaf_4.png" x="-138" y="-85" z="0" width="84" height="83" />
+    <Image type="2" name="img_bak" subinfo="scene/event/thxgiving2017/gourd.png" x="6" y="-59" z="0" width="213" height="198" />
+    <Image type="2" name="img_deco_4" subinfo="scene/event/thxgiving2017/leaf_3.png" x="77.99998" y="-131" z="0" width="93" height="51" />
+    <Image type="2" name="img_deco_5" subinfo="scene/event/thxgiving2017/leaf_1.png" x="48" y="-97" z="0" width="84" height="83" />
+    <Image type="2" name="img_deco_6" subinfo="scene/event/thxgiving2017/leaf_2.png" x="136" y="-113" z="0" width="84" height="83" />
+    <Image type="2" name="img_cloud_2" subinfo="scene/event/thxgiving2017/cloud.png" x="198" y="-108" z="0" width="103" height="67" />
+    <Image type="2" name="img_board_1" subinfo="scene/event/thxgiving2017/board_1.png" x="208.9" y="60" z="0" width="93" height="26" />
+    <Image type="3" name="img_board_2" subinfo="scene/event/thxgiving2017/scale9/board_2.png:(17.0, 3.0, 1.0, 16.0)" x="208" y="-5" z="0" width="110" height="125" />
+    <Text type="6" name="label_text" subinfo="RGBA(0.654, 0.654, 0.654, 1.000):35" localizeinfo="100,000,000 / 100,000,000" x="0" y="93" z="0" width="450" height="40" />
+    <Image type="4" name="btn_help" subinfo="scene/colosseum/bt_ranking_help.png" x="-246" y="108" z="0" width="50" height="50" />
+    <Text type="6" name="label_title" subinfo="RGBA(1.000, 0.722, 0.494, 1.000):14" localizeinfo="복주머니 열고 대박 아이템 받아가세요~!" x="15" y="119" z="0" width="300" height="30" />
+    <Text type="5" name="label_description" subinfo="RGBA(0.722, 0.557, 0.478, 1.000):12" localizeinfo="복주머니 열기에 실패하면 누적보상을 모두 잃어버리니 신중하세요!" x="15" y="-146" z="0" width="500" height="30" />
+    <Image type="2" name="img_effect" subinfo="scene/worldmap/anticbox_bg.png" x="15" y="-18" z="0" width="300" height="196" />
+    <Image type="2" name="img_board_1_2" subinfo="scene/event/thxgiving2017/board_1.png" x="-181" y="77.7" z="0" width="120" height="24" />
+    <Image type="3" name="img_board_1_2" subinfo="scene/event/thxgiving2017/scale9/board_2.png:(17.0, 3.0, 1.0, 16.0)" x="-182" y="-25" z="0" width="147" height="218">
+      <Image type="3" name="img_now" subinfo="scene/event/thxgiving2017/scale9/box_1.png:(9.0, 2.0, 3.0, 9.0)" x="0" y="79" z="0" width="95" height="20">
+        <Text type="5" name="label_now" subinfo="RGBA(0.196, 0.196, 0.196, 1.000):13" localizeinfo="현재 누적 보상" x="0" y="0" z="0" width="160" height="30" />
+      </Image>
+      <Image type="4" name="btn_stop" subinfo="scale9/bt_4.png:(15.0, 8.0, 8.0, 16.0)" x="-2" y="-81.83" z="0" width="130" height="40">
+        <Text type="6" name="label_text" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):18" localizeinfo="중단&#xA;" x="0" y="0" z="0" width="130" height="40" />
+      </Image>
+    </Image>
+    <Image type="2" name="img_board_2_1" subinfo="scene/event/thxgiving2017/board_1.png" x="210" y="77.7" z="0" width="120" height="24" />
+    <Image type="3" name="img_board_2_2" subinfo="scene/event/thxgiving2017/scale9/board_2.png:(17.0, 3.0, 1.0, 16.0)" x="210" y="-25" z="0" width="147" height="218">
+      <Image type="3" name="img_next" subinfo="scene/event/thxgiving2017/scale9/box_1.png:(9.0, 2.0, 3.0, 9.0)" x="0" y="79" z="0" width="95" height="20">
+        <Text type="5" name="label_next" subinfo="RGBA(0.196, 0.196, 0.196, 1.000):13" localizeinfo="등장가능 보상" x="0" y="0" z="0" width="160" height="30" />
+      </Image>
+      <Image type="4" name="btn_open" subinfo="scale9/bt_3.png:(16.0, 6.0, 7.0, 17.0)" x="-2" y="-81.83" z="0" width="130" height="40">
+        <Text type="6" name="label_text" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):18" localizeinfo="열기" x="0" y="0" z="0" width="130" height="40" />
+      </Image>
+    </Image>
+    <Image type="2" name="img_pocket" subinfo="scene/event/thxgiving2017/lucky_bag_spine.png" x="15" y="-61.3" z="0" width="150" height="147" />
+    <Text type="5" name="label_level" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):17" localizeinfo="LV.7" x="13.8" y="82.93001" z="0" width="160" height="30" />
+    <Text type="5" name="label_level_info" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):17" localizeinfo="고급 복주머니" x="13.8" y="62" z="0" width="160" height="30" />
+    <Image type="3" name="img_pocket_info" subinfo="scene/event/thxgiving2017/scale9/box_3.png:(10.0, 3.0, 6.0, 10.0)" x="233" y="114" z="0" width="120" height="30">
+      <Image type="2" name="img_pocket_icon" subinfo="scene/event/thxgiving2017/lucky_bag_icon.png" x="-52.00002" y="0" z="0" width="36" height="36" />
+      <Text type="5" name="label_pocket_count" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="99999" x="3.099998" y="0" z="0" width="160" height="30" />
+      <Image type="4" name="btn_button" subinfo="scene/shop/bt_cashcharge.png" x="49.1" y="0" z="0" width="33.28" height="35.84">
+        <Text type="5" name="label_text" subinfo="RGBA(0.196, 0.196, 0.196, 1.000):14" localizeinfo="Button" x="0" y="0" z="0" width="33.28" height="35.84" anchor_x="1" anchor_y="1" />
+      </Image>
+    </Image>
+    <Image type="3" name="img_image" subinfo="scene/event/thxgiving2017/scale9/box_3.png:(10.0, 3.0, 6.0, 10.0)" x="14" y="33" z="0" width="120" height="23">
+      <Text type="5" name="label_text" subinfo="RGBA(0.976, 0.718, 0.263, 1.000):14" localizeinfo="성공 확률 60%" x="0" y="0" z="0" width="160" height="30" />
+    </Image>
+    <Text type="6" name="label_title" subinfo="RGBA(1.000, 0.722, 0.494, 1.000):14" localizeinfo="4가지 미니 게임을 즐기세요!" x="15" y="119" z="0" width="300" height="30" />
+    <Text type="5" name="label_description" subinfo="RGBA(0.722, 0.557, 0.478, 1.000):12" localizeinfo="랭킹 및 기록은 매일 00시에 초기화 됩니다." x="15" y="-147" z="0" width="500" height="30" />
+    <Image type="4" name="btn_help" subinfo="scene/colosseum/bt_ranking_help.png" x="-246" y="108" z="0" width="50" height="50" />
+    <Image type="4" name="btn_ranking_2" subinfo="scene/event/thxgiving2017/btn_crown.png" x="-204" y="108" z="0" width="42" height="47" />
+    <Image type="3" name="img_coin_info" subinfo="scene/event/thxgiving2017/scale9/box_3.png:(10.0, 3.0, 6.0, 10.0)" x="233" y="114" z="0" width="120" height="30">
+      <Image type="2" name="img_coin_icon" subinfo="item/medium/luckycoin.png" x="-52.00002" y="0" z="0" width="36" height="36" />
+      <Text type="5" name="label_coin_count" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="99999" x="3.099998" y="0" z="0" width="160" height="30" />
+      <Image type="4" name="btn_button" subinfo="scene/shop/bt_cashcharge.png" x="49.1" y="0" z="0" width="33.28" height="35.84">
+        <Text type="5" name="label_text" subinfo="RGBA(0.196, 0.196, 0.196, 1.000):14" localizeinfo="Button" x="0" y="0" z="0" width="33.28" height="35.84" anchor_x="1" anchor_y="1" />
+      </Image>
+    </Image>
+    <Image type="4" name="btn_color" subinfo="scene/event/thxgiving2017/scale9/btn_2.png:(20.0, 1.0, 2.0, 15.0)" x="-121" y="37.2" z="0" width="245" height="100">
+      <Image type="3" name="img_image" subinfo="scene/event/thxgiving2017/scale9/btn_3.png:(32.0, 5.0, 3.0, 26.0)" x="0" y="-20.00007" z="0" width="235" height="50" />
+      <Text type="5" name="label_my_rank" subinfo="RGBA(0.980, 0.820, 0.329, 1.000):14" localizeinfo="MY RANK" x="0" y="-4.800018" z="0" width="244" height="100" />
+      <Text type="6" name="label_game_name" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):19" localizeinfo="색깔 맞추기" x="0" y="19.3" z="0" width="300" height="30" />
+      <Image type="3" name="img_rank_info" subinfo="scene/event/thxgiving2017/scale9/box_3.png:(10.0, 3.0, 6.0, 10.0)" x="0" y="-26.5" z="0" width="168" height="23">
+        <Text type="5" name="label_rank_2" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):17" localizeinfo="999,999위 99,999점" x="0" y="0" z="0" width="160" height="30" />
+      </Image>
+    </Image>
+    <Image type="4" name="btn_oneminusone" subinfo="scene/event/thxgiving2017/scale9/btn_2.png:(20.0, 1.0, 2.0, 15.0)" x="131" y="37.2" z="0" width="245" height="100">
+      <Image type="3" name="img_image" subinfo="scene/event/thxgiving2017/scale9/btn_3.png:(32.0, 5.0, 3.0, 26.0)" x="0" y="-20" z="0" width="235" height="50" />
+      <Text type="5" name="label_my_rank" subinfo="RGBA(0.980, 0.820, 0.329, 1.000):14" localizeinfo="MY RANK" x="0" y="-4.800003" z="0" width="244" height="100" />
+      <Text type="6" name="label_game_name" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):19" localizeinfo="하나 빼기 일" x="0" y="19.30002" z="0" width="300" height="30" />
+      <Image type="3" name="img_rank_info" subinfo="scene/event/thxgiving2017/scale9/box_3.png:(10.0, 3.0, 6.0, 10.0)" x="0" y="-26.5" z="0" width="168" height="23">
+        <Text type="5" name="label_rank_2" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):17" localizeinfo="999,999위 99,999점" x="0" y="0" z="0" width="160" height="30" />
+      </Image>
+    </Image>
+    <Image type="4" name="btn_count_fab" subinfo="scene/event/thxgiving2017/scale9/btn_2.png:(20.0, 1.0, 2.0, 15.0)" x="-121" y="-70.09999" z="0" width="245" height="100">
+      <Image type="3" name="img_image" subinfo="scene/event/thxgiving2017/scale9/btn_3.png:(32.0, 5.0, 3.0, 26.0)" x="0" y="-20" z="0" width="235" height="50" />
+      <Text type="5" name="label_my_rank" subinfo="RGBA(0.980, 0.820, 0.329, 1.000):14" localizeinfo="MY RANK" x="0" y="-4.799999" z="0" width="244" height="100" />
+      <Text type="6" name="label_game_name" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):19" localizeinfo="파브레가스 몇 마리?" x="0" y="19.30002" z="0" width="300" height="30" />
+      <Image type="3" name="img_rank_info" subinfo="scene/event/thxgiving2017/scale9/box_3.png:(10.0, 3.0, 6.0, 10.0)" x="0" y="-26.5" z="0" width="168" height="23">
+        <Text type="5" name="label_rank_2" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):17" localizeinfo="999,999위 99,999점" x="0" y="0" z="0" width="160" height="30" />
+      </Image>
+    </Image>
+    <Image type="4" name="btn_speed_math" subinfo="scene/event/thxgiving2017/scale9/btn_2.png:(20.0, 1.0, 2.0, 15.0)" x="131" y="-70.09999" z="0" width="245" height="100">
+      <Image type="3" name="img_image" subinfo="scene/event/thxgiving2017/scale9/btn_3.png:(32.0, 5.0, 3.0, 26.0)" x="0" y="-20" z="0" width="235" height="50" />
+      <Text type="5" name="label_my_rank" subinfo="RGBA(0.980, 0.820, 0.329, 1.000):14" localizeinfo="MY RANK" x="0" y="-4.800003" z="0" width="244" height="100" />
+      <Text type="6" name="label_game_name" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):19" localizeinfo="스피드 연산" x="0" y="19.30002" z="0" width="300" height="30" />
+      <Image type="3" name="img_rank_info" subinfo="scene/event/thxgiving2017/scale9/box_3.png:(10.0, 3.0, 6.0, 10.0)" x="0" y="-26.5" z="0" width="168" height="23">
+        <Text type="5" name="label_rank_2" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):17" localizeinfo="999,999위 99,999점" x="0" y="0" z="0" width="160" height="30" />
+      </Image>
+    </Image>
+    <Text type="6" name="label_title" subinfo="RGBA(1.000, 0.722, 0.494, 1.000):14" localizeinfo="이벤트 기간동안 출석시 아이템 지급!" x="15" y="119" z="0" width="300" height="30" />
+    <Image type="4" name="btn_help" subinfo="scene/colosseum/bt_ranking_help.png" x="-246" y="108" z="0" width="50" height="50" />
+    <Image type="3" name="img_day_1" subinfo="scene/event/thxgiving2017/scale9/box_table.png:(3.0, 3.0, 2.0, 29.0)" x="-96.69999" y="40.00001" z="0" width="101.7" height="119.7">
+      <Text type="5" name="label_text" subinfo="RGBA(0.980, 0.855, 0.333, 1.000):14" localizeinfo="1일차" x="0" y="45.99998" z="0" width="160" height="30" />
+      <Image type="2" name="img_check" subinfo="common/pop_check.png" x="-44" y="54" z="0" width="50" height="43" />
+      <Image type="2" name="img_item" subinfo="item/medium/403.png" x="0" y="-6" z="0" width="72.9" height="72.9" />
+      <Text type="5" name="label_item_name" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="아이템이름" x="0" y="-45.99997" z="0" width="160" height="30" />
+    </Image>
+    <Image type="3" name="img_day_2" subinfo="scene/event/thxgiving2017/scale9/box_table.png:(3.0, 3.0, 2.0, 29.0)" x="5" y="40.00001" z="0" width="101.7" height="119.7">
+      <Text type="5" name="label_text" subinfo="RGBA(0.980, 0.855, 0.333, 1.000):14" localizeinfo="2일차" x="0" y="46" z="0" width="160" height="30" />
+      <Image type="2" name="img_check" subinfo="common/pop_check.png" x="-44" y="54" z="0" width="50" height="43" />
+      <Image type="2" name="img_item" subinfo="scene/slot/icon_dia.png" x="0" y="-6" z="0" width="54.72" height="44.64" />
+      <Text type="5" name="label_item_name" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="아이템이름" x="0" y="-46" z="0" width="160" height="30" />
+    </Image>
+    <Image type="3" name="img_day_3" subinfo="scene/event/thxgiving2017/scale9/box_table.png:(3.0, 3.0, 2.0, 29.0)" x="106.7" y="40.00001" z="0" width="101.7" height="119.7">
+      <Text type="5" name="label_text" subinfo="RGBA(0.980, 0.855, 0.333, 1.000):14" localizeinfo="3일차" x="0" y="46" z="0" width="160" height="30" />
+      <Image type="2" name="img_check" subinfo="common/pop_check.png" x="-44" y="54" z="0" width="50" height="43" />
+      <Image type="2" name="img_item" subinfo="item/medium/530.png" x="0" y="-6" z="0" width="72.9" height="72.9" />
+      <Text type="5" name="label_item_name" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="아이템이름" x="0" y="-46" z="0" width="160" height="30" />
+    </Image>
+    <Image type="3" name="img_day_4" subinfo="scene/event/thxgiving2017/scale9/box_table.png:(3.0, 3.0, 2.0, 29.0)" x="-147.55" y="-80.00001" z="0" width="101.7" height="119.7">
+      <Text type="5" name="label_text" subinfo="RGBA(0.980, 0.855, 0.333, 1.000):14" localizeinfo="4일차" x="0" y="46" z="0" width="160" height="30" />
+      <Image type="2" name="img_check" subinfo="common/pop_check.png" x="-44" y="54" z="0" width="50" height="43" />
+      <Image type="2" name="img_item" subinfo="item/medium/403.png" x="0" y="-6" z="0" width="72.9" height="72.9" />
+      <Text type="5" name="label_item_name" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="아이템이름" x="0" y="-46" z="0" width="160" height="30" />
+    </Image>
+    <Image type="3" name="img_day_5" subinfo="scene/event/thxgiving2017/scale9/box_table.png:(3.0, 3.0, 2.0, 29.0)" x="-45.85" y="-80.00001" z="0" width="101.7" height="119.7">
+      <Text type="5" name="label_text" subinfo="RGBA(0.980, 0.855, 0.333, 1.000):14" localizeinfo="5일차" x="0" y="46" z="0" width="160" height="30" />
+      <Image type="2" name="img_check" subinfo="common/pop_check.png" x="-44" y="54" z="0" width="50" height="43" />
+      <Image type="2" name="img_item" subinfo="scene/slot/icon_dia.png" x="0" y="-6" z="0" width="54.72" height="44.64" />
+      <Text type="5" name="label_item_name" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="아이템이름" x="0" y="-46" z="0" width="160" height="30" />
+    </Image>
+    <Image type="3" name="img_day_6" subinfo="scene/event/thxgiving2017/scale9/box_table.png:(3.0, 3.0, 2.0, 29.0)" x="55.85" y="-80.00001" z="0" width="101.7" height="119.7">
+      <Text type="5" name="label_text" subinfo="RGBA(0.980, 0.855, 0.333, 1.000):14" localizeinfo="6일차" x="0" y="46" z="0" width="160" height="30" />
+      <Image type="2" name="img_check" subinfo="common/pop_check.png" x="-44" y="54" z="0" width="50" height="43" />
+      <Image type="2" name="img_item" subinfo="item/medium/530.png" x="0" y="-6" z="0" width="72.9" height="72.9" />
+      <Text type="5" name="label_item_name" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="아이템이름" x="0" y="-46" z="0" width="160" height="30" />
+    </Image>
+    <Image type="3" name="img_day_7" subinfo="scene/event/thxgiving2017/scale9/box_table.png:(3.0, 3.0, 2.0, 29.0)" x="157.55" y="-80.00001" z="0" width="101.7" height="119.7">
+      <Text type="5" name="label_text" subinfo="RGBA(0.980, 0.855, 0.333, 1.000):14" localizeinfo="7일차" x="0" y="46" z="0" width="160" height="30" />
+      <Image type="2" name="img_check" subinfo="common/pop_check.png" x="-44" y="54" z="0" width="50" height="43" />
+      <Image type="2" name="img_item" subinfo="item/medium/-1.png" x="0" y="-6" z="0" width="81" height="81" />
+      <Text type="5" name="label_item_name" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="아이템이름" x="0" y="-46" z="0" width="160" height="30" />
+    </Image>
+    <Image type="4" name="btn_help" subinfo="scene/colosseum/bt_ranking_help.png" x="-246" y="108" z="0" width="50" height="50" />
+    <Text type="6" name="label_title" subinfo="RGBA(1.000, 0.722, 0.494, 1.000):14" localizeinfo="한가위 상점" x="0" y="119" z="0" width="300" height="30" />
+    <Text type="5" name="label_description" subinfo="RGBA(0.722, 0.557, 0.478, 1.000):12" localizeinfo="※ 10/9일까지만 구매 가능합니다. 이벤트가 종료되면 모든 코인은 소멸합니다. ※" x="15" y="-135" z="0" width="500" height="30" />
+    <Image type="3" name="img_panel_2" subinfo="scene/event/thxgiving2017/scale9/bg_1.png:(50.0, 4.0, 22.0, 7.0)" x="0" y="-13.3" z="0" width="594" height="250">
+      <Tranform type="1" name="img_rank_info" x="0" y="103.1" z="0" width="594" height="30">
+        <Text type="5" name="label_rank_3" subinfo="RGBA(0.976, 0.804, 0.118, 1.000):14" localizeinfo="RANK" x="-206" y="0" z="0" width="160" height="30" />
+        <Text type="5" name="label_name" subinfo="RGBA(0.976, 0.804, 0.118, 1.000):14" localizeinfo="NAME" x="0" y="0" z="0" width="160" height="30" />
+        <Text type="5" name="label_point" subinfo="RGBA(0.976, 0.804, 0.118, 1.000):14" localizeinfo="POINT" x="238" y="0" z="0" width="160" height="30" />
+      </Tranform>
+      <Image type="2" name="img_rank_1" subinfo="scene/event/thxgiving2017/rank_1.png" x="0" y="73.1" z="0" width="594" height="30">
+        <Text type="5" name="label_rank_3" subinfo="RGBA(0.976, 0.804, 0.118, 1.000):14" localizeinfo="RANK" x="-206" y="0" z="0" width="160" height="30" />
+        <Text type="6" name="label_name" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="NAME" x="0" y="0" z="0" width="160" height="30" />
+        <Text type="5" name="label_point" subinfo="RGBA(0.993, 0.993, 0.993, 1.000):14" localizeinfo="0" x="237" y="0" z="0" width="160" height="30" />
+        <Image type="2" name="img_icon" subinfo="common/crown_1.png" x="-92.10001" y="0" z="0" width="31" height="23" />
+      </Image>
+      <Tranform type="1" name="node_rank_2" x="0" y="43.10001" z="0" width="594" height="30">
+        <Text type="5" name="label_rank_3" subinfo="RGBA(0.976, 0.804, 0.118, 1.000):14" localizeinfo="RANK" x="-206" y="0" z="0" width="160" height="30" />
+        <Text type="6" name="label_name" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="NAME" x="0" y="0" z="0" width="160" height="30" />
+        <Text type="5" name="label_point" subinfo="RGBA(0.993, 0.993, 0.993, 1.000):14" localizeinfo="0" x="237" y="0" z="0" width="160" height="30" />
+        <Image type="2" name="img_icon" subinfo="common/crown_1.png" x="-92.10001" y="0" z="0" width="31" height="23" />
+      </Tranform>
+      <Image type="2" name="img_rank_3" subinfo="scene/event/thxgiving2017/rank_1.png" x="0" y="13.1" z="0" width="594" height="30">
+        <Text type="5" name="label_rank_3" subinfo="RGBA(0.976, 0.804, 0.118, 1.000):14" localizeinfo="RANK" x="-206" y="0" z="0" width="160" height="30" />
+        <Text type="6" name="label_name" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="NAME" x="0" y="0" z="0" width="160" height="30" />
+        <Text type="5" name="label_point" subinfo="RGBA(0.993, 0.993, 0.993, 1.000):14" localizeinfo="0" x="237" y="0" z="0" width="160" height="30" />
+        <Image type="2" name="img_icon" subinfo="common/crown_1.png" x="-92.10001" y="0" z="0" width="31" height="23" />
+      </Image>
+      <Tranform type="1" name="node_rank_4" x="0" y="-16.9" z="0" width="594" height="30">
+        <Text type="5" name="label_rank_3" subinfo="RGBA(0.976, 0.804, 0.118, 1.000):14" localizeinfo="RANK" x="-206" y="0" z="0" width="160" height="30" />
+        <Text type="6" name="label_name" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="NAME" x="0" y="0" z="0" width="160" height="30" />
+        <Text type="5" name="label_point" subinfo="RGBA(0.993, 0.993, 0.993, 1.000):14" localizeinfo="0" x="237" y="0" z="0" width="160" height="30" />
+        <Image type="2" name="img_icon" subinfo="common/crown_1.png" x="-92.10001" y="0" z="0" width="31" height="23" />
+      </Tranform>
+      <Image type="2" name="img_rank_5" subinfo="scene/event/thxgiving2017/rank_1.png" x="0" y="-46.89999" z="0" width="594" height="30">
+        <Text type="5" name="label_rank_3" subinfo="RGBA(0.976, 0.804, 0.118, 1.000):14" localizeinfo="RANK" x="-206" y="0" z="0" width="160" height="30" />
+        <Text type="6" name="label_name" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="NAME" x="0" y="0" z="0" width="160" height="30" />
+        <Text type="5" name="label_point" subinfo="RGBA(0.993, 0.993, 0.993, 1.000):14" localizeinfo="0" x="237" y="0" z="0" width="160" height="30" />
+        <Image type="2" name="img_icon" subinfo="common/crown_1.png" x="-92.10001" y="0" z="0" width="31" height="23" />
+      </Image>
+      <Tranform type="1" name="node_rank_6" x="0" y="-76.89999" z="0" width="594" height="30">
+        <Text type="5" name="label_rank_3" subinfo="RGBA(0.976, 0.804, 0.118, 1.000):14" localizeinfo="RANK" x="-206" y="0" z="0" width="160" height="30" />
+        <Text type="6" name="label_text" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="NAME" x="0" y="0" z="0" width="160" height="30" />
+        <Text type="5" name="label_point" subinfo="RGBA(0.993, 0.993, 0.993, 1.000):14" localizeinfo="0" x="237" y="0" z="0" width="160" height="30" />
+        <Image type="2" name="img_icon" subinfo="common/crown_1.png" x="-92.1" y="0" z="0" width="31" height="23" />
+      </Tranform>
+      <Image type="3" name="img_rank_mine" subinfo="scene/event/thxgiving2017/scale9/rank_2.png:(8.0, 10.0, 4.0, 0.0)" x="0" y="-106.9" z="0" width="594" height="30">
+        <Text type="5" name="label_rank_3" subinfo="RGBA(0.976, 0.804, 0.118, 1.000):14" localizeinfo="RANK" x="-206" y="0" z="0" width="160" height="30" />
+        <Text type="6" name="label_text" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="NAME" x="0" y="0" z="0" width="160" height="30" />
+        <Text type="5" name="label_point" subinfo="RGBA(0.993, 0.993, 0.993, 1.000):14" localizeinfo="0" x="237" y="0" z="0" width="160" height="30" />
+        <Image type="2" name="img_icon" subinfo="common/crown_1.png" x="-92.10001" y="0" z="0" width="31" height="23" />
+      </Image>
+    </Image>
+    <Image type="4" name="btn_help" subinfo="scene/colosseum/bt_ranking_help.png" x="-246" y="108" z="0" width="50" height="50" />
+    <Text type="6" name="label_title" subinfo="RGBA(1.000, 0.722, 0.494, 1.000):14" localizeinfo="한가위 전체 랭킹표" x="0" y="119" z="0" width="300" height="30" />
+    <Text type="5" name="label_description" subinfo="RGBA(0.722, 0.557, 0.478, 1.000):12" localizeinfo="한가위 축제 이벤트 참여 시 포인트를 지급합니다." x="15" y="-149.8" z="0" width="500" height="30" />
+  </Tranform>
+  <Image type="2" name="img_pillar_l" subinfo="scene/event/thxgiving2017/pillar.png" x="-311" y="-17.99998" z="0" width="59" height="385" />
+  <Image type="2" name="img_pillar_r" subinfo="scene/event/thxgiving2017/pillar.png" x="319" y="-17.99998" z="0" width="59" height="385" />
+  <Image type="2" name="img_roof" subinfo="scene/event/thxgiving2017/roof.png" x="4" y="181" z="0" width="721" height="103" />
+  <Image type="4" name="btn_bak" subinfo="scene/event/thxgiving2017/tab_2.png" x="-318" y="86" z="0" width="101" height="64">
+    <Text type="6" name="label_bak" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):15" localizeinfo="오픈 더 박" x="-5" y="0" z="0" width="100" height="64" />
+  </Image>
+  <Image type="4" name="btn_pocket" subinfo="scene/event/thxgiving2017/tab_2.png" x="-305" y="17" z="0" width="101" height="64">
+    <Text type="6" name="label_pocket" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):15" localizeinfo="복주머니 열기" x="-5" y="0" z="0" width="100" height="64" />
+  </Image>
+  <Image type="4" name="btn_minigame" subinfo="scene/event/thxgiving2017/tab_2.png" x="-332" y="-50" z="0" width="101" height="64">
+    <Text type="6" name="label_minigame" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):15" localizeinfo="작은 놀이 대전	" x="-5" y="0" z="0" width="100" height="64" />
+  </Image>
+  <Image type="4" name="btn_attendence" subinfo="scene/event/thxgiving2017/tab_2.png" x="-310" y="-118" z="0" width="101" height="64">
+    <Text type="6" name="label_attendence" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):15" localizeinfo="출석확인" x="-5" y="0" z="0" width="100" height="64" />
+  </Image>
+  <Image type="4" name="btn_exit" subinfo="common/exit_1.png" x="324" y="183" z="0" width="50" height="52" />
+</thxgiving2017>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InfoPopup version="1.2.1">
+  <Image name="img_bg" type="2" subinfo="scene/offerwallshop/drawinfo/box.png" x="0" y="0" z="0" width="718" height="413" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Image name="btn_exit" type="4" subinfo="scene/archa/gemlab/main/x_bt.png" x="353" y="203" z="0" width="40" height="46" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Tranform type="1" name="node_sub_tab_tool" x="0" y="167" z="1" width="650.2" height="49.8" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image name="btn_0" type="4" subinfo="scene/offerwallshop/drawinfo/box_name_bt.png" x="-325.1" y="0" z="0" width="129" height="41" visible="1" rotation="0" anchor_x="0" anchor_y="0.5" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0.5" anchor_max_x="0" anchor_max_y="0.5" anchored_x="0" anchored_y="0" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0">
+        <Text type="5" name="label_sub_0" subinfo="RGBA(0.20,0.20,0.20,1.00):16" localizeinfo="프리미엄 드래곤" x="-2" y="0" z="0" width="125" height="26.5" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+      </Image>
+      <Image name="btn_1" type="4" subinfo="scene/offerwallshop/drawinfo/box_name_bt.png" x="-185.1" y="0" z="1" width="129" height="41" visible="1" rotation="0" anchor_x="0" anchor_y="0.5" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0.5" anchor_max_x="0" anchor_max_y="0.5" anchored_x="140" anchored_y="0" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0">
+        <Text type="5" name="label_sub_1" subinfo="RGBA(0.20,0.20,0.20,1.00):16" localizeinfo="프리미엄 드래곤" x="-2" y="0" z="0" width="125" height="26.5" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+      </Image>
+      <Image name="img_search_panel" x="325.1" y="0" z="2" width="125" height="37" anchor_x="1" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="2" subinfo="scene/book/renewal/search_bg.png" layout_mode="anchored" anchor_min_x="1" anchor_min_y="0.5" anchor_max_x="1" anchor_max_y="0.5" anchored_x="0" anchored_y="0" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0">
+        <Image name="img_area" x="-48.5" y="-0.5" z="0" width="90" height="25" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="3" subinfo="scene/book/renewal/search_new.png:(45,11,1,1)"/>
+      </Image>
+    </Tranform>
+    <Tranform type="1" name="node_title_tool" x="0" y="100.9" z="2" width="637.4" height="46.3" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image name="img_title_bg_1" type="2" subinfo="scene/offerwallshop/drawinfo/box_2.png" x="-160" y="0" z="0" width="308" height="32" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Text type="5" name="label_title_namelabel_1" subinfo="RGBA(1.00,1.00,1.00,1.00):20" localizeinfo="Item" x="-89.6" y="-1" z="0" width="100" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+        <Text type="5" name="label_title_cntlabel_1" subinfo="RGBA(1.00,1.00,1.00,1.00):20" localizeinfo="" x="25" y="-1" z="0" width="80" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+        <Text type="5" name="label_title_perlabel_1" subinfo="RGBA(1.00,1.00,1.00,1.00):20" localizeinfo="Rate" x="108" y="-1" z="0" width="80" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+      </Image>
+      <Image name="img_title_bg_2" type="2" subinfo="scene/offerwallshop/drawinfo/box_2.png" x="160" y="0" z="0" width="308" height="32" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Text type="5" name="label_title_namelabel_2" subinfo="RGBA(1.00,1.00,1.00,1.00):20" localizeinfo="Item" x="-89.6" y="-1" z="0" width="100" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+        <Text type="5" name="label_title_cntlabel_2" subinfo="RGBA(1.00,1.00,1.00,1.00):20" localizeinfo="" x="25" y="-1" z="0" width="80" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+        <Text type="5" name="label_title_perlabel_2" subinfo="RGBA(1.00,1.00,1.00,1.00):20" localizeinfo="rate" x="108" y="-1" z="0" width="80" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+      </Image>
+    </Tranform>
+    <Tranform type="1" name="node_content_tool" x="1.4" y="-52.1" z="3" width="625" height="260" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Tranform type="1" name="node_container_pos_1_1" x="-305" y="117.4" z="0" width="0" height="0" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Tranform type="1" name="node_container_pos_1_2" x="-100" y="117.4" z="0" width="0" height="0" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Tranform type="1" name="node_container_pos_1_3" x="-13" y="117.4" z="0" width="0" height="0" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Tranform type="1" name="node_container_pos_2_1" x="6" y="117.4" z="0" width="0" height="0" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Tranform type="1" name="node_container_pos_2_2" x="220" y="117.4" z="0" width="0" height="0" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Tranform type="1" name="node_container_pos_2_3" x="307" y="117.4" z="0" width="0" height="0" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    </Tranform>
+  </Image>
+</InfoPopup>

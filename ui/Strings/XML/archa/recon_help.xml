@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recon_help version="1.2">
+  <Image type="3" name="img_gray" subinfo="scale9/chat_bg.png:(9,9,20,20)" x="0" y="0" z="0" width="800" height="480" />
+  <Image type="3" name="img_image" subinfo="scale9/pop2_3_bg.png:(16.0, 44.0, 46.0, 17.0)" x="0" y="0" z="0" width="550" height="300">
+    <Text type="5" name="label_1" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="ARCHA92" x="0" y="100" z="0" width="500" height="50" />
+    <Text type="5" name="label_2" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="ARCHA93" x="0" y="60" z="0" width="500" height="50" />
+    <Text type="5" name="label_3" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="ARCHA94" x="0" y="20" z="0" width="500" height="50" />
+    <Text type="5" name="label_4" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="ARCHA95" x="0" y="-20" z="0" width="500" height="50" />
+    <Text type="5" name="label_5" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="ARCHA96" x="0" y="-60" z="0" width="500" height="50" />
+    <Text type="5" name="label_6" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="ARCHA97" x="0" y="-100" z="0" width="500" height="50" />
+  </Image>
+  <Image type="4" name="btn_exit" subinfo="common/exit_1.png" x="266.7212" y="138.2" z="0" width="50" height="52" />
+</recon_help>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="1.3.0">
+  <Image type="2" name="img_entrance_bg" subinfo="common_background/bg_midgard.jpg" x="0" y="0" z="0" width="800" height="480" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Tranform name="node_floor" x="0" y="-40" z="0" width="800" height="400" anchor_x="0.5" anchor_y="0.5" type="1" visible="1" rotation="0"/>
+  </Image>
+  <Image name="img_top_frame" x="0" y="212" z="0" width="840" height="115" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/top_frame_0101.png" visible="1" rotation="0"/>
+  <Image name="img_new" x="0" y="204" z="0" width="243" height="49" anchor_x="0.5" anchor_y="0.5" type="8" subinfo="scene/lemuria/midgard/txt_midgard_0102.png" sublanginfo="scene/lemuria/midgard/txt_midgard_0102_en.png" subwidth="240" subheight="40" visible="1" rotation="0"/>
+  <Image type="4" name="btn_exit" subinfo="common/exit_1.png" x="365" y="204" z="0" width="52" height="55" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  <Image type="4" name="btn_help" subinfo="common/bt_help.png" x="305" y="204" z="0" width="52" height="52" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  <Image type="4" name="btn_buff" subinfo="scene/lemuria/midgard/bt_buff.png" x="245" y="204" z="0" width="52" height="52" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  <Image type="2" name="img_key" subinfo="scene/lemuria/midgard/icon_key.png" x="185" y="204" z="0" width="50" height="50" anchor_x="0.5" anchor_y="0.5" visible="1" rotation="0"/>
+  <Tranform name="node_reset" x="-300" y="204" z="0" width="183" height="48" anchor_x="0.5" anchor_y="0.5" type="1" visible="1" rotation="0">
+    <Image name="img_reset_bg" x="0" y="0" z="0" width="174" height="46" anchor_x="0.5" anchor_y="0.5" type="3" subinfo="scene/lemuria/midgard/frame_reset_0101.png:(45,12,93,24)" visible="1" rotation="0">
+      <Image name="img_time_icon" x="-64" y="0" z="0" width="18" height="23" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/icon_time.png" visible="1" rotation="0"/>
+      <Image name="btn_reset" x="64" y="-1" z="0" width="32" height="32" anchor_x="0.5" anchor_y="0.5" type="4" subinfo="scene/lemuria/midgard/icon_reset.png" visible="1" rotation="0"/>
+      <Text type="5" name="label_reset" subinfo="RGBA(0.00,1.00,1.00,1.00):20" localizeinfo="00:00:00" x="-2" y="2" z="0" width="104" height="26" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    </Image>
+  </Tranform>
+</root>

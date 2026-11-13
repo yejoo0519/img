@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CaveTestPopup version="1.2.1">
+  <Image name="img_bg" x="0" y="0" z="0" width="346" height="366" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scale9/pop2_1_bg.png:(10,10,20,20)">
+    <Text name="label_desc_copy" x="0" y="160" z="1" width="330" height="30" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(1.00000000,1.00000000,1.00000000,1.00000000):18" localizeinfo="mine_title_rallypoint" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    <Image name="img_inner_bg" x="0" y="-8" z="2" width="332" height="300" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scale9/pop2_5_bg.png:(10,10,20,20)">
+      <Text name="label_desc" x="0" y="10" z="0" width="332" height="80" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="0" type="5" subinfo="RGBA(1.00000000,1.00000000,1.00000000,1.00000000):21" localizeinfo="mine_empty_rally" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    </Image>
+    <Image name="btn_close" x="170" y="174" z="3" width="50" height="52" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="common/exit_1.png"/>
+  </Image>
+</CaveTestPopup>

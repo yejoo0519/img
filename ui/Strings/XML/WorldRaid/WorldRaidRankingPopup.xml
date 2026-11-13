@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="1.2.1">
+  <Image name="img_back_pannel" type="3" subinfo="scene/event/world_raid/scale9/frame_rank_popup.png:(31,101,2,203)" x="0" y="0" z="0" width="640" height="405"/>
+  <Image name="img_title" type="8" subinfo="scene/event/world_raid/txt_title_ranking.png" x="0" y="175" z="0" width="51" height="32" anchor_x="0.5" anchor_y="0.5" sublanginfo="scene/event/world_raid/txt_title_ranking_en.png" subwidth="120" subheight="29"/>
+  <Image name="btn_exit" type="4" subinfo="common/exit_1.png" x="306" y="192" z="0" width="50" height="52"/>
+  <Image name="img_rank" type="8" subinfo="scene/event/world_raid/txt_title_rank.png" x="-256" y="138" z="0" width="40" height="25" anchor_x="0.5" anchor_y="0.5" sublanginfo="scene/event/world_raid/txt_title_rank_en.png" subwidth="87" subheight="22"/>
+  <Image name="img_round" type="8" subinfo="scene/event/world_raid/txt_title_round.png" x="-148" y="138" z="0" width="43" height="26" anchor_x="0.5" anchor_y="0.5" sublanginfo="scene/event/world_raid/txt_title_round_en.png" subwidth="69" subheight="22"/>
+  <Image name="img_name" type="8" subinfo="scene/event/world_raid/txt_title_user_name.png" x="-16" y="138" z="0" width="56" height="26" anchor_x="0.5" anchor_y="0.5" sublanginfo="scene/event/world_raid/txt_title_user_name_en.png" subwidth="54" subheight="22"/>
+  <Image name="img_score" type="8" subinfo="scene/event/world_raid/txt_title_score.png" x="181" y="138" z="0" width="42" height="26" anchor_x="0.5" anchor_y="0.5" sublanginfo="scene/event/world_raid/txt_title_score_en.png" subwidth="66" subheight="22"/>
+  <Tranform name="node_view_point" type="1" x="0" y="13" z="0" width="602" height="221"/>
+  <Tranform name="node_my_view_point" type="1" x="0" y="-145" z="0" width="602" height="80"/>
+</root>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="1.2">
+  <Tranform type="1" name="node_spiritstatus" x="0" y="0" z="0" width="100" height="100">
+    <Image name="img_statusbg" type="2" subinfo="scene/spirit/bg_spirit_default2.png" x="212.5" y="-52.2" z="0" width="351" height="362">
+      <Image name="img_reinforced" type="2" subinfo="scene/skypalace/bg_char_box2.png" x="-14" y="65.2" z="0" width="35" height="38">
+        <Text type="5" name="label_reinforce" subinfo="RGBA(0.903, 1.000, 0.000, 1.000):18" localizeinfo="+3" x="0" y="0" z="0" width="40" height="30"/>
+      </Image>
+      <Tranform type="1" name="node_spirit_pos" x="-94.99998" y="85" z="0" width="80" height="80"/>
+      <Tranform type="1" name="node_spirit_elem_pos" x="-150" y="120" z="0" width="40" height="40"/>
+      <Tranform type="1" name="node_exp_pos" x="65" y="30.6" z="0" width="100" height="100">
+        <Image name="img_exp_gauge_bg" type="2" subinfo="scene/skypalace/info_enhan_gauge_bg.png" x="-1.5" y="0" z="0" width="190" height="18"/>
+        <Image name="img_exp_gauge" type="2" subinfo="scene/skypalace/info_enhan_gauge.png" x="-1.5" y="0" z="0" width="187" height="15"/>
+        <Text type="5" name="label_exp" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):12" localizeinfo="1/1000000" x="0" y="0" z="0" width="120.8" height="20"/>
+      </Tranform>
+      <Image name="btn_auto_reg" type="4" subinfo="transparent" x="-130" y="-80" z="0" width="69" height="50">
+        <Image name="btn_auto_img" x="0" y="0" z="0" width="69" height="50" anchor_x="0.5" anchor_y="0.5" type="3" subinfo="scene/spirit/btn_mount.png:(18,22,39,46)"/>
+        <Text type="5" name="label_auto_reg" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):13" localizeinfo="AUTO_REG3" x="0" y="0" z="0" width="69" height="50"/>
+      </Image>
+      <Image name="btn_auto_reg4" type="4" subinfo="transparent" x="-55" y="-80" z="0" width="69" height="50">
+        <Image name="btn_auto_img4" x="0.0" y="0.0" z="0" width="69" height="50" anchor_x="0.5" anchor_y="0.5" type="3" subinfo="scene/spirit/btn_mount.png:(18,22,39,46)"/>
+        <Text type="5" name="label_auto_reg4" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):13" localizeinfo="AUTO_REG4" x="0" y="0" z="0" width="69" height="50"/>
+      </Image>
+      <Image name="btn_reinforce" type="4" subinfo="transparent" x="73" y="-80" z="0" width="180" height="50">
+        <Image name="img_btn_reinforce" x="0.0" y="0.0" z="0" width="180" height="50" anchor_x="0.5" anchor_y="0.5" type="3" subinfo="scene/spirit/btn_mount.png:(18,22,39,46)"/>
+        <Text name="label_reinforce_btn" x="59" y="0" z="0" width="48" height="40" anchor_x="0.5" anchor_y="0.5" type="5" subinfo="RGBA(1.00000000,1.00000000,1.00000000,1.00000000):13" localizeinfo="ENHANCE"/>
+        <Image name="img_cash_bg" type="2" subinfo="scene/spirit/box_enhancost.png" x="-26" y="0" z="0" width="120" height="30" anchor_x="0.5" anchor_y="0.5">
+          <Text type="5" name="label_cash" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):13" localizeinfo="1000000" x="10" y="0.0" z="0" width="82" height="30.0"/>
+        </Image>
+      </Image>
+      <Image name="img_scroll_bg" type="2" subinfo="scene/battle_pass/frame_pass_bg2.png" x="0" y="-15" z="0" width="320" height="65"/>
+      <Tranform type="1" name="node_slot_pos" x="0" y="-15" z="0" width="290" height="70"/>
+    </Image>
+    <Tranform type="1" name="node_passive_pos" x="284.6" y="37.3" z="0" width="100" height="100">
+      <Image name="img_passive_1" type="2" subinfo="scene/spirit/bar_discript.png" x="0" y="27" z="0" width="126" height="23">
+        <Image name="img_passive_1_2" type="2" subinfo="scene/adventure/hp_stat.png" x="-43.3" y="11.5" z="0" width="19" height="17"/>
+        <Text type="5" name="label_passive_1" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="+1 (0)" x="6.3" y="12" z="0" width="80" height="20"/>
+      </Image>
+      <Image name="img_passive_2" type="2" subinfo="scene/spirit/bar_discript.png" x="0" y="4" z="0" width="126" height="23">
+        <Image name="img_passive_2_2" type="2" subinfo="scene/adventure/hp_stat.png" x="-43.3" y="11.5" z="0" width="19" height="17"/>
+        <Text type="5" name="label_passive_2" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="+1 (0)" x="6.3" y="12.00002" z="0" width="80" height="20"/>
+      </Image>
+      <Image name="img_passive_3" type="2" subinfo="scene/spirit/bar_discript.png" x="0" y="4" z="0" width="126" height="23">
+        <Image name="img_passive_3_2" type="2" subinfo="scene/adventure/hp_stat.png" x="-43.3" y="-11.5" z="0" width="19" height="17"/>
+        <Text type="5" name="label_passive_3" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="+1 (0)" x="6.3" y="-10.99998" z="0" width="80" height="20"/>
+      </Image>
+      <Image name="img_passive_4" type="2" subinfo="scene/spirit/bar_discript.png" x="0" y="-19" z="0" width="126" height="23">
+        <Image name="img_passive_4_2" type="2" subinfo="scene/adventure/hp_stat.png" x="-43.3" y="-11.5" z="0" width="19" height="17"/>
+        <Text type="5" name="label_passive_4" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="+1 (0)" x="6.3" y="-10.99998" z="0" width="80" height="20"/>
+      </Image>
+    </Tranform>
+  </Tranform>
+</root>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HotTimeEventPopup version="1.3.0">
+  <Image name="img_bg" type="3" subinfo="scale9/pop_bg_dark.png:(46,46,48,48)" x="0" y="0" z="1" width="574" height="378" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Image name="img_title" type="8" subinfo="scene/event/hottime/title_hot.png" sublanginfo="scene/event/hottime/title_hot_en.png" x="0" y="174" z="0" width="179" height="55" subwidth="179" subheight="55" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image name="btn_exit" type="4" subinfo="common/exit_1.png" x="286" y="176" z="1" width="50" height="52" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image name="img_inner" type="3" subinfo="scale9/pop3_3_bg_dark.png:(13,13,14,14)" x="0" y="-16" z="2" width="554" height="328" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  </Image>
+</HotTimeEventPopup>

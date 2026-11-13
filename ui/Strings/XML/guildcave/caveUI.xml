@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<caveUI version="1.2.1">
+    <Image name="img_name_box" type="2" subinfo="scene/guild/guild_cave/top_dragon-name-box.png" x="0" y="210" z="0" width="301" height="44">
+        <Tranform type="1" name="node_skill_icon" x="120" y="0" z="0" width="0" height="0" />
+        <Text type="5" name="label_name" subinfo="RGBA(0.196, 0.196, 0.196, 1.000):22:GodoB" localizeinfo="" x="0" y="0" z="0" width="160" height="30" />
+        <Image name="img_level" type="2" subinfo="scene/cave/lv.png" x="-125" y="0" z="0" width="34" height="34">
+            <Text type="6" name="label_lvl" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):16:GodoB" localizeinfo="" x="0" y="0" z="0" width="30.7" height="30" />
+        </Image>
+    </Image>
+    <Image name="btn_bag" type="11" subinfo="scene/guild/guild_cave/bag_icon_bt.png" sublanginfo="scene/guild/guild_cave/bag_icon_bt_en.png" x="-200" y="205.3" z="0" width="73" height="64" subwidth="73" subheight="64" />
+    <Image name="btn_gem_draw" type="11" subinfo="scene/guild/guild_cave/gem_draw_icon_bt.png" sublanginfo="scene/guild/guild_cave/gem_draw_icon_bt_en.png" x="200" y="205.3" z="0" width="73" height="64" subwidth="73" subheight="64" />
+    <Image name="btn_dragon_draw" type="11" subinfo="scene/guild/guild_cave/draw_icon_bt.png" sublanginfo="scene/guild/guild_cave/draw_icon_bt_en.png" x="285" y="205.3" z="0" width="73" height="64" subwidth="73" subheight="64" />
+    <Image name="btn_exit" type="4" subinfo="scene/archa/gemlab/main/x_bt.png" x="370" y="210" z="0" width="40" height="46" />
+    <Image name="img_bottom_tool" type="2" subinfo="scene/guild/guild_cave/bottom_potion_box.png" x="0" y="-180" z="0" width="395" height="59">
+        <Image name="btn_potion" type="4" subinfo="scene/guild/guild_cave/back_item.png" x="-154" y="-2" z="0" width="47" height="47">
+            <Text type="5" name="label_potion" subinfo="RGBA(0.553, 0.557, 0.549, 1.000):12:GodoB" localizeinfo="POTION" x="0" y="0" z="0" width="60" height="20" />
+        </Image>
+        <Image name="btn_item" type="4" subinfo="scene/guild/guild_cave/back_item.png" x="-101" y="-2" z="0" width="47" height="47">
+            <Text type="5" name="label_item" subinfo="RGBA(0.553, 0.557, 0.549, 1.000):14:GodoB" localizeinfo="ITEM" x="0" y="0" z="0" width="60" height="20" />
+        </Image>
+        <Image name="btn_gem_1" type="4" subinfo="scene/cave/back_item.png" x="-49" y="-2" z="0" width="47" height="47">
+            <Text type="5" name="label_gem_1" subinfo="RGBA(0.553, 0.557, 0.549, 1.000):14:GodoB" localizeinfo="GEM" x="0" y="0" z="0" width="60" height="20" />
+        </Image>
+        <Image name="btn_gem_2" type="4" subinfo="scene/cave/back_item.png" x="1" y="-2" z="0" width="47" height="47">
+            <Text type="5" name="label_gem_2" subinfo="RGBA(0.553, 0.557, 0.549, 1.000):14:GodoB" localizeinfo="GEM" x="0" y="0" z="0" width="60" height="20" />
+        </Image>
+        <Image name="btn_gem_3" type="4" subinfo="scene/cave/back_item.png" x="51" y="-2" z="0" width="47" height="47">
+            <Text type="5" name="label_gem_3" subinfo="RGBA(0.553, 0.557, 0.549, 1.000):14:GodoB" localizeinfo="GEM" x="0" y="0" z="0" width="60" height="20" />
+        </Image>
+        <Image name="btn_gem_4" type="4" subinfo="scene/cave/back_item.png" x="101" y="-2" z="0" width="47" height="47">
+            <Text type="5" name="label_gem_4" subinfo="RGBA(0.553, 0.557, 0.549, 1.000):14:GodoB" localizeinfo="GEM" x="0" y="0" z="0" width="60" height="20" />
+        </Image>
+        <Image name="btn_gem_5" type="4" subinfo="scene/cave/back_item.png" x="151" y="-2" z="0" width="47" height="47">
+            <Text type="5" name="label_gem_5" subinfo="RGBA(0.553, 0.557, 0.549, 1.000):14:GodoB" localizeinfo="GEM" x="0" y="0" z="0" width="60" height="20" />
+        </Image>
+    </Image>
+    <Image name="btn_levelup" type="4" subinfo="scene/guild/guild_cave/right_bt.png" x="342" y="75" z="0" width="94" height="61">
+        <Text type="6" name="label_lv_up" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):18:GodoB" localizeinfo="TXT_LEVELUP" x="0" y="0" z="0" width="94" height="61" />
+<!--        <Image name="img_txt_lvl" type="8" subinfo="scene/guild/guild_cave/lvlup.png" sublanginfo="scene/guild/guild_cave/lvlup_en.png" x="0" y="0" z="0" width="59" height="24" subwidth="58" subheight="41" />-->
+    </Image>
+    <Image name="btn_book" type="4" subinfo="scene/guild/guild_cave/right_bt.png" x="342" y="0" z="0" width="94" height="61">
+        <Text type="6" name="label_book" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):16:GodoB" localizeinfo="colosseum_book" x="0" y="0" z="0" width="94" height="61" />
+<!--        <Image name="img_txt_book" type="8" subinfo="scene/guild/guild_cave/book.png" sublanginfo="scene/guild/guild_cave/book_en.png" x="0" y="0" z="0" width="40" height="24" subwidth="54" subheight="23" />-->
+    </Image>
+    <Image name="btn_gem_enhance" type="4" subinfo="scene/guild/guild_cave/right_bt.png" x="342" y="-75" z="0" width="94" height="61">
+        <Text type="6" name="label_lv_enhance" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):16:GodoB" localizeinfo="TEXT_GEM_SYNTHETIC" x="0" y="0" z="0" width="94" height="61" />
+<!--        <Image name="img_txt_gem" type="8" subinfo="scene/guild/guild_cave/gem_synthetic.png" sublanginfo="scene/guild/guild_cave/gem_synthetic_en.png" x="0" y="0" z="0" width="64" height="24" subwidth="84" subheight="39" />-->
+    </Image>
+    <Image name="img_slide" type="3" subinfo="scale9/quickitem_bg.png:(15.0, 10.0, 10.0, 15.0)" x="-350" y="0" z="0" width="95" height="450">
+        <Tranform type="1" name="node_sview_rect" x="0" y="0" z="0" width="90" height="390" />
+        <Image name="img_image" type="2" subinfo="scene/cave/bt_open.png" x="0" y="-210" z="0" width="23" height="48" rotation="-270" />
+        <Image name="img_1" type="2" subinfo="scene/cave/bt_open.png" x="0" y="210" z="0" width="23" height="48" rotation="-90" />
+    </Image>
+    <Image name="btn_list_slide" type="4" subinfo="scene/guild/guild_cave/left_bt.png" x="-279.7" y="0" z="0" width="25" height="36" />
+    <Image name="img_health" type="2" subinfo="scene/cave/icon_injury.png" x="-175" y="215" z="0" width="32" height="33" visible="0" />
+    <Image name="img_energy" type="2" subinfo="scene/cave/icon_hungry.png" x="-215" y="215" z="0" width="32" height="33" visible="0" />
+    <Image name="btn_next_right" type="4" subinfo="scene/guild/guild_cave/right.png" x="200" y="0" z="0" width="34" height="46" />
+    <Image name="btn_next_left" type="4" subinfo="scene/guild/guild_cave/left.png" x="-200" y="0" z="0" width="34" height="46" />
+    <Image name="img_exp_bar" type="2" subinfo="scene/cave/exp_bar_bg.png" x="0" y="175" z="0" width="235" height="18">
+        <Image name="img_exp_progress" type="13" subinfo="scene/guild/guild_cave/bar_blue.png" progressinfo="0" x="0" y="0" z="0" width="235" height="18" />
+        <Text type="5" name="label_exp" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):11:GodoB" localizeinfo="EXP: 0/0" x="0" y="0" z="0" width="160" height="20" />
+    </Image>
+<!--    <Image name="img_dragon_stat" type="3" subinfo="scene/cave/back_under.png:(17.0, 39.0, 6.0, 4.0)" x="0" y="-232.5" z="0" width="600" height="59" />-->
+<!--    <Image name="img_curr_key_tag" type="3" subinfo="scene/guild/guild_cave/back_under.png:(17.0, 12.0, 2.0, 43.0)" x="0" y="-210" z="0" width="600" height="59"/>-->
+<!--    <Image name="img_eval_box" type="3" subinfo="scene/guild/guild_cave/eval_box.png" x="0" y="-225" z="0" width="164" height="29">-->
+<!--        <Image name="img_image" type="2" subinfo="common/lv_eval.png" x="-40.9" y="-1.4" z="0" width="66" height="25" />-->
+<!--    </Image>-->
+    <Tranform type="1" name="node_star" x="0" y="145" z="0" width="0" height="0" />
+    <Tranform type="1" name="node_wslide_layer" x="0" y="145" z="0" width="100" height="100"/>
+    <Tranform type="1" name="node_stat_bar" x="0" y="-233.5" z="0" width="600" height="59">
+        <Image name="img_stat_bg" type="3" subinfo="scene/cave/back_under.png:(17.0, 12.0, 2.0, 43.0)" x="0" y="0" z="0" width="600" height="59" />
+        <Image name="img_eval_icon" type="2" subinfo="common/lv_eval.png" x="-256.4" y="11.5" z="0" width="52.8" height="20" />
+        <Image name="img_eval_bg" type="2" subinfo="scene/cave/back_stat.png" x="-189.5" y="11.5" z="0" width="81" height="17" />
+        <Text type="5" name="label_eval" subinfo="RGBA(1.000, 0.035, 0.941, 1.000):14:GodoB" localizeinfo="" x="-189.5" y="11.5" z="0" width="81" height="17" />
+        <Image name="img_hp_icon" type="2" subinfo="common/lv_hp.png" x="-116.4" y="11.5" z="0" width="52.8" height="20" />
+        <Image name="img_hp_bg" type="2" subinfo="scene/cave/back_stat.png" x="-49.5" y="11.5" z="0" width="81" height="17" />
+        <Text type="5" name="label_hp" subinfo="RGBA(0.980, 0.153, 0.137, 1.000):14:GodoB" localizeinfo="" x="-49.5" y="11.5" z="0" width="81" height="17" />
+        <Image name="img_atk_icon" type="2" subinfo="common/lv_atk.png" x="23.6" y="11.5" z="0" width="52.8" height="20" />
+        <Image name="img_atk_bg" type="2" subinfo="scene/cave/back_stat.png" x="90.5" y="11.5" z="0" width="81" height="17" />
+        <Text type="5" name="label_atk" subinfo="RGBA(0.259, 0.824, 0.133, 1.000):14:GodoB" localizeinfo="" x="90.5" y="11.5" z="0" width="81" height="17" />
+        <Image name="img_def_icon" type="2" subinfo="common/lv_def.png" x="173.6" y="11.5" z="0" width="52.8" height="20" />
+        <Image name="img_def_bg" type="2" subinfo="scene/cave/back_stat.png" x="240.5" y="11.5" z="0" width="81" height="17" />
+        <Text type="5" name="label_def" subinfo="RGBA(0.129, 0.651, 0.996, 1.000):14:GodoB" localizeinfo="" x="240.5" y="11.5" z="0" width="81" height="17" />
+    </Tranform>
+</caveUI>

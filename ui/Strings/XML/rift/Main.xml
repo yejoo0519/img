@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="1.2.1">
+  <Image name="img_bg" type="3" subinfo="scene/rift/scale9/frame_bg.png:(15,15,30,33)" x="0" y="2" z="0" width="501" height="365" visible="1" rotation="0">
+    <Tranform name="node_top_ui" x="0" y="152" z="0" width="500" height="56" anchor_x="0.5" anchor_y="0.5" type="1" visible="1" rotation="0">
+      <Image name="btn_help" type="4" subinfo="common/bt_help.png" x="-224" y="-2" z="0" width="50" height="50" visible="1" rotation="0"/>
+      <Image name="btn_exit" type="4" subinfo="common/exit_1.png" x="224" y="-2" z="0" width="50" height="52" visible="1" rotation="0"/>
+      <Tranform name="node_title" x="0.0" y="-2" z="0" width="0" height="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1"/>
+    </Tranform>
+    <Image name="img_sub_bg" x="0.0" y="-28.0" z="0" width="484" height="286" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scene/rift/scale9/frame_bg3.png:(15,15,30,30)"/>
+  </Image>
+</root>

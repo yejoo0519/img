@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="1.0">
+  <Image name="img_new" x="0" y="0" z="0" width="780" height="80" anchor_x="0.5" anchor_y="0.5" type="3" subinfo="scale9/back_buff.png:(16,16,35,35)">
+    <Image name="btn_new_1" x="-290" y="0" z="0" width="120" height="60" anchor_x="0.5" anchor_y="0.5" type="4" subinfo="path/to/button.png"/>
+    <Image name="btn_new_2" x="-95" y="0" z="0" width="120" height="60" anchor_x="0.5" anchor_y="0.5" type="4" subinfo="scale9/bt_red.png:(11,11,23,23)"/>
+    <Image name="btn_new_3" x="95" y="0" z="0" width="120" height="60" anchor_x="0.5" anchor_y="0.5" type="4" subinfo="scale9/bt_red.png:(11,11,23,23)"/>
+    <Image name="btn_new_4" x="290" y="0" z="0" width="120" height="60" anchor_x="0.5" anchor_y="0.5" type="4" subinfo="scale9/bt_red.png:(11,11,23,23)"/>
+  </Image>
+</root>

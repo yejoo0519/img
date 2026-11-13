@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="1.3.0">
+  <Tranform name="node_bg" x="0" y="0" z="0" width="800" height="480" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0" anchor_max_x="1" anchor_max_y="1" offset_left="0" offset_right="0" offset_bottom="0" offset_top="0" anchored_x="0" anchored_y="0"/>
+  <Tranform name="node_title" x="0" y="211" z="1" width="348" height="76" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="1" anchor_max_x="0.5" anchor_max_y="1" offset_left="0" offset_right="0" offset_bottom="0" offset_top="0" anchored_x="0" anchored_y="-29">
+    <Text type="6" name="label_sub_txt1" subinfo="RGBA(1.00,1.00,1.00,1.00):17" localizeinfo="" x="0" y="15" z="0" width="300" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    <Text type="6" name="label_sub_txt2" subinfo="RGBA(1.00,0.80,0.00,1.00):24" localizeinfo="" x="0" y="-7.2" z="1" width="300" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+  </Tranform>
+  <Image type="2" name="img_monster_hp_bg" subinfo="scene/gate/monster_hp_bg.png" x="0" y="180" z="2" width="601" height="20" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Text type="5" name="label_monster_hp" subinfo="RGBA(1.00,1.00,1.00,1.00):14" localizeinfo="? / ?" x="0" y="0" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+  </Image>
+  <Image type="2" name="img_monster_shield_bg" subinfo="scene/gate/monster_hp_bg.png" x="0" y="155" z="3" width="601" height="20" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Text type="5" name="label_monster_shield" subinfo="RGBA(1.00,1.00,1.00,1.00):14" localizeinfo="? / ?" x="0" y="0" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+  </Image>
+  <Image type="3" name="img_chat" subinfo="scale9/chat_bg.png:(9,9,20,20)" x="0" y="-201" z="4" width="610" height="64" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Image type="4" name="btn_chat" subinfo="scene/gate/bt_write.png" x="258" y="0" z="0" width="62" height="40" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  </Image>
+  <Tranform type="1" name="node_player1" x="-355" y="199" z="5" width="100" height="100" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Tranform type="1" name="node_class_1" x="0" y="20" z="0" width="22" height="20" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Text type="6" name="label_name_1" subinfo="RGBA(1.00,1.00,1.00,1.00):14:Helvetica" localizeinfo="...." x="0" y="2" z="0" width="90" height="24" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+    <Image type="2" name="img_frame_1" subinfo="scene/gate/team_select.png" x="1" y="-103" z="0" width="72" height="196" visible="0" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image type="2" name="img_dragon_1_1" subinfo="common/dragonthumb_12.png" x="1.7" y="-41.7" z="1" width="63" height="63" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image type="2" name="img_lock_1_1" subinfo="scene/gate/chainlock.png" x="0" y="0" z="0" width="70" height="53" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="2" name="img_spirit_1_1" subinfo="common/lv.png" x="30" y="20" z="0" width="28" height="28" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="2" name="img_hp_bg_1_1" subinfo="scene/adventure/hpgage_bg_short.png" x="0" y="-25" z="0" width="60" height="10" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    </Image>
+    <Image type="2" name="img_dragon_1_2" subinfo="common/dragonthumb_12.png" x="1.7" y="-103" z="1" width="63" height="63" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image type="2" name="img_lock_1_2" subinfo="scene/gate/chainlock.png" x="0" y="0" z="0" width="70" height="53" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="2" name="img_spirit_1_2" subinfo="common/lv.png" x="30" y="20" z="0" width="28" height="28" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="2" name="img_hp_bg_1_2" subinfo="scene/adventure/hpgage_bg_short.png" x="0" y="-25" z="0" width="60" height="10" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    </Image>
+    <Image type="2" name="img_dragon_1_3" subinfo="common/dragonthumb_12.png" x="1.7" y="-164.2" z="1" width="63" height="63" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image type="2" name="img_lock_1_3" subinfo="scene/gate/chainlock.png" x="0" y="0" z="0" width="70" height="53" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="2" name="img_spirit_1_3" subinfo="common/lv.png" x="30" y="20" z="0" width="28" height="28" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="2" name="img_hp_bg_1_3" subinfo="scene/adventure/hpgage_bg_short.png" x="0" y="-25" z="0" width="60" height="10" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    </Image>
+    <Image type="2" name="img_player_num_1" subinfo="scene/gate/team_num1.png" x="-26" y="-23" z="2" width="30" height="40" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  </Tranform>
+  <Tranform type="1" name="node_player2" x="355" y="199" z="6" width="100" height="100" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Tranform type="1" name="node_class_2" x="0" y="20" z="0" width="22" height="20" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Text type="6" name="label_name_2" subinfo="RGBA(1.00,1.00,1.00,1.00):14:Helvetica" localizeinfo="...." x="0" y="2" z="0" width="90" height="24" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+    <Image type="2" name="img_frame_2" subinfo="scene/gate/team_select.png" x="1" y="-103" z="0" width="72" height="196" visible="0" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image type="2" name="img_dragon_2_1" subinfo="common/dragonthumb_12.png" x="1.7" y="-41.7" z="1" width="63" height="63" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image type="2" name="img_lock_2_1" subinfo="scene/gate/chainlock.png" x="0" y="0" z="1" width="70" height="53" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="2" name="img_spirit_2_1" subinfo="common/lv.png" x="30" y="20" z="2" width="28" height="28" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="2" name="img_hp_bg_2_1" subinfo="scene/adventure/hpgage_bg_short.png" x="0" y="-25" z="3" width="60" height="10" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    </Image>
+    <Image type="2" name="img_dragon_2_2" subinfo="common/dragonthumb_12.png" x="1.7" y="-103" z="1" width="63" height="63" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image type="2" name="img_lock_2_2" subinfo="scene/gate/chainlock.png" x="0" y="0" z="1" width="70" height="53" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="2" name="img_spirit_2_2" subinfo="common/lv.png" x="30" y="20" z="2" width="28" height="28" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="2" name="img_hp_bg_2_2" subinfo="scene/adventure/hpgage_bg_short.png" x="0" y="-25" z="3" width="60" height="10" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    </Image>
+    <Image type="2" name="img_dragon_2_3" subinfo="common/dragonthumb_12.png" x="1.7" y="-164.2" z="1" width="63" height="63" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image type="2" name="img_lock_2_3" subinfo="scene/gate/chainlock.png" x="0" y="0" z="1" width="70" height="53" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="2" name="img_spirit_2_3" subinfo="common/lv.png" x="30" y="20" z="2" width="28" height="28" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="2" name="img_hp_bg_2_3" subinfo="scene/adventure/hpgage_bg_short.png" x="0" y="-25" z="3" width="60" height="10" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    </Image>
+    <Image type="2" name="img_player_num_2" subinfo="scene/gate/team_num2.png" x="-30.7" y="-25" z="2" width="30" height="40" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  </Tranform>
+  <Tranform type="1" name="node_player3" x="-355" y="-33" z="7" width="100" height="100" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Tranform type="1" name="node_class_3" x="0" y="20" z="0" width="22" height="20" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Text type="6" name="label_name_3" subinfo="RGBA(1.00,1.00,1.00,1.00):14:Helvetica" localizeinfo="...." x="0" y="3" z="1" width="90" height="24" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+    <Image type="2" name="img_frame_3" subinfo="scene/gate/team_select.png" x="1" y="-103" z="0" width="72" height="196" visible="0" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image type="2" name="img_dragon_3_1" subinfo="common/dragonthumb_12.png" x="1.7" y="-41.7" z="1" width="63" height="63" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image type="2" name="img_lock_3_1" subinfo="scene/gate/chainlock.png" x="0" y="0" z="1" width="70" height="53" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="2" name="img_spirit_3_1" subinfo="common/lv.png" x="30" y="20" z="2" width="28" height="28" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="2" name="img_hp_bg_3_1" subinfo="scene/adventure/hpgage_bg_short.png" x="0" y="-25" z="3" width="60" height="10" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    </Image>
+    <Image type="2" name="img_dragon_3_2" subinfo="common/dragonthumb_12.png" x="1.7" y="-103" z="1" width="63" height="63" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image type="2" name="img_lock_3_2" subinfo="scene/gate/chainlock.png" x="0" y="0" z="1" width="70" height="53" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="2" name="img_spirit_3_2" subinfo="common/lv.png" x="30" y="20" z="2" width="28" height="28" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="2" name="img_hp_bg_3_2" subinfo="scene/adventure/hpgage_bg_short.png" x="0" y="-25" z="3" width="60" height="10" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    </Image>
+    <Image type="2" name="img_dragon_3_3" subinfo="common/dragonthumb_12.png" x="1.7" y="-164.2" z="1" width="63" height="63" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image type="2" name="img_lock_3_3" subinfo="scene/gate/chainlock.png" x="0" y="0" z="1" width="70" height="53" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="2" name="img_spirit_3_3" subinfo="common/lv.png" x="30" y="20" z="2" width="28" height="28" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="2" name="img_hp_bg_3_3" subinfo="scene/adventure/hpgage_bg_short.png" x="0" y="-25" z="3" width="60" height="10" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    </Image>
+    <Image type="2" name="img_player_num_3" subinfo="scene/gate/team_num3.png" x="-30.7" y="-30" z="2" width="30" height="40" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  </Tranform>
+  <Tranform type="1" name="node_player4" x="355" y="-33" z="8" width="100" height="100" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Tranform type="1" name="node_class_4" x="0" y="20" z="0" width="22" height="20" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Text type="6" name="label_name_4" subinfo="RGBA(1.00,1.00,1.00,1.00):14:Helvetica" localizeinfo="...." x="0" y="2" z="1" width="90" height="24" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+    <Image type="2" name="img_frame_4" subinfo="scene/gate/team_select.png" x="1" y="-103" z="2" width="72" height="196" visible="0" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image type="2" name="img_dragon_4_1" subinfo="common/dragonthumb_12.png" x="1.7" y="-41.7" z="3" width="63" height="63" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image type="2" name="img_lock_4_1" subinfo="scene/gate/chainlock.png" x="0" y="0" z="1" width="70" height="53" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="2" name="img_spirit_4_1" subinfo="common/lv.png" x="30" y="20" z="0" width="28" height="28" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="2" name="img_hp_bg_4_1" subinfo="scene/adventure/hpgage_bg_short.png" x="0" y="-25" z="0" width="60" height="10" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    </Image>
+    <Image type="2" name="img_dragon_4_2" subinfo="common/dragonthumb_12.png" x="1.7" y="-103" z="4" width="63" height="63" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image type="2" name="img_lock_4_2" subinfo="scene/gate/chainlock.png" x="0" y="0" z="0" width="70" height="53" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="2" name="img_spirit_4_2" subinfo="common/lv.png" x="30" y="20" z="0" width="28" height="28" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="2" name="img_hp_bg_4_2" subinfo="scene/adventure/hpgage_bg_short.png" x="0" y="-25" z="0" width="60" height="10" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    </Image>
+    <Image type="2" name="img_dragon_4_3" subinfo="common/dragonthumb_12.png" x="1.7" y="-164.2" z="5" width="63" height="63" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image type="2" name="img_lock_4_3" subinfo="scene/gate/chainlock.png" x="0" y="0" z="0" width="70" height="53" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="2" name="img_spirit_4_3" subinfo="common/lv.png" x="30" y="20" z="0" width="28" height="28" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="2" name="img_hp_bg_4_3" subinfo="scene/adventure/hpgage_bg_short.png" x="0" y="-25" z="0" width="60" height="10" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    </Image>
+    <Image type="2" name="img_player_num_4" subinfo="scene/gate/team_num4.png" x="-30.9" y="-25" z="6" width="30" height="40" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  </Tranform>
+  <Image type="2" name="img_att_icon" subinfo="common/icon_atk_stat.png" x="180" y="133" z="9" width="20" height="20" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Text type="5" name="label_att" subinfo="RGBA(1.00,1.00,1.00,1.00):14" localizeinfo="????" x="27" y="0" z="0" width="70" height="0" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+  </Image>
+  <Image type="2" name="img_def_icon" subinfo="common/icon_def_stat.png" x="240" y="133" z="10" width="20" height="20" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Text type="5" name="label_def" subinfo="RGBA(1.00,1.00,1.00,1.00):14" localizeinfo="????" x="27" y="0" z="0" width="70" height="0" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+  </Image>
+  <Tranform name="node_buff" x="-300" y="154" z="11" width="360" height="29" anchor_x="0" anchor_y="0.5" type="1" visible="1" rotation="0" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0.5" anchor_max_x="0" anchor_max_y="0.5" anchored_x="100" anchored_y="154" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0"/>
+  <Tranform type="1" name="node_result" x="0" y="0" z="12" width="100" height="100" visible="0" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Image type="3" name="img_mvp" subinfo="scene/lemuria/main/frame_reward_0101.png:(76,96,152,195)" x="-154" y="25" z="0" width="304" height="387" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image type="3" name="img_mvp_panel" subinfo="scene/lemuria/main/scale9/frame_reward_0102.png:(9,9,18,18)" x="0" y="-40" z="0" width="273" height="276" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Text type="5" name="label_lose" subinfo="RGBA(0.31,0.28,0.37,1.00):30" localizeinfo="전투패배" x="0" y="0" z="0" width="160" height="40" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+        <Image type="2" name="img_mvp_dragon1" subinfo="scene/lemuria/main/reward_thumb_bg.png" x="0" y="85" z="0" width="265" height="91" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        <Image type="2" name="img_mvp_dragon2" subinfo="scene/lemuria/main/reward_thumb_bg.png" x="0" y="0" z="0" width="265" height="91" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        <Image type="2" name="img_mvp_dragon3" subinfo="scene/lemuria/main/reward_thumb_bg.png" x="0" y="-85" z="0" width="265" height="91" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+      <Image type="2" name="label_mvp_lose" subinfo="scene/gate/laber_mvp2.png" x="0" y="160" z="0" width="256" height="75" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="2" name="label_mvp_win" subinfo="scene/gate/laber_mvp.png" x="0" y="160" z="0" width="256" height="75" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="4" name="btn_friend" subinfo="scene/lemuria/main/bt_quick.png" x="0" y="114" z="0" width="84" height="26" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Text type="5" name="btn_friend_label" subinfo="RGBA(1.00,1.00,1.00,1.00):14" localizeinfo="ARCHA1" x="0" y="0" z="0" width="84" height="26" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+      </Image>
+    </Image>
+    <Image type="3" name="img_result_reward" subinfo="scene/lemuria/main/frame_reward_0101.png:(76,96,152,195)" x="154" y="25" z="0" width="304" height="387" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Text type="6" name="label_reward" subinfo="RGBA(0.27,1.00,0.80,1.00):25" localizeinfo="TEXT_REWARD_OBTAINABLE" x="0" y="155" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+      <Image type="3" name="img_reward_panel" subinfo="scene/lemuria/main/scale9/frame_reward_0102.png:(9,9,18,18)" x="0" y="35" z="0" width="260" height="200" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Text type="5" name="label_reward_txt_rankpoint" subinfo="RGBA(1.00,1.00,0.00,1.00):14" localizeinfo="ARCHA3" x="-40" y="85" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0">
+          <Text type="5" name="label_rankpoint_val" subinfo="RGBA(1.00,1.00,1.00,1.00):35" localizeinfo="0" x="40" y="-50" z="0" width="160" height="40" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+        </Text>
+        <Text type="5" name="label_reward_txt_exp" subinfo="RGBA(1.00,1.00,0.00,1.00):14" localizeinfo="ARCHA4" x="-40" y="-15" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0">
+          <Text type="5" name="label_exp_val" subinfo="RGBA(1.00,1.00,1.00,1.00):35" localizeinfo="0" x="40" y="-50" z="0" width="160" height="40" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+        </Text>
+        <Image type="3" name="img_reward_line" subinfo="scene/lemuria/main/scale9/bg2_line.png:(1,5,2,10)" x="0" y="0" z="0" width="5" height="230" rotation="270" visible="1" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+      <Image type="4" name="btn_exit" subinfo="scene/lemuria/main/bt_ready.png" x="0" y="-125" z="0" width="192" height="69" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Text type="6" name="label_exit" subinfo="RGBA(1.00,1.00,0.00,1.00):24:notoblack_yellow_24" localizeinfo="EXIT" x="0" y="0" z="0" width="188" height="68" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+      </Image>
+    </Image>
+  </Tranform>
+  <Tranform type="1" name="node_reward" x="0" y="0" z="13" width="100" height="100" visible="0" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Image type="3" name="img_bg_reward" subinfo="scale9/chat_bg.png:(9,9,20,20)" x="0" y="0" z="0" width="800" height="480" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image type="2" name="img_reward" subinfo="scene/gate/txt_win.png" x="0" y="170" z="0" width="354" height="205" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image type="2" name="img_reward_5" subinfo="scene/gate/count_num5.png" x="0" y="60" z="0" width="76.8" height="88.96" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image type="2" name="img_reward_4" subinfo="scene/gate/count_num4.png" x="0" y="60" z="0" width="76.8" height="88.96" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image type="2" name="img_reward_3" subinfo="scene/gate/count_num3.png" x="0" y="60" z="0" width="76.8" height="88.96" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image type="2" name="img_reward_2" subinfo="scene/gate/count_num2.png" x="0" y="60" z="0" width="76.8" height="88.96" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image type="2" name="img_reward_1" subinfo="scene/gate/count_num1.png" x="0" y="60" z="0" width="76.8" height="88.96" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image type="4" name="btn_reward_box1" subinfo="scene/gate/win_box_select.png" x="-200" y="-70" z="0" width="157" height="151" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image type="2" name="img_treasure_box1" subinfo="scene/gate/treasure_box1.png" x="0" y="0" z="0" width="150.15" height="150.15" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    </Image>
+    <Image type="4" name="btn_reward_box2" subinfo="scene/gate/win_box_select.png" x="0" y="-70" z="0" width="157" height="151" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image type="2" name="img_treasure_box2" subinfo="scene/gate/treasure_box1.png" x="0" y="0" z="0" width="150.15" height="150.15" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    </Image>
+    <Image type="4" name="btn_reward_box3" subinfo="scene/gate/win_box_select.png" x="200" y="-70" z="0" width="157" height="151" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image type="2" name="img_treasure_box3" subinfo="scene/gate/treasure_box1.png" x="0" y="0" z="0" width="150.15" height="150.15" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    </Image>
+    <Text type="6" name="label_discription" subinfo="RGBA(1.00,1.00,1.00,1.00):18" localizeinfo="ARCHA40" x="0" y="-170" z="0" width="800" height="40" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+  </Tranform>
+  <Tranform type="1" name="node_reward_info" x="0" y="0" z="14" width="100" height="100" visible="0" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Image type="3" name="img_bg_reward_info" subinfo="scale9/chat_bg.png:(9,9,20,20)" x="0" y="0" z="0" width="800" height="480" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image type="2" name="img_reward_info" subinfo="scene/gate/txt_win.png" x="0" y="170" z="0" width="354" height="205" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image type="4" name="btn_reward_btn_ok" subinfo="scene/lemuria/main/bt_base_03.png" x="0" y="-180" z="0" width="192" height="69" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Text type="6" name="label_reward_btn" subinfo="RGBA(1.00,1.00,0.00,1.00):24:notoblack_yellow_24" localizeinfo="BTN_OK" x="0" y="0" z="0" width="188" height="68" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    </Image>
+    <Image type="2" name="img_reward_player1" subinfo="scene/gate/win_box_eff.png" x="-256" y="-30" z="0" width="256" height="252" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image type="2" name="img_reward_player2" subinfo="scene/gate/win_box_eff.png" x="-85.33" y="-30" z="0" width="256" height="252" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image type="2" name="img_reward_player3" subinfo="scene/gate/win_box_eff.png" x="85.33" y="-30" z="0" width="256" height="252" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image type="2" name="img_reward_player4" subinfo="scene/gate/win_box_eff.png" x="256" y="-30" z="0" width="256" height="252" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  </Tranform>
+</root>

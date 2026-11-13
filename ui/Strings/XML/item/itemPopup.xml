@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InfoPopup version="1.3.0">
+  <Image name="btn_protector" x="0" y="0" z="0" width="800" height="480" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="transparent" click_mode="0"/>
+  <Image name="img_bg" type="3" subinfo="scale9/pop_bg_dark.png:(35,35,70,70)" x="0" y="0" z="1" width="600" height="300" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Tranform name="node_header" x="0" y="150" z="0" width="0" height="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1">
+      <Text name="label_title" x="0" y="-44" z="0" width="580" height="50" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(1.00,1.00,1.00,1.00):24:GodoB" localizeinfo="TITLE" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+      <Image name="btn_close" x="290" y="-10" z="1" width="50" height="52" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="common/exit_1.png" click_mode="2"/>
+    </Tranform>
+    <Tranform name="node_middle_1" x="0" y="74" z="1" width="0" height="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1">
+      <Image name="img_innerBg_1" x="0" y="-70" z="0" width="560" height="140" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scale9/pop3_3_bg_dark.png:(10,10,20,20)">
+        <Text name="label_desc_1" x="0" y="0" z="0" width="560" height="150" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(1.00,1.00,1.00,1.00):18" localizeinfo="desc" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="0"/>
+      </Image>
+    </Tranform>
+    <Tranform name="node_middle_2" x="0" y="74" z="2" width="0" height="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1">
+      <Image name="img_innerBg_2" x="0" y="-45" z="0" width="560" height="90" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scale9/pop3_3_bg_dark.png:(10,10,20,20)">
+        <Text name="label_desc_2" x="0" y="0" z="0" width="550" height="90" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(1.00,1.00,1.00,1.00):18:GodoM" localizeinfo="desc" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="0"/>
+      </Image>
+      <Text name="label_noti_2" x="0" y="-129" z="1" width="560" height="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(1.00,1.00,1.00,1.00):18:GodoM" localizeinfo="noti" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="0"/>
+    </Tranform>
+    <Tranform name="node_bottom_1" x="0" y="-90" z="3" width="0" height="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1">
+      <Image name="btn_confirm_1" x="0" y="0" z="0" width="140" height="40" anchor_x="0.5" anchor_y="1" rotation="0" visible="1" type="4" subinfo="scale9/bt_1.png:(17,20,2,2)" click_mode="2" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="1" anchor_max_x="0.5" anchor_max_y="1" anchored_x="0" anchored_y="0" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0">
+        <Text name="label_confirm_1" x="0" y="0" z="0" width="140" height="40" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="6" subinfo="RGBA(1.00,1.00,1.00,1.00):18" localizeinfo="BTN_CONFIRM" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="0" stroke_color="RGBA(0.11,0.23,0.35,1.00)"/>
+      </Image>
+    </Tranform>
+    <Tranform name="node_bottom_2" x="0" y="-90" z="4" width="0" height="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1">
+      <Image name="btn_confirm_2" x="-76" y="0" z="0" width="140" height="40" anchor_x="0.5" anchor_y="1" rotation="0" visible="1" type="4" subinfo="scale9/bt_1.png:(17,20,2,2)" click_mode="2" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="1" anchor_max_x="0.5" anchor_max_y="1" anchored_x="-76" anchored_y="0" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0">
+        <Text name="label_confirm_2" x="0" y="0" z="0" width="140" height="40" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="6" subinfo="RGBA(1.00,1.00,1.00,1.00):18" localizeinfo="BTN_CONFIRM" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="0" stroke_color="RGBA(0.11,0.23,0.35,1.00)"/>
+      </Image>
+      <Image name="btn_cancel_2" x="76" y="0" z="1" width="140" height="40" anchor_x="0.5" anchor_y="1" rotation="0" visible="1" type="4" subinfo="scale9/bt_4.png:(17,20,2,2)" click_mode="2" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="1" anchor_max_x="0.5" anchor_max_y="1" anchored_x="76" anchored_y="0" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0">
+        <Text name="label_cancel_2" x="0" y="0" z="0" width="140" height="40" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="6" subinfo="RGBA(1.00,1.00,1.00,1.00):18" localizeinfo="BTN_CANCEL" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="0" stroke_color="RGBA(0.36,0.15,0.15,1.00)"/>
+      </Image>
+    </Tranform>
+    <Tranform name="node_bottom_3" x="0" y="-90" z="5" width="0" height="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1">
+      <Image name="btn_confirm_3_1" x="-170" y="0" z="0" width="140" height="40" anchor_x="0.5" anchor_y="1" rotation="0" visible="1" type="4" subinfo="scale9/bt_1.png:(17,20,2,2)" click_mode="2" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="1" anchor_max_x="0.5" anchor_max_y="1" anchored_x="-170" anchored_y="0" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0">
+        <Text name="label_confirm_3_1" x="0" y="0" z="0" width="140" height="40" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="6" subinfo="RGBA(1.00,1.00,1.00,1.00):18" localizeinfo="SPIRIT_PULL_ONCE" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="0" stroke_color="RGBA(0.11,0.23,0.35,1.00)"/>
+      </Image>
+      <Image name="btn_confirm_3_2" x="0" y="0" z="1" width="140" height="40" anchor_x="0.5" anchor_y="1" rotation="0" visible="1" type="4" subinfo="scale9/bt_1.png:(17,20,2,2)" click_mode="2" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="1" anchor_max_x="0.5" anchor_max_y="1" anchored_x="0" anchored_y="0" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0">
+        <Text name="label_confirm_3_2" x="0" y="0" z="0" width="140" height="40" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="6" subinfo="RGBA(1.00,1.00,1.00,1.00):18" localizeinfo="SPIRIT_PULL_TEN" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="0" stroke_color="RGBA(0.11,0.23,0.35,1.00)"/>
+      </Image>
+      <Image name="btn_confirm_3_3" x="170" y="0" z="2" width="140" height="40" anchor_x="0.5" anchor_y="1" rotation="0" visible="1" type="4" subinfo="scale9/bt_1.png:(17,20,2,2)" click_mode="2" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="1" anchor_max_x="0.5" anchor_max_y="1" anchored_x="170" anchored_y="0" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0">
+        <Text name="label_confirm_3_3" x="0" y="0" z="0" width="140" height="40" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="6" subinfo="RGBA(1.00,1.00,1.00,1.00):18" localizeinfo="SPIRIT_PULL_HUNDRED" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="0" stroke_color="RGBA(0.11,0.23,0.35,1.00)"/>
+      </Image>
+    </Tranform>
+    <Tranform name="node_bottom_etc" x="0" y="-90" z="6" width="0" height="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1">
+      <Image name="btn_code" x="260" y="0" z="0" width="65" height="57" anchor_x="0.5" anchor_y="1" rotation="0" visible="1" type="4" subinfo="scene/cave/item_code.png" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="1" anchor_max_x="0.5" anchor_max_y="1" anchored_x="260" anchored_y="0" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0" click_mode="2"/>
+      <Image name="btn_sell" x="260" y="0" z="1" width="65" height="57" anchor_x="0.5" anchor_y="1" rotation="0" visible="1" type="4" subinfo="scene/cave/item_sell.png" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="1" anchor_max_x="0.5" anchor_max_y="1" anchored_x="260" anchored_y="0" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0" click_mode="2"/>
+      <Image name="btn_preview" x="260" y="0" z="1" width="40" height="40" anchor_x="0.5" anchor_y="1" rotation="0" visible="1" type="4" subinfo="scene/lotto/icon_magnifier.png" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="1" anchor_max_x="0.5" anchor_max_y="1" anchored_x="260" anchored_y="0" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0" click_mode="2"/>
+      <Image name="btn_birthPer" x="-260" y="0" z="2" width="50" height="50" anchor_x="0.5" anchor_y="1" rotation="0" visible="1" type="4" subinfo="common/bt_help.png" click_mode="2" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="1" anchor_max_x="0.5" anchor_max_y="1" anchored_x="-260" anchored_y="0" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0">
+        <Text name="label_birth_per" x="76" y="0" z="0" width="100" height="40" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(1.00,1.00,1.00,1.00):18" localizeinfo="COMMON_RATE" HorizontalAlignment="0" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+      </Image>
+      <Image name="btn_lock" x="-268" y="-10" z="2" width="29" height="38" anchor_x="0.5" anchor_y="1" rotation="0" visible="1" type="4" subinfo="common/bt_lock_on.png" click_mode="2" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="1" anchor_max_x="0.5" anchor_max_y="1" anchored_x="-268" anchored_y="-10" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0"/>
+      <Image name="btn_favorite" x="-225" y="-10" z="2" width="36" height="40" anchor_x="0.5" anchor_y="1" rotation="0" visible="1" type="4" subinfo="common/bt_favorite_on.png" click_mode="2" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="1" anchor_max_x="0.5" anchor_max_y="1" anchored_x="-225" anchored_y="-10" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0"/>
+    </Tranform>
+  </Image>
+</InfoPopup>

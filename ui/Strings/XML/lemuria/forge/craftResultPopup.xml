@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="1.2">
+  <Image name="img_bg" type="3" subinfo="scene/lemuria/scale9/frame_smithy_help_0101.png:(12,12,24,27)" x="0" y="0" z="0" width="530" height="425" anchor_x="0.5" anchor_y="0.5" visible="1" rotation="0">
+    <Image name="img_title" x="0" y="190.5" z="0" width="153" height="42" anchor_x="0.5" anchor_y="1" rotation="0" visible="1" type="8" subinfo="scene/lemuria/txt_success_craft.png" sublanginfo="scene/lemuria/txt_success_craft_en.png" subwidth="266" subheight="44" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="1" anchor_max_x="0.5" anchor_max_y="1" anchored_x="0" anchored_y="-22" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0"/>
+    <Image name="img_item_bg" x="0" y="58" z="1" width="150" height="150" anchor_x="0.5" anchor_y="0.5" type="3" subinfo="scene/lemuria/btn_slot_0101.png:(38,39,78,78)" visible="1" rotation="0">
+      <Tranform name="node_item" x="0" y="0" z="0" width="0" height="0" anchor_x="0.5" anchor_y="0.5" type="1" visible="1" rotation="0"/>
+    </Image>
+    <Tranform name="node_pendant_option" x="0" y="-76" z="2" width="150" height="108" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0.5" anchor_max_x="1" anchor_max_y="0.5" offset_left="190" offset_right="190" anchored_y="-76" anchored_x="0.0" offset_top="0" offset_bottom="0">
+      <Tranform name="node_option_node1" x="0" y="6" z="0" width="150" height="28" anchor_x="0.5" anchor_y="0.5" type="1" visible="1" rotation="0" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0.5" anchor_max_x="1" anchor_max_y="0.5" offset_left="0" offset_right="0" anchored_y="6" anchored_x="0" offset_top="0" offset_bottom="0">
+        <Image name="img_frame1" x="0" y="0" z="0" width="150" height="33" anchor_x="0.5" anchor_y="0.5" type="3" subinfo="scene/lemuria/scale9/frame_slot_info_0101.png:(6,7,14,14)" visible="1" rotation="0">
+          <Text name="label_type_label1" x="-32" y="0" z="0" width="70" height="24" anchor_x="0.5" anchor_y="0.5" type="5" subinfo="RGBA(1.00,0.80,0.60,1.00):16" localizeinfo="옵션명" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+          <Text name="label_value_label1" x="30" y="0" z="0" width="60" height="24" anchor_x="0.5" anchor_y="0.5" type="5" subinfo="RGBA(0.90,0.90,0.90,1.00):16" localizeinfo="+00" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+        </Image>
+      </Tranform>
+      <Tranform name="node_option_node2" x="0" y="6" z="1" width="150" height="31" anchor_x="0.5" anchor_y="0.5" type="1" visible="1" rotation="0" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0.5" anchor_max_x="1" anchor_max_y="0.5" offset_left="0" offset_right="0" anchored_y="6" anchored_x="0" offset_top="0" offset_bottom="0">
+        <Image name="img_frame2" x="0" y="0" z="0" width="150" height="33" anchor_x="0.5" anchor_y="0.5" type="3" subinfo="scene/lemuria/scale9/frame_slot_info_0101.png:(6,7,14,14)" visible="1" rotation="0">
+          <Text name="label_type_label2" x="-32" y="0" z="0" width="70" height="24" anchor_x="0.5" anchor_y="0.5" type="5" subinfo="RGBA(1.00,0.80,0.60,1.00):16" localizeinfo="옵션명" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+          <Text name="label_value_label2" x="30" y="0" z="0" width="60" height="24" anchor_x="0.5" anchor_y="0.5" type="5" subinfo="RGBA(0.90,0.90,0.90,1.00):16" localizeinfo="+00" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+        </Image>
+      </Tranform>
+      <Tranform name="node_option_node3" x="0" y="6" z="2" width="150" height="31" anchor_x="0.5" anchor_y="0.5" type="1" visible="1" rotation="0" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0.5" anchor_max_x="1" anchor_max_y="0.5" offset_left="0" offset_right="0" anchored_y="6" anchored_x="0" offset_top="0" offset_bottom="0">
+        <Image name="img_frame3" x="0" y="0" z="0" width="150" height="33" anchor_x="0.5" anchor_y="0.5" type="3" subinfo="scene/lemuria/scale9/frame_slot_info_0101.png:(6,7,14,14)" visible="1" rotation="0">
+          <Text name="label_type_label3" x="-32" y="0" z="0" width="70" height="24" anchor_x="0.5" anchor_y="0.5" type="5" subinfo="RGBA(1.00,0.80,0.60,1.00):16" localizeinfo="옵션명" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+          <Text name="label_value_label3" x="30" y="0" z="0" width="60" height="24" anchor_x="0.5" anchor_y="0.5" type="5" subinfo="RGBA(0.90,0.90,0.90,1.00):16" localizeinfo="+00" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+        </Image>
+      </Tranform>
+    </Tranform>
+    <Image name="btn_confirm" x="0" y="-188.5" z="3" width="162" height="56" anchor_x="0.5" anchor_y="0" rotation="0" visible="1" type="4" subinfo="transparent" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="0" anchor_max_x="0.5" anchor_max_y="0" anchored_x="0" anchored_y="24" click_mode="2" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0">
+      <Image name="img_new_2" x="0" y="0" z="0" width="154" height="48" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scale9/bt_blue_00.png:(11,11,23,23)" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0" anchor_max_x="1" anchor_max_y="1" offset_left="4" offset_right="4" offset_bottom="4" offset_top="4" anchored_x="0" anchored_y="0">
+        <Text name="label_new" x="0" y="0" z="0" width="134" height="28" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="6" subinfo="RGBA(1.00,1.00,1.00,1.00):20" localizeinfo="BTN_OK" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0.5" anchor_max_x="1" anchor_max_y="0.5" offset_left="10" offset_right="10" anchored_y="0" stroke_color="RGBA(0.11,0.23,0.35,1.00)" anchored_x="0" offset_top="0" offset_bottom="0" stroke_size="2"/>
+      </Image>
+    </Image>
+  </Image>
+</root>

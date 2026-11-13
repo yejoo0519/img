@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<random_pocket>
+  <Image type="4" name="btn_help" subinfo="scene/colosseum/bt_ranking_help.png" x="-246" y="108" z="0" width="50" height="50" />
+  <Text type="6" name="label_title" subinfo="RGBA(1.000, 0.722, 0.494, 1.000):16" localizeinfo="Thxgiving_13" x="15" y="119" z="0" width="300" height="30" />
+  <Text type="6" name="label_subtitle" subinfo="RGBA(0.945, 1.000, 0.000, 1.000):10" localizeinfo="Thxgiving_131" x="15" y="101" z="0" width="300" height="30" />
+  <Text type="5" name="label_description" subinfo="RGBA(0.722, 0.557, 0.478, 1.000):14" localizeinfo="Thxgiving_14" x="15" y="-146" z="0" width="500" height="30" />
+  <Image type="2" name="img_effect" subinfo="scene/worldmap/anticbox_bg.png" x="15" y="-18" z="0" width="300" height="196" />
+  <Image type="2" name="img_board_1_1" subinfo="scene/event/thxgiving2017/board_1.png" x="-181" y="88" z="0" width="120" height="24" />
+  <Image type="3" name="img_board_1_2" subinfo="scene/event/thxgiving2017/scale9/board_2.png:(17.0, 3.0, 1.0, 16.0)" x="-182" y="-25" z="0" width="147" height="218">
+    <Image type="3" name="img_now" subinfo="scene/event/thxgiving2017/scale9/box_1.png:(9.0, 2.0, 3.0, 9.0)" x="0" y="79" z="0" width="95" height="20">
+      <Text type="5" name="label_now" subinfo="RGBA(0.196, 0.196, 0.196, 1.000):16" localizeinfo="Thxgiving_15" x="0" y="0" z="0" width="160" height="30" />
+    </Image>
+    <Image type="4" name="btn_stop" subinfo="scale9/bt_4.png:(15.0, 8.0, 8.0, 16.0)" x="-2" y="-81.83" z="0" width="130" height="40">
+      <Text type="6" name="label_text" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):16" localizeinfo="Thxgiving_16" x="0" y="0" z="0" width="130" height="40" />
+    </Image>
+  </Image>
+  <Image type="2" name="img_board_2_1" subinfo="scene/event/thxgiving2017/board_1.png" x="210" y="88" z="0" width="120" height="24" />
+  <Image type="3" name="img_board_2_2" subinfo="scene/event/thxgiving2017/scale9/board_2.png:(17.0, 3.0, 1.0, 16.0)" x="210" y="-25" z="0" width="147" height="218">
+    <Image type="3" name="img_next" subinfo="scene/event/thxgiving2017/scale9/box_1.png:(9.0, 2.0, 3.0, 9.0)" x="0" y="79" z="0" width="95" height="20">
+      <Text type="5" name="label_next" subinfo="RGBA(0.196, 0.196, 0.196, 1.000):16" localizeinfo="Thxgiving_17" x="0" y="0" z="0" width="160" height="30" />
+    </Image>
+    <Image type="4" name="btn_open" subinfo="scale9/bt_3.png:(16.0, 6.0, 7.0, 17.0)" x="-2" y="-81.83" z="0" width="130" height="40">
+      <Text type="6" name="label_text" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):16" localizeinfo="Thxgiving_18" x="0" y="0" z="0" width="130" height="40" />
+    </Image>
+  </Image>
+  <Image type="4" name="btn_ranking" subinfo="scene/event/thxgiving2017/btn_crown.png" x="-204" y="108" z="0" width="42" height="47" />
+  <Image type="2" name="img_pocket" subinfo="scene/event/thxgiving2017/lucky_bag_spine.png" x="15" y="-61.3" z="0" width="150" height="147" />
+  <Text type="5" name="label_level" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):16" localizeinfo="LV.7" x="13.8" y="82.93001" z="0" width="160" height="30" />
+  <Text type="5" name="label_level_info" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):16" localizeinfo="Thxgiving_19" x="13.8" y="62" z="0" width="160" height="30" />
+  <Image type="3" name="img_pocket_info" subinfo="scene/event/thxgiving2017/scale9/box_3.png:(10.0, 3.0, 6.0, 10.0)" x="233" y="114" z="0" width="120" height="30">
+    <Image type="2" name="img_pocket_icon" subinfo="scene/event/thxgiving2017/lucky_bag_icon.png" x="-52.00002" y="0" z="0" width="36" height="36" />
+    <Text type="5" name="label_pocket_count" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):16" localizeinfo="99999" x="3.099998" y="0" z="0" width="160" height="30" />
+    <Image type="4" name="btn_button" subinfo="scene/shop/bt_cashcharge.png" x="49.1" y="0" z="0" width="33.28" height="35.84" />
+  </Image>
+  <Image type="3" name="img_image" subinfo="scene/event/thxgiving2017/scale9/box_3.png:(10.0, 3.0, 6.0, 10.0)" x="14" y="33" z="0" width="120" height="23">
+    <Text type="5" name="label_probability" subinfo="RGBA(0.976, 0.718, 0.263, 1.000):16" localizeinfo="Thxgiving_20" x="0" y="0" z="0" width="160" height="30" />
+  </Image>
+  <Image name="img_complete" type="2" subinfo="scene/event/thxgiving2019/event2019_choo_text_get_complete.png" x="207.4" y="-28.8" z="0" width="106" height="54" />
+</random_pocket>

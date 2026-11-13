@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="1.0">
+  <Image name="img_new" x="0" y="0" z="0" width="440" height="200" anchor_x="0.5" anchor_y="0.5" type="3" subinfo="scale9/pop_bg.png:(35,35,70,70)">
+    <Text name="label_title" x="0" y="50" z="0" width="360" height="40" anchor_x="0.5" anchor_y="0.5" type="5" subinfo="RGBA(0.2,0.2,0.2,1.0):20" localizeinfo="reveMsg54"/>
+    <Image name="img_new_1" x="-24" y="-20" z="0" width="32" height="31" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/fortune/newGem/icon_gold.png"/>
+    <Text name="label_upgrade" x="-70" y="-20" z="0" width="60" height="40" anchor_x="0.5" anchor_y="0.5" type="5" subinfo="RGBA(0.2,0.2,0.2,1.0):20" localizeinfo="reveMsg16"/>
+    <Text name="label_gold" x="45" y="-20" z="0" width="100" height="40" anchor_x="0.5" anchor_y="0.5" type="5" subinfo="RGBA(0.2,0.2,0.2,1.0):20" localizeinfo="Sample Text"/>
+    <Tranform name="node_confirm" x="-95.0" y="-65.0" z="0" width="1" height="1" anchor_x="0.5" anchor_y="0.5" type="1"/>
+    <Tranform name="node_close" x="95" y="-65" z="0" width="1" height="1" anchor_x="0.5" anchor_y="0.5" type="1"/>
+    <Image name="img_new_2" x="0" y="16" z="0" width="65" height="30" anchor_x="0.5" anchor_y="0.5" type="3" subinfo="scale9/back_grey.png:(1,2,2,4)">
+      <Text name="label_new" x="0" y="0" z="0" width="60" height="30" anchor_x="0.5" anchor_y="0.5" type="5" subinfo="RGBA(1.0,1.0,1.0,1.0):22" localizeinfo="1"/>
+    </Image>
+    <Image name="btn_right" x="50" y="16" z="0" width="37" height="30" anchor_x="0.5" anchor_y="0.5" type="4" subinfo="scene/skypalace/move_arrow.png" rotation="-90"/>
+    <Image name="btn_left" x="-50" y="16" z="0" width="37" height="30" anchor_x="0.5" anchor_y="0.5" type="4" subinfo="scene/skypalace/move_arrow.png" rotation="90"/>
+  </Image>
+</root>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="1.2.1">
+  <Tranform name="node_info" x="125" y="-26" z="0" width="192" height="246" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1">
+    <Tranform name="node_info_img" x="0" y="0" z="0" width="192" height="246" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1">
+      <Image name="img_info_bg1" x="0" y="0" z="0" width="188" height="242" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="scene/rift/main/main_exp_dungeon_bg.png"/>
+      <Image name="img_info_bg2" x="0" y="0" z="0" width="188" height="242" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="scene/rift/main/Rift Mine_bg.png"/>
+    </Tranform>
+    <Image name="img_info_panel" x="0" y="-68" z="0" width="182" height="26" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scene/rift/scale9/main_time_info_bg.png:(6,6,12,12)">
+      <Text name="label_info" x="0" y="0" z="0" width="170" height="24" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(0.97254902,0.97254902,0.97254902,1.00000000):15" localizeinfo="17 : 20 : 00 채굴완료" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+    </Image>
+    <Image name="img_outer" x="0" y="0" z="0" width="192" height="246" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scene/rift/scale9/frame_outer.png:(16,16,32,32)"/>
+    <Image name="btn_enter" x="0" y="-98" z="0" width="182" height="40" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="transparent">
+      <Image name="img_enter" x="0" y="0" z="0" width="182" height="40" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scale9/bt_blue_00.png:(11,11,23,23)"/>
+      <Image name="img_enter_label" x="0" y="0" z="0" width="40" height="23" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="8" subinfo="scene/rift/main/enter_kr_txt.png" sublanginfo="scene/rift/main/enter_en_txt.png" subwidth="58" subheight="20"/>
+    </Image>
+  </Tranform>
+  <Image name="img_list_bg" x="-114" y="-26" z="0" width="220" height="246" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scene/rift/scale9/frame_bg4.png:(15,15,30,30)">
+    <Tranform name="node_table" x="0" y="0" z="0" width="205" height="240" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1">
+      <Image name="btn_rift_btn1" x="0" y="80" z="0" width="205" height="78" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="scene/rift/main/main_menu_btn.png">
+        <Image name="img_rift_btn_txt1" x="0" y="16" z="0" width="160" height="26" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="8" subinfo="scene/rift/main/Spirit EXP Dungeon_kr_txt.png" sublanginfo="scene/rift/main/Spirit EXP Dungeon_en_txt.png" subwidth="194" subheight="25"/>
+        <Image name="img_rift_btn_deco1" x="1.168831" y="-15.995671" z="1" width="136" height="30" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scene/rift/scale9/main_menu_btn_deco.png:(11,11,23,23)">
+          <Text name="label_rift_btn_info_label1" x="0" y="0" z="0" width="120" height="30" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(0.99607843,0.91372549,0.17254902,1.00000000):20" localizeinfo="( 3 / 3 )" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+        </Image>
+        <Image name="img_highlight" x="0" y="0" z="2" width="228" height="100" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="scene/rift/main/btn_highligt.png"/>
+      </Image>
+      <Image name="btn_rift_btn2" x="0" y="0" z="1" width="205" height="78" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="scene/rift/main/main_menu_btn.png">
+        <Image name="img_rift_btn_txt2" x="0" y="17" z="0" width="95" height="26" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="8" subinfo="scene/rift/main/Rift Mine_2_kr_txt.png" sublanginfo="scene/rift/main/Rift Mine_2_en_txt.png" subwidth="105" subheight="23"/>
+        <Image name="img_rift_btn_deco2" x="1.168831" y="-15.995671" z="0" width="136" height="30" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scene/rift/scale9/main_menu_btn_deco.png:(11,11,23,23)">
+          <Text name="label_rift_btn_info_label2" x="0" y="0" z="0" width="96" height="30" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(0.99607843,0.91372549,0.17254902,1.00000000):20" localizeinfo="10 : 00 : 03" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+        </Image>
+      </Image>
+    </Tranform>
+    <Image name="img_down" x="0" y="-138" z="0" width="48" height="22" anchor_x="0.5" anchor_y="0.5" rotation="180" visible="1" type="2" subinfo="scene/rift/main/Next_M_btn.png"/>
+    <Image name="img_up" x="0" y="138" z="0" width="48" height="22" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="scene/rift/main/Next_M_btn.png"/>
+  </Image>
+</root>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GuildMainScene version="1.3.0">
+  <Image name="img_bg" type="2" subinfo="common_background/guild_bg.jpg" x="0" y="0" z="0" width="800" height="480" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  <Tranform name="node_main" type="1" x="0" y="-22" z="1" width="770" height="416" visible="0" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Image name="img_main_bg" type="2" subinfo="scene/guild/guild_main_bg.png" x="0" y="0" z="0" width="770" height="416" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image name="btn_my_guild" type="4" subinfo="scene/guild/guild_mainbox.png" x="-235" y="-30" z="1" width="238" height="294" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" click_mode="2">
+      <Tranform name="node_my_guild_icon" type="1" x="0" y="-20" z="0" width="0" height="0" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Text name="label_my_guild_title" type="5" subinfo="RGBA(0.839, 0.714, 0.663, 1.000):30:GodoB" localizeinfo="guild_main_my_guild" x="0" y="97" z="1" width="150" height="36" visible="1" rotation="0" anchor_x="0.5" anchor_y="1" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+      <Text name="label_my_guild_comment" type="5" subinfo="RGBA(1.000, 0.749, 0.000, 1.000):14:GodoB" localizeinfo="" x="0" y="-60" z="1" width="220" height="20" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+      <Image name="img_my_guild_btn" type="3" subinfo="scale9/bt_2.png:(17,20,2,2)" x="0" y="-97" z="1" width="148" height="40" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Text name="label_my_guild_btn" type="5" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20:GodoB" localizeinfo="" x="0" y="-97" z="2" width="140" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+    </Image>
+    <Image name="btn_all_guild" type="4" subinfo="scene/guild/guild_mainbox.png" x="3" y="-30" z="1" width="238" height="294" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" click_mode="2">
+      <Image name="img_all_guild_icon" type="2" subinfo="scene/guild/guild_all.png" x="0" y="8" z="0" width="139" height="96" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Text name="label_all_guild_title" type="5" subinfo="RGBA(0.839, 0.714, 0.663, 1.000):30:GodoB" localizeinfo="guild_main_all_guild" x="0" y="97" z="1" width="150" height="36" visible="1" rotation="0" anchor_x="0.5" anchor_y="1" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+      <Text name="label_all_guild_comment" type="5" subinfo="RGBA(1.000, 0.749, 0.000, 1.000):14:GodoB" localizeinfo="" x="0" y="-60" z="1" width="220" height="20" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+      <Image name="img_all_guild_btn" type="3" subinfo="scale9/bt_2.png:(17,20,2,2)" x="0" y="-97" z="1" width="148" height="40" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Text name="label_all_guild_btn" type="5" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20:GodoB" localizeinfo="guild_main_guild_ranking" x="0" y="-97" z="2" width="140" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+    </Image>
+    <Image name="btn_guild_war" type="4" subinfo="scene/guild/guild_mainbox.png" x="241" y="-30" z="1" width="238" height="294" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" click_mode="2">
+      <Image name="img_guild_war_icon" type="2" subinfo="scene/guild/guild_war/guildwar_setting/icon_competition.png" x="0" y="3.5" z="0" width="103" height="87" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Text name="label_guild_war_title" type="5" subinfo="RGBA(0.839, 0.714, 0.663, 1.000):30:GodoB" localizeinfo="GUILDWAR_MAIN_TITLE" x="0" y="97" z="1" width="150" height="36" visible="1" rotation="0" anchor_x="0.5" anchor_y="1" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+      <Text name="label_guild_war_comment" type="5" subinfo="RGBA(1.000, 0.749, 0.000, 1.000):14:GodoB" localizeinfo="" x="0" y="-60" z="1" width="220" height="20" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+      <Image name="img_guild_war_btn" type="3" subinfo="scale9/bt_2.png:(17,20,2,2)" x="0" y="-97" z="1" width="148" height="40" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Text name="label_guild_war_btn" type="5" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20:GodoB" localizeinfo="guild_raid_join" x="0" y="-97" z="2" width="140" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+    </Image>
+  </Tranform>
+</GuildMainScene>

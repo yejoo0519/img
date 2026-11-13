@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>hp_box</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{175,29}</string>
+                <key>spriteSourceSize</key>
+                <string>{175,29}</string>
+                <key>textureRect</key>
+                <string>{{1,1},{175,29}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>3</integer>
+            <key>pixelFormat</key>
+            <string>RGBA8888</string>
+            <key>premultiplyAlpha</key>
+            <true/>
+            <key>realTextureFileName</key>
+            <string>hj_v2.pvr.ccz</string>
+            <key>size</key>
+            <string>{177,31}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:4c4ae3a2b0c3d4f04ad15669e6d18d63:e6b7fb2ee6efcc4f0891d9ec5851d7e2:ef92d53bdc2739d0ef299593cef6e9bd$</string>
+            <key>textureFileName</key>
+            <string>hj_v2.pvr.ccz</string>
+        </dict>
+    </dict>
+</plist>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="1.2.1">
+  <Image name="img_back_pannel" type="3" subinfo="scene/event/world_raid/scale9/frame_bg.png:(10,8,20,19)" x="0" y="0" z="0" width="765" height="441"/>
+  <Image name="img_slot_back_pannel_select" type="2" subinfo="scene/event/world_raid/frame_deck_setting_select.png" x="-253" y="115" z="0" width="235" height="176"/>
+  <Image name="btn_slot_back_pannel_01" type="4" subinfo="scene/event/world_raid/frame_deck_setting_slot.png" x="-253" y="115" z="0" width="230" height="167">
+    <Image name="img_team_01" type="2" subinfo="scene/event/world_raid/txt_team_01.png" x="-84" y="52" z="0" width="18" height="30"/>
+    <Image name="btn_icon_empty_thumb_0101" type="4" subinfo="scene/event/world_raid/icon_empty_thumb.png" x="-71" y="7" z="0" width="56" height="56"/>
+    <Image name="btn_icon_empty_thumb_0102" type="4" subinfo="scene/event/world_raid/icon_empty_thumb.png" x="0" y="7" z="0" width="56" height="56"/>
+    <Image name="btn_icon_empty_thumb_0103" type="4" subinfo="scene/event/world_raid/icon_empty_thumb.png" x="71" y="7" z="0" width="56" height="56"/>
+    <Text name="label_eval_01" type="5" subinfo="RGBA(0.000, 1.000, 0.000, 1.000):14" localizeinfo="0" x="44" y="52" z="0" width="106" height="18"/>
+    <Text name="label_buff_01" type="5" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):18" localizeinfo="공격력" x="0" y="-50" z="0" width="200" height="36"/>
+  </Image>
+  <Image name="btn_slot_back_pannel_02" type="4" subinfo="scene/event/world_raid/frame_deck_setting_slot.png" x="-253" y="-55" z="0" width="230" height="167">
+    <Image name="img_team_02" type="2" subinfo="scene/event/world_raid/txt_team_02.png" x="-83" y="57" z="0" width="27" height="30"/>
+    <Image name="btn_icon_empty_thumb_0201" type="4" subinfo="scene/event/world_raid/icon_empty_thumb.png" x="-71" y="7" z="0" width="56" height="56"/>
+    <Image name="btn_icon_empty_thumb_0202" type="4" subinfo="scene/event/world_raid/icon_empty_thumb.png" x="0" y="7" z="0" width="56" height="56"/>
+    <Image name="btn_icon_empty_thumb_0203" type="4" subinfo="scene/event/world_raid/icon_empty_thumb.png" x="71" y="7" z="0" width="56" height="56"/>
+    <Text name="label_eval_02" type="5" subinfo="RGBA(0.000, 1.000, 0.000, 1.000):14" localizeinfo="0" x="44" y="52" z="0" width="106" height="18"/>
+    <Text name="label_buff_02" type="5" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):18" localizeinfo="공격력" x="0" y="-50" z="0" width="200" height="36"/>
+  </Image>
+  <Image name="btn_fillter" type="11" subinfo="scene/event/world_raid/bt_filter.png" sublanginfo="scene/event/world_raid/bt_filter_en.png" x="-85" y="183" z="0" width="90" height="30" subwidth="90" subheight="30"/>
+  <Image name="btn_order_select" type="4" subinfo="scene/event/world_raid/bt_order.png" x="26" y="183" z="0" width="120" height="30">
+    <Image name="img_asc" type="8" subinfo="scene/event/world_raid/txt_ascendingorder.png" sublanginfo="scene/event/world_raid/txt_ascendingorder_en.png" x="-2" y="0" z="0" width="82" height="14" subwidth="99" subheight="13"/>
+    <Image name="img_desc" type="8" subinfo="scene/event/world_raid/txt_descendingorder.png" sublanginfo="scene/event/world_raid/txt_descendingorder_en.png" x="-2" y="0" z="0" width="81" height="14" subwidth="104" subheight="13"/>
+  </Image>
+  <Image name="img_search" type="2" subinfo="scene/event/world_raid/frame_search.png" x="169" y="183" z="0" width="160" height="30"/>
+  <Image name="btn_bonus_dragon" type="11" subinfo="scene/event/world_raid/bt_buff.png" sublanginfo="scene/event/world_raid/bt_buff_en.png" x="309" y="183" z="0" width="115" height="34" subwidth="115" subheight="34"/>
+  <Image name="img_view_point" type="3" subinfo="scene/event/world_raid/scale9/frame_bg5.png:(10,8,20,19)" x="118" y="13" z="0" width="503" height="306"/>
+  <Image name="img_back_pannel_slot_btn" type="3" subinfo="scene/event/world_raid/scale9/frame_bg5.png:(10,8,20,19)" x="-253" y="-175" z="0" width="232" height="64"/>
+  <Image name="btn_exit" type="11" subinfo="scene/event/world_raid/bt_exit.png" sublanginfo="scene/event/world_raid/bt_exit_en.png" x="291" y="-175" z="0" width="152" height="61" subwidth="152" subheight="61"/>
+  <Image name="btn_move_cave" type="11" subinfo="scene/event/world_raid/bt_cave.png" sublanginfo="scene/event/world_raid/bt_cave_en.png" x="133" y="-175" z="0" width="152" height="61" subwidth="152" subheight="61"/>
+  <Image name="btn_reset_preset" type="11" subinfo="scene/event/world_raid/bt_deck_reset.png" sublanginfo="scene/event/world_raid/bt_deck_reset_en.png" x="-71" y="-175" z="0" width="122" height="61" subwidth="122" subheight="61"/>
+  <Image name="btn_preset_0" type="4" subinfo="scene/event/world_raid/bt_deck_01_off.png" x="-333" y="-175" z="0" width="45" height="45"/>
+  <Image name="btn_preset_1" type="4" subinfo="scene/event/world_raid/bt_deck_02_off.png" x="-278" y="-175" z="0" width="45" height="45"/>
+  <Image name="btn_preset_2" type="4" subinfo="scene/event/world_raid/bt_deck_03_off.png" x="-223" y="-175" z="0" width="45" height="45"/>
+  <Image name="btn_preset_3" type="4" subinfo="scene/event/world_raid/bt_deck_04_off.png" x="-168" y="-175" z="0" width="45" height="45"/>
+</root>

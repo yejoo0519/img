@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main version="1.2">
+  <Image type="2" name="img_bg" subinfo="scene/archa/bg/arha_lobby.jpg" x="0" y="0" z="1" width="800" height="480" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  <Image type="2" name="img_title_deco" subinfo="scene/archa/main_top.png" x="-89" y="211" z="2" width="461" height="58" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="1" anchor_max_x="0.5" anchor_max_y="1" anchored_x="-89" anchored_y="-29" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0">
+    <Image type="8" name="img_title" subinfo="scene/archa/txt_entrance.png" sublanginfo="scene/archa/txt_entrance_en.png" x="0" y="7.59" z="0" width="179" height="39" subwidth="225" subheight="36" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  </Image>
+  <Image type="3" name="img_ticket" subinfo="scale9/chat_bg.png:(9,9,20,20)" x="224.6" y="200" z="3" width="100" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" layout_mode="anchored" anchor_min_x="1" anchor_min_y="1" anchor_max_x="1" anchor_max_y="1" anchored_x="-175.4" anchored_y="-40" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0">
+    <Image type="2" name="img_ticket_icon" subinfo="item/medium/ticket_a.png" x="-50" y="0" z="0" width="60" height="60" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Text type="5" name="label_ticket" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="" x="10" y="0" z="0" width="76" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+    <Image type="4" name="btn_ticket" subinfo="scene/shop/bt_cashcharge.png" x="70" y="0" z="0" width="47" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  </Image>
+  <Image type="4" name="btn_lab" subinfo="scene/archa/archa_bt1.png" x="307" y="71" z="4" width="141" height="179" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" layout_mode="anchored" anchor_min_x="1" anchor_min_y="0.5" anchor_max_x="1" anchor_max_y="0.5" anchored_x="-93" anchored_y="71" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0">
+    <Text type="5" name="label_lab" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="ARCHA65" x="0" y="-28" z="0" width="120" height="80" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    <Image type="2" name="img_lab" subinfo="scene/archa/archa_bt1_deco1.png" x="0" y="40" z="0" width="67" height="33" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image type="2" name="img_lab_close" subinfo="scene/archa/locked_slot.png" x="0" y="0" z="0" width="141" height="179" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  </Image>
+  <Image type="4" name="btn_shop" subinfo="scene/archa/archa_bt1.png" x="307" y="-126" z="5" width="141" height="179" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" layout_mode="anchored" anchor_min_x="1" anchor_min_y="0" anchor_max_x="1" anchor_max_y="0" anchored_x="-93" anchored_y="114" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0">
+    <Text type="5" name="label_shop" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="ARCHA66" x="0" y="-28" z="0" width="100" height="80" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    <Image type="2" name="img_shop" subinfo="scene/archa/archa_bt1_deco2.png" x="0" y="40" z="0" width="70" height="34" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image type="2" name="img_shop_close" subinfo="scene/archa/locked_slot.png" x="0" y="0" z="0" width="141" height="179" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  </Image>
+  <Image type="4" name="btn_exit" subinfo="common/exit_1.png" x="364" y="200" z="6" width="50" height="52" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" layout_mode="anchored" anchor_min_x="1" anchor_min_y="1" anchor_max_x="1" anchor_max_y="1" anchored_x="-36" anchored_y="-40" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0"/>
+  <Tranform type="1" name="node_main_layer" x="0" y="0" z="7" width="800" height="480" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0" anchor_max_x="1" anchor_max_y="1" offset_left="0" offset_right="0" offset_bottom="0" offset_top="0" anchored_x="0" anchored_y="0">
+    <Image type="2" name="img_sub_title" subinfo="scene/archa/monster_txt_bg1.png" x="-263" y="147" z="0" width="274" height="91" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Text type="6" name="label_sub_txt1" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):17" localizeinfo="" x="-28.8" y="15" z="0" width="216.5" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+      <Text type="5" name="label_sub_txt2" subinfo="RGBA(1.000, 0.827, 0.039, 1.000):24" localizeinfo="" x="-28.75" y="-6.799999" z="0" width="216.5" height="48" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0.5" anchor_max_x="0" anchor_max_y="0.5" anchored_x="108.25" anchored_y="-6.799999" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0"/>
+    </Image>
+    <Image type="4" name="btn_hidden" subinfo="scene/archa/bt_hidden.png" x="-274" y="78.5" z="0" width="40" height="46" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0.5" anchor_max_x="0" anchor_max_y="0.5" anchored_x="126" anchored_y="78.5" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0">
+      <Image type="2" name="btn_hidden_eff" subinfo="scene/archa/bt_hidden_eff.png" x="0" y="0" z="-1" width="111" height="109" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Text name="label_hidden_timer" x="0" y="-19" z="0" width="100" height="100" anchor_x="0.5" anchor_y="0.5" type="6" subinfo="RGBA(0.98,0.98,0.98,1.00):16" localizeinfo="00:00" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    </Image>
+    <Image type="4" name="btn_help" subinfo="scene/gate/bt_exclamation.png" x="-370" y="78.5" z="0" width="40" height="46" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0.5" anchor_max_x="0" anchor_max_y="0.5" anchored_x="30" anchored_y="78.5" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0"/>
+    <Image type="4" name="btn_rank" subinfo="common/bt_rank.png" x="-322" y="78.5" z="0" width="40" height="46" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0.5" anchor_max_x="0" anchor_max_y="0.5" anchored_x="78" anchored_y="78.5" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0"/>
+    <Image type="4" name="btn_random" subinfo="scene/archa/archa_bt2.png" x="-285" y="-180" z="0" width="187" height="68" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0" anchor_max_x="0" anchor_max_y="0" anchored_x="115" anchored_y="60" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0">
+      <Text type="6" name="label_random" subinfo="RGBA(1.000, 1.000, 0.000, 1.000):24:notoblack_yellow_24" localizeinfo="RANDOM" x="0" y="0" z="0" width="188" height="68" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    </Image>
+    <Image type="4" name="btn_friend" subinfo="scene/archa/archa_bt3.png" x="-80" y="-180" z="0" width="187" height="68" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="0" anchor_max_x="0.5" anchor_max_y="0" anchored_x="-80" anchored_y="60" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0">
+      <Text type="6" name="label_friend" subinfo="RGBA(1.000, 1.000, 0.000, 1.000):24:notoblack_yellow_24" localizeinfo="FRIEND" x="0" y="0" z="0" width="188" height="68" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    </Image>
+    <Image type="4" name="btn_single" subinfo="scene/archa/archa_bt4.png" x="125" y="-180" z="0" width="187" height="68" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" layout_mode="anchored" anchor_min_x="1" anchor_min_y="0" anchor_max_x="1" anchor_max_y="0" anchored_x="-275" anchored_y="60" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0">
+      <Text type="6" name="label_single" subinfo="RGBA(1.000, 1.000, 0.000, 1.000):24:notoblack_yellow_24" localizeinfo="SINGLE" x="0" y="0" z="0" width="188" height="68" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    </Image>
+  </Tranform>
+  <Tranform type="1" name="node_private_layer" x="-89" y="5.5" z="8" width="100" height="100" visible="0" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Tranform type="1" name="node_private" subinfo="" x="200" y="0" z="0" width="194" height="273" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image type="4" name="btn_create" subinfo="scene/archa/bt_private_squad.png" x="0" y="0" z="0" width="194" height="273" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="4" name="btn_join" subinfo="scene/archa/archa_bt3.png" x="0" y="-170" z="0" width="150" height="54.4" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Text type="6" name="label_text" subinfo="RGBA(1.000, 1.000, 0.000, 1.000):24:notoblack_yellow_24" localizeinfo="JOIN" x="0" y="0" z="0" width="150" height="54" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+      </Image>
+    </Tranform>
+    <Tranform type="1" name="node_private_duo" subinfo="" x="0" y="0" z="1" width="184" height="262" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image type="4" name="btn_create_duo" subinfo="scene/archa/bt_private_duo.png" x="0" y="0" z="0" width="193" height="273" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="4" name="btn_join_duo" subinfo="scene/archa/archa_bt6.png" x="0" y="-170" z="0" width="150" height="54.4" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Text type="6" name="label_text" subinfo="RGBA(1.000, 1.000, 0.000, 1.000):24:notoblack_yellow_24" localizeinfo="JOIN" x="0" y="0" z="0" width="150" height="54" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+      </Image>
+    </Tranform>
+    <Tranform type="1" name="node_private_single" subinfo="" x="-200" y="0" z="2" width="184" height="262" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image type="4" name="btn_create_single" subinfo="scene/archa/bt_hidden_single.png" x="0" y="0" z="0" width="193" height="273" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    </Tranform>
+  </Tranform>
+  <Tranform type="1" name="node_tip_layer" x="0" y="0" z="9" width="800" height="480" visible="0" rotation="0" anchor_x="0.5" anchor_y="0.5" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0" anchor_max_x="1" anchor_max_y="1" offset_left="0" offset_right="0" offset_bottom="0" offset_top="0" anchored_x="0" anchored_y="0">
+    <Image type="3" name="img_tip_black_layer" subinfo="scale9/chat_bg.png:(9,9,20,20)" x="0" y="0" z="0" width="800" height="480" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0" anchor_max_x="1" anchor_max_y="1" offset_left="0" offset_right="0" offset_bottom="0" offset_top="0" anchored_x="0" anchored_y="0"/>
+    <Image type="3" name="img_tipbg" subinfo="scale9/pop2_1_bg.png:(10,10,20,20)" x="0" y="0" z="0" width="600" height="400" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image type="3" name="img_inner_bg_img1" subinfo="scale9/pop2_2_bg.png:(10,10,20,20)" x="0" y="56.6" z="0" width="570" height="163.4" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image type="2" name="img_tip" subinfo="scene/archa/monster_tip.png" x="0" y="0" z="0" width="522" height="34" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+      <Image type="3" name="img_rw_scroll" subinfo="scale9/pop2_2_bg.png:(10,10,20,20)" x="0" y="-125" z="0" width="570" height="120" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="4" name="btn_tipexit" subinfo="common/exit_1.png" x="285" y="189" z="0" width="50" height="52" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="2" name="img_reward" subinfo="scene/archa/txt_reward2.png" x="0" y="-65" z="0" width="156" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Text type="5" name="label_monster_disc" subinfo="RGBA(1.000, 0.000, 0.000, 1.000):14" localizeinfo="" x="0" y="96" z="0" width="540" height="83" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+      <Text type="5" name="label_tip" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="" x="0" y="15" z="0" width="540" height="80" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+      <Text type="6" name="label_rw_sub_txt1" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):17" localizeinfo="" x="0" y="175" z="0" width="216.5" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+      <Text type="5" name="label_rw_sub_txt2" subinfo="RGBA(1.000, 0.827, 0.039, 1.000):24" localizeinfo="" x="0" y="155" z="0" width="216.5" height="48" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    </Image>
+  </Tranform>
+  <Tranform type="1" name="node_rank_layer" x="0" y="0" z="10" width="800" height="480" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0" anchor_max_x="1" anchor_max_y="1" offset_left="0" offset_right="0" offset_bottom="0" offset_top="0" anchored_x="0" anchored_y="0">
+    <Image type="3" name="img_ranking" subinfo="scale9/chat_bg.png:(9,9,20,20)" x="0" y="5.5" z="0" width="800" height="480" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image type="4" name="btn_week_select" subinfo="scene/colosseum/champion/scale9/tab_1.png:(31.0, 41.0, 12.0, 0.0)" x="-62" y="201.1" z="0" width="120" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Text type="5" name="label_week_select" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):12" localizeinfo="ARCHA_RANK_4" x="-15" y="0" z="0" width="120" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+      </Image>
+      <Image type="4" name="btn_week" subinfo="scene/colosseum/champion/scale9/tab_2.png:(31.0, 41.0, 13.0, 0.0)" x="-62" y="201.1" z="0" width="120" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Text type="5" name="label_week" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):12" localizeinfo="ARCHA_RANK_4" x="-15" y="0" z="0" width="120" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+      </Image>
+      <Image type="4" name="btn_day" subinfo="scene/colosseum/champion/scale9/tab_2.png:(31.0, 41.0, 13.0, 0.0)" x="-181" y="201.1" z="0" width="120" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Text type="5" name="label_day" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):12" localizeinfo="ARCHA_RANK_3" x="-15" y="0" z="0" width="120" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+      </Image>
+      <Image type="4" name="btn_day_select" subinfo="scene/colosseum/champion/scale9/tab_1.png:(31.0, 41.0, 12.0, 0.0)" x="-181" y="201.1" z="0" width="120" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Text type="5" name="label_day_select" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):12" localizeinfo="ARCHA_RANK_3" x="-15" y="0" z="0" width="120" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+      </Image>
+      <Image type="4" name="btn_week_help" subinfo="scene/colosseum/bt_ranking_help.png" x="-38" y="201" z="0" width="30" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="4" name="btn_day_help" subinfo="scene/colosseum/bt_ranking_help.png" x="-156" y="201" z="0" width="30" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="3" name="img_point_panel" subinfo="scale9/pop2_1_bg.png:(11.0, 16.0, 18.0, 12.0)" x="0" y="-16" z="0" width="500" height="408" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image type="3" name="img_point_inner_bg" subinfo="scale9/pop2_2_bg.png:(10,10,20,20)" x="0" y="-10" z="0" width="480" height="360" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+          <Tranform type="1" name="node_rank_box1" x="0" y="165.7" z="0" width="480" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+            <Text type="5" name="label_ranktxt_1" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):24:notoblack_yellow_24" localizeinfo="1" x="-200" y="0" z="0" width="100" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Tranform type="1" name="node_rankicon_1" x="-150" y="0" z="0" width="31" height="23" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+            <Text type="5" name="label_rank_id_1" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14:Helvetica-Bold" localizeinfo="" x="-50" y="0" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Text type="5" name="label_rank_point_1" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="" x="80" y="0" z="0" width="130" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Image type="4" name="btn_rank_cave_1" subinfo="scene/archa/rank_cave_bt.png" x="190" y="0" z="0" width="75" height="25" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+              <Text type="5" name="label_rank_cave_txt_1" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):12" localizeinfo="ARCHA_RANK_5" x="0" y="0" z="0" width="80" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            </Image>
+          </Tranform>
+          <Image type="3" name="img_rank_box2" subinfo="scene/colosseum/champion/scale9/stripe_1.png:(8,4,16,8)" x="0" y="135.7" z="0" width="480" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+            <Text type="5" name="label_ranktxt_2" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):24:notoblack_yellow_24" localizeinfo="2" x="-200" y="0" z="0" width="100" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Tranform type="1" name="node_rankicon_2" x="-150" y="0" z="0" width="31" height="23" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+            <Text type="5" name="label_rank_id_2" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14:Helvetica-Bold" localizeinfo="" x="-50" y="0" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Text type="5" name="label_rank_point_2" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="" x="80" y="0" z="0" width="130" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Image type="4" name="btn_rank_cave_2" subinfo="scene/archa/rank_cave_bt.png" x="190" y="0" z="0" width="75" height="25" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+              <Text type="5" name="label_rank_cave_txt_2" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):12" localizeinfo="ARCHA_RANK_5" x="0" y="0" z="0" width="80" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            </Image>
+          </Image>
+          <Tranform type="1" name="node_rank_box3" x="0" y="105.7" z="0" width="480" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+            <Text type="5" name="label_ranktxt_3" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):24:notoblack_yellow_24" localizeinfo="3" x="-200" y="0" z="0" width="100" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Tranform type="1" name="node_rankicon_3" x="-150" y="0" z="0" width="31" height="23" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+            <Text type="5" name="label_rank_id_3" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14:Helvetica-Bold" localizeinfo="" x="-50" y="0" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Text type="5" name="label_rank_point_3" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="" x="80" y="0" z="0" width="130" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Image type="4" name="btn_rank_cave_3" subinfo="scene/archa/rank_cave_bt.png" x="190" y="0" z="0" width="75" height="25" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+              <Text type="5" name="label_rank_cave_txt_3" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):12" localizeinfo="ARCHA_RANK_5" x="0" y="0" z="0" width="80" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            </Image>
+          </Tranform>
+          <Image type="3" name="img_rank_box4" subinfo="scene/colosseum/champion/scale9/stripe_1.png:(8,4,16,8)" x="0" y="75.7" z="0" width="480" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+            <Text type="5" name="label_ranktxt_4" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):24:notoblack_yellow_24" localizeinfo="4" x="-200" y="0" z="0" width="100" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Tranform type="1" name="node_rankicon_4" x="-150" y="0" z="0" width="31" height="23" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+            <Text type="5" name="label_rank_id_4" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14:Helvetica-Bold" localizeinfo="" x="-50" y="0" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Text type="5" name="label_rank_point_4" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="" x="80" y="0" z="0" width="130" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Image type="4" name="btn_rank_cave_4" subinfo="scene/archa/rank_cave_bt.png" x="190" y="0" z="0" width="75" height="25" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+              <Text type="5" name="label_rank_cave_txt_4" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):12" localizeinfo="ARCHA_RANK_5" x="0" y="0" z="0" width="80" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            </Image>
+          </Image>
+          <Tranform type="1" name="node_rank_box5" x="0" y="45.7" z="0" width="480" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+            <Text type="5" name="label_ranktxt_5" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):24:notoblack_yellow_24" localizeinfo="5" x="-200" y="0" z="0" width="100" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Tranform type="1" name="node_rankicon_5" x="-150" y="0" z="0" width="31" height="23" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+            <Text type="5" name="label_rank_id_5" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14:Helvetica-Bold" localizeinfo="" x="-50" y="0" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Text type="5" name="label_rank_point_5" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="" x="80" y="0" z="0" width="130" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Image type="4" name="btn_rank_cave_5" subinfo="scene/archa/rank_cave_bt.png" x="190" y="0" z="0" width="75" height="25" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+              <Text type="5" name="label_rank_cave_txt_5" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):12" localizeinfo="ARCHA_RANK_5" x="0" y="0" z="0" width="80" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            </Image>
+          </Tranform>
+          <Image type="3" name="img_rank_box6" subinfo="scene/colosseum/champion/scale9/stripe_1.png:(8,4,16,8)" x="0" y="15.7" z="0" width="480" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+            <Text type="5" name="label_ranktxt_6" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):24:notoblack_yellow_24" localizeinfo="6" x="-200" y="0" z="0" width="100" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Tranform type="1" name="node_rankicon_6" x="-150" y="0" z="0" width="31" height="23" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+            <Text type="5" name="label_rank_id_6" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14:Helvetica-Bold" localizeinfo="" x="-50" y="0" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Text type="5" name="label_rank_point_6" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="" x="80" y="0" z="0" width="130" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Image type="4" name="btn_rank_cave_6" subinfo="scene/archa/rank_cave_bt.png" x="190" y="0" z="0" width="75" height="25" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+              <Text type="5" name="label_rank_cave_txt_6" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):12" localizeinfo="ARCHA_RANK_5" x="0" y="0" z="0" width="80" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            </Image>
+          </Image>
+          <Tranform type="1" name="node_rank_box7" x="0" y="-14.3" z="0" width="480" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+            <Text type="5" name="label_ranktxt_7" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):24:notoblack_yellow_24" localizeinfo="7" x="-200" y="0" z="0" width="100" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Tranform type="1" name="node_rankicon_7" x="-150" y="0" z="0" width="31" height="23" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+            <Text type="5" name="label_rank_id_7" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14:Helvetica-Bold" localizeinfo="" x="-50" y="0" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Text type="5" name="label_rank_point_7" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="" x="80" y="0" z="0" width="130" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Image type="4" name="btn_rank_cave_7" subinfo="scene/archa/rank_cave_bt.png" x="190" y="0" z="0" width="75" height="25" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+              <Text type="5" name="label_rank_cave_txt_7" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):12" localizeinfo="ARCHA_RANK_5" x="0" y="0" z="0" width="80" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            </Image>
+          </Tranform>
+          <Image type="3" name="img_rank_box8" subinfo="scene/colosseum/champion/scale9/stripe_1.png:(8,4,16,8)" x="0" y="-44.3" z="0" width="480" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+            <Text type="5" name="label_ranktxt_8" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):24:notoblack_yellow_24" localizeinfo="8" x="-200" y="0" z="0" width="100" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Tranform type="1" name="node_rankicon_8" x="-150" y="0" z="0" width="31" height="23" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+            <Text type="5" name="label_rank_id_8" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14:Helvetica-Bold" localizeinfo="" x="-50" y="0" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Text type="5" name="label_rank_point_8" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="" x="80" y="0" z="0" width="130" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Image type="4" name="btn_rank_cave_8" subinfo="scene/archa/rank_cave_bt.png" x="190" y="0" z="0" width="75" height="25" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+              <Text type="5" name="label_rank_cave_txt_8" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):12" localizeinfo="ARCHA_RANK_5" x="0" y="0" z="0" width="80" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            </Image>
+          </Image>
+          <Tranform type="1" name="node_rank_box9" x="0" y="-74.3" z="0" width="480" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+            <Text type="5" name="label_ranktxt_9" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):24:notoblack_yellow_24" localizeinfo="9" x="-200" y="0" z="0" width="100" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Tranform type="1" name="node_rankicon_9" x="-150" y="0" z="0" width="31" height="23" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+            <Text type="5" name="label_rank_id_9" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14:Helvetica-Bold" localizeinfo="" x="-50" y="0" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Text type="5" name="label_rank_point_9" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="" x="80" y="0" z="0" width="130" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Image type="4" name="btn_rank_cave_9" subinfo="scene/archa/rank_cave_bt.png" x="190" y="0" z="0" width="75" height="25" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+              <Text type="5" name="label_rank_cave_txt_9" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):12" localizeinfo="ARCHA_RANK_5" x="0" y="0" z="0" width="80" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            </Image>
+          </Tranform>
+          <Image type="3" name="img_rank_box10" subinfo="scene/colosseum/champion/scale9/stripe_1.png:(8,4,16,8)" x="0" y="-104.3" z="0" width="480" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+            <Text type="5" name="label_ranktxt_10" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):24:notoblack_yellow_24" localizeinfo="10" x="-200" y="0" z="0" width="100" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Tranform type="1" name="node_rankicon_10" x="-150" y="0" z="0" width="31" height="23" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+            <Text type="5" name="label_rank_id_10" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14:Helvetica-Bold" localizeinfo="" x="-50" y="0" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Text type="5" name="label_rank_point_10" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="" x="80" y="0" z="0" width="130" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Image type="4" name="btn_rank_cave_10" subinfo="scene/archa/rank_cave_bt.png" x="190" y="0" z="0" width="75" height="25" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+              <Text type="5" name="label_rank_cave_txt_10" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):12" localizeinfo="ARCHA_RANK_5" x="0" y="0" z="0" width="80" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            </Image>
+          </Image>
+          <Tranform type="1" name="node_rank_box50" x="0" y="-134.3" z="0" width="480" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+            <Text type="5" name="label_ranktxt_50" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):24:notoblack_yellow_24" localizeinfo="50" x="-200" y="0" z="0" width="100" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Tranform type="1" name="node_rankicon_50" x="-150" y="0" z="0" width="31" height="23" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+            <Text type="5" name="label_rank_id_50" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14:Helvetica-Bold" localizeinfo="" x="-50" y="0" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Text type="5" name="label_rank_point_50" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="" x="80" y="0" z="0" width="130" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Image type="4" name="btn_rank_cave_50" subinfo="scene/archa/rank_cave_bt.png" x="190" y="0" z="0" width="75" height="25" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+              <Text type="5" name="label_rank_cave_txt_50" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):12" localizeinfo="ARCHA_RANK_5" x="0" y="0" z="0" width="80" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            </Image>
+          </Tranform>
+          <Image type="3" name="img_rank_box_my" subinfo="scene/archa/scale9/rank_deco1.png:(1,8,3,17)" x="0" y="-165" z="0" width="480" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+            <Text type="5" name="label_ranktxt_my" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):16:notoblack_yellow_24" localizeinfo="" x="-200" y="0" z="0" width="100" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Tranform type="1" name="node_rankicon_my" x="-150" y="0" z="0" width="31" height="23" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+            <Text type="5" name="label_rank_id_my" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14:Helvetica-Bold" localizeinfo="" x="-50" y="0" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Text type="5" name="label_rank_point_my" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="" x="80" y="0" z="0" width="130" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+          </Image>
+        </Image>
+        <Image type="2" name="img_point" subinfo="scene/rank/txt_point.png" x="80" y="185" z="0" width="45" height="12" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+      <Image type="4" name="btn_rankexit" subinfo="common/exit_1.png" x="250" y="185" z="0" width="50" height="52" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    </Image>
+    <Image type="3" name="img_day_rank_help" subinfo="scale9/chat_bg.png:(9,9,20,20)" x="0" y="5.5" z="0" width="800" height="480" visible="0" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image type="3" name="img_point_panel" subinfo="scale9/pop2_1_bg.png:(11.0, 16.0, 18.0, 12.0)" x="0" y="-16" z="0" width="400" height="422" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image type="3" name="img_tip_black_layer" subinfo="scale9/pop2_2_bg.png:(14.0, 12.0, 12.0, 14.0)" x="0" y="20" z="0" width="380" height="360" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+          <Tranform type="1" name="node_rank_help_box1" x="0" y="165.7" z="0" width="380" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+            <Text type="5" name="label_ranktxt" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):24:notoblack_yellow_24" localizeinfo="1" x="-150" y="0" z="0" width="100" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Text type="5" name="label_rank_help_txt1" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):16" localizeinfo="x60,     1,000,000 rank point" x="40" y="0" z="0" width="240" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0">
+              <Image type="2" name="img_dia" subinfo="scene/shop/icon_dia.png" x="-115" y="0" z="0" width="23" height="18" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+            </Text>
+          </Tranform>
+          <Image type="3" name="img_rank_help_box2" subinfo="scene/colosseum/champion/scale9/stripe_1.png:(14.0, 4.0, 4.0, 6.0)" x="0" y="135.7" z="0" width="380" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+            <Text type="5" name="label_ranktxt" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):24:notoblack_yellow_24" localizeinfo="2" x="-150" y="0" z="0" width="100" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Text type="5" name="label_rank_help_txt2" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):16" localizeinfo="x55,        700,000 rank point" x="40" y="0" z="0" width="240" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0">
+              <Image type="2" name="img_dia" subinfo="scene/shop/icon_dia.png" x="-115" y="0" z="0" width="23" height="18" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+            </Text>
+          </Image>
+          <Tranform type="1" name="node_rank_help_box3" x="0" y="105.7" z="0" width="380" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+            <Text type="5" name="label_ranktxt" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):24:notoblack_yellow_24" localizeinfo="3" x="-150" y="0" z="0" width="100" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Text type="5" name="label_rank_help_txt3" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):16" localizeinfo="x50,        500,000 rank point" x="40" y="0" z="0" width="240" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0">
+              <Image type="2" name="img_dia" subinfo="scene/shop/icon_dia.png" x="-115" y="0" z="0" width="23" height="18" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+            </Text>
+          </Tranform>
+          <Image type="3" name="img_rank_help_box4" subinfo="scene/colosseum/champion/scale9/stripe_1.png:(14.0, 4.0, 4.0, 6.0)" x="0" y="75.7" z="0" width="380" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+            <Text type="5" name="label_ranktxt" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):24:notoblack_yellow_24" localizeinfo="4" x="-150" y="0" z="0" width="100" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Text type="5" name="label_rank_help_txt4" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):16" localizeinfo="x45,        300,000 rank point" x="40" y="0" z="0" width="240" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0">
+              <Image type="2" name="img_dia" subinfo="scene/shop/icon_dia.png" x="-115" y="0" z="0" width="23" height="18" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+            </Text>
+          </Image>
+          <Tranform type="1" name="node_rank_help_box5" x="0" y="45.7" z="0" width="380" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+            <Text type="5" name="label_ranktxt" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):24:notoblack_yellow_24" localizeinfo="5" x="-150" y="0" z="0" width="100" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Text type="5" name="label_rank_help_txt5" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):16" localizeinfo="x40,        200,000 rank point" x="40" y="0" z="0" width="240" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0">
+              <Image type="2" name="img_dia" subinfo="scene/shop/icon_dia.png" x="-115" y="0" z="0" width="23" height="18" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+            </Text>
+          </Tranform>
+          <Image type="3" name="img_rank_help_box6" subinfo="scene/colosseum/champion/scale9/stripe_1.png:(14.0, 4.0, 4.0, 6.0)" x="0" y="15.7" z="0" width="380" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+            <Text type="5" name="label_ranktxt" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):24:notoblack_yellow_24" localizeinfo="6" x="-150" y="0" z="0" width="100" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Text type="5" name="label_rank_help_txt6" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):16" localizeinfo="x35,        150,000 rank point" x="40" y="0" z="0" width="240" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0">
+              <Image type="2" name="img_dia" subinfo="scene/shop/icon_dia.png" x="-115" y="0" z="0" width="23" height="18" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+            </Text>
+          </Image>
+          <Tranform type="1" name="node_rank_help_box7" x="0" y="-14.3" z="0" width="380" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+            <Text type="5" name="label_ranktxt" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):24:notoblack_yellow_24" localizeinfo="7" x="-150" y="0" z="0" width="100" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Text type="5" name="label_rank_help_txt7" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):16" localizeinfo="x30,        100,000 rank point" x="40" y="0" z="0" width="240" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0">
+              <Image type="2" name="img_dia" subinfo="scene/shop/icon_dia.png" x="-115" y="0" z="0" width="23" height="18" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+            </Text>
+          </Tranform>
+          <Image type="3" name="img_rank_help_box8" subinfo="scene/colosseum/champion/scale9/stripe_1.png:(14.0, 4.0, 4.0, 6.0)" x="0" y="-44.3" z="0" width="380" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+            <Text type="5" name="label_ranktxt" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):24:notoblack_yellow_24" localizeinfo="8" x="-150" y="0" z="0" width="100" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Text type="5" name="label_rank_help_txt8" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):16" localizeinfo="x25,          50,000 rank point" x="40" y="0" z="0" width="240" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0">
+              <Image type="2" name="img_dia" subinfo="scene/shop/icon_dia.png" x="-115" y="0" z="0" width="23" height="18" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+            </Text>
+          </Image>
+          <Tranform type="1" name="node_rank_help_box9" x="0" y="-74.3" z="0" width="380" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+            <Text type="5" name="label_ranktxt" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):24:notoblack_yellow_24" localizeinfo="9" x="-150" y="0" z="0" width="100" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Text type="5" name="label_rank_help_txt9" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):16" localizeinfo="x20,          30,000 rank point" x="40" y="0" z="0" width="240" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0">
+              <Image type="2" name="img_dia" subinfo="scene/shop/icon_dia.png" x="-115" y="0" z="0" width="23" height="18" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+            </Text>
+          </Tranform>
+          <Image type="3" name="img_rank_help_box10" subinfo="scene/colosseum/champion/scale9/stripe_1.png:(14.0, 4.0, 4.0, 6.0)" x="0" y="-104.3" z="0" width="380" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+            <Text type="5" name="label_ranktxt" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):24:notoblack_yellow_24" localizeinfo="10" x="-150" y="0" z="0" width="100" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Text type="5" name="label_rank_help_txt10" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):16" localizeinfo="x15,          20,000 rank point" x="40" y="0" z="0" width="240" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0">
+              <Image type="2" name="img_dia" subinfo="scene/shop/icon_dia.png" x="-115" y="0" z="0" width="23" height="18" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+            </Text>
+          </Image>
+          <Tranform type="1" name="node_rank_help_box50" x="0" y="-134.3" z="0" width="380" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+            <Text type="5" name="label_ranktxt_50" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):24:notoblack_yellow_24" localizeinfo="50" x="-150" y="0" z="0" width="100" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Text type="5" name="label_rank_help_txt11" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):16" localizeinfo="x10,          10,000 rank point" x="40" y="0" z="0" width="240" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0">
+              <Image type="2" name="img_dia" subinfo="scene/shop/icon_dia.png" x="-115" y="0" z="0" width="23" height="18" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+            </Text>
+          </Tranform>
+          <Image type="3" name="img_rank_help_box_sv" subinfo="scene/colosseum/champion/scale9/stripe_1.png:(14.0, 4.0, 4.0, 6.0)" x="0" y="-164.3" z="0" width="380" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+            <Text type="5" name="label_day_ranktxt_sv" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):16:notoblack_yellow_24" localizeinfo="ARCHA_RANK_0" x="-148" y="0" z="0" width="160" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Text type="5" name="label_rank_help_txt12" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):16" localizeinfo="x  5,            5,000 rank point" x="40" y="0" z="0" width="240" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0">
+              <Image type="2" name="img_dia" subinfo="scene/shop/icon_dia.png" x="-115" y="0" z="0" width="23" height="18" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+            </Text>
+          </Image>
+        </Image>
+        <Text type="5" name="label_rank_help_desc" subinfo="RGBA(1.000, 0.000, 0.000, 1.000):13" localizeinfo="ARCHA_RANK_1" x="0" y="-174" z="0" width="300" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+        <Text type="5" name="label_rank_help_desc2" subinfo="RGBA(1.000, 0.000, 0.000, 1.000):13" localizeinfo="ARCHA_RANK_6" x="0" y="-193" z="0" width="300" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+      </Image>
+      <Image type="4" name="btn_dayrankhelpexit" subinfo="common/exit_1.png" x="192" y="184" z="0" width="50" height="52" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    </Image>
+    <Image type="3" name="img_week_rank_help" subinfo="scale9/chat_bg.png:(9,9,20,20)" x="0" y="5.5" z="0" width="800" height="480" visible="0" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image type="3" name="img_tip" subinfo="scale9/pop2_1_bg.png:(11.0, 16.0, 18.0, 12.0)" x="0" y="-16" z="0" width="400" height="378" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image type="3" name="img_reward" subinfo="scale9/pop2_2_bg.png:(14.0, 12.0, 12.0, 14.0)" x="0" y="14" z="0" width="380" height="330" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+          <Tranform type="1" name="node_rank_help_box1" x="0" y="150" z="0" width="380" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+            <Text type="5" name="label_ranktxt_10" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):24:notoblack_yellow_24" localizeinfo="1" x="-150" y="0" z="0" width="100" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Text type="5" name="label_rank_help_txt1" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):16" localizeinfo="x200,        5,000,000 rank point" x="40" y="0" z="0" width="240" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0">
+              <Image type="2" name="img_dia" subinfo="scene/shop/gold_dia_small.png" x="-130" y="0" z="0" width="27" height="22" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+            </Text>
+          </Tranform>
+          <Image type="3" name="img_rank_help_box2" subinfo="scene/colosseum/champion/scale9/stripe_1.png:(14.0, 4.0, 4.0, 6.0)" x="0" y="120" z="0" width="380" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+            <Text type="5" name="label_ranktxt_9" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):24:notoblack_yellow_24" localizeinfo="2" x="-150" y="0" z="0" width="100" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Text type="5" name="label_rank_help_txt2" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):16" localizeinfo="x150,        4,000,000 rank point" x="40" y="0" z="0" width="240" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0">
+              <Image type="2" name="img_dia" subinfo="scene/shop/gold_dia_small.png" x="-130" y="0" z="0" width="27" height="22" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+            </Text>
+          </Image>
+          <Tranform type="1" name="node_rank_help_box3" x="0" y="90" z="0" width="380" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+            <Text type="5" name="label_ranktxt_8" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):24:notoblack_yellow_24" localizeinfo="3" x="-150" y="0" z="0" width="100" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Text type="5" name="label_rank_help_txt3" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):16" localizeinfo="x100,        3,000,000 rank point" x="40" y="0" z="0" width="240" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0">
+              <Image type="2" name="img_dia" subinfo="scene/shop/gold_dia_small.png" x="-130" y="0" z="0" width="27" height="22" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+            </Text>
+          </Tranform>
+          <Image type="3" name="img_rank_help_box4" subinfo="scene/colosseum/champion/scale9/stripe_1.png:(14.0, 4.0, 4.0, 6.0)" x="0" y="59.99999" z="0" width="380" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+            <Text type="5" name="label_ranktxt_1" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):24:notoblack_yellow_24" localizeinfo="4" x="-150" y="0" z="0" width="100" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Text type="5" name="label_rank_help_txt4" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):16" localizeinfo="x  75,        2,000,000 rank point" x="40" y="0" z="0" width="240" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0">
+              <Image type="2" name="img_dia" subinfo="scene/shop/gold_dia_small.png" x="-130" y="0" z="0" width="27" height="22" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+            </Text>
+          </Image>
+          <Tranform type="1" name="node_rank_help_box5" x="0" y="30" z="0" width="380" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+            <Text type="5" name="label_ranktxt_2" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):24:notoblack_yellow_24" localizeinfo="5" x="-150" y="0" z="0" width="100" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Text type="5" name="label_rank_help_txt5" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):16" localizeinfo="x  65,        1,000,000 rank point" x="40" y="0" z="0" width="240" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0">
+              <Image type="2" name="img_dia" subinfo="scene/shop/gold_dia_small.png" x="-130" y="0" z="0" width="27" height="22" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+            </Text>
+          </Tranform>
+          <Image type="3" name="img_rank_help_box6" subinfo="scene/colosseum/champion/scale9/stripe_1.png:(14.0, 4.0, 4.0, 6.0)" x="0" y="0" z="0" width="380" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+            <Text type="5" name="label_ranktxt_3" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):24:notoblack_yellow_24" localizeinfo="6" x="-150" y="0" z="0" width="100" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Text type="5" name="label_rank_help_txt6" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):16" localizeinfo="x  60,           700,000 rank point" x="40" y="0" z="0" width="240" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0">
+              <Image type="2" name="img_dia" subinfo="scene/shop/gold_dia_small.png" x="-130" y="0" z="0" width="27" height="22" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+            </Text>
+          </Image>
+          <Tranform type="1" name="node_rank_help_box7" x="0" y="-30" z="0" width="380" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+            <Text type="5" name="label_ranktxt_4" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):24:notoblack_yellow_24" localizeinfo="7" x="-150" y="0" z="0" width="100" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Text type="5" name="label_rank_help_txt7" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):16" localizeinfo="x  50,           500,000 rank point" x="40" y="0" z="0" width="240" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0">
+              <Image type="2" name="img_dia" subinfo="scene/shop/gold_dia_small.png" x="-130" y="0" z="0" width="27" height="22" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+            </Text>
+          </Tranform>
+          <Image type="3" name="img_rank_help_box8" subinfo="scene/colosseum/champion/scale9/stripe_1.png:(14.0, 4.0, 4.0, 6.0)" x="0" y="-60" z="0" width="380" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+            <Text type="5" name="label_ranktxt_5" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):24:notoblack_yellow_24" localizeinfo="8" x="-150" y="0" z="0" width="100" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Text type="5" name="label_rank_help_txt8" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):16" localizeinfo="x  40,           300,000 rank point" x="40" y="0" z="0" width="240" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0">
+              <Image type="2" name="img_dia" subinfo="scene/shop/gold_dia_small.png" x="-130" y="0" z="0" width="27" height="22" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+            </Text>
+          </Image>
+          <Tranform type="1" name="node_rank_help_box9" x="0" y="-90" z="0" width="380" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+            <Text type="5" name="label_ranktxt_6" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):24:notoblack_yellow_24" localizeinfo="9" x="-150" y="0" z="0" width="100" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Text type="5" name="label_rank_help_txt9" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):16" localizeinfo="x  30,           200,000 rank point" x="40" y="0" z="0" width="240" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0">
+              <Image type="2" name="img_dia" subinfo="scene/shop/gold_dia_small.png" x="-130" y="0" z="0" width="27" height="22" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+            </Text>
+          </Tranform>
+          <Image type="3" name="img_rank_help_box10" subinfo="scene/colosseum/champion/scale9/stripe_1.png:(14.0, 4.0, 4.0, 6.0)" x="0" y="-120" z="0" width="380" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+            <Text type="5" name="label_ranktxt_7" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):24:notoblack_yellow_24" localizeinfo="10" x="-150" y="0" z="0" width="100" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Text type="5" name="label_rank_help_txt10" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):16" localizeinfo="x  15,           100,000 rank point" x="40" y="0" z="0" width="240" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0">
+              <Image type="2" name="img_dia" subinfo="scene/shop/gold_dia_small.png" x="-130" y="0" z="0" width="27" height="22" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+            </Text>
+          </Image>
+          <Tranform type="1" name="img_rank_help_box_sv" x="0" y="-150" z="0" width="380" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+            <Text type="5" name="label_week_ranktxt_sv" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):16:notoblack_yellow_24" localizeinfo="ARCHA_RANK_0" x="-148" y="0" z="0" width="160" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+            <Text type="5" name="label_rank_help_txt12" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):16" localizeinfo="x  10,             50,000 rank point" x="40" y="0" z="0" width="240" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0">
+              <Image type="2" name="img_dia" subinfo="scene/shop/gold_dia_small.png" x="-130" y="0" z="0" width="27" height="22" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+            </Text>
+          </Tranform>
+        </Image>
+        <Text type="5" name="label_rank_help_desc" subinfo="RGBA(1.000, 0.000, 0.000, 1.000):13" localizeinfo="ARCHA_RANK_2" x="0" y="-168" z="0" width="300" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+      </Image>
+      <Image type="4" name="btn_weekrankhelpexit" subinfo="common/exit_1.png" x="195" y="169" z="0" width="50" height="52" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    </Image>
+  </Tranform>
+</main>

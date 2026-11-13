@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="1.3.0">
+  <Image name="img_bg" x="0" y="0" z="0" width="450" height="240" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scale9/pop_bg.png:(35,35,70,70)">
+    <Image name="img_inner" x="0" y="23" z="0" width="410" height="160" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scale9/pop_gray.png:(14,14,10,7)"/>
+    <Image name="img_ribbon" x="0" y="120" z="1" width="362" height="95" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="common/ribbon.png">
+      <Image name="img_title" x="0" y="18" z="0" width="180" height="36" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="scene/worldmap/txt_welcome.png"/>
+    </Image>
+    <Tranform name="node_frame_main" x="0" y="0" z="2" width="100" height="100" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1">
+      <Text name="label_main_1" x="0" y="70" z="0" width="390" height="24" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(0.00000000,0.00000000,0.00000000,1.00000000):18:Helvetica" localizeinfo="introWelcome1" HorizontalAlignment="1" VerticalAlignment="0" autoSize="0" singleLine="0"/>
+      <Text name="label_main_2" x="0" y="24" z="1" width="390" height="50" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(0.00000000,0.00000000,0.00000000,1.00000000):18:Helvetica" localizeinfo="introWelcome2" HorizontalAlignment="1" VerticalAlignment="0" autoSize="0" singleLine="0"/>
+      <Text name="label_main_3" x="0" y="-24" z="2" width="390" height="50" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(0.00000000,0.00000000,0.00000000,1.00000000):18:Helvetica" localizeinfo="introWelcome3" HorizontalAlignment="1" VerticalAlignment="0" autoSize="0" singleLine="0"/>
+    </Tranform>
+    <Tranform name="node_frame_egg" x="0" y="0" z="3" width="100" height="100" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="0" type="1">
+      <Image name="img_nest" x="-130" y="20" z="0" width="116" height="100" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="item/medium/557.png"/>
+    </Tranform>
+    <Image name="btn_confirm" x="0" y="-85" z="4" width="140" height="45" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="scale9/bt_1.png:(17,20,2,2)" click_mode="2">
+      <Text name="label_confirm" x="0" y="0" z="0" width="100" height="100" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(1.00000000,1.00000000,1.00000000,1.00000000):18" localizeinfo="BTN_OK" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    </Image>
+  </Image>
+</root>

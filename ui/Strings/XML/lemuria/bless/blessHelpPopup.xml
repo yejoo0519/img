@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="1.0">
+  <Image name="img_box" x="15" y="-5" z="0" width="728" height="431" anchor_x="0.5" anchor_y="0.5" type="3" subinfo="scene/lemuria/scale9/frame_smithy_help_0101.png:(12,12,24,27)">
+    <Image name="btn_close" x="349.9999999999998" y="212.50000000000003" z="0" width="50" height="52" anchor_x="0.5" anchor_y="0.5" type="4" subinfo="common/exit_1.png"/>
+    <Image name="img_new" x="0" y="167.5" z="0" width="666" height="49" anchor_x="0.5" anchor_y="0.5" type="3" subinfo="scene/lemuria/scale9/frame_smithy_help_0201.png:(9,9,20,20)">
+      <Image name="img_title_sprite1" x="0.0" y="0.0" z="0" width="54" height="36" anchor_x="0.5" anchor_y="0.5" type="8" subinfo="scene/lemuria/txt_help_blessing.png" sublanginfo="scene/lemuria/txt_help_blessing_en.png" subwidth="84" subheight="30"/>
+    </Image>
+    <Tranform name="node_help" x="-1.875" y="-33.75" z="0" width="621.25" height="307.5" anchor_x="0.5" anchor_y="0.5" type="1">
+      <Text name="label_help_label1" x="0" y="0" z="0" width="620" height="280" anchor_x="0.5" anchor_y="0.5" type="5" subinfo="RGBA(0.7,0.6,0.6,1.0):18" localizeinfo="LemuriaHelpBless"/>
+      <Text name="label_help_label2" x="0" y="0" z="0" width="620" height="280" anchor_x="0.5" anchor_y="0.5" type="5" subinfo="RGBA(0.7,0.6,0.6,1.0):18" localizeinfo="LemuriaHelpUpgrade"/>
+    </Tranform>
+  </Image>
+</root>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="1.0">
+  <Image name="img_bg" x="0" y="0" z="0" width="654" height="360" anchor_x="0.5" anchor_y="0.5" type="3" subinfo="scene/lemuria/midgard/frame_base_0102.png:(174,102,348,204)" visible="1" rotation="0">
+    <Image name="btn_exit" x="325" y="178" z="0" width="50" height="52" anchor_x="0.5" anchor_y="0.5" type="4" subinfo="common/exit_1.png" visible="1" rotation="0" layout_mode="anchored" anchor_min_x="1" anchor_min_y="1" anchor_max_x="1" anchor_max_y="1" anchored_x="-2" anchored_y="-2" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0"/>
+    <Image name="img_line" x="0" y="110" z="1" width="560" height="3" anchor_x="0.5" anchor_y="1" rotation="0" visible="1" type="3" subinfo="scene/lemuria/midgard/line.png:(2,0,4,3)" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="1" anchor_max_x="0.5" anchor_max_y="1" anchored_x="0" anchored_y="-70" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0"/>
+    <Tranform name="node_zone" x="0" y="0" z="2" width="654" height="360" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="0" type="1" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0" anchor_max_x="1" anchor_max_y="1" offset_left="0" offset_right="0" offset_bottom="0" offset_top="0" anchored_x="0" anchored_y="0">
+      <Image name="img_zone_title" x="0" y="158" z="0" width="126" height="44" anchor_x="0.5" anchor_y="1" rotation="0" visible="1" type="8" subinfo="scene/lemuria/midgard/txt_selectzone_kr.png" sublanginfo="scene/lemuria/midgard/txt_selectzone_en.png" subwidth="176" subheight="40" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="1" anchor_max_x="0.5" anchor_max_y="1" anchored_x="0" anchored_y="-22" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0"/>
+      <Tranform name="node_zone1" x="-144" y="-22" z="1" width="240" height="234" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1">
+        <Image name="img_door1" x="0" y="117" z="0" width="164" height="171" anchor_x="0.5" anchor_y="1" rotation="0" visible="1" type="2" subinfo="scene/lemuria/midgard/icon_entrance_0101.png" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="1" anchor_max_x="0.5" anchor_max_y="1" anchored_x="0" anchored_y="0" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0"/>
+        <Image name="btn_move1" x="0" y="-117" z="1" width="190" height="40" anchor_x="0.5" anchor_y="0" rotation="0" visible="1" type="4" subinfo="scale9/bt_1.png:(19,10,1,20)" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="0" anchor_max_x="0.5" anchor_max_y="0" anchored_x="0" anchored_y="0" click_mode="2" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0">
+          <Text name="label_move1" x="0" y="0" z="0" width="190" height="30" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="6" subinfo="RGBA(0.94117647,0.94117647,1.00000000,1.00000000):20:GodoB" localizeinfo="move to zone 1" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+        </Image>
+      </Tranform>
+      <Tranform name="node_zone4" x="144" y="-22" z="2" width="240" height="234" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1">
+        <Image name="img_door4" x="0" y="117" z="0" width="164" height="171" anchor_x="0.5" anchor_y="1" rotation="0" visible="1" type="2" subinfo="scene/lemuria/midgard/icon_entrance_0201.png" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="1" anchor_max_x="0.5" anchor_max_y="1" anchored_x="0" anchored_y="0" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0"/>
+        <Image name="btn_move4" x="0" y="-117" z="1" width="190" height="40" anchor_x="0.5" anchor_y="0" rotation="0" visible="1" type="4" subinfo="scale9/bt_5.png:(19,10,1,20)" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="0" anchor_max_x="0.5" anchor_max_y="0" anchored_x="0" anchored_y="0" click_mode="2" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0">
+          <Text name="label_move4" x="0" y="0" z="0" width="190" height="30" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="6" subinfo="RGBA(0.94117647,0.94117647,0.94117647,1.00000000):20:GodoB" localizeinfo="move to zone 4" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+        </Image>
+      </Tranform>
+    </Tranform>
+    <Tranform name="node_buff" x="0" y="0" z="3" width="654" height="360" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0" anchor_max_x="1" anchor_max_y="1" offset_left="0" offset_right="0" offset_bottom="0" offset_top="0" anchored_x="0" anchored_y="0">
+      <Image name="img_buff_title" x="0" y="158" z="0" width="126" height="45" anchor_x="0.5" anchor_y="1" type="8" subinfo="scene/lemuria/midgard/txt_buff2.png" sublanginfo="scene/lemuria/midgard/txt_buff_en.png" subwidth="177" subheight="32" visible="1" rotation="0" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="1" anchor_max_x="0.5" anchor_max_y="1" anchored_x="0" anchored_y="-22" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0"/>
+      <Image name="img_buff0" x="-190" y="70" z="1" width="150" height="36" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/frame_buff_list_0102.png" visible="1" rotation="0">
+        <Text name="label_buff0" x="6" y="0" z="0" width="60" height="30" anchor_x="0.5" anchor_y="0.5" type="5" subinfo="RGBA(1.0,1.0,1.0,1.0):20" localizeinfo="+0%" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+        <Image name="img_icon_hp" x="-70" y="-2" z="0" width="45" height="45" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/buff0.png" visible="1" rotation="0"/>
+      </Image>
+      <Image name="img_buff1" x="0" y="70" z="2" width="150" height="36" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/frame_buff_list_0102.png" visible="1" rotation="0">
+        <Text name="label_buff1" x="6" y="0" z="0" width="60" height="30" anchor_x="0.5" anchor_y="0.5" type="5" subinfo="RGBA(1.0,1.0,1.0,1.0):20" localizeinfo="+0%" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+        <Image name="img_icon_atk" x="-70" y="-2" z="0" width="45" height="45" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/buff1.png" visible="1" rotation="0"/>
+      </Image>
+      <Image name="img_buff2" x="190" y="70" z="3" width="150" height="36" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/frame_buff_list_0102.png" visible="1" rotation="0">
+        <Text name="label_buff2" x="6" y="0" z="0" width="60" height="30" anchor_x="0.5" anchor_y="0.5" type="5" subinfo="RGBA(1.0,1.0,1.0,1.0):20" localizeinfo="+0%" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+        <Image name="img_icon_def" x="-70" y="-2" z="0" width="45" height="45" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/buff2.png" visible="1" rotation="0"/>
+      </Image>
+      <Image name="img_buff3" x="-95" y="4" z="4" width="150" height="36" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/frame_buff_list_0102.png" visible="1" rotation="0">
+        <Text name="label_buff3" x="6" y="0" z="0" width="60" height="30" anchor_x="0.5" anchor_y="0.5" type="5" subinfo="RGBA(1.0,1.0,1.0,1.0):20" localizeinfo="+0%" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+        <Image name="img_icon_crit" x="-70" y="-2" z="0" width="45" height="45" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/buff3.png" visible="1" rotation="0"/>
+      </Image>
+      <Image name="img_buff4" x="95" y="4" z="5" width="150" height="36" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/frame_buff_list_0102.png" visible="1" rotation="0">
+        <Text name="label_buff4" x="6" y="0" z="0" width="60" height="30" anchor_x="0.5" anchor_y="0.5" type="5" subinfo="RGBA(1.0,1.0,1.0,1.0):20" localizeinfo="+0%" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+        <Image name="img_icon_dodge" x="-70" y="-2" z="0" width="45" height="45" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/buff4.png" visible="1" rotation="0"/>
+      </Image>
+      <Text name="label_info_desc" x="0" y="-48" z="6" width="560" height="32" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="6" subinfo="RGBA(0.87058824,0.87058824,0.87058824,1.00000000):20:GodoB" localizeinfo="MIDGARD_SKIP_BUFF" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+      <Image name="btn_start" x="0" y="-144" z="7" width="192" height="69" anchor_x="0.5" anchor_y="0" rotation="0" visible="1" type="4" subinfo="scene/lemuria/midgard/bt_base_01.png" click_mode="2" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="0" anchor_max_x="0.5" anchor_max_y="0" anchored_x="0" anchored_y="36" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0">
+        <Image name="img_start" x="0" y="0" z="0" width="80" height="26" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="scene/lemuria/midgard/txt_start.png"/>
+      </Image>
+    </Tranform>
+  </Image>
+</root>

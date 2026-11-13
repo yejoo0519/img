@@ -1,0 +1,26 @@
+info face="FontdinerdotcomHuggable" size=64 bold=0 italic=0 charset="" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=0,0
+common lineHeight=77 base=62 scaleW=256 scaleH=128 pages=1 packed=0
+page id=0 file="huggable_red_64.png"
+chars count=11
+char id=32 x=2 y=2 width=0 height=0 xoffset=0 yoffset=0 xadvance=20 page=0 chnl=0
+char id=48 x=4 y=2 width=43 height=45 xoffset=1 yoffset=18 xadvance=40 page=0 chnl=0
+char id=49 x=49 y=2 width=16 height=41 xoffset=2 yoffset=20 xadvance=16 page=0 chnl=0
+char id=50 x=67 y=2 width=37 height=44 xoffset=1 yoffset=19 xadvance=35 page=0 chnl=0
+char id=51 x=106 y=2 width=37 height=46 xoffset=-2 yoffset=17 xadvance=32 page=0 chnl=0
+char id=52 x=145 y=2 width=39 height=46 xoffset=-2 yoffset=17 xadvance=34 page=0 chnl=0
+char id=53 x=186 y=2 width=36 height=44 xoffset=-1 yoffset=18 xadvance=33 page=0 chnl=0
+char id=54 x=2 y=50 width=35 height=44 xoffset=0 yoffset=19 xadvance=33 page=0 chnl=0
+char id=55 x=39 y=50 width=37 height=44 xoffset=1 yoffset=19 xadvance=33 page=0 chnl=0
+char id=56 x=78 y=50 width=35 height=44 xoffset=2 yoffset=18 xadvance=35 page=0 chnl=0
+char id=57 x=115 y=50 width=35 height=44 xoffset=1 yoffset=19 xadvance=33 page=0 chnl=0
+kernings count=10
+kerning first=57 second=50 amount=-1
+kerning first=57 second=52 amount=-1
+kerning first=57 second=55 amount=-1
+kerning first=57 second=56 amount=-1
+kerning first=50 second=52 amount=-1
+kerning first=52 second=55 amount=-1
+kerning first=54 second=55 amount=-1
+kerning first=54 second=57 amount=-1
+kerning first=55 second=52 amount=-3
+kerning first=55 second=54 amount=-1

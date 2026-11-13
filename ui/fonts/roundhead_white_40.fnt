@@ -1,0 +1,14 @@
+info face="(한)둥근 헤드" size=40 bold=0 italic=0 charset="" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=0,0
+common lineHeight=52 base=44 scaleW=128 scaleH=128 pages=1 packed=0
+page id=0 file="roundhead_white_40.png"
+chars count=10
+char id=48 x=2 y=2 width=29 height=33 xoffset=1 yoffset=12 xadvance=26 page=0 chnl=0
+char id=49 x=33 y=2 width=19 height=31 xoffset=6 yoffset=13 xadvance=26 page=0 chnl=0
+char id=50 x=54 y=2 width=28 height=32 xoffset=1 yoffset=12 xadvance=26 page=0 chnl=0
+char id=51 x=84 y=2 width=27 height=33 xoffset=2 yoffset=12 xadvance=26 page=0 chnl=0
+char id=52 x=2 y=37 width=28 height=31 xoffset=1 yoffset=13 xadvance=26 page=0 chnl=0
+char id=53 x=32 y=37 width=28 height=32 xoffset=1 yoffset=13 xadvance=26 page=0 chnl=0
+char id=54 x=62 y=37 width=28 height=33 xoffset=1 yoffset=12 xadvance=26 page=0 chnl=0
+char id=55 x=92 y=37 width=26 height=31 xoffset=2 yoffset=13 xadvance=26 page=0 chnl=0
+char id=56 x=2 y=72 width=28 height=33 xoffset=1 yoffset=12 xadvance=26 page=0 chnl=0
+char id=57 x=32 y=72 width=28 height=33 xoffset=1 yoffset=12 xadvance=26 page=0 chnl=0

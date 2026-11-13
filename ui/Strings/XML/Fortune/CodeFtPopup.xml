@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="1.3.0">
+  <Tranform name="node_top" type="1" x="0" y="0" z="0" width="600" height="300" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1">
+    <Text name="label_register_code" type="5" x="0" y="90" z="0" width="560" height="50" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="RGBA(255.00,255.00,255.00,255.00):42:GodoM" localizeinfo="REGISTER_CODE" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+    <Text name="label_register_code_exp" type="5" x="0" y="40" z="1" width="580" height="30" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="RGBA(255.00,0.00,0.00,255.00):20:GodoM" localizeinfo="REGISTER_CODE_EXP" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+  </Tranform>
+  <Tranform name="node_bottom" type="1" x="0" y="-65" z="1" width="560" height="130" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1">
+    <Image name="img_bottom_bg" type="3" x="0" y="0" z="0" width="560" height="130" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="scale9/pop2_4_bg.png:(16,16,12,12)"/>
+    <Tranform name="node_input_code" type="1" x="0" y="20" z="1" width="520" height="55" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1"/>
+    <Image name="btn_ok" type="4" x="0" y="-35" z="2" width="170" height="44" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="scene/fortune/bt_futune.png" click_mode="2">
+      <Text name="label_ok" type="5" x="0" y="0" z="0" width="170" height="30" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="RGBA(255.00,255.00,255.00,255.00):20:GodoB" localizeinfo="BTN_OK" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+    </Image>
+    <Image name="btn_qr" type="4" x="226" y="20" z="3" width="48" height="48" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="scene/fortune/bt_qr_code.png" click_mode="2"/>
+    <Image name="btn_help" type="11" x="-280" y="195" z="4" width="102" height="32" anchor_x="0" anchor_y="1" rotation="0" visible="1" subinfo="scene/fortune/bt_probability.png" sublanginfo="scene/fortune/bt_probability_en.png" subwidth="102" subheight="32" click_mode="2"/>
+  </Tranform>
+</root>

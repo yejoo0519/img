@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dia>
+  <Image type="3" name="img_pack1" subinfo="scene/shop/scale9/box_1.png:(4.0, 71.0, 98.0, 4.0)" x="-186" y="13" z="0" width="372" height="215">
+    <Image type="2" name="img_image" subinfo="scene/shop/renewal/cash_8.png" x="-75" y="16" z="0" width="200" height="161" />
+    <Image type="4" name="btn_dia_btn1" subinfo="scene/shop/scale9/bt_1.png:(41.0, 16.0, 22.0, 15.0)" x="0" y="-73" z="0" width="196" height="51" />
+  </Image>
+  <Image type="3" name="img_pack2" subinfo="scene/shop/scale9/box_1.png:(4.0, 71.0, 98.0, 4.0)" x="190" y="13" z="0" width="372" height="215">
+    <Image type="2" name="img_image" subinfo="scene/shop/renewal/cash_7.png" x="-85" y="7" z="0" width="160" height="128.8" />
+    <Image type="4" name="btn_dia_btn2" subinfo="scene/shop/scale9/bt_1.png:(41.0, 16.0, 22.0, 15.0)" x="0" y="-73" z="0" width="196" height="51" />
+  </Image>
+  <Image type="3" name="img_pack3" subinfo="scene/shop/scale9/box_1.png:(4.0, 71.0, 98.0, 4.0)" x="-280" y="-160.5" z="0" width="184" height="127">
+    <Image type="2" name="img_image" subinfo="scene/shop/renewal/cash_5.png" x="-37" y="15" z="0" width="99.2" height="81.6" />
+    <Image type="4" name="btn_dia_btn3" subinfo="scene/shop/scale9/bt_1_small.png:(35.0, 7.0, 8.0, 14.0)" x="0" y="-37" z="0" width="139" height="38" />
+  </Image>
+  <Image type="3" name="img_pack4" subinfo="scene/shop/scale9/box_1.png:(4.0, 71.0, 98.0, 4.0)" x="-92" y="-160.5" z="0" width="184" height="127">
+    <Image type="2" name="img_image" subinfo="scene/shop/renewal/cash_4.png" x="-37" y="15" z="0" width="96" height="82.4" />
+    <Image type="4" name="btn_dia_btn4" subinfo="scene/shop/scale9/bt_1_small.png:(35.0, 7.0, 8.0, 14.0)" x="0" y="-37" z="0" width="139" height="38" />
+  </Image>
+  <Image type="3" name="img_pack5" subinfo="scene/shop/scale9/box_1.png:(4.0, 71.0, 98.0, 4.0)" x="96" y="-160.5" z="0" width="184" height="127">
+    <Image type="2" name="img_image" subinfo="scene/shop/renewal/cash_3.png" x="-37" y="19" z="0" width="91" height="60" />
+    <Image type="4" name="btn_dia_btn5" subinfo="scene/shop/scale9/bt_1_small.png:(35.0, 7.0, 8.0, 14.0)" x="0" y="-37" z="0" width="139" height="38" />
+  </Image>
+  <Image type="3" name="img_pack6" subinfo="scene/shop/scale9/box_1.png:(4.0, 71.0, 98.0, 4.0)" x="284" y="-160.5" z="0" width="184" height="127">
+    <Image type="2" name="img_image" subinfo="scene/shop/renewal/cash_2.png" x="-40" y="12" z="0" width="80" height="58" />
+    <Image type="4" name="btn_dia_btn6" subinfo="scene/shop/scale9/bt_1_small.png:(35.0, 7.0, 8.0, 14.0)" x="0" y="-37" z="0" width="139" height="38" />
+  </Image>
+</Dia>

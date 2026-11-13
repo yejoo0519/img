@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ChildrensDayAttendLayer version="1.2.1">
+  <Tranform type="1" name="node_attend_back_pannel" x="0" y="-8" z="1" width="640" height="350" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Image name="img_attend_bg" x="10" y="-18" z="0" width="584" height="280" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="0" type="3" subinfo="scene/event/NewChildrensDay/scale9/bg_layer.png:(16,16,32,32)"/>
+    <Image name="btn_box_tab_btn_0" type="12" subinfo="scene/event/NewChildrensDay/S_category_off.png" selectedimginfo="scene/event/NewChildrensDay/S_category_off.png" disabledimginfo="scene/event/NewChildrensDay/S_category_on.png" selectedimginfoLang="scene/event/NewChildrensDay/S_category_off.png" disabledimginfoLang="scene/event/NewChildrensDay/S_category_on.png" sublanginfo="scene/event/NewChildrensDay/S_category_off.png" x="318" y="112" z="1" width="40" height="84" subwidth="41" subheight="95" visible="1" rotation="0" anchor_x="0" anchor_y="0.5">
+      <Text name="label_info_tab_text_0" x="0" y="0" z="0" width="76" height="40" anchor_x="0.5" anchor_y="0.5" rotation="90" visible="1" type="5" subinfo="RGBA(1.00000000,1.00000000,1.00000000,1.00000000):20" localizeinfo="TEXT_ATTENDANCE" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+    </Image>
+    <Image name="img_attend_reward_bg_0" x="-209" y="49" z="2" width="126" height="132" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="scene/event/NewChildrensDay/Dailylogin_0.png">
+      <Image name="img_attend_reward_title_0" x="0" y="45" z="0" width="48" height="23" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="8" subinfo="scene/event/NewChildrensDay/text_day1.png" sublanginfo="scene/event/NewChildrensDay/text_day1_en.png" subwidth="52" subheight="19"/>
+      <Image name="img_attend_reward_item_0" x="0" y="-10" z="1" width="80" height="80" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="item/medium/master_essence_set.png"/>
+      <Image name="img_attend_reward_name_0" x="0" y="-40" z="2" width="91" height="34" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="8" subinfo="scene/event/NewChildrensDay/text_reward1.png" sublanginfo="scene/event/NewChildrensDay/text_reward1_en.png" subwidth="91" subheight="34"/>
+      <Image name="img_attend_reward_cover_0" x="0" y="0" z="3" width="126" height="132" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scale9/back_unlock.png:(9,8,18,18)"/>
+    </Image>
+    <Image name="img_attend_reward_bg_1" x="-79" y="49" z="3" width="126" height="132" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="scene/event/NewChildrensDay/Dailylogin_1.png">
+      <Image name="img_attend_reward_title_1" x="0" y="45" z="0" width="50" height="23" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="8" subinfo="scene/event/NewChildrensDay/text_day2.png" sublanginfo="scene/event/NewChildrensDay/text_day2_en.png" subwidth="56" subheight="19"/>
+      <Image name="img_attend_reward_item_1" x="0" y="-5" z="1" width="90" height="90" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="item/medium/40.png"/>
+      <Image name="img_attend_reward_name_1" x="0" y="-40" z="2" width="45" height="31" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="8" subinfo="scene/event/NewChildrensDay/text_reward2.png" sublanginfo="scene/event/NewChildrensDay/text_reward2.png" subwidth="45" subheight="31"/>
+      <Image name="img_attend_reward_cover_1" x="0" y="0" z="3" width="126" height="132" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scale9/back_unlock.png:(9,8,18,18)"/>
+    </Image>
+    <Image name="img_attend_reward_bg_2" x="50" y="49" z="4" width="126" height="132" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="scene/event/NewChildrensDay/Dailylogin_0.png">
+      <Image name="img_attend_reward_title_2" x="0" y="45" z="0" width="50" height="23" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="8" subinfo="scene/event/NewChildrensDay/text_day3.png" sublanginfo="scene/event/NewChildrensDay/text_day3_en.png" subwidth="56" subheight="19"/>
+      <Image name="img_attend_reward_item_2" x="0" y="-5" z="1" width="80" height="80" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="item/medium/732.png"/>
+      <Image name="img_attend_reward_name_2" x="0" y="-40" z="2" width="87" height="31" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="8" subinfo="scene/event/NewChildrensDay/text_reward3.png" sublanginfo="scene/event/NewChildrensDay/text_reward3_en.png" subwidth="93" subheight="31"/>
+      <Image name="img_attend_reward_cover_2" x="0" y="0" z="3" width="126" height="132" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scale9/back_unlock.png:(9,8,18,18)"/>
+    </Image>
+    <Image name="img_attend_reward_bg_3" x="-209" y="-86" z="5" width="126" height="132" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="scene/event/NewChildrensDay/Dailylogin_1.png">
+      <Image name="img_attend_reward_title_3" x="0" y="45" z="0" width="51" height="23" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="8" subinfo="scene/event/NewChildrensDay/text_day4.png" sublanginfo="scene/event/NewChildrensDay/text_day4_en.png" subwidth="58" subheight="19"/>
+      <Image name="img_attend_reward_item_3" x="0" y="-5" z="1" width="90" height="90" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="item/medium/dia.png"/>
+      <Image name="img_attend_reward_name_3" x="0" y="-40" z="2" width="46" height="31" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="8" subinfo="scene/event/NewChildrensDay/text_reward4.png" sublanginfo="scene/event/NewChildrensDay/text_reward4_en.png" subwidth="44" subheight="31"/>
+      <Image name="img_attend_reward_cover_3" x="0" y="0" z="3" width="126" height="132" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scale9/back_unlock.png:(9,8,18,18)"/>
+    </Image>
+    <Image name="img_attend_reward_bg_4" x="-79" y="-86" z="6" width="126" height="132" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="scene/event/NewChildrensDay/Dailylogin_0.png">
+      <Image name="img_attend_reward_title_4" x="0" y="45" z="0" width="49" height="23" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="8" subinfo="scene/event/NewChildrensDay/text_day5.png" sublanginfo="scene/event/NewChildrensDay/text_day5_en.png" subwidth="56" subheight="19"/>
+      <Image name="img_attend_reward_item_4" x="0" y="-10" z="1" width="80" height="80" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="item/medium/16.png"/>
+      <Image name="img_attend_reward_name_4" x="0" y="-40" z="2" width="45" height="31" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="8" subinfo="scene/event/NewChildrensDay/text_reward5.png" sublanginfo="scene/event/NewChildrensDay/text_reward5_en.png" subwidth="70" subheight="31"/>
+      <Image name="img_attend_reward_cover_4" x="0" y="0" z="3" width="126" height="132" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scale9/back_unlock.png:(9,8,18,18)"/>
+    </Image>
+    <Image name="img_attend_reward_bg_5" x="50" y="-86" z="7" width="126" height="132" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="scene/event/NewChildrensDay/Dailylogin_1.png">
+      <Image name="img_attend_reward_title_5" x="0" y="45" z="0" width="50" height="23" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="8" subinfo="scene/event/NewChildrensDay/text_day6.png" sublanginfo="scene/event/NewChildrensDay/text_day6_en.png" subwidth="56" subheight="19"/>
+      <Image name="img_attend_reward_item_5" x="0" y="-5" z="1" width="80" height="80" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="item/medium/935.png"/>
+      <Image name="img_attend_reward_name_5" x="0" y="-40" z="2" width="101" height="31" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="8" subinfo="scene/event/NewChildrensDay/text_reward6.png" sublanginfo="scene/event/NewChildrensDay/text_reward6_en.png" subwidth="94" subheight="31"/>
+      <Image name="img_attend_reward_cover_5" x="0" y="0" z="3" width="126" height="132" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scale9/back_unlock.png:(9,8,18,18)"/>
+    </Image>
+    <Image name="img_attend_reward_bg_6" x="206" y="-18" z="8" width="176" height="266" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="scene/event/NewChildrensDay/Dailylogin_7.png">
+      <Image name="img_attend_reward_title_6" x="0" y="112" z="0" width="49" height="23" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="8" subinfo="scene/event/NewChildrensDay/text_day7.png" sublanginfo="scene/event/NewChildrensDay/text_day7_en.png" subwidth="55" subheight="19"/>
+      <Image name="img_attend_reward_item_6" x="0" y="0" z="1" width="160" height="160" anchor_x="0.5" anchor_y="0.5" rotation="330" visible="1" type="2" subinfo="item/large/continue_ticket.png"/>
+      <Image name="img_attend_reward_name_6" x="0" y="-90" z="2" width="134" height="34" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="8" subinfo="scene/event/NewChildrensDay/text_reward7.png" sublanginfo="scene/event/NewChildrensDay/text_reward7_en.png" subwidth="105" subheight="34"/>
+      <Image name="img_attend_reward_cover_6" x="0" y="0" z="3" width="176" height="266" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scale9/back_unlock.png:(9,8,18,18)"/>
+    </Image>
+    <Image name="img_success_frame_0" type="2" subinfo="scene/event/NewChildrensDay/pop_check.png" x="-209" y="47" z="9" width="50" height="43" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image name="img_success_frame_1" type="2" subinfo="scene/event/NewChildrensDay/pop_check.png" x="-79" y="47" z="10" width="50" height="43" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image name="img_success_frame_2" type="2" subinfo="scene/event/NewChildrensDay/pop_check.png" x="50" y="47" z="11" width="50" height="43" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image name="img_success_frame_3" type="2" subinfo="scene/event/NewChildrensDay/pop_check.png" x="-209" y="-85" z="12" width="50" height="43" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image name="img_success_frame_4" type="2" subinfo="scene/event/NewChildrensDay/pop_check.png" x="-79" y="-85" z="13" width="50" height="43" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image name="img_success_frame_5" type="2" subinfo="scene/event/NewChildrensDay/pop_check.png" x="50" y="-85" z="14" width="50" height="43" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image name="img_success_frame_6" type="2" subinfo="scene/event/NewChildrensDay/pop_check.png" x="206" y="-24.7" z="15" width="50" height="43" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  </Tranform>
+</ChildrensDayAttendLayer>

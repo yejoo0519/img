@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GuildwarRankingLayer version="1.2.1">
+  <Image name="img_ranking_back_pannel" type="2" subinfo="scene/guild/guild_war/frame_guildwar_bg5.png" x="0" y="-23" z="0" width="770" height="412" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Image name="img_ranking_title" type="8" subinfo="scene/guild/guild_war/title_Ranking.png" sublanginfo="scene/guild/guild_war/title_Ranking_en.png" x="0" y="175" z="0" width="240" height="53" subwidth="240" subheight="53" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image name="btn_ranking_exit" type="4" subinfo="common/exit_1.png" x="374.6" y="191.1" z="0" width="50" height="52" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image name="img_ranking_bg" type="3" subinfo="scale9/guild_ranking_bg.png:(11,11,24,24)" x="3.600006" y="-14.2" z="0" width="700" height="315" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Tranform type="1" name="node_ranking_view_point" x="3.600006" y="-14.2" z="0" width="700" height="300" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  </Image>
+</GuildwarRankingLayer>

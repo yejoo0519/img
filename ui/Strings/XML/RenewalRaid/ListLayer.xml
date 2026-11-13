@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListLayer version="1.3.0">
+  <Image name="img_frame" type="2" subinfo="scene/RenewalRaid/frame_raidbg2.png" x="0" y="5" z="0" width="694" height="352" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  <Tranform type="1" name="node_view_point" x="0" y="4.5" z="1" width="684" height="346" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  <Image name="btn_all_receive" type="12" subinfo="scene/RenewalRaid/bt_totalok_on.png" selectedimginfo="scene/RenewalRaid/bt_totalok_off.png" disabledimginfo="scene/RenewalRaid/bt_totalok_off.png" x="294.5" y="-193.3" z="2" width="110" height="36" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Image name="img_all_receive" type="8" subinfo="scene/RenewalRaid/txt_totalok.png" sublanginfo="scene/RenewalRaid/txt_totalok_en.png" x="0" y="0" z="0" width="55" height="14" subwidth="55" subheight="12" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  </Image>
+  <Image name="img_raid_title" type="8" subinfo="scene/RenewalRaid/txt_titleraid1.png" sublanginfo="scene/RenewalRaid/txt_titleraid1_en.png" x="0" y="200" z="3" width="153" height="30" subwidth="173" subheight="27" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  <Image name="btn_purchase_raid_pass" type="11" subinfo="scene/RenewalRaid/RaidPremium/bt_raidpremium.png" sublanginfo="scene/RenewalRaid/RaidPremium/bt_raidpremium_en.png" x="-277.5" y="-193" z="4" width="140" height="36" subwidth="140" subheight="36" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Tranform type="1" name="node_raid_pass_remain_time_pos" x="0" y="-26" z="0" width="0" height="0" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  </Image>
+  <Image name="btn_find_raid_pass" type="12" subinfo="scene/RenewalRaid/RaidPremium/bt_raidsearch_on.png" selectedimginfo="scene/RenewalRaid/RaidPremium/bt_raidsearch_off.png" disabledimginfo="scene/RenewalRaid/RaidPremium/bt_raidsearch_off.png" selectedimginfoLang="scene/RenewalRaid/RaidPremium/bt_raidsearch_off_en.png" disabledimginfoLang="scene/RenewalRaid/RaidPremium/bt_raidsearch_off_en.png" sublanginfo="scene/RenewalRaid/RaidPremium/bt_raidsearch_on_en.png" x="-127" y="-193" z="5" width="140" height="36" subwidth="140" subheight="36" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Tranform type="1" name="node_find_raid_pass_count" x="25" y="0" z="0" width="0" height="0" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  </Image>
+  <Image name="btn_refresh" type="4" subinfo="scene/RenewalRaid/bt_refresh_list.png" x="320" y="200" z="6" width="28" height="27" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  <Image name="img_search" type="2" subinfo="scene/RenewalRaid/frame_search.png" x="240" y="200" z="7" width="125" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  <Image name="btn_rate" type="4" subinfo="scene/RenewalRaid/bt_help.png" x="-34.4" y="-193" z="8" width="32" height="35" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  <Image name="btn_active" x="-305" y="200" z="9" width="90" height="30" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="scene/RenewalRaid/RaidListFilter/bt_filter.png" click_mode="2">
+    <Text name="label_active" x="0" y="0" z="0" width="90" height="30" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(1.00,1.00,1.00,1.00):15" localizeinfo="ACTIVE" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    <Image name="btn_active_dim" x="0" y="0" z="1" width="90" height="30" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="scale9/box_cover.png:(9,10,1,1)" color="RGBA(0.00,0.00,0.00,1.00)" click_mode="0"/>
+  </Image>
+  <Image name="btn_complete" x="-205" y="200" z="10" width="90" height="30" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="scene/RenewalRaid/RaidListFilter/bt_filter.png" click_mode="2">
+    <Text name="label_complete" x="0" y="0" z="0" width="90" height="30" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(1.00,1.00,1.00,1.00):15" localizeinfo="COMPLETE" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    <Image name="btn_complete_dim" x="0" y="0" z="1" width="90" height="30" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="scale9/box_cover.png:(9,10,1,1)" color="RGBA(0.00,0.00,0.00,1.00)" click_mode="0"/>
+    <Image name="img_complete_reddot" x="45" y="10" z="2" width="30" height="30" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="common/new.png"/>
+  </Image>
+  <Image name="btn_setting" x="100" y="200" z="11" width="32" height="36" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="4" subinfo="common/bt_setting.png" click_mode="2" anchored_click_effect="0"/>
+</ListLayer>

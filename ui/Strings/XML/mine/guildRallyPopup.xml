@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CaveTestPopup version="1.2.1">
+  <Image name="img_bg" x="0" y="0" z="0" width="444" height="176" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scale9/pop_bg.png:(35,35,70,70)">
+    <Text name="label_desc" x="0" y="14" z="1" width="420" height="80" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(0.2,0.2,0.2,1.0):21" localizeinfo="mine_guildrally_popup" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    <Image name="btn_close" x="216" y="83" z="2" width="50" height="52" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="common/exit_1.png"/>
+    <Image name="btn_move" x="-80" y="-52" z="3" width="134" height="40" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="scale9/bt_1.png:(16,16,1,1)">
+      <Text name="label_move" x="0" y="0" z="0" width="120" height="100" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(1.00000000,1.00000000,1.00000000,1.00000000):18" localizeinfo="mine_move" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    </Image>
+    <Image name="btn_select" x="80" y="-52" z="3" width="134" height="40" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="scale9/bt_4.png:(16,16,1,1)">
+      <Text name="label_select" x="0" y="0" z="0" width="120" height="100" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(1.00000000,1.00000000,1.00000000,1.00000000):18" localizeinfo="mine_select" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    </Image>
+  </Image>
+</CaveTestPopup>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="1.2.1">
+  <Image name="img_frame" type="3" subinfo="scene/event/world_raid/scale9/frame_bg.png:(10,8,20,19)" x="0" y="0" z="0" width="691" height="413">
+    <Image name="img_title" type="8" subinfo="scene/event/world_raid/txt_title_buff.png" x="0" y="179" z="0" width="68" height="37" anchor_x="0.5" anchor_y="0.5" sublanginfo="scene/event/world_raid/txt_title_buff_en.png" subwidth="92" subheight="34"/>
+    <Image name="btn_exit" type="4" subinfo="common/exit_1.png" x="331" y="195" z="0" width="50" height="52"/>
+    <Image name="img_frame_bg" type="3" subinfo="scene/event/world_raid/scale9/frame_bg3.png:(10,8,20,19)" x="0" y="-20" z="0" width="650" height="340"/>
+    <Text name="label_buff_desc" type="6" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):18" localizeinfo="" x="0" y="135" z="0" width="650" height="30"/>
+    <Tranform name="node_view_point" type="1" x="0" y="-31" z="0" width="650" height="300"/>
+  </Image>
+</root>

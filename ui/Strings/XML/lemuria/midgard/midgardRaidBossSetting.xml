@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="1.2">
+  <Image type="2" name="img_bg" subinfo="common_background/bg_midgard.jpg" x="0" y="0" z="0" width="800" height="480" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Image type="3" name="img_boss_main" subinfo="scene/lemuria/midgard/frame_base_0102.png:(172,103,347,208)" x="0" y="-31" z="0" width="696" height="408" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Tranform type="1" name="node_select_info" x="0" y="0" z="0" width="696" height="408" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Tranform type="1" name="node_select_scroll" x="0" y="85" z="0" width="650" height="195" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        <Image type="2" name="img_select_level" subinfo="scene/adventure/lv_s.png" x="-304" y="-29" z="0" width="26" height="26" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        <Text type="5" name="label_select_name" subinfo="RGBA(1.00,1.00,1.00,1.00):16" localizeinfo="-" x="-217" y="-29" z="0" width="120" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+        <Text type="5" name="label_select_eval" subinfo="RGBA(0.80,0.04,0.76,1.00):16" localizeinfo="0" x="-55" y="-30" z="0" width="51" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+        <Tranform type="1" name="node_select_grade_img" x="-128" y="-29" z="0" width="30" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        <Text type="5" name="label_select_hp" subinfo="RGBA(0.77,0.21,0.15,1.00):16" localizeinfo="0" x="28" y="-30" z="0" width="50" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+        <Text type="5" name="label_select_att" subinfo="RGBA(0.21,0.49,0.17,1.00):16" localizeinfo="0" x="101" y="-30" z="0" width="40" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+        <Text type="5" name="label_select_def" subinfo="RGBA(0.09,0.40,0.57,1.00):16" localizeinfo="0" x="168" y="-30" z="0" width="40" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+        <Text name="label_select_crt" x="230" y="-30" z="0" width="40" height="30" anchor_x="0.5" anchor_y="0.5" type="5" subinfo="RGBA(0.90,0.80,0.30,1.00):16" localizeinfo="0" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+        <Text name="label_select_dodge" x="298" y="-30" z="0" width="40" height="30" anchor_x="0.5" anchor_y="0.5" type="5" subinfo="RGBA(0.20,0.80,0.80,1.00):16" localizeinfo="0" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+        <Image type="2" name="img_bottom_image1" subinfo="scene/lemuria/midgard/line_0101.png" x="-274" y="-29" z="0" width="12" height="29" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        <Image type="2" name="img_bottom_image2" subinfo="scene/lemuria/midgard/line_0101.png" x="-150" y="-29" z="0" width="12" height="29" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        <Image type="2" name="img_bottom_image3" subinfo="scene/colosseum/champion/eval_icon.png" x="-89" y="-30" z="0" width="18" height="23" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        <Image type="2" name="img_bottom_image4" subinfo="scene/lemuria/midgard/line_0101.png" x="-109" y="-29" z="0" width="12" height="29" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        <Image type="2" name="img_bottom_image5" subinfo="scene/lemuria/midgard/line_0101.png" x="-24" y="-29" z="0" width="12" height="29" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        <Image type="2" name="img_bottom_image6" subinfo="scene/lemuria/midgard/line_0101.png" x="56" y="-29" z="0" width="12" height="29" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        <Image type="2" name="img_bottom_image7" subinfo="scene/lemuria/midgard/line_0101.png" x="119" y="-29" z="0" width="12" height="29" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        <Image type="2" name="img_bottom_image8" subinfo="scene/adventure/hp_stat.png" x="-3" y="-30" z="0" width="20" height="18" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        <Image type="2" name="img_bottom_image9" subinfo="scene/adventure/atk_stat.png" x="74" y="-30" z="0" width="20" height="19" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        <Image type="2" name="img_bottom_image10" subinfo="scene/adventure/def_stat.png" x="139" y="-31" z="0" width="19" height="20" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        <Image type="2" name="img_bottom_image11" subinfo="scene/lemuria/midgard/line_0101.png" x="186" y="-30" z="0" width="12" height="29" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        <Image name="img_bottom_image12" x="206" y="-30.09" z="0" width="30" height="30" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="item/small/57.png" visible="1" rotation="0"/>
+        <Image name="img_bottom_image13" x="272" y="-30.09" z="0" width="30" height="30" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="item/small/63.png" visible="1" rotation="0"/>
+        <Image type="2" name="img_bottom_image14" subinfo="scene/lemuria/midgard/line_0101.png" x="250" y="-30" z="0" width="12" height="29" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      </Tranform>
+      <Tranform type="1" name="node_setting_info" x="0" y="-2" z="0" width="696" height="408" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image type="2" name="img_boss_setting_dragon" subinfo="scene/lemuria/midgard/frame_info_dragon.png" x="-194" y="74" z="0" width="233" height="223" anchor_x="0.5" anchor_y="0.5" visible="1" rotation="0">
+          <Image name="img_frame_dragon_title" x="0" y="84" z="0" width="238" height="56" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="common/frame_title.png" visible="1" rotation="0"/>
+          <Image type="2" name="img_boss_setting_level" subinfo="scene/adventure/lv_s.png" x="-92" y="90.4" z="0" width="30" height="29" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+          <Text type="5" name="label_boss_setting_name" subinfo="RGBA(0.00,0.00,0.00,1.00):16" localizeinfo="-" x="-1.27" y="90" z="0" width="130" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+          <Tranform type="1" name="node_boss_setting_grade_img" x="89.64" y="87.45" z="0" width="16" height="16" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+          <Tranform type="1" name="node_boss_setting_dragon_img" x="0" y="-25" z="0" width="165" height="165" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+          <Tranform type="1" name="node_boss_setting_attribute_img" x="-92" y="48" z="0" width="30" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        </Image>
+        <Image type="3" name="img_boss_setting_acc_btn" subinfo="scene/lemuria/midgard/frame_info_item.png:(18,18,39,39)" x="-32" y="150" z="0" width="70" height="70" anchor_x="0.5" anchor_y="0.5" visible="1" rotation="0">
+          <Image name="img_acc_txt" x="0" y="0" z="0" width="38" height="19" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/txt_item.png" visible="1" rotation="0"/>
+        </Image>
+        <Image name="img_boss_setting_pen_btn" x="47" y="150" z="0" width="70" height="70" anchor_x="0.5" anchor_y="0.5" type="3" subinfo="scene/lemuria/midgard/frame_info_item.png:(18,18,39,39)" visible="1" rotation="0">
+          <Image name="img_pen" x="0" y="0" z="0" width="35" height="18" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/txt_pen.png" visible="1" rotation="0"/>
+        </Image>
+        <Image name="img_boss_setting_spirit_btn" x="124" y="150" z="0" width="70" height="70" anchor_x="0.5" anchor_y="0.5" type="3" subinfo="scene/lemuria/midgard/frame_info_item.png:(18,18,39,39)" visible="1" rotation="0">
+          <Image name="img_spirit_txt" x="0" y="0" z="0" width="50" height="18" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/txt_spirit.png" visible="1" rotation="0"/>
+        </Image>
+        <Image type="3" name="img_boss_setting_gem1" subinfo="scene/lemuria/midgard/frame_info_item.png:(18,18,39,39)" x="-32" y="73" z="0" width="70" height="70" anchor_x="0.5" anchor_y="0.5" visible="1" rotation="0">
+          <Image name="img_gem_txt_img1" x="0" y="0" z="0" width="38" height="19" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/txt_gem.png" visible="1" rotation="0"/>
+        </Image>
+        <Image type="3" name="img_boss_setting_gem2" subinfo="scene/lemuria/midgard/frame_info_item.png:(18,18,39,39)" x="47" y="73" z="0" width="70" height="70" anchor_x="0.5" anchor_y="0.5" visible="1" rotation="0">
+          <Image name="img_gem_txt_img2" x="0" y="0" z="0" width="38" height="19" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/txt_gem.png" visible="1" rotation="0"/>
+        </Image>
+        <Image type="3" name="img_boss_setting_gem3" subinfo="scene/lemuria/midgard/frame_info_item.png:(18,18,39,39)" x="124" y="71" z="0" width="70" height="70" anchor_x="0.5" anchor_y="0.5" visible="1" rotation="0">
+          <Image name="img_gem_txt_img3" x="0" y="0" z="0" width="38" height="19" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/txt_gem.png" visible="1" rotation="0"/>
+        </Image>
+        <Image type="3" name="img_boss_setting_gem4" subinfo="scene/lemuria/midgard/frame_info_item.png:(18,18,39,39)" x="-32" y="-4" z="0" width="70" height="70" anchor_x="0.5" anchor_y="0.5" visible="1" rotation="0">
+          <Image name="img_gem_txt_img4" x="0" y="0" z="0" width="38" height="19" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/txt_gem.png" visible="1" rotation="0"/>
+        </Image>
+        <Image type="3" name="img_boss_setting_gem5" subinfo="scene/lemuria/midgard/frame_info_item.png:(18,18,39,39)" x="47" y="-4" z="0" width="70" height="70" anchor_x="0.5" anchor_y="0.5" visible="1" rotation="0">
+          <Image name="img_gem_txt_img5" x="0" y="0" z="0" width="38" height="19" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/txt_gem.png" visible="1" rotation="0"/>
+        </Image>
+        <Tranform name="node_boss_setting_spirit_img" x="124" y="150" z="0" width="38.18" height="40" anchor_x="0.5" anchor_y="0.5" type="1" visible="1" rotation="0"/>
+        <Image name="img_boss_setting_potion" x="124" y="-4" z="0" width="70" height="70" anchor_x="0.5" anchor_y="0.5" type="3" subinfo="scene/lemuria/midgard/frame_info_item.png:(18,18,39,39)" visible="1" rotation="0">
+          <Image name="img_potion" x="0" y="0" z="0" width="56" height="18" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/gate/txt_drink.png" visible="1" rotation="0"/>
+        </Image>
+        <Tranform name="node_boss_setting_potion_img" x="124" y="-4" z="0" width="40" height="40" anchor_x="0.5" anchor_y="0.5" type="1" visible="1" rotation="0"/>
+        <Image type="3" name="img_eval_stat_bg" subinfo="scene/lemuria/midgard/frame_info_stat.png:(36,13,72,28)" x="238" y="159" z="0" width="144" height="52" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+          <Text type="5" name="label_boss_setting_eval" subinfo="RGBA(0.80,0.00,0.80,1.00):18" localizeinfo="999" x="15" y="0" z="0" width="110" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+          <Image type="2" name="img_eval_icon" subinfo="scene/colosseum/champion/eval_icon.png" x="-44" y="0" z="0" width="18" height="23" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        </Image>
+        <Image type="3" name="img_hp_stat_bg" subinfo="scene/lemuria/midgard/frame_info_stat.png:(36,13,72,28)" x="238" y="101" z="0" width="144" height="52" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+          <Text type="5" name="label_boss_setting_hp" subinfo="RGBA(0.90,0.10,0.10,1.00):18" localizeinfo="999" x="15" y="0" z="0" width="110" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+          <Image type="2" name="img_hp_icon" subinfo="scene/adventure/hp_stat.png" x="-43" y="0" z="0" width="20" height="18" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        </Image>
+        <Image type="3" name="img_atk_stat_bg" subinfo="scene/lemuria/midgard/frame_info_stat.png:(36,13,72,28)" x="238" y="44" z="0" width="144" height="52" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+          <Text type="5" name="label_boss_setting_att" subinfo="RGBA(0.20,0.80,0.20,1.00):18" localizeinfo="999" x="15" y="0" z="0" width="100" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+          <Image type="2" name="img_atk_icon" subinfo="scene/adventure/atk_stat.png" x="-43" y="0" z="0" width="20" height="19" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        </Image>
+        <Image type="3" name="img_def_stat_bg" subinfo="scene/lemuria/midgard/frame_info_stat.png:(36,13,72,28)" x="238" y="-14" z="0" width="144" height="52" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+          <Text type="5" name="label_boss_setting_def" subinfo="RGBA(0.10,0.50,0.80,1.00):18" localizeinfo="999" x="15" y="0" z="0" width="100" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+          <Image type="2" name="img_def_icon" subinfo="scene/adventure/def_stat.png" x="-43" y="0" z="0" width="19" height="20" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        </Image>
+      </Tranform>
+      <Image type="4" name="btn_select_dragon1" subinfo="scene/lemuria/midgard/slot.png" x="-34" y="-87" z="0" width="58" height="58" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="4" name="btn_select_dragon2" subinfo="scene/lemuria/midgard/slot.png" x="33" y="-87" z="0" width="58" height="58" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="4" name="btn_select_dragon3" subinfo="scene/lemuria/midgard/slot.png" x="-99" y="-87" z="0" width="58" height="58" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="4" name="btn_select_dragon4" subinfo="scene/lemuria/midgard/slot.png" x="98" y="-87" z="0" width="58" height="58" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="4" name="btn_select_dragon5" subinfo="scene/lemuria/midgard/slot.png" x="-164" y="-87" z="0" width="58" height="58" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="4" name="btn_select_dragon6" subinfo="scene/lemuria/midgard/slot.png" x="162" y="-87" z="0" width="58" height="58" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="4" name="btn_select_dragon7" subinfo="scene/lemuria/midgard/slot.png" x="-229" y="-87" z="0" width="58" height="58" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="4" name="btn_select_dragon8" subinfo="scene/lemuria/midgard/slot.png" x="227" y="-87" z="0" width="58" height="58" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="4" name="btn_select_dragon9" subinfo="scene/lemuria/midgard/slot.png" x="-293" y="-87" z="0" width="58" height="58" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="4" name="btn_select_dragon10" subinfo="scene/lemuria/midgard/slot.png" x="292" y="-87" z="0" width="58" height="58" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="4" name="btn_select_dragon11" subinfo="scene/lemuria/midgard/slot.png" x="-34" y="-154" z="0" width="58" height="58" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="4" name="btn_select_dragon12" subinfo="scene/lemuria/midgard/slot.png" x="33" y="-154" z="0" width="58" height="58" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="4" name="btn_select_dragon13" subinfo="scene/lemuria/midgard/slot.png" x="-99" y="-154" z="0" width="58" height="58" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="4" name="btn_select_dragon14" subinfo="scene/lemuria/midgard/slot.png" x="97" y="-154" z="0" width="58" height="58" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="4" name="btn_select_dragon15" subinfo="scene/lemuria/midgard/slot.png" x="-163" y="-154" z="0" width="58" height="58" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="4" name="btn_select_dragon16" subinfo="scene/lemuria/midgard/slot.png" x="162" y="-154" z="0" width="58" height="58" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="4" name="btn_select_dragon17" subinfo="scene/lemuria/midgard/slot.png" x="-228" y="-154" z="0" width="58" height="58" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="4" name="btn_select_dragon18" subinfo="scene/lemuria/midgard/slot.png" x="227" y="-154" z="0" width="58" height="58" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="4" name="btn_select_dragon19" subinfo="scene/lemuria/midgard/slot.png" x="-293" y="-154" z="0" width="58" height="58" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="4" name="btn_select_dragon20" subinfo="scene/lemuria/midgard/slot.png" x="293" y="-154" z="0" width="58" height="58" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image name="img_1" x="-34" y="-64" z="0" width="42" height="32" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/txt_1.png" visible="1" rotation="0"/>
+      <Image name="img_2" x="32" y="-64" z="0" width="42" height="32" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/txt_2.png" visible="1" rotation="0"/>
+      <Image name="img_3" x="-100" y="-64" z="0" width="42" height="32" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/txt_3.png" visible="1" rotation="0"/>
+      <Image name="img_4" x="97" y="-64" z="0" width="42" height="32" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/txt_4.png" visible="1" rotation="0"/>
+      <Image name="img_5" x="-165" y="-64" z="0" width="42" height="32" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/txt_5.png" visible="1" rotation="0"/>
+      <Image name="img_6" x="161" y="-64" z="0" width="42" height="32" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/txt_6.png" visible="1" rotation="0"/>
+      <Image name="img_7" x="-230" y="-64" z="0" width="42" height="32" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/txt_7.png" visible="1" rotation="0"/>
+      <Image name="img_8" x="226" y="-64" z="0" width="42" height="32" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/txt_8.png" visible="1" rotation="0"/>
+      <Image name="img_9" x="-294" y="-64" z="0" width="42" height="32" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/txt_9.png" visible="1" rotation="0"/>
+      <Image name="img_10" x="291" y="-64" z="0" width="42" height="32" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/txt_10.png" visible="1" rotation="0"/>
+      <Image name="img_11" x="-34" y="-131" z="0" width="42" height="32" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/txt_11.png" visible="1" rotation="0"/>
+      <Image name="img_12" x="32" y="-131" z="0" width="42" height="32" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/txt_12.png" visible="1" rotation="0"/>
+      <Image name="img_13" x="-100" y="-131" z="0" width="42" height="32" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/txt_13.png" visible="1" rotation="0"/>
+      <Image name="img_14" x="97" y="-131" z="0" width="42" height="32" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/txt_14.png" visible="1" rotation="0"/>
+      <Image name="img_15" x="-165" y="-131" z="0" width="42" height="32" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/txt_15.png" visible="1" rotation="0"/>
+      <Image name="img_16" x="161" y="-131" z="0" width="42" height="32" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/txt_16.png" visible="1" rotation="0"/>
+      <Image name="img_17" x="-230" y="-131" z="0" width="42" height="32" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/txt_17.png" visible="1" rotation="0"/>
+      <Image name="img_18" x="226" y="-131" z="0" width="42" height="32" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/txt_18.png" visible="1" rotation="0"/>
+      <Image name="img_19" x="-294" y="-131" z="0" width="42" height="32" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/txt_19.png" visible="1" rotation="0"/>
+      <Image name="img_20" x="291" y="-131" z="0" width="42" height="32" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/txt_20.png" visible="1" rotation="0"/>
+      <Image type="3" name="img_line" subinfo="scene/lemuria/midgard/line_0102.png:(159,1,321,2)" x="-5" y="-47" z="0" width="639" height="4" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    </Image>
+  </Image>
+  <Image type="4" name="btn_exit" subinfo="common/exit_1.png" x="365" y="204" z="100" width="50" height="52" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  <Image name="btn_auto" x="260" y="204" z="0" width="130" height="50" anchor_x="0.5" anchor_y="0.5" type="4" subinfo="scene/lemuria/main/bt_base_02.png" visible="1" rotation="0">
+    <Text name="label_auto" x="0" y="2" z="0" width="100" height="40" anchor_x="0.5" anchor_y="0.5" type="6" subinfo="RGBA(1.00,0.80,0.30,1.00):18:notoblack_yellow_24" localizeinfo="AUTO" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+  </Image>
+  <Image type="4" name="btn_start" subinfo="scene/lemuria/main/bt_ready.png" x="-260" y="204" z="100" width="130" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Image name="img_new" x="0" y="0" z="0" width="80" height="26" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/txt_start.png" visible="1" rotation="0"/>
+  </Image>
+  <Image type="2" name="img_title_bg" subinfo="scene/lemuria/midgard/top_bg.png" x="0" y="200" z="100" width="323" height="93" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Tranform name="node_title" x="0" y="22" z="0" width="220" height="50" anchor_x="0.5" anchor_y="0.5" type="1" visible="1" rotation="0"/>
+  </Image>
+</root>

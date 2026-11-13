@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection>
+  <Image type="3" name="img_collection" subinfo="scale9/pop2_1_bg.png:(14.0, 12.0, 12.0, 14.0)" x="1.200012" y="-7.100006" z="0" width="770" height="440">
+    <Image type="3" name="img_box" subinfo="scale9/pop2_2_bg.png:(14.0, 12.0, 12.0, 14.0)" x="0" y="-30" z="0" width="750" height="357.4" />
+    <Image type="3" name="img_frame" subinfo="scale9/skinbook_frame.png:(22.0, 23.0, 1.0, 1.0)" x="0" y="0" z="0" width="770" height="440">
+      <Image type="3" name="img_title_bar" subinfo="scale9/title_skinbook_bg.png:(60.0, 22.5, 1.0, 1.0)" x="0" y="203" z="0" width="250" height="55">
+        <Image type="2" name="img_title" subinfo="scene/lotto/title_skinbook.png" x="0" y="0" z="0" width="164" height="28" />
+      </Image>
+    </Image>
+    <Image type="4" name="btn_count_box" subinfo="scene/lotto/skin_label.png" x="-300" y="182" z="0" width="104" height="76">
+      <Text type="5" name="label_txt" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="caveBookMsg3" x="0" y="25" z="0" width="160" height="30" />
+    </Image>
+    <Image type="4" name="btn_bt_exit" subinfo="common/exit_1.png" x="367" y="213" z="0" width="50" height="52" />
+  </Image>
+</collection>

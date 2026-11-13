@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorldRaidRankingPopup version="1.2.1">
+    <Image name="img_back_pannel" type="3" subinfo="scene/event/world_raid/scale9/frame_rank_popup.png:(31.0, 0, 2.0, 405.0)" x="0" y="0" z="0" width="640" height="405"/>
+    <Image name="img_title" type="2" subinfo="scene/event/world_raid/txt_title_ranking.png" x="0" y="174" z="0" width="51" height="32" />
+    <Image name="btn_exit" type="4" subinfo="common/exit_1.png" x="306" y="192" z="0" width="50" height="52" />
+    
+    <Image name="img_rank" type="2" subinfo="scene/event/world_raid/txt_title_rank.png" x="-240" y="137" z="0" width="40" height="25" />
+    <Image name="img_name" type="2" subinfo="scene/event/world_raid/txt_title_user_name.png" x="-30" y="137" z="0" width="56" height="26" />
+    <Image name="img_score" type="2" subinfo="scene/event/world_raid/txt_title_score.png" x="170" y="137" z="0" width="42" height="26" />
+    <Tranform name="node_view_point" type="1" x="0" y="13" z="0" width="602" height="221" />
+    <Tranform name="node_my_view_point" type="1" x="0" y="-145" z="0" width="602" height="80" />
+</WorldRaidRankingPopup>

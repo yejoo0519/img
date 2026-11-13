@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TitlePopup version="1.3.0">
+  <Image name="btn_protector" x="0" y="0" z="0" width="800" height="480" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="scale9/bg_white.png" click_mode="0" anchored_click_effect="0" color="RGBA(0.00,0.00,0.00,0.00)"/>
+  <Image name="img_bg" x="0" y="-12" z="1" width="580" height="344" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scale9/pop_bg_dark.png:(13,13,14,14)" color="RGBA(1.00,1.00,1.00,1.00)">
+    <Text name="label_title" x="0" y="151" z="0" width="300" height="36" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="6" subinfo="RGBA(1.00,1.00,1.00,1.00):22" localizeinfo="TITLE_TITLE" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" stroke_size="1" stroke_color="RGBA(0.00,0.00,0.00,1.00)"/>
+    <Image name="img_listBg" x="-105" y="-18" z="1" width="350" height="290" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scale9/pop3_3_bg_dark.png:(13,13,14,14)" color="RGBA(1.00,1.00,1.00,1.00)"/>
+    <Image name="btn_check" x="-263" y="109" z="2" width="20" height="20" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="scale9/pop_gray.png" click_mode="0" anchored_click_effect="0">
+      <Image name="img_check" x="0" y="0" z="0" width="20" height="20" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="0" type="2" subinfo="common/pop_gray_check.png"/>
+    </Image>
+    <Text name="label_check" x="-250" y="109" z="3" width="200" height="20" anchor_x="0" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(1.00,1.00,1.00,1.00):13" localizeinfo="TITLE_FIlTER_NOTI" HorizontalAlignment="0" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+    <Text name="label_count" x="60" y="109" z="4" width="80" height="20" anchor_x="1" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(0.70,0.70,0.70,1.00):12" localizeinfo="0/0" HorizontalAlignment="2" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+    <Tranform name="node_list" x="-105" y="-34" z="5" width="334" height="252" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1"/>
+    <Image name="img_selTitle" x="182" y="98" z="6" width="188" height="46" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="scene/title/title_grade_0.png">
+      <Text name="label_sel_name" x="0" y="0" z="0" width="180" height="40" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="6" subinfo="RGBA(1.00,1.00,1.00,1.00):22" localizeinfo="" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" stroke_size="1.5" stroke_color="RGBA(0.00,0.00,0.00,1.00)"/>
+    </Image>
+    <Image name="img_infoBg" x="182" y="-17" z="7" width="200" height="162" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scale9/pop3_3_bg_dark.png:(13,13,14,14)" color="RGBA(1.00,1.00,1.00,1.00)">
+      <Text name="label_cond_title" x="-92" y="67" z="0" width="120" height="20" anchor_x="0" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(0.70,0.70,0.70,1.00):12" localizeinfo="requirement" HorizontalAlignment="0" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+      <Image name="img_line_0" x="0" y="56" z="1" width="180" height="4" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="3" subinfo="scale9/bg_white.png:(1,1,2,2)" color="RGBA(0.12,0.13,0.12,1.00)"/>
+      <Text name="label_cond" x="0" y="34" z="2" width="190" height="30" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(1.00,1.00,1.00,1.00):17" localizeinfo="" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="0"/>
+      <Image name="img_progressBg" x="0" y="5" z="3" width="160" height="18" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scale9/bg_white.png:(1,1,2,2)" color="RGBA(0.00,0.00,0.00,1.00)">
+        <Image name="img_progress_clear" x="0" y="0" z="0" width="158" height="16" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="13" subinfo="common/stats_gauge_yellow2.png" progressinfo="0" progressvalue="0" color="RGBA(1.00,1.00,1.00,1.00)"/>
+        <Text name="label_progress" x="0" y="0" z="1" width="150" height="18" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="6" subinfo="RGBA(1.00,1.00,1.00,1.00):14" localizeinfo="0/0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" stroke_size="1" stroke_color="RGBA(0.00,0.00,0.00,1.00)"/>
+      </Image>
+      <Text name="label_period_title" x="-92" y="-21" z="4" width="120" height="20" anchor_x="0" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(0.70,0.70,0.70,1.00):12" localizeinfo="EQUIP_PERIOD" HorizontalAlignment="0" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+      <Image name="img_line_1" x="0" y="-32" z="5" width="180" height="4" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="3" subinfo="scale9/bg_white.png:(1,1,2,2)" color="RGBA(0.12,0.13,0.12,1.00)"/>
+      <Text name="label_period" x="0" y="-57" z="6" width="190" height="30" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(1.00,1.00,1.00,1.00):17" localizeinfo="상시 장착 가능" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+    </Image>
+    <Image name="btn_equip" x="182" y="-133" z="8" width="200" height="50" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="scale9/bt_equip.png:(10,10,10,10)" click_mode="2" anchored_click_effect="0">
+      <Text name="label_equip" x="0" y="0" z="0" width="200" height="50" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="6" subinfo="RGBA(1.00,1.00,1.00,1.00):20" localizeinfo="장착" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" stroke_size="1" stroke_color="RGBA(0.00,0.00,0.00,1.00)"/>
+    </Image>
+    <Image name="btn_close" x="290" y="164" z="9" width="50" height="52" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="common/exit_1.png" click_mode="2" anchored_click_effect="0"/>
+  </Image>
+</TitlePopup>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MainPopup version="1.2.1">
+  <Image name="img_back_pannel" type="2" subinfo="common_background/guild_bg.jpg" x="0" y="0" z="0" width="800" height="480" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Image name="img_status_bg" type="2" subinfo="scene/guild/guild_info_bg.png" x="0" y="216.5" z="0" width="800" height="47" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image name="btn_home" type="4" subinfo="scene/guild/guild_war/guildwar_main/bt_home.png" x="-350" y="4" z="0" width="40" height="34" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Tranform type="1" name="node_emblem_box" x="-319" y="4" z="0" width="0" height="0" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Text type="5" name="label_guild_name" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20:Helvetica-Bold" localizeinfo="Guild_Name" x="-278" y="3" z="0" width="170" height="30" visible="1" rotation="0" anchor_x="0" anchor_y="0.5" HorizontalAlignment="0" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+      <Tranform type="1" name="node_gvs_pannel" x="-12" y="4" z="0" width="0" height="0" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image name="img_gvs_bg" type="3" subinfo="scene/guild/guild_info_box.png:(4.0, 16.0, 16.0, 4.0)" x="0" y="0" z="0" width="130" height="24" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        <Image name="img_gvs_icon" type="2" subinfo="scene/guild/guild_war/guildwar_main/bt_gulid_gvs.png" x="-65.10001" y="-0.000015" z="0" width="51" height="24" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        <Text type="5" name="label_gvs" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):18" localizeinfo="9,999,999" x="10.66" y="0" z="0" width="100.52" height="24" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+      </Tranform>
+      <Tranform type="1" name="node_ranking_pannel" x="145" y="4" z="0" width="0" height="0" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image name="img_ranking_bg" type="3" subinfo="scene/guild/guild_info_box.png:(4.0, 16.0, 16.0, 4.0)" x="0" y="0" z="0" width="130" height="24" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        <Image name="img_ranking_icon" type="2" subinfo="scene/guild/guild_war/guildwar_main/bt_gulid_ranking.png" x="-65.10001" y="-0.000015" z="0" width="41" height="26" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        <Text type="5" name="label_ranking" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):18" localizeinfo="9,999,999" x="10.66" y="0" z="0" width="100.52" height="24" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+      </Tranform>
+      <Tranform type="1" name="node_medal_pannel" x="302" y="4" z="0" width="0" height="0" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image name="img_medal_bg" type="3" subinfo="scene/guild/guild_info_box.png:(4.0, 16.0, 16.0, 4.0)" x="0" y="0" z="0" width="130" height="24" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        <Image name="img_medal_icon" type="2" subinfo="scene/guild/guild_war/guildwar_main/bt_gulid_medal.png" x="-65.10001" y="-0.000015" z="0" width="33" height="34" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        <Text type="5" name="label_medal" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):18" localizeinfo="9,999,999" x="10.66" y="0" z="0" width="100.52" height="24" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+      </Tranform>
+    </Image>
+  </Image>
+</MainPopup>

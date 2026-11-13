@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="1.0">
+  <Image name="img_box" x="15" y="-5" z="0" width="512" height="424" anchor_x="0.5" anchor_y="0.5" type="3" subinfo="scene/event/SpiritRelease/bg.png:(128,106,256,212)" visible="1" rotation="0">
+    <Image name="btn_close" x="250.25" y="200" z="0" width="50" height="52" anchor_x="0.5" anchor_y="0.5" type="4" subinfo="common/exit_1.png" visible="1" rotation="0"/>
+    <Text name="label_title" x="0" y="160" z="0" width="420" height="50" anchor_x="0.5" anchor_y="0.5" type="6" subinfo="RGBA(1.00,1.00,1.00,1.00):32" localizeinfo="SPIRIT_RELEASE_TITLE" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    <Text name="label_desc" x="0" y="-170" z="0" width="386" height="30" anchor_x="0.5" anchor_y="0.5" type="5" subinfo="RGBA(0.00,0.00,0.00,1.00):20" localizeinfo="SPIRIT_RELEASE_DESC" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    <Image name="btn_help" x="220" y="-168" z="0" width="50" height="50" anchor_x="0.5" anchor_y="0.5" type="4" subinfo="common/bt_help.png" visible="1" rotation="0"/>
+    <Image name="img_new_1" x="-135.36" y="-92.29" z="0" width="160" height="120" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/event/SpiritRelease/speech_bubble_l.png" visible="1" rotation="0">
+      <Text name="label_time" x="-8" y="1" z="0" width="100" height="50" anchor_x="0.5" anchor_y="0.5" type="5" subinfo="RGBA(0.20,0.20,0.20,1.00):20" localizeinfo="" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    </Image>
+    <Text name="label_period" x="2" y="126" z="0" width="260" height="40" anchor_x="0.5" anchor_y="0.5" type="5" subinfo="RGBA(0.00,0.00,0.00,1.00):18" localizeinfo="(25.09.18~25.10.31)" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    <Image name="btn_ok" x="0" y="-120" z="1" width="146" height="40" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="transparent" click_mode="2">
+      <Image name="img_new" x="0" y="0" z="0" width="146" height="40" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scale9/bt_1.png:(19,20,1,1)" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0" anchor_max_x="1" anchor_max_y="1" offset_left="0" offset_right="0" offset_bottom="0" offset_top="0" anchored_x="0" anchored_y="0">
+        <Text name="label_new" x="0" y="0" z="0" width="114" height="28" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="6" subinfo="RGBA(1.00,1.00,1.00,1.00):18" localizeinfo="BTN_OK" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0.5" anchor_max_x="1" anchor_max_y="0.5" offset_left="16" offset_right="16" anchored_y="0" stroke_color="RGBA(0.11,0.23,0.35,1.00)" anchored_x="0" offset_top="0" offset_bottom="0"/>
+      </Image>
+      <Image name="img_spirit" x="6" y="51" z="1" width="110" height="81" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/spirit/6/profile/5-1.png" visible="1" rotation="0"/>
+    </Image>
+  </Image>
+</root>

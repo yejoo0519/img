@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="1.2">
+  <Tranform type="1" name="node_spiritstatus" x="0" y="0" z="0" width="100" height="100" visible="1" rotation="0">
+    <Image name="img_statusbg" type="2" subinfo="scene/spirit/bg_spirit_default2.png" x="212.5" y="-52.2" z="0" width="351" height="362" visible="1" rotation="0">
+      <Image name="btn_auto_reg" type="4" subinfo="transparent" x="-130" y="-80" z="0" width="69" height="50" visible="1" rotation="0">
+        <Image name="btn_auto_reg_img" x="0" y="0" z="0" width="69" height="50" anchor_x="0.5" anchor_y="0.5" type="3" subinfo="scene/spirit/btn_mount.png:(18,22,39,46)" visible="1" rotation="0"/>
+        <Text type="5" name="label_auto_reg" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):13" localizeinfo="AUTO_REG3" x="0" y="0" z="0" width="69" height="50" visible="1" rotation="0"/>
+      </Image>
+      <Image name="btn_auto_reg4" type="4" subinfo="transparent" x="-55" y="-80" z="0" width="69" height="50" visible="1" rotation="0">
+        <Image name="btn_auto_reg4_img" x="0" y="0" z="0" width="69" height="50" anchor_x="0.5" anchor_y="0.5" type="3" subinfo="scene/spirit/btn_mount.png:(18,22,39,46)" visible="1" rotation="0"/>
+        <Text type="5" name="label_auto_reg4" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):13" localizeinfo="AUTO_REG4" x="0" y="0" z="0" width="69" height="50" visible="1" rotation="0"/>
+      </Image>
+      <Image name="btn_levelup" type="4" subinfo="transparent" x="73" y="-80" z="0" width="180" height="50" visible="1" rotation="0">
+        <Image name="img_btn_levelup" x="0" y="0" z="0" width="180" height="50" anchor_x="0.5" anchor_y="0.5" type="3" subinfo="scene/spirit/btn_mount.png:(18,22,39,46)" visible="1" rotation="0"/>
+        <Text type="5" name="label_levelup" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):15" localizeinfo="LEVEL_UP2" x="58" y="0" z="0" width="52" height="40" visible="1" rotation="0"/>
+        <Image name="img_cash_bg" type="2" subinfo="scene/spirit/box_dia_enhancost.png" x="-26" y="-2" z="0" width="120" height="30" visible="1" rotation="0">
+          <Text type="5" name="label_cash" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):13" localizeinfo="1000000" x="10" y="2" z="0" width="82" height="30" visible="1" rotation="0"/>
+        </Image>
+      </Image>
+      <Text type="5" name="label_name" subinfo="RGBA(0.000, 0.000, 0.000, 1.000):18" localizeinfo="실로인" x="100.7" y="101.2" z="0" width="115" height="30" visible="1" rotation="0"/>
+      <Text type="5" name="label_level" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):18" localizeinfo="Lv.99" x="29.5" y="101.2" z="0" width="115" height="30" visible="1" rotation="0"/>
+      <Tranform type="1" name="node_exp_pos" x="65" y="78" z="0" width="100" height="100" visible="1" rotation="0">
+        <Image name="img_exp_gauge_bg" type="2" subinfo="scene/skypalace/info_lv_gauge_bg.png" x="0" y="0" z="0" width="190" height="16" visible="1" rotation="0"/>
+        <Image name="img_exp_gauge" type="2" subinfo="scene/skypalace/info_lv_gauge.png" x="0" y="0" z="0" width="187" height="14" visible="1" rotation="0"/>
+        <Text type="5" name="label_exp" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):12" localizeinfo="1/1000000" x="0" y="0" z="0" width="120.8" height="20" visible="1" rotation="0"/>
+      </Tranform>
+      <Tranform type="1" name="node_star_pos" x="50" y="130" z="0" width="100" height="100" visible="1" rotation="0"/>
+      <Image name="img_reinforced" type="2" subinfo="common/bg_char_box.png" x="28.9" y="100" z="0" width="21.6" height="11.52" visible="1" rotation="0">
+        <Text type="5" name="label_reinforce" subinfo="RGBA(0.903, 1.000, 0.000, 1.000):12" localizeinfo="+3" x="0" y="0" z="0" width="40" height="30" visible="1" rotation="0"/>
+      </Image>
+      <Tranform type="1" name="node_spirit_pos" x="-94.99998" y="85" z="0" width="80" height="80" visible="1" rotation="0"/>
+      <Tranform type="1" name="node_spirit_elem_pos" x="-150" y="120" z="0" width="40" height="40" visible="1" rotation="0"/>
+      <Image name="img_scroll_bg" type="2" subinfo="scene/battle_pass/frame_pass_bg2.png" x="0" y="-15" z="0" width="320" height="65" visible="1" rotation="0"/>
+      <Tranform type="1" name="node_slot_pos" x="0" y="-15" z="0" width="290" height="70" visible="1" rotation="0"/>
+    </Image>
+  </Tranform>
+</root>

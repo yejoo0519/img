@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InfoPopup version="1.3.0">
+  <Image name="btn_protector" x="0" y="0" z="0" width="800" height="480" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="transparent" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0" anchor_max_x="1" anchor_max_y="1" offset_left="0" offset_right="0" offset_bottom="0" offset_top="0" click_mode="2" anchored_x="0" anchored_y="0"/>
+  <Image name="img_bg" type="3" subinfo="scale9/pop_bg_dark.png:(35,35,70,70)" x="0" y="0" z="1" width="600" height="350" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Tranform name="node_header" x="0" y="175" z="0" width="0" height="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1">
+      <Text name="label_title" x="0" y="-44" z="0" width="580" height="50" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(1.00,1.00,1.00,1.00):24" localizeinfo="TITLE" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+    </Tranform>
+    <Tranform name="node_middle_2" x="0" y="99" z="1" width="0" height="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1">
+      <Image name="img_innerBg_2" x="0" y="-45" z="0" width="560" height="90" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scale9/pop3_3_bg_dark.png:(10,10,20,20)">
+        <Text name="label_desc_2" x="0" y="0" z="0" width="550" height="100" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(1.00,1.00,1.00,1.00):18" localizeinfo="desc" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="0"/>
+      </Image>
+      <Text name="label_noti_2" x="0" y="-179" z="1" width="560" height="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(1.00,1.00,1.00,1.00):18" localizeinfo="noti" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="0"/>
+    </Tranform>
+    <Tranform name="node_bottom_2" x="0" y="-115" z="2" width="0" height="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1">
+      <Image name="btn_confirm_2" x="-76" y="0" z="0" width="140" height="40" anchor_x="0.5" anchor_y="1" rotation="0" visible="1" type="4" subinfo="scale9/bt_1.png:(17,20,2,2)" click_mode="2" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="1" anchor_max_x="0.5" anchor_max_y="1" anchored_x="-76" anchored_y="0" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0">
+        <Text name="label_confirm_2" x="0" y="0" z="0" width="140" height="40" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="6" subinfo="RGBA(1.00,1.00,1.00,1.00):18" localizeinfo="BTN_CONFIRM" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0" stroke_size="1" stroke_color="RGBA(0.15,0.23,0.35,1.00)" stroke_opacity="255"/>
+      </Image>
+      <Image name="btn_cancel_2" x="76" y="0" z="1" width="140" height="40" anchor_x="0.5" anchor_y="1" rotation="0" visible="1" type="4" subinfo="scale9/bt_4.png:(17,20,2,2)" click_mode="2" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="1" anchor_max_x="0.5" anchor_max_y="1" anchored_x="76" anchored_y="0" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0">
+        <Text name="label_cancel_2" x="0" y="0" z="0" width="140" height="40" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="6" subinfo="RGBA(1.00,1.00,1.00,1.00):18" localizeinfo="BTN_CANCEL" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0" stroke_color="RGBA(0.36,0.15,0.15,1.00)"/>
+      </Image>
+    </Tranform>
+    <Tranform name="node_bottom_etc" x="0" y="-115" z="3" width="0" height="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1">
+      <Image name="btn_sell" x="260" y="0" z="0" width="65" height="57" anchor_x="0.5" anchor_y="1" rotation="0" visible="1" type="4" subinfo="scene/cave/item_sell.png" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="1" anchor_max_x="0.5" anchor_max_y="1" anchored_x="260" anchored_y="0" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0" click_mode="2"/>
+    </Tranform>
+    <Tranform name="node_count" x="0" y="-20" z="4" width="0" height="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1">
+      <Image name="btn_left_2" x="-94" y="1" z="0" width="30" height="37" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="scene/autolevelup/bt_left2.png" click_mode="2"/>
+      <Image name="btn_left_1" x="-60" y="0" z="1" width="30" height="37" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="scene/autolevelup/bt_left.png" click_mode="2"/>
+      <Image name="btn_count" x="0" y="0" z="2" width="73" height="32" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="common/frame_calculator.png" click_mode="2">
+        <Text name="label_count" x="0" y="0" z="0" width="100" height="100" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(1.00,1.00,1.00,1.00):20" localizeinfo="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+      </Image>
+      <Image name="btn_right_1" x="60" y="0" z="3" width="30" height="37" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="scene/autolevelup/bt_right.png" click_mode="2"/>
+      <Image name="btn_right_2" x="94" y="0" z="4" width="30" height="37" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="scene/autolevelup/bt_right2.png" click_mode="2"/>
+    </Tranform>
+  </Image>
+</InfoPopup>

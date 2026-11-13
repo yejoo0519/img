@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="1.3.0">
+  <Image name="img_bg" x="0" y="-12" z="0" width="470" height="344" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scale9/frame_bg5.png:(30,31,1,1)">
+    <Image name="img_ribbon" x="0" y="176" z="1" width="342" height="64" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="scene/spirit/new/ribbon_title_complete.png">
+      <Text name="label_title" x="0" y="6" z="0" width="240" height="34" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="6" subinfo="RGBA(1.00,1.00,1.00,1.00):22:GodoB" localizeinfo="-" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" stroke_color="RGBA(0.55,0.22,0.02,1.00)" stroke_size="1.6"/>
+    </Image>
+    <Image name="img_spark_0" x="-130" y="196" z="2" width="42" height="42" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="scene/spirit/new/ribbon_spark.png"/>
+    <Image name="img_spark_1" x="-108" y="166" z="2" width="26" height="26" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="scene/spirit/new/ribbon_spark.png"/>
+    <Image name="img_spark_2" x="118" y="196" z="2" width="26" height="26" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="scene/spirit/new/ribbon_spark.png"/>
+    <Image name="img_spark_3" x="140" y="168" z="2" width="42" height="42" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="scene/spirit/new/ribbon_spark.png"/>
+    <Text name="label_target_count" x="-222" y="135" z="3" width="220" height="20" anchor_x="0" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(1.00,1.00,1.00,1.00):13:GodoB" localizeinfo="-" HorizontalAlignment="0" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+    <Text name="label_goal" x="222" y="135" z="4" width="160" height="20" anchor_x="1" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(1.00,1.00,1.00,1.00):13:GodoB" localizeinfo="-" HorizontalAlignment="2" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+    <Image name="img_list_bg" x="0" y="4" z="5" width="448" height="234" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scene/spirit/new/panel_right_in.png:(26,26,2,2)"/>
+    <Tranform name="node_list" x="0" y="4" z="6" width="436" height="226" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1"/>
+    <Image name="btn_ok" x="0" y="-141" z="7" width="140" height="44" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="scene/spirit/btn_blue.png" click_mode="2" anchored_click_effect="0">
+      <Text name="label_ok" x="0" y="0" z="0" width="108" height="26" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="6" subinfo="RGBA(1.00,1.00,1.00,1.00):20:GodoB" localizeinfo="BTN_OK" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0" stroke_color="RGBA(0.11,0.23,0.35,1.00)"/>
+    </Image>
+  </Image>
+</root>

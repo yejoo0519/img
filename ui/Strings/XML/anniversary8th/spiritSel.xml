@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spiritSel version="1.2">
+  <Image name="img_bg" type="3" subinfo="scene/event/anniversary2020/scale9/popupBg.png:(8.0, 7.0, 8.0, 9.0)" x="0" y="0" z="0" width="580" height="340">
+    <Image name="img_sub_bg_r" type="3" subinfo="scene/event/anniversary2020/scale9/popupSubBg.png:(14.0, 26.0, 26.0, 14.0)" x="77.8" y="0" z="0" width="400" height="200">
+      <Tranform type="1" name="node_type" x="-148" y="0" z="0" width="0" height="0">
+        <Image name="btn_type_1" type="4" subinfo="scene/event/anniversary2020/spiritSel/type_box_OFF.png" x="0" y="35" z="0" width="72" height="32">
+          <Text type="5" name="label_type_1" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="No" x="0" y="0" z="0" width="70" height="28" />
+        </Image>
+        <Image name="btn_type_2" type="4" subinfo="scene/event/anniversary2020/spiritSel/type_box_OFF.png" x="0" y="0" z="0" width="72" height="32">
+          <Text type="5" name="label_type_2" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="No" x="0" y="0" z="0" width="70" height="28" />
+        </Image>
+        <Image name="btn_type_3" type="4" subinfo="scene/event/anniversary2020/spiritSel/type_box_OFF.png" x="0" y="-35" z="0" width="72" height="32">
+          <Text type="5" name="label_type_3" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="No" x="0" y="0" z="0" width="70" height="28" />
+        </Image>
+      </Tranform>
+      <Tranform type="1" name="node_passives" x="5" y="0" z="0" width="0" height="0">
+        <Image name="btn_passive_1" type="4" subinfo="scene/event/anniversary2020/spiritSel/HP.png" x="-20" y="40" z="0" width="90" height="67">
+          <Text type="5" name="label_passive_1" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="0%" x="0" y="-7.5" z="0" width="80" height="30" />
+        </Image>
+        <Image name="btn_passive_2" type="4" subinfo="scene/event/anniversary2020/spiritSel/HP.png" x="120" y="40" z="0" width="90" height="67">
+          <Text type="5" name="label_passive_2" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="0%" x="0" y="-7.5" z="0" width="80" height="30" />
+        </Image>
+        <Image name="btn_passive_3" type="4" subinfo="scene/event/anniversary2020/spiritSel/HP.png" x="-20" y="-40" z="0" width="90" height="67">
+          <Text type="5" name="label_passive_3" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="0%" x="0" y="-7.5" z="0" width="80" height="30" />
+        </Image>
+        <Image name="btn_passive_4" type="4" subinfo="scene/event/anniversary2020/spiritSel/HP.png" x="120" y="-40" z="0" width="90" height="67">
+          <Text type="5" name="label_passive_4" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="0%" x="0" y="-7.5" z="0" width="80" height="30" />
+        </Image>
+        <Image name="btn_passive_type_1" type="4" subinfo="scene/event/anniversary2020/spiritSel/percent.png" x="-85.00002" y="40" z="0" width="34" height="38" />
+        <Image name="btn_passive_type_2" type="4" subinfo="scene/event/anniversary2020/spiritSel/percent.png" x="54.99998" y="40" z="0" width="34" height="38" />
+        <Image name="btn_passive_type_3" type="4" subinfo="scene/event/anniversary2020/spiritSel/percent.png" x="-85.00002" y="-40" z="0" width="34" height="38" />
+        <Image name="btn_passive_type_4" type="4" subinfo="scene/event/anniversary2020/spiritSel/percent.png" x="54.99998" y="-40" z="0" width="34" height="38" />
+      </Tranform>
+    </Image>
+    <Image name="img_sub_bg_l" type="3" subinfo="scene/event/anniversary2020/scale9/popupSubBg.png:(14.0, 26.0, 26.0, 14.0)" x="-205" y="0" z="0" width="140" height="200">
+      <Image name="img_spirit_bg" type="2" subinfo="scene/spirit/big_element_select.png" x="0" y="23.4" z="0" width="116" height="130" />
+      <Image name="img_image" type="2" subinfo="scene/event/anniversary2020/spiritSel/10_bt.png" x="0" y="-68.3" z="0" width="104" height="30">
+        <Text type="5" name="label_addvalue" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):16" localizeinfo="+10" x="26.4" y="-2.1" z="0" width="88.4" height="20.5" />
+        <Image name="img_addtype" type="2" subinfo="common/icon_hp_stat.png" x="-32.4" y="-3.3" z="0" width="19" height="17" />
+      </Image>
+    </Image>
+    <Tranform type="1" name="node_element" x="57.8" y="130" z="0" width="0" height="0">
+      <Image name="btn_elem_1" type="4" subinfo="common/elemen_1.png" x="-125" y="0" z="0" width="66" height="73" />
+      <Image name="btn_elem_2" type="4" subinfo="common/elemen_3.png" x="-75" y="0" z="0" width="66" height="73" />
+      <Image name="btn_elem_3" type="4" subinfo="common/elemen_2.png" x="-25" y="0" z="0" width="66" height="73" />
+      <Image name="btn_elem_4" type="4" subinfo="common/elemen_4.png" x="25" y="0" z="0" width="66" height="73" />
+      <Image name="btn_elem_5" type="4" subinfo="common/elemen_6.png" x="75" y="0" z="0" width="66" height="73" />
+      <Image name="btn_elem_6" type="4" subinfo="common/elemen_5.png" x="125" y="0" z="0" width="66" height="73" />
+    </Tranform>
+    <Image name="btn_btnsave" type="4" subinfo="scene/event/anniversary2020/spiritSel/btn_enable.png" x="-90" y="-130" z="0" width="108" height="49">
+      <Text type="5" name="label_labelsave" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="저장" x="0" y="3" z="0" width="90" height="30" />
+    </Image>
+    <Image name="btn_btncancel" type="4" subinfo="scene/event/anniversary2020/spiritSel/btn_disable.png" x="90" y="-130" z="0" width="108" height="49">
+      <Text type="5" name="label_labelcancel" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="닫기" x="0" y="3" z="0" width="90" height="30" />
+    </Image>
+    <Image name="img_elemen" type="2" subinfo="scene/event/anniversary2020/spiritSel/element_box.png" x="-195" y="127.1" z="0" width="91" height="32">
+      <Text type="5" name="label_elemen" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="New Text" x="0" y="0" z="0" width="80" height="30" />
+    </Image>
+  </Image>
+</spiritSel>

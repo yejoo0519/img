@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="1.2.1">
+  <Image name="img_pass_help" type="3" subinfo="scale9/pop2_1_bg.png:(20,20,1,1)" x="0" y="0" z="0" width="640" height="380" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0">
+    <Text type="5" name="label_help" subinfo="RGBA(1.00,1.00,1.00,1.00):14" localizeinfo="text" x="0" y="0" z="0" width="558.6" height="340" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    <Image name="btn_help_exit" type="4" subinfo="scene/battle_pass/btn_x.png" x="320" y="183" z="0" width="40" height="46" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  </Image>
+</root>

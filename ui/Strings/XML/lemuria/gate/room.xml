@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="1.3.0">
+  <Image type="2" name="img_bg" subinfo="common_background/bg_white_crow_battle.jpg" x="0" y="0" z="0" width="800" height="480" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  <Image type="2" name="img_title" subinfo="scene/lemuria/main/frame_boss_name_0101.png" x="0" y="211" z="1" width="348" height="76" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Text type="6" name="label_sub_txt1" subinfo="RGBA(1.00,1.00,1.00,1.00):17" localizeinfo="" x="0" y="15" z="0" width="260" height="40" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    <Text type="6" name="label_sub_txt2" subinfo="RGBA(1.00,0.80,0.00,1.00):24" localizeinfo="후긴" x="0" y="-7.2" z="0" width="260" height="40" anchor_x="0.5" anchor_y="0.5" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    <Tranform name="node_sub_node2" x="1" y="-7.2" z="0" width="260" height="40" anchor_x="0.5" anchor_y="0.5" type="1" visible="1" rotation="0"/>
+    <Tranform name="node_sub_node1" x="0" y="15" z="0" width="260" height="40" anchor_x="0.5" anchor_y="0.5" type="1" visible="1" rotation="0"/>
+  </Image>
+  <Image type="4" name="btn_ready" subinfo="scene/lemuria/main/bt_ready.png" x="-245.3" y="210" z="2" width="131" height="51" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Text type="6" name="label_ready" subinfo="RGBA(1.00,1.00,0.00,1.00):24:notoblack_yellow_24" localizeinfo="READY" x="0" y="1" z="0" width="132" height="52" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+  </Image>
+  <Text type="5" name="label_code_title" subinfo="RGBA(1.00,1.00,1.00,1.00):14" localizeinfo="CODE" x="204" y="220" z="3" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0">
+    <Text type="5" name="label_code" subinfo="RGBA(1.00,1.00,1.00,1.00):25" localizeinfo="" x="0" y="-18" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+  </Text>
+  <Tranform type="1" name="node_player1" x="-355" y="199" z="4" width="100" height="100" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Text type="6" name="label_looking_1" subinfo="RGBA(1.00,1.00,1.00,1.00):13" localizeinfo="ARCHA11" x="0" y="20" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    <Tranform type="1" name="node_class_1" x="0" y="20" z="1" width="22" height="20" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Text type="6" name="label_name_1" subinfo="RGBA(0.20,1.00,0.20,1.00):14:Helvetica" localizeinfo="...." x="0" y="2" z="2" width="90" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+    <Image type="4" name="btn_frame_1" subinfo="scene/gate/team_select.png" x="1" y="-103" z="3" width="72" height="196" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image type="2" name="img_dragon_1_1" subinfo="common/dragonthumb_12.png" x="1.7" y="-41.7" z="4" width="63" height="63" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image type="2" name="img_dragon_1_2" subinfo="common/dragonthumb_12.png" x="1.7" y="-103" z="5" width="63" height="63" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image type="2" name="img_dragon_1_3" subinfo="common/dragonthumb_12.png" x="1.7" y="-164.2" z="6" width="63" height="63" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image type="3" name="img_ready_1" subinfo="scale9/chat_bg.png:(9,9,20,20)" x="1" y="-103" z="7" width="60" height="181" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image type="2" name="img_ready_txt_1" subinfo="scene/lemuria/main/txt_ready.png" x="0" y="0" z="0" width="26" height="121" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    </Image>
+    <Image type="3" name="img_disconnect_1" subinfo="scale9/chat_bg.png:(9,9,20,20)" x="1" y="-103" z="8" width="60" height="181" visible="0" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image type="2" name="img_disconnect_txt_1" subinfo="scene/gate/txt_dc.png" x="0" y="0" z="0" width="26" height="86" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    </Image>
+    <Image type="2" name="img_player_num_1" subinfo="scene/gate/team_num1.png" x="-26" y="-23" z="9" width="30" height="40" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  </Tranform>
+  <Tranform type="1" name="node_player2" x="355" y="199" z="5" width="100" height="100" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Text type="6" name="label_looking_2" subinfo="RGBA(1.00,1.00,1.00,1.00):13" localizeinfo="ARCHA11" x="0" y="20" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    <Tranform type="1" name="node_class_2" x="0" y="20" z="1" width="22" height="20" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Text type="6" name="label_name_2" subinfo="RGBA(0.20,1.00,0.20,1.00):14:Helvetica" localizeinfo="...." x="0" y="2" z="2" width="90" height="24" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+    <Image type="4" name="btn_frame_2" subinfo="scene/gate/team_select.png" x="1" y="-103" z="3" width="72" height="196" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image type="2" name="img_dragon_2_1" subinfo="common/dragonthumb_12.png" x="1.7" y="-41.7" z="4" width="63" height="63" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image type="2" name="img_dragon_2_2" subinfo="common/dragonthumb_12.png" x="1.7" y="-103" z="5" width="63" height="63" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image type="2" name="img_dragon_2_3" subinfo="common/dragonthumb_12.png" x="1.7" y="-164.2" z="6" width="63" height="63" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image type="3" name="img_ready_2" subinfo="scale9/chat_bg.png:(9,9,20,20)" x="1" y="-103" z="7" width="60" height="181" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image type="2" name="img_ready_txt_2" subinfo="scene/lemuria/main/txt_ready.png" x="0" y="0" z="0" width="26" height="121" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    </Image>
+    <Image type="3" name="img_disconnect_2" subinfo="scale9/chat_bg.png:(9,9,20,20)" x="1" y="-103" z="8" width="60" height="181" visible="0" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image type="2" name="img_disconnect_txt_2" subinfo="scene/gate/txt_dc.png" x="0" y="0" z="0" width="26" height="121" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    </Image>
+    <Image type="2" name="img_player_num_2" subinfo="scene/gate/team_num2.png" x="-30.7" y="-25" z="9" width="30" height="40" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  </Tranform>
+  <Tranform type="1" name="node_player3" x="-355" y="-33" z="6" width="100" height="100" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Text type="6" name="label_looking_3" subinfo="RGBA(1.00,1.00,1.00,1.00):13" localizeinfo="ARCHA11" x="0" y="20" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    <Tranform type="1" name="node_class_3" x="0" y="20" z="1" width="22" height="20" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Text type="6" name="label_name_3" subinfo="RGBA(0.20,1.00,0.20,1.00):14:Helvetica" localizeinfo="...." x="0" y="2" z="2" width="90" height="24" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+    <Image type="4" name="btn_frame_3" subinfo="scene/gate/team_select.png" x="1" y="-103" z="3" width="72" height="196" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image type="2" name="img_dragon_3_1" subinfo="common/dragonthumb_12.png" x="1.7" y="-41.7" z="4" width="63" height="63" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image type="2" name="img_dragon_3_2" subinfo="common/dragonthumb_12.png" x="1.7" y="-103" z="5" width="63" height="63" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image type="2" name="img_dragon_3_3" subinfo="common/dragonthumb_12.png" x="1.7" y="-164.2" z="6" width="63" height="63" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image type="3" name="img_ready_3" subinfo="scale9/chat_bg.png:(9,9,20,20)" x="1" y="-103" z="7" width="60" height="181" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image type="2" name="img_ready_txt_3" subinfo="scene/lemuria/main/txt_ready.png" x="0" y="0" z="0" width="26" height="121" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    </Image>
+    <Image type="3" name="img_disconnect_3" subinfo="scale9/chat_bg.png:(9,9,20,20)" x="1" y="-103" z="8" width="60" height="181" visible="0" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image type="2" name="img_disconnect_txt_3" subinfo="scene/gate/txt_dc.png" x="0" y="0" z="0" width="26" height="121" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    </Image>
+    <Image type="2" name="img_player_num_3" subinfo="scene/gate/team_num3.png" x="-30.7" y="-30" z="9" width="30" height="40" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  </Tranform>
+  <Tranform type="1" name="node_player4" x="355" y="-33" z="7" width="100" height="100" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Text type="6" name="label_looking_4" subinfo="RGBA(1.00,1.00,1.00,1.00):13" localizeinfo="ARCHA11" x="0" y="20" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    <Tranform type="1" name="node_class_4" x="0" y="20" z="1" width="22" height="20" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Text type="6" name="label_name_4" subinfo="RGBA(0.20,1.00,0.20,1.00):14:Helvetica" localizeinfo="...." x="0" y="2" z="2" width="90" height="24" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+    <Image type="4" name="btn_frame_4" subinfo="scene/gate/team_select.png" x="1" y="-103" z="3" width="72" height="196" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image type="2" name="img_dragon_4_1" subinfo="common/dragonthumb_12.png" x="1.7" y="-41.7" z="4" width="63" height="63" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image type="2" name="img_dragon_4_2" subinfo="common/dragonthumb_12.png" x="1.7" y="-103" z="5" width="63" height="63" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image type="2" name="img_dragon_4_3" subinfo="common/dragonthumb_12.png" x="1.7" y="-164.2" z="6" width="63" height="63" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image type="3" name="img_ready_4" subinfo="scale9/chat_bg.png:(9,9,20,20)" x="1" y="-103" z="7" width="60" height="181" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image type="2" name="img_ready_txt_4" subinfo="scene/lemuria/main/txt_ready.png" x="0" y="0" z="0" width="26" height="121" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    </Image>
+    <Image type="3" name="img_disconnect_4" subinfo="scale9/chat_bg.png:(9,9,20,20)" x="1" y="-103" z="8" width="60" height="181" visible="0" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image type="2" name="img_disconnect_txt_4" subinfo="scene/gate/txt_dc.png" x="0" y="0" z="0" width="26" height="121" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    </Image>
+    <Image type="2" name="img_player_num_4" subinfo="scene/gate/team_num4.png" x="-30.9" y="-25" z="9" width="30" height="40" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  </Tranform>
+  <Image type="4" name="btn_exit" subinfo="common/exit_1.png" x="280" y="211" z="8" width="50" height="52" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  <Image type="3" name="img_info" subinfo="scene/lemuria/main/frame_setting_0101.png:(153,87,307,175)" x="-3.4" y="3.88" z="9" width="622" height="352" anchor_x="0.5" anchor_y="0.5" visible="1" rotation="0">
+    <Image type="2" name="img_cur_frame" subinfo="scene/colosseum/box_mine.png" x="-240" y="62.5" z="0" width="84" height="84" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Tranform type="1" name="node_sub_info" x="4" y="0" z="1" width="100" height="100" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image type="4" name="btn_dragon_box" subinfo="scene/lemuria/main/frame_setting_0201.png" x="-61.1" y="6" z="0" width="233" height="243" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Tranform name="node_dragon_info" x="0" y="-121.5" z="0" width="226" height="236" anchor_x="0.5" anchor_y="0" type="1" visible="1" rotation="0" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="0" anchor_max_x="0.5" anchor_max_y="0" anchored_x="0" anchored_y="0" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0"/>
+      </Image>
+      <Image type="4" name="btn_drink_box" subinfo="scene/lemuria/main/potion_bg.png" x="25" y="-100" z="0" width="56" height="23" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="4" name="btn_equip_box" subinfo="scene/lemuria/main/scale9/frame_setting_0401.png:(11,11,24,24)" x="116.8" y="77.5" z="0" width="102" height="101" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image name="img_txt_item" x="0" y="0" z="0" width="54" height="22" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/gate/txt_item.png" visible="1" rotation="0"/>
+      </Image>
+      <Image name="btn_pendant_box" x="224" y="77.5" z="0" width="102" height="101" anchor_x="0.5" anchor_y="0.5" type="4" subinfo="scene/lemuria/main/scale9/frame_setting_0401.png:(11,11,24,24)" visible="1" rotation="0">
+        <Image name="img_txt_item2" x="0" y="2" z="0" width="50" height="27" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/txt_pen.png" visible="1" rotation="0"/>
+      </Image>
+      <Image type="4" name="btn_spirit_box" subinfo="scene/lemuria/main/scale9/frame_setting_0401.png:(11,11,24,24)" x="97.4" y="-14.3" z="0" width="66" height="66" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image name="img_spirit" x="0" y="0" z="0" width="50" height="18" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/gate/txt_spirit.png" visible="1" rotation="0"/>
+      </Image>
+      <Image type="4" name="btn_gem_box_1" subinfo="scene/lemuria/main/scale9/frame_setting_0401.png:(11,11,24,24)" x="170" y="-14.3" z="0" width="66" height="66" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image name="img_txt_gem1" x="0" y="0" z="0" width="40" height="20" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/gate/txt_gem.png" visible="1" rotation="0"/>
+      </Image>
+      <Image type="4" name="btn_gem_box_2" subinfo="scene/lemuria/main/scale9/frame_setting_0401.png:(11,11,24,24)" x="242.6" y="-14.3" z="0" width="66" height="66" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image name="img_txt_gem2" x="0" y="0" z="0" width="40" height="20" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/gate/txt_gem.png" visible="1" rotation="0"/>
+      </Image>
+      <Image type="4" name="btn_gem_box_3" subinfo="scene/lemuria/main/scale9/frame_setting_0401.png:(11,11,24,24)" x="97.4" y="-85" z="0" width="66" height="66" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image name="img_txt_gem3" x="0" y="0" z="0" width="40" height="20" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/gate/txt_gem.png" visible="1" rotation="0"/>
+      </Image>
+      <Image type="4" name="btn_gem_box_4" subinfo="scene/lemuria/main/scale9/frame_setting_0401.png:(11,11,24,24)" x="170" y="-85" z="0" width="66" height="66" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image name="img_txt_gem4" x="0" y="0" z="0" width="40" height="20" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/gate/txt_gem.png" visible="1" rotation="0"/>
+      </Image>
+      <Image type="4" name="btn_gem_box_5" subinfo="scene/lemuria/main/scale9/frame_setting_0401.png:(11,11,24,24)" x="242.6" y="-85" z="0" width="66" height="66" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image name="img_txt_gem5" x="0" y="0" z="0" width="40" height="20" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/gate/txt_gem.png" visible="1" rotation="0"/>
+      </Image>
+      <Image type="2" name="img_arrow" subinfo="scene/gate/icon_arrow.png" x="-188" y="-10" z="0" width="25" height="49" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="2" name="img_icon_1" subinfo="common/icon_eval.png" x="-163.3" y="-137" z="0" width="21" height="25" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image type="2" name="img_partition" subinfo="scene/lemuria/main/bg2_line2.png" x="95" y="0" z="0" width="13" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+      <Image type="2" name="img_icon_2" subinfo="common/icon_hp_stat.png" x="-50" y="-137" z="0" width="23.37" height="21" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image type="2" name="img_partition_3" subinfo="scene/lemuria/main/bg2_line2.png" x="95" y="0" z="0" width="13" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+      <Image type="2" name="img_icon_3" subinfo="common/icon_atk_stat.png" x="60" y="-137" z="0" width="22" height="21" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image type="2" name="img_partition_4" subinfo="scene/lemuria/main/bg2_line2.png" x="95" y="0" z="0" width="13" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+      <Image type="2" name="img_icon_4" subinfo="common/icon_def_stat.png" x="175" y="-137" z="0" width="19.8" height="21" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    </Tranform>
+    <Tranform type="1" name="node_list_info" x="0" y="0" z="2" width="100" height="100" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image type="3" name="img_partition_main" subinfo="scene/lemuria/main/scale9/bg2_line.png:(1,5,2,10)" x="-193" y="-10" z="0" width="4" height="276" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image type="2" name="img_partition_1" subinfo="scene/lemuria/main/bg2_line2.png" x="63.2" y="-126" z="0" width="13" height="28" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        <Image type="2" name="img_icon_lv" subinfo="common/lv.png" x="40.5" y="-126" z="0" width="30" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        <Image type="2" name="img_partition_2" subinfo="scene/lemuria/main/bg2_line2.png" x="227" y="-126" z="0" width="13" height="28" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        <Image type="2" name="img_partition_2_2" subinfo="scene/lemuria/main/bg2_line2.png" x="266" y="-126" z="0" width="13" height="28" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        <Image type="2" name="img_icon_eval" subinfo="common/icon_eval.png" x="286" y="-126" z="0" width="21" height="25" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        <Image type="2" name="img_partition_3_2" subinfo="scene/lemuria/main/bg2_line2.png" x="397" y="-126" z="0" width="13" height="28" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        <Image type="2" name="img_icon_drink" subinfo="scene/lemuria/main/potion_bg.png" x="440" y="-124" z="0" width="56" height="23" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+      <Image type="2" name="img_arrow_1" subinfo="scene/gate/icon_arrow.png" x="-184.11" y="-10" z="0" width="25" height="49" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="4" name="btn_all" subinfo="common/elemen_8.png" x="-166" y="146" z="0" width="29.7" height="32.85" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="4" name="btn_earth" subinfo="common/elemen_1.png" x="-136" y="146" z="0" width="29.7" height="32.85" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="4" name="btn_water" subinfo="common/elemen_2.png" x="-106" y="146" z="0" width="29.7" height="32.85" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="4" name="btn_fire" subinfo="common/elemen_3.png" x="-76" y="146" z="0" width="29.7" height="32.85" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="4" name="btn_wind" subinfo="common/elemen_4.png" x="-46" y="146" z="0" width="29.7" height="32.85" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="4" name="btn_light" subinfo="common/elemen_5.png" x="-16" y="146" z="0" width="29.7" height="32.85" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="4" name="btn_dark" subinfo="common/elemen_6.png" x="14" y="146" z="0" width="29.7" height="32.85" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="4" name="btn_dawn" subinfo="common/elemen_9.png" x="44" y="146" z="0" width="29.7" height="32.85" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="4" name="btn_nightmare" subinfo="common/elemen_10.png" x="74" y="146" z="0" width="29.7" height="32.85" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="4" name="btn_dusk" subinfo="common/elemen_11.png" x="104" y="146" z="0" width="29.7" height="32.85" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="4" name="btn_tier" subinfo="scene/gate/bt_algin.png" x="164" y="144" z="0" width="66" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image type="2" name="img_tier" subinfo="scene/gate/txt_all.png" x="0" y="0" z="0" width="31" height="15" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        <Image type="2" name="img_sub_tier" subinfo="scene/gate/back_algin2.png" x="0" y="-76" z="0" width="71" height="122" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+          <Image type="4" name="btn_tall" subinfo="scene/gate/txt_all.png" x="0" y="48" z="0" width="31" height="15" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+          <Image type="4" name="btn_adult" subinfo="scene/gate/txt_adult.png" x="0" y="26" z="0" width="49" height="16" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+          <Image type="4" name="btn_cap" subinfo="scene/gate/txt_cap.png" x="0" y="3" z="0" width="33" height="16" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+          <Image type="4" name="btn_awake" subinfo="scene/gate/txt_awake.png" x="0" y="-21" z="0" width="49" height="16" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+          <Image type="4" name="btn_transcend" subinfo="scene/gate/txt_transcend.png" x="0" y="-44" z="0" width="69" height="12" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        </Image>
+      </Image>
+      <Image type="4" name="btn_sort" subinfo="scene/gate/bt_algin.png" x="240" y="144" z="0" width="66" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image type="2" name="img_sort" subinfo="scene/gate/txt_day.png" x="0" y="0" z="0" width="46" height="16" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        <Image type="2" name="img_sub_sort" subinfo="scene/gate/back_algin.png" x="0" y="-85" z="0" width="71" height="142" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+          <Image type="4" name="btn_bday" subinfo="scene/gate/txt_day.png" x="0" y="57" z="0" width="46" height="16" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+          <Image type="4" name="btn_lv" subinfo="scene/gate/txt_level.png" x="0" y="35" z="0" width="21" height="16" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+          <Image type="4" name="btn_eval" subinfo="scene/gate/txt_eval.png" x="0" y="13" z="0" width="40" height="16" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+          <Image type="4" name="btn_hp" subinfo="scene/gate/txt_hp.png" x="0" y="-10" z="0" width="25" height="16" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+          <Image type="4" name="btn_atk" subinfo="scene/gate/txt_atk.png" x="0" y="-33" z="0" width="31" height="16" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+          <Image type="4" name="btn_def" subinfo="scene/gate/txt_def.png" x="0" y="-56" z="0" width="32" height="16" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        </Image>
+      </Image>
+    </Tranform>
+    <Image type="4" name="btn_user_dragon1" subinfo="common/empty_thumb_slot.png" x="-240" y="62.5" z="3" width="75" height="75" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image type="4" name="btn_user_dragon2" subinfo="common/empty_thumb_slot.png" x="-240" y="-20" z="4" width="75" height="75" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image type="4" name="btn_user_dragon3" subinfo="common/empty_thumb_slot.png" x="-240" y="-102" z="5" width="75" height="75" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image type="2" name="img_eval_icon" subinfo="common/icon_eval.png" x="-272" y="114" z="6" width="21" height="25" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Text type="5" name="label_eval" subinfo="RGBA(1.00,1.00,1.00,1.00):15" localizeinfo="0" x="32" y="1" z="0" width="50" height="24" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    </Image>
+    <Tranform type="1" name="node_other_info" x="0" y="0" z="7" width="100" height="100" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image type="3" name="img_panel" subinfo="scene/lemuria/main/scale9/bg2_inner_box.png:(14,14,30,29)" x="0" y="-10.83" z="0" width="580" height="290" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Tranform type="1" name="node_other_class" x="-240" y="160" z="0" width="22" height="20" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        <Text type="6" name="label_other_name" subinfo="RGBA(1.00,1.00,1.00,1.00):14" localizeinfo="" x="-180" y="160" z="1" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+        <Image type="2" name="img_other_eval" subinfo="common/icon_eval.png" x="100" y="160" z="2" width="21" height="25" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        <Text type="6" name="label_other_txt_eval" subinfo="RGBA(1.00,1.00,1.00,1.00):14" localizeinfo="0" x="150" y="160" z="3" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+        <Image type="4" name="btn_out" subinfo="scene/gate/bt_vote.png" x="231" y="160" z="4" width="84" height="26" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+          <Text type="5" name="label_out" subinfo="RGBA(1.00,1.00,1.00,1.00):14" localizeinfo="강퇴" x="0" y="0" z="0" width="84" height="26" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+        </Image>
+        <Image type="4" name="btn_dragon_panel1" subinfo="scene/lemuria/main/other_user_profile.png" x="-190" y="0" z="5" width="197" height="272" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+          <Tranform name="node_dragon_spine1" x="0" y="30" z="0" width="164" height="144" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1"/>
+          <Image type="3" name="img_info_panel1" subinfo="scale9/chat_bg.png:(9,9,20,20)" x="0" y="4" z="1" width="171.8" height="256" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        </Image>
+        <Image type="4" name="btn_dragon_panel2" subinfo="scene/lemuria/main/other_user_profile.png" x="0" y="0" z="6" width="197" height="272" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+          <Tranform name="node_dragon_spine2" x="0" y="30" z="0" width="164" height="144" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1"/>
+          <Image type="3" name="img_info_panel2" subinfo="scale9/chat_bg.png:(9,9,20,20)" x="0" y="4" z="1" width="171.8" height="256" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        </Image>
+        <Image type="4" name="btn_dragon_panel3" subinfo="scene/lemuria/main/other_user_profile.png" x="190" y="0" z="7" width="197" height="272" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+          <Tranform name="node_dragon_spine3" x="0" y="30" z="0" width="164" height="144" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1"/>
+          <Image type="3" name="img_info_panel3" subinfo="scale9/chat_bg.png:(9,9,20,20)" x="0" y="4" z="1" width="171.8" height="256" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        </Image>
+      </Image>
+    </Tranform>
+  </Image>
+  <Image type="3" name="img_chat" subinfo="scale9/chat_bg.png:(9,9,20,20)" x="-5" y="-201" z="10" width="610" height="64" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Image type="4" name="btn_chat" subinfo="scene/gate/bt_write.png" x="258" y="0" z="0" width="62" height="40" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  </Image>
+  <Image type="2" name="img_countdown_5" subinfo="scene/gate/count_num5.png" x="0" y="0" z="11" width="120" height="139" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  <Image type="2" name="img_countdown_4" subinfo="scene/gate/count_num4.png" x="0" y="0" z="12" width="120" height="139" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  <Image type="2" name="img_countdown_3" subinfo="scene/gate/count_num3.png" x="0" y="0" z="13" width="120" height="139" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  <Image type="2" name="img_countdown_2" subinfo="scene/gate/count_num2.png" x="0" y="0" z="14" width="120" height="139" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  <Image type="2" name="img_countdown_1" subinfo="scene/gate/count_num1.png" x="0" y="0" z="15" width="120" height="139" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  <Tranform type="1" name="node_preset_list" x="0" y="-204" z="16" width="610" height="64" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Image name="btn_preset_reset" x="-285" y="1" z="0" width="60" height="60" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="scale9/bt_gray01.png:(30,1,1,29)" click_mode="2">
+      <Image name="img_preset_reset" x="0" y="0" z="0" width="28" height="27" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="common/bt_refresh.png"/>
+    </Image>
+    <Tranform name="node_preset_scroll" x="25" y="0" z="3" width="560" height="64" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1"/>
+  </Tranform>
+</root>

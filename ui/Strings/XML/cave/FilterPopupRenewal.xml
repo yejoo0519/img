@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="1.3.0">
+  <Image name="btn_block" type="4" subinfo="transparent" x="0" y="0" z="0" width="800" height="480" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  <Image name="img_popup_bg" type="3" subinfo="scene/book/renewal/popup_bg.png:(90,84,182,168)" x="0" y="0" z="0" width="560" height="420" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Tranform name="node_element" x="-201.97" y="1.32" z="0" width="128.46" height="401.92" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1">
+      <Image name="btn_ele_0" type="4" subinfo="common/elemen_s_8.png" x="-30" y="165" z="0" width="60" height="64" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image name="btn_ele_1" type="4" subinfo="common/elemen_s_1.png" x="-30" y="99" z="0" width="60" height="64" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image name="img_ele_1_sel" type="2" subinfo="common/elemen_s_select.png" x="0" y="0" z="0" width="63" height="66" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+      <Image name="btn_ele_2" type="4" subinfo="common/elemen_s_2.png" x="36" y="99" z="0" width="60" height="64" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image name="img_ele_2_sel" type="2" subinfo="common/elemen_s_select.png" x="0" y="0" z="0" width="63" height="66" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+      <Image name="btn_ele_3" type="4" subinfo="common/elemen_s_3.png" x="-30" y="33" z="0" width="60" height="64" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image name="img_ele_3_sel" type="2" subinfo="common/elemen_s_select.png" x="0" y="0" z="0" width="63" height="66" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+      <Image name="btn_ele_4" type="4" subinfo="common/elemen_s_4.png" x="36" y="33" z="0" width="60" height="64" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image name="img_ele_4_sel" type="2" subinfo="common/elemen_s_select.png" x="0" y="0" z="0" width="63" height="66" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+      <Image name="btn_ele_5" type="4" subinfo="common/elemen_s_5.png" x="-30" y="-33" z="0" width="60" height="64" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image name="img_ele_5_sel" type="2" subinfo="common/elemen_s_select.png" x="0" y="0" z="0" width="63" height="66" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+      <Image name="btn_ele_6" type="4" subinfo="common/elemen_s_6.png" x="36" y="-33" z="0" width="60" height="64" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image name="img_ele_6_sel" type="2" subinfo="common/elemen_s_select.png" x="0" y="0" z="0" width="63" height="66" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+      <Image name="btn_ele_7" type="4" subinfo="common/elemen_s_9.png" x="-30" y="-99" z="0" width="60" height="64" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image name="img_ele_7_sel" type="2" subinfo="common/elemen_s_select.png" x="0" y="0" z="0" width="63" height="66" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+      <Image name="btn_ele_8" type="4" subinfo="common/elemen_s_10.png" x="36" y="-99" z="0" width="60" height="64" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image name="img_ele_8_sel" type="2" subinfo="common/elemen_s_select.png" x="0" y="0" z="0" width="63" height="66" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+      <Image name="btn_ele_9" type="4" subinfo="common/elemen_s_11.png" x="-30" y="-165" z="0" width="60" height="64" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image name="img_ele_9_sel" type="2" subinfo="common/elemen_s_select.png" x="0" y="0" z="0" width="63" height="66" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+      <Image name="btn_ele_10" type="4" subinfo="common/elemen_s_7.png" x="36" y="-165" z="0" width="60" height="64" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image name="img_ele_10_sel" type="2" subinfo="common/elemen_s_select.png" x="0" y="0" z="0" width="63" height="66" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+    </Tranform>
+    <Tranform name="node_step" x="70" y="155" z="1" width="394" height="80" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1">
+      <Text name="label_step" x="-170" y="0" z="0" width="80" height="30" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(1.00,1.00,1.00,1.00):20" localizeinfo="STEP" HorizontalAlignment="2" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+      <Image name="btn_step_0" type="4" subinfo="scene/book/renewal/bt_unselect.png" x="-60" y="18" z="0" width="93" height="35" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Text type="5" name="label_step_0" subinfo=" RGBA(1.00,1.00,1.00,1.00):17" localizeinfo="ALL" x="0" y="1.11" z="0" width="80" height="26" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+      <Image name="btn_step_1" type="4" subinfo="scene/book/renewal/bt_unselect.png" x="40" y="18" z="0" width="93" height="35" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Text type="5" name="label_step_1" subinfo=" RGBA(1.00,1.00,1.00,1.00):17" localizeinfo="caveBookAdult" x="0" y="0" z="0" width="80" height="26" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+      <Image name="btn_step_2" type="4" subinfo="scene/book/renewal/bt_unselect.png" x="140" y="18" z="0" width="93" height="35" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Text type="5" name="label_step_2" subinfo=" RGBA(1.00,1.00,1.00,1.00):17" localizeinfo="caveBookCapsule" x="0" y="0" z="0" width="80" height="26" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+      <Image name="btn_step_3" type="4" subinfo="scene/book/renewal/bt_unselect.png" x="-60" y="-18" z="0" width="93" height="35" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Text type="5" name="label_step_3" subinfo=" RGBA(1.00,1.00,1.00,1.00):17" localizeinfo="caveBookAwakened" x="0" y="0" z="0" width="80" height="26" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+      <Image name="btn_step_4" type="4" subinfo="scene/book/renewal/bt_unselect.png" x="40" y="-18" z="0" width="93" height="35" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Text type="5" name="label_step_4" subinfo=" RGBA(1.00,1.00,1.00,1.00):17" localizeinfo="caveBookTranscended" x="0" y="0" z="0" width="80" height="26" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+      <Image name="btn_step_5" type="4" subinfo="scene/book/renewal/bt_unselect.png" x="140" y="-18" z="0" width="93" height="35" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Text type="5" name="label_step_5" subinfo=" RGBA(1.00,1.00,1.00,1.00):17" localizeinfo="caveBookAdvent" x="0" y="0" z="0" width="80" height="26" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+    </Tranform>
+    <Tranform name="node_grade" x="70" y="88" z="2" width="394" height="40" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1">
+      <Text name="label_grade" x="-170" y="0" z="0" width="80" height="30" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(1.00,1.00,1.00,1.00):20" localizeinfo="FILTER_GRADE" HorizontalAlignment="2" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+      <Image name="btn_grade_0" type="4" subinfo="scene/book/renewal/bt_unselect.png" x="-60" y="0" z="0" width="93" height="35" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Text type="5" name="label_grade_0" subinfo=" RGBA(1.00,1.00,1.00,1.00):17" localizeinfo="ALL" x="0" y="0" z="0" width="80" height="26" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+      <Image name="btn_grade_1" type="4" subinfo="scene/book/renewal/bt_unselect.png" x="40" y="0" z="0" width="93" height="35" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Text type="5" name="label_grade_1" subinfo=" RGBA(1.00,1.00,1.00,1.00):17" localizeinfo="SS" x="0" y="0" z="0" width="80" height="26" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+      <Image name="btn_grade_2" type="4" subinfo="scene/book/renewal/bt_unselect.png" x="140" y="0" z="0" width="93" height="35" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Text type="5" name="label_grade_2" subinfo=" RGBA(1.00,1.00,1.00,1.00):17" localizeinfo="SSS" x="0" y="0" z="0" width="80" height="26" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+    </Tranform>
+    <Tranform name="node_type" x="70" y="0" z="3" width="394" height="120" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1">
+      <Text name="label_type" x="-170" y="0" z="0" width="80" height="30" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(1.00,1.00,1.00,1.00):20" localizeinfo="TYPE" HorizontalAlignment="2" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+      <Image name="btn_type_0" type="4" subinfo="scene/book/renewal/bt_unselect.png" x="-60" y="36" z="0" width="93" height="35" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Text type="5" name="label_type_0" subinfo=" RGBA(1.00,1.00,1.00,1.00):17" localizeinfo="ALL" x="0.77" y="0" z="0" width="80" height="30" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+      <Image name="btn_type_1" type="4" subinfo="scene/book/renewal/bt_unselect.png" x="40" y="36" z="0" width="93" height="35" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Text type="5" name="label_type_1" subinfo=" RGBA(1.00,1.00,1.00,1.00):17" localizeinfo="CAPSULETYPE_0" x="0" y="0" z="0" width="80" height="30" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+      <Image name="btn_type_2" type="4" subinfo="scene/book/renewal/bt_unselect.png" x="140" y="36" z="0" width="93" height="35" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Text type="5" name="label_type_2" subinfo=" RGBA(1.00,1.00,1.00,1.00):17" localizeinfo="CAPSULETYPE_1" x="0" y="0" z="0" width="80" height="30" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+      <Image name="btn_type_3" type="4" subinfo="scene/book/renewal/bt_unselect.png" x="-60" y="0" z="0" width="93" height="35" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Text type="5" name="label_type_3" subinfo=" RGBA(1.00,1.00,1.00,1.00):17" localizeinfo="CAPSULETYPE_2" x="0" y="0" z="0" width="80" height="30" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+      <Image name="btn_type_4" type="4" subinfo="scene/book/renewal/bt_unselect.png" x="40" y="0" z="0" width="93" height="35" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Text type="5" name="label_type_4" subinfo=" RGBA(1.00,1.00,1.00,1.00):17" localizeinfo="CAPSULETYPE_3" x="0" y="0" z="0" width="80" height="30" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+      <Image name="btn_type_5" type="4" subinfo="scene/book/renewal/bt_unselect.png" x="140" y="0" z="0" width="93" height="35" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Text type="5" name="label_type_5" subinfo=" RGBA(1.00,1.00,1.00,1.00):17" localizeinfo="CAPSULETYPE_4" x="0" y="0" z="0" width="80" height="30" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+      <Image name="btn_type_6" type="4" subinfo="scene/book/renewal/bt_unselect.png" x="-60" y="-36" z="0" width="93" height="35" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Text type="5" name="label_type_6" subinfo=" RGBA(1.00,1.00,1.00,1.00):17" localizeinfo="CAPSULETYPE_5" x="0" y="0" z="0" width="80" height="30" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+      <Image name="btn_type_7" type="4" subinfo="scene/book/renewal/bt_unselect.png" x="40" y="-36" z="0" width="93" height="35" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Text type="5" name="label_type_7" subinfo=" RGBA(1.00,1.00,1.00,1.00):17" localizeinfo="CAPSULETYPE_6" x="0" y="0" z="0" width="80" height="30" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+    </Tranform>
+    <Tranform name="node_bless" x="70" y="-88" z="4" width="394" height="40" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1">
+      <Text name="label_bless" x="-170" y="0" z="0" width="80" height="30" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(1.00,1.00,1.00,1.00):20" localizeinfo="BLESS" HorizontalAlignment="2" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+      <Image name="btn_bless_0" type="4" subinfo="scene/book/renewal/bt_unselect.png" x="-60" y="0" z="0" width="93" height="35" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Text type="5" name="label_bless_0" subinfo=" RGBA(1.00,1.00,1.00,1.00):17" localizeinfo="ALL" x="0" y="0" z="0" width="80" height="26" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+      <Image name="btn_bless_1" type="4" subinfo="scene/book/renewal/bt_unselect.png" x="40" y="0" z="0" width="93" height="35" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Text type="5" name="label_bless_1" subinfo=" RGBA(1.00,1.00,1.00,1.00):17" localizeinfo="ONCE" x="0" y="0" z="0" width="80" height="26" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+      <Image name="btn_bless_2" type="4" subinfo="scene/book/renewal/bt_unselect.png" x="140" y="0" z="0" width="93" height="35" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Text type="5" name="label_bless_2" subinfo=" RGBA(1.00,1.00,1.00,1.00):17" localizeinfo="TWICE" x="0" y="0" z="0" width="80" height="26" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+    </Tranform>
+    <Tranform name="node_level" x="70" y="-155" z="5" width="394" height="80" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1">
+      <Text name="label_level" x="-170" y="0" z="0" width="80" height="30" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(1.00,1.00,1.00,1.00):20" localizeinfo="FILTER_LEVEL" HorizontalAlignment="2" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+      <Image name="btn_level_0" type="4" subinfo="scene/book/renewal/bt_unselect.png" x="-60" y="18" z="0" width="93" height="35" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Text type="5" name="label_level_0" subinfo=" RGBA(1.00,1.00,1.00,1.00):17" localizeinfo="ALL" x="0" y="0" z="0" width="80" height="26" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+      <Image name="btn_level_1" type="4" subinfo="scene/book/renewal/bt_unselect.png" x="40" y="18" z="0" width="93" height="35" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Text type="5" name="label_level_1" subinfo=" RGBA(1.00,1.00,1.00,1.00):17" localizeinfo="1" x="0" y="0" z="0" width="80" height="26" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+      <Image name="btn_level_2" type="4" subinfo="scene/book/renewal/bt_unselect.png" x="140" y="18" z="0" width="93" height="35" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Text type="5" name="label_level_2" subinfo=" RGBA(1.00,1.00,1.00,1.00):17" localizeinfo="20" x="0" y="0" z="0" width="80" height="26" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+      <Image name="btn_level_3" type="4" subinfo="scene/book/renewal/bt_unselect.png" x="-60" y="-18" z="0" width="93" height="35" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Text type="5" name="label_level_3" subinfo=" RGBA(1.00,1.00,1.00,1.00):17" localizeinfo="21" x="0" y="0" z="0" width="80" height="26" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+      <Image name="btn_level_4" type="4" subinfo="scene/book/renewal/bt_unselect.png" x="40" y="-18" z="0" width="93" height="35" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Text type="5" name="label_level_4" subinfo=" RGBA(1.00,1.00,1.00,1.00):17" localizeinfo="35" x="0" y="0" z="0" width="80" height="26" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+      <Image name="btn_level_5" type="4" subinfo="scene/book/renewal/bt_unselect.png" x="140" y="-18" z="0" width="93" height="35" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Text type="5" name="label_level_5" subinfo=" RGBA(1.00,1.00,1.00,1.00):17" localizeinfo="45" x="0" y="0" z="0" width="80" height="26" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+    </Tranform>
+    <Tranform name="node_spirit" x="70" y="-88" z="6" width="394" height="40" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="0" type="1">
+      <Text name="label_spirit" x="-170" y="0" z="0" width="80" height="30" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(1.00,1.00,1.00,1.00):20" localizeinfo="TXT_SPIRIT" HorizontalAlignment="2" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+      <Image name="btn_spirit_0" type="4" subinfo="scene/book/renewal/bt_unselect.png" x="-60" y="0" z="0" width="93" height="35" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Text type="5" name="label_spirit_0" subinfo=" RGBA(1.00,1.00,1.00,1.00):17" localizeinfo="ALL" x="0" y="0" z="0" width="80" height="26" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+      <Image name="btn_spirit_1" type="4" subinfo="scene/book/renewal/bt_unselect.png" x="40" y="0" z="0" width="93" height="35" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Text type="5" name="label_equipped" subinfo=" RGBA(1.00,1.00,1.00,1.00):17" localizeinfo="spirit_targetcell_text" x="0" y="0" z="0" width="80" height="26" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+      <Image name="btn_spirit_2" type="4" subinfo="scene/book/renewal/bt_unselect.png" x="140" y="0" z="0" width="93" height="35" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Text type="5" name="label_unequipped" subinfo=" RGBA(1.00,1.00,1.00,1.00):17" localizeinfo="EQUIPPED_NONE" x="0" y="0" z="0" width="80" height="26" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+    </Tranform>
+  </Image>
+</root>

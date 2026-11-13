@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="1.2">
+  <Image type="2" name="img_bg" subinfo="scene/archa/bg/arha_lobby.jpg" x="0" y="0" z="0" width="800" height="480"/>
+  <Image type="3" name="img_dbox" subinfo="scene/archa/scale9/bg3.png:(68,54,137,108)" x="-200" y="0" z="0" width="380" height="470">
+    <Image type="2" name="img_image" subinfo="scene/archa/bg3_deco.png" x="0" y="168" z="1" width="285" height="16">
+      <Text type="6" name="label_main_dragon" subinfo="RGBA(1.000, 1.000, 0.000, 1.000):30" localizeinfo="ARCHA71" x="0" y="29.3" z="0" width="300" height="80"/>
+    </Image>
+    <Image type="2" name="img_stage" subinfo="scene/archa/laboratory_stand.png" x="0" y="-171" z="0" width="318" height="106">
+      <Tranform type="1" name="node_pos_effect" x="0" y="80" z="0" width="100" height="100"/>
+    </Image>
+    <Image type="4" name="btn_choice" subinfo="scene/archa/select_mark.png" x="0" y="-20" z="0" width="178" height="178">
+      <Text type="5" name="label_choice" subinfo="RGBA(0.816, 0.729, 0.906, 1.000):25" localizeinfo="ARCHA56" x="0" y="106" z="0" width="178" height="178"/>
+    </Image>
+    <Image type="2" name="img_deco1" subinfo="scene/archa/deco_chain1.png" x="-106" y="216.7" z="0" width="146" height="37"/>
+    <Image type="2" name="img_deco2" subinfo="scene/archa/deco_chain2.png" x="162.8" y="163" z="0" width="74" height="145"/>
+    <Image type="2" name="img_deco3" subinfo="scene/archa/deco_chain3.png" x="180.7" y="-133" z="0" width="35" height="200"/>
+  </Image>
+  <Image type="2" name="img_image" subinfo="scene/archa/bg4.png" x="96" y="15" z="0" width="196" height="364">
+    <Text type="5" name="label_text" subinfo="RGBA(1.000, 1.000, 0.000, 1.000):17" localizeinfo="ARCHA58" x="0" y="142" z="0" width="160" height="30"/>
+    <Image type="2" name="img_box1" subinfo="scene/archa/name_bg.png" x="0" y="8" z="0" width="166" height="34">
+      <Text type="5" name="label_source1" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="ARCHA57" x="0" y="0" z="0" width="166" height="34"/>
+    </Image>
+    <Image type="4" name="btn_source1" subinfo="common/empty_thumb_slot.png" x="0" y="74" z="0" width="90" height="90"/>
+    <Image type="2" name="img_box2" subinfo="scene/archa/name_bg.png" x="0" y="-142" z="0" width="166" height="34">
+      <Text type="5" name="label_source2" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="ARCHA57" x="0" y="0" z="0" width="166" height="34"/>
+    </Image>
+    <Image type="4" name="btn_source2" subinfo="common/empty_thumb_slot.png" x="0" y="-76" z="0" width="90" height="90"/>
+  </Image>
+  <Image type="8" name="img_title" subinfo="scene/archa/txt_laboratory.png" sublanginfo="scene/archa/txt_laboratory_en.png" x="160" y="215" z="0" width="180" height="39" subwidth="265" subheight="40"/>
+  <Image type="2" name="img_item_layer" subinfo="scene/archa/bg4.png" x="297" y="15" z="0" width="196" height="364">
+    <Text type="5" name="label_text" subinfo="RGBA(1.000, 1.000, 0.000, 1.000):17" localizeinfo="ARCHA39" x="0" y="142" z="0" width="160" height="30"/>
+    <Tranform type="1" name="node_item1" x="-39" y="76" z="0" width="81" height="97">
+      <Image type="2" name="img_image" subinfo="item/medium/essence_moon.png" x="0" y="15" z="0" width="60" height="60">
+        <Text type="5" name="label_myessence1" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="" x="0" y="-35" z="0" width="100" height="50"/>
+        <Text type="5" name="label_needessence1" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="" x="0" y="-55" z="0" width="100" height="50"/>
+      </Image>
+    </Tranform>
+    <Tranform type="1" name="node_item3" x="-39" y="-21" z="0" width="81" height="97">
+      <Image type="2" name="img_image" subinfo="item/medium/essence_fire.png" x="0" y="15" z="0" width="60" height="60">
+        <Text type="5" name="label_myessence3" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="-" x="0" y="-35" z="0" width="100" height="50"/>
+        <Text type="5" name="label_needessence3" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="-" x="0" y="-55" z="0" width="100" height="50"/>
+      </Image>
+    </Tranform>
+    <Tranform type="1" name="node_item5" x="-39" y="-118" z="0" width="81" height="97">
+      <Image type="2" name="img_image" subinfo="item/medium/essence_water.png" x="0" y="15" z="0" width="60" height="60">
+        <Text type="5" name="label_myessence5" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="-" x="0" y="-35" z="0" width="100" height="50"/>
+        <Text type="5" name="label_needessence5" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="-" x="0" y="-55" z="0" width="100" height="50"/>
+      </Image>
+    </Tranform>
+    <Tranform type="1" name="node_item2" x="44" y="76" z="0" width="81" height="97">
+      <Image type="2" name="img_image" subinfo="item/medium/essence_earth.png" x="0" y="15" z="0" width="60" height="60">
+        <Text type="5" name="label_myessence2" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="-" x="0" y="-35" z="0" width="100" height="50"/>
+        <Text type="5" name="label_needessence2" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="-" x="0" y="-55" z="0" width="100" height="50"/>
+      </Image>
+    </Tranform>
+    <Tranform type="1" name="node_item4" x="44" y="-21" z="0" width="81" height="97">
+      <Image type="2" name="img_image" subinfo="item/medium/essence_sun.png" x="0" y="15" z="0" width="60" height="60">
+        <Text type="5" name="label_myessence4" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="-" x="0" y="-35" z="0" width="100" height="50"/>
+        <Text type="5" name="label_needessence4" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="-" x="0" y="-55" z="0" width="100" height="50"/>
+      </Image>
+    </Tranform>
+    <Tranform type="1" name="node_item6" x="44" y="-118" z="0" width="81" height="97">
+      <Image type="2" name="img_sss_item" subinfo="item/medium/478.png" x="0" y="15" z="0" width="60" height="60"/>
+      <Image type="2" name="img_jin_item" subinfo="item/medium/303.png" x="0" y="15" z="0" width="60" height="60"/>
+      <Image type="2" name="img_cho_item" subinfo="item/medium/814.png" x="0" y="15" z="0" width="60" height="60"/>
+      <Text type="5" name="label_myessence6" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="-" x="0" y="-20" z="0" width="100" height="50"/>
+      <Text type="5" name="label_needessence6" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="-" x="0" y="-40" z="0" width="100" height="50"/>
+    </Tranform>
+  </Image>
+  <Image type="4" name="btn_info" subinfo="common/bt_help.png" x="309" y="215" z="0" width="50" height="50"/>
+  <Image type="4" name="btn_exit" subinfo="common/exit_1.png" x="369" y="215" z="0" width="50" height="52"/>
+  <Image type="4" name="btn_button" subinfo="scene/archa/scale9/archa_bt4.png:(89.0, 68.0, 8.0, 0.0)" x="197" y="-202" z="0" width="400" height="68">
+    <Text type="6" name="label_text" subinfo="RGBA(1.00000000,0.96078431,0.00000000,1.00000000):24" localizeinfo="EVOLUTION" x="0" y="0" z="0" width="400" height="68" anchor_x="0.5" anchor_y="0.5"/>
+  </Image>
+  <Tranform type="1" name="node_choice_layer" x="0" y="0" z="0" width="100" height="100">
+    <Image type="3" name="img_image" subinfo="scale9/chat_bg.png:(9,9,20,20)" x="0" y="0" z="0" width="800" height="480"/>
+    <Image type="3" name="img_1" subinfo="scale9/pop2_3_bg.png:(16.0, 44.0, 46.0, 17.0)" x="0" y="0" z="0" width="700" height="400"/>
+    <Image type="4" name="btn_ok" subinfo="scene/archa/scale9/archa_bt4.png:(89.0, 68.0, 8.0, 0.0)" x="200" y="-133.4" z="0" width="187" height="68">
+      <Text type="5" name="label_text" subinfo="RGBA(1.000, 1.000, 0.000, 1.000):24" localizeinfo="BTN_OK" x="0" y="0" z="0" width="188" height="68"/>
+    </Image>
+    <Tranform type="1" name="node_pos_list" x="-132.28" y="0.02999878" z="0" width="402.63" height="376.13"/>
+    <Tranform type="1" name="node_pos_spine" x="200" y="20.5" z="0" width="250" height="250"/>
+    <Image type="2" name="img_namepanel" subinfo="scene/archa/name_bg.png" x="200" y="162.5" z="0" width="166" height="34">
+      <Image type="2" name="img_lvpanel" subinfo="scene/cave/lv.png" x="-78" y="-28" z="0" width="34" height="34"/>
+    </Image>
+    <Image type="3" name="img_target_none" subinfo="scale9/pop2_3_bg.png:(16.0, 44.0, 46.0, 17.0)" x="0" y="0" z="0" width="700" height="400">
+      <Text type="5" name="label_text" subinfo="RGBA(0.360, 0.360, 0.313, 1.000):30" localizeinfo="ARCHA61" x="0" y="0" z="0" width="600" height="150"/>
+    </Image>
+    <Image type="4" name="btn_choiceexit" subinfo="common/exit_1.png" x="336" y="188" z="0" width="50" height="52"/>
+  </Tranform>
+  <Tranform type="1" name="node_result" x="0" y="0" z="0" width="800" height="480">
+    <Image type="2" name="img_3" subinfo="scene/archa/bg/arha_lobby.jpg" x="0" y="0" z="0" width="800" height="480"/>
+    <Image type="3" name="img_2" subinfo="scale9/chat_bg.png:(9,9,20,20)" x="0" y="0" z="0" width="800" height="480"/>
+    <Image type="2" name="img_result_eff" subinfo="scene/archa/eff_bg.png" x="0" y="0" z="0" width="426" height="420"/>
+    <Image type="2" name="img_image" subinfo="scene/archa/laber_success.png" x="0" y="180" z="0" width="307" height="76"/>
+    <Image type="4" name="btn_result" subinfo="scene/archa/scale9/archa_bt4.png:(89.0, 68.0, 8.0, 0.0)" x="0" y="-180" z="0" width="187" height="68">
+      <Text type="5" name="label_text" subinfo="RGBA(1.000, 1.000, 0.000, 1.000):24" localizeinfo="BTN_OK" x="0" y="0" z="0" width="188" height="68"/>
+    </Image>
+  </Tranform>
+</root>

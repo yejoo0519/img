@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>cave_skin15</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{800,480}</string>
+                <key>spriteSourceSize</key>
+                <string>{800,480}</string>
+                <key>textureRect</key>
+                <string>{{1,1},{800,480}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>3</integer>
+            <key>pixelFormat</key>
+            <string>RGBA8888</string>
+            <key>premultiplyAlpha</key>
+            <true/>
+            <key>realTextureFileName</key>
+            <string>cave_skin.pvr.ccz</string>
+            <key>size</key>
+            <string>{802,482}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:829898dc51892466b9a0e8f73659964f:7f56e51a6cb479a4bef1d0bad7251b63:8d9e93efe59a85097dcfcd57bd8b4b08$</string>
+            <key>textureFileName</key>
+            <string>cave_skin.pvr.ccz</string>
+        </dict>
+    </dict>
+</plist>

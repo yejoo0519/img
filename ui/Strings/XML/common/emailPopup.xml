@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="1.2">
+  <Image type="3" name="img_codebg" subinfo="scale9/back_buff.png:(16,16,35,35)" x="0" y="0" z="1" width="400" height="220" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Text type="5" name="label_title" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):26" localizeinfo="EMAIL_INSERT" x="0" y="92" z="0" width="240" height="36" visible="1" rotation="0" anchor_x="0.5" anchor_y="1" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="1" anchor_max_x="0.5" anchor_max_y="1" anchored_x="0" anchored_y="-18" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0"/>
+    <Image type="3" name="img_codebox" subinfo="scene/chat/dv1_chat_back3.png:(10,10,2,2)" x="0" y="10" z="0" width="250" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image type="4" name="btn_exit" subinfo="common/exit_1.png" x="221" y="130" z="0" width="50" height="52" visible="1" rotation="0" anchor_x="1" anchor_y="1" layout_mode="anchored" anchor_min_x="1" anchor_min_y="1" anchor_max_x="1" anchor_max_y="1" anchored_x="21" anchored_y="20" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0"/>
+    <Image type="4" name="btn_code" subinfo="scale9/bt_1.png:(17.0, 2.0, 4.0, 19.0)" x="0" y="-94" z="0" width="140" height="40" visible="1" rotation="0" anchor_x="0.5" anchor_y="0" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="0" anchor_max_x="0.5" anchor_max_y="0" anchored_x="0" anchored_y="16" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0">
+      <Text type="5" name="label_btn" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):18" localizeinfo="BTN_CONFIRM" x="0" y="0" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    </Image>
+    <Text name="label_new" x="0" y="-35" z="1" width="368" height="25" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(0.84313725,0.83921569,0.83921569,1.00000000):14" localizeinfo="EMAIL_INSERT_DESC" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0.5" anchor_max_x="1" anchor_max_y="0.5" offset_left="16" offset_right="16" anchored_y="-35" anchored_x="0" offset_top="0" offset_bottom="0"/>
+  </Image>
+</root>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CollectionSelectPopup version="1.3.0">
+  <Image name="img_back_ground" x="0" y="0" z="0" width="616" height="396" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scale9/frame_bg.png:(15,15,30,33)"/>
+  <Image name="img_scroll" x="-122" y="0" z="1" width="340" height="364" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scale9/frame_inner_bg.png:(15,15,1,1)"/>
+  <Image name="img_pannel" type="2" subinfo="scene/colosseum/practice/tag_dragon_info.png" x="178" y="35.7" z="2" width="207" height="294" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Tranform type="1" name="node_grade_pos" x="89" y="131" z="0" width="0" height="0" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Text name="label_eval" x="31.5" y="-57" z="1" width="80" height="30" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(1.00,0.04,0.94,1.00):15" localizeinfo="500" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    <Text name="label_hp" x="31.5" y="-83.3" z="2" width="100" height="30" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(0.98,0.15,0.20,1.00):15" localizeinfo="Sample Text" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    <Text name="label_att" x="31.5" y="-103.5" z="3" width="100" height="30" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(0.25,0.82,0.13,1.00):15" localizeinfo="Sample Text" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    <Text name="label_def" x="31.5" y="-121" z="4" width="100" height="30" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(0.13,0.65,1.00,1.00):15" localizeinfo="Sample Text" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    <Tranform type="1" name="node_dragon_pos" x="0.8" y="36.9" z="5" width="0" height="0" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Text name="label_name" x="0" y="129" z="6" width="130" height="30" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(0.00,0.00,0.00,1.00):17" localizeinfo="Name" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+    <Text name="label_level" x="-84" y="130.5" z="7" width="30" height="30" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(1.00,1.00,1.00,1.00):15:insaniburger_white_17" localizeinfo="45" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+  </Image>
+  <Image name="img_stat_block" type="2" subinfo="scene/CollectionSystem/tag_dragon_info2.png" x="178" y="35.7" z="3" width="207" height="294" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Text name="label_select_dragon" x="0" y="-82.2" z="1" width="170" height="26" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(0.20,0.20,0.20,1.00):16" localizeinfo="COLLECTION_SELECT_DESC" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+  </Image>
+  <Image name="btn_confirm" x="178" y="-162" z="4" width="136" height="49" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="transparent" click_mode="2">
+    <Image name="img_btn_img" x="0" y="0" z="0" width="136" height="49" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scale9/bt_blue3.png:(15,15,1,1)"/>
+    <Text name="label_confirm_btn" x="0" y="0" z="1" width="110" height="30" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="6" subinfo="RGBA(1.00,1.00,1.00,1.00):20" localizeinfo="BTN_REGISTER" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0" stroke_color="RGBA(0.08,0.13,0.24,1.00)" stroke_size="2.2"/>
+  </Image>
+  <Image name="img_count_bg" type="2" subinfo="scene/CollectionSystem/frame_quantity2.png" x="178" y="-123.4" z="5" width="106" height="24" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Text name="label_count" x="0" y="0" z="0" width="106" height="24" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(1.00,1.00,1.00,1.00):17" localizeinfo="1/1" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0" anchor_max_x="1" anchor_max_y="1" offset_left="0" offset_right="0" offset_bottom="0" offset_top="0" anchored_x="0" anchored_y="0"/>
+  </Image>
+  <Image name="btn_exit" type="4" subinfo="common/exit_1.png" x="300.9" y="190.7" z="6" width="50" height="52" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+</CollectionSelectPopup>

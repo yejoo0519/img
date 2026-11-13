@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="1.3.0">
+  <Tranform name="node_popup" type="1" x="0" y="0" z="0" width="800" height="480" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1">
+    <Image name="img_popup_bg" type="3" x="0" y="4" z="0" width="768" height="420" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="scale9/frame_bg5.png:(10,10,20,20)">
+      <Image name="img_popup_innerBg" x="85" y="0" z="0" width="578" height="400" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="3" subinfo="scale9/frame_bg3.png:(20,20,20,20)" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0" anchor_max_x="1" anchor_max_y="1" offset_left="180" offset_right="10" offset_bottom="10" offset_top="10" anchored_x="0" anchored_y="0"/>
+    </Image>
+    <Image name="btn_close" type="4" x="374" y="211" z="1" width="50" height="52" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="common/exit_1.png" click_mode="2"/>
+    <Image name="btn_create_preset" type="4" x="-293" y="179" z="2" width="158" height="42" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="transparent" click_mode="2">
+      <Image name="img_create_preset_skin" type="3" x="0" y="0" z="0" width="158" height="42" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="scale9/bt_blue4.png:(11,11,12,12)"/>
+      <Text name="label_create_preset" type="6" x="12" y="0" z="2" width="118" height="38" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="RGBA(1.00,1.00,1.00,1.00):16:GodoB" localizeinfo="TXT_CREATE_PRESET" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" stroke_size="1" stroke_color="RGBA(0.00,0.00,0.00,1.00)" stroke_opacity="255"/>
+      <Image name="img_add" type="2" x="-58" y="0" z="3" width="21" height="22" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="scene/cave/icon_add.png"/>
+    </Image>
+    <Tranform name="node_preset_list" type="1" x="-293" y="-21" z="3" width="158" height="344" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1"/>
+    <Text name="label_empty" type="6" x="88" y="0" z="4" width="556" height="70" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="RGBA(0.68,0.68,0.68,1.00):17:GodoB" localizeinfo="CAVE_PRESET_NONE" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="1" stroke_size="1" stroke_color="RGBA(0.00,0.00,0.00,1.00)" stroke_opacity="255"/>
+    <Tranform name="node_detail" type="1" x="0" y="0" z="5" width="800" height="480" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1">
+      <Image name="img_title_bg" type="3" x="-69" y="180" z="0" width="254" height="38" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="scale9/bt_outline_box.png:(10,10,12,12)"/>
+      <Text name="label_preset_name" type="5" x="-85" y="181" z="1" width="204" height="30" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="RGBA(1.00,1.00,1.00,1.00):18:GodoB" localizeinfo="프리셋 이름 1" HorizontalAlignment="0" VerticalAlignment="1" autoSize="0" singleLine="1"/>
+      <Image name="btn_rename" type="4" x="37.5" y="180.5" z="2" width="25" height="25" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="scene/cave/icon_edit.png" click_mode="2"/>
+      <Image name="btn_delete" type="4" x="107" y="180" z="3" width="84" height="36" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="transparent" click_mode="2">
+        <Image name="img_delete_skin" type="3" x="0" y="0" z="0" width="84" height="36" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="scene/cave/tab_normal.png:(10,10,14,14)"/>
+        <Image name="img_trash" type="2" x="-33" y="0" z="1" width="16" height="19" anchor_x="0" anchor_y="0.5" rotation="0" visible="1" subinfo="scene/cave/icon_trash.png" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0.5" anchor_max_x="0" anchor_max_y="0.5" anchored_x="9" anchored_y="0" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0"/>
+        <Text name="label_delete" type="6" x="36" y="0" z="2" width="54" height="32" anchor_x="1" anchor_y="0.5" rotation="0" visible="1" subinfo="RGBA(0.95,0.21,0.21,1.00):16:GodoB" localizeinfo="delete" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" layout_mode="anchored" anchor_min_x="1" anchor_min_y="0.5" anchor_max_x="1" anchor_max_y="0.5" anchored_x="-6" anchored_y="0" stroke_size="1" stroke_color="RGBA(0.00,0.00,0.00,1.00)" stroke_opacity="255" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0"/>
+      </Image>
+      <Text name="label_registered_count" type="6" x="329.5" y="181" z="4" width="69" height="30" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="RGBA(1.00,1.00,1.00,1.00):16:GodoB" localizeinfo="0/30" HorizontalAlignment="2" VerticalAlignment="1" autoSize="0" singleLine="1" stroke_size="1" stroke_color="RGBA(0.00,0.00,0.00,1.00)" stroke_opacity="255"/>
+      <Tranform name="node_dragon_grid" type="1" x="89" y="27" z="5" width="570" height="260" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1"/>
+      <Image name="btn_item" type="4" x="-164" y="-136" z="6" width="56" height="56" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="transparent" click_mode="0">
+        <Image name="img_item_skin" type="3" x="0" y="0" z="0" width="56" height="56" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="scale9/bt_outline_box.png:(10,10,12,12)"/>
+        <Text name="label_item" type="5" x="0" y="0" z="2" width="48" height="52" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="RGBA(0.51,0.51,0.51,1.00):14:GodoB" localizeinfo="ITEM" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="1"/>
+        <Tranform name="node_item_icon" type="1" x="0" y="0" z="1" width="50" height="50" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1"/>
+      </Image>
+      <Image name="btn_pendant" type="4" x="-104" y="-136" z="7" width="56" height="56" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="transparent" click_mode="0">
+        <Image name="img_pendant_skin" type="3" x="0" y="0" z="0" width="56" height="56" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="scale9/bt_outline_box.png:(10,10,12,12)"/>
+        <Text name="label_pendant" type="5" x="0" y="0" z="2" width="48" height="52" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="RGBA(0.51,0.51,0.51,1.00):14:GodoB" localizeinfo="PEN" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="1"/>
+        <Tranform name="node_pendant_icon" type="1" x="0" y="0" z="1" width="50" height="50" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1"/>
+      </Image>
+      <Image name="btn_gem_0" type="4" x="-44" y="-136" z="8" width="56" height="56" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="transparent" click_mode="0">
+        <Image name="img_gem_0_skin" type="3" x="0" y="0" z="0" width="56" height="56" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="scale9/bt_outline_box.png:(10,10,12,12)"/>
+        <Text name="label_gem_0" type="5" x="0" y="0" z="2" width="48" height="52" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="RGBA(0.51,0.51,0.51,1.00):14:GodoB" localizeinfo="GEM" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="1"/>
+        <Tranform name="node_gem_0_icon" type="1" x="0" y="0" z="1" width="50" height="50" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1"/>
+      </Image>
+      <Image name="btn_gem_1" type="4" x="16" y="-136" z="9" width="56" height="56" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="transparent" click_mode="0">
+        <Image name="img_gem_1_skin" type="3" x="0" y="0" z="0" width="56" height="56" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="scale9/bt_outline_box.png:(10,10,12,12)"/>
+        <Text name="label_gem_1" type="5" x="0" y="0" z="2" width="48" height="52" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="RGBA(0.51,0.51,0.51,1.00):14:GodoB" localizeinfo="GEM" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="1"/>
+        <Tranform name="node_gem_1_icon" type="1" x="0" y="0" z="1" width="50" height="50" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1"/>
+      </Image>
+      <Image name="btn_gem_2" type="4" x="76" y="-136" z="10" width="56" height="56" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="transparent" click_mode="0">
+        <Image name="img_gem_2_skin" type="3" x="0" y="0" z="0" width="56" height="56" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="scale9/bt_outline_box.png:(10,10,12,12)"/>
+        <Text name="label_gem_2" type="5" x="0" y="0" z="2" width="48" height="52" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="RGBA(0.51,0.51,0.51,1.00):14:GodoB" localizeinfo="GEM" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="1"/>
+        <Tranform name="node_gem_2_icon" type="1" x="0" y="0" z="1" width="50" height="50" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1"/>
+      </Image>
+      <Image name="btn_gem_3" type="4" x="136" y="-136" z="11" width="56" height="56" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="transparent" click_mode="0">
+        <Image name="img_gem_3_skin" type="3" x="0" y="0" z="0" width="56" height="56" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="scale9/bt_outline_box.png:(10,10,12,12)"/>
+        <Text name="label_gem_3" type="5" x="0" y="0" z="2" width="48" height="52" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="RGBA(0.51,0.51,0.51,1.00):14:GodoB" localizeinfo="GEM" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="1"/>
+        <Tranform name="node_gem_3_icon" type="1" x="0" y="0" z="1" width="50" height="50" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1"/>
+      </Image>
+      <Image name="btn_gem_4" type="4" x="196" y="-136" z="12" width="56" height="56" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="transparent" click_mode="0">
+        <Image name="img_gem_4_skin" type="3" x="0" y="0" z="0" width="56" height="56" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="scale9/bt_outline_box.png:(10,10,12,12)"/>
+        <Text name="label_gem_4" type="5" x="0" y="0" z="2" width="48" height="52" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="RGBA(0.51,0.51,0.51,1.00):14:GodoB" localizeinfo="GEM" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="1"/>
+        <Tranform name="node_gem_4_icon" type="1" x="0" y="0" z="1" width="50" height="50" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1"/>
+      </Image>
+      <Image name="btn_edit" type="4" x="302" y="-126" z="13" width="128" height="40" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="transparent" click_mode="2">
+        <Image name="img_edit_skin" type="3" x="0" y="0" z="0" width="128" height="40" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="scale9/bt_blue4.png:(11,11,12,12)"/>
+        <Text name="label_edit" type="6" x="0" y="0" z="2" width="120" height="32" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="RGBA(1.00,1.00,1.00,1.00):16:GodoB" localizeinfo="ARCHA106" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" stroke_size="1" stroke_color="RGBA(0.00,0.00,0.00,1.00)" stroke_opacity="255"/>
+      </Image>
+      <Image name="btn_apply" type="4" x="302" y="-171" z="14" width="128" height="42" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="transparent" click_mode="2">
+        <Image name="img_apply_skin" type="3" x="0" y="0" z="0" width="128" height="42" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="scale9/bt_red4.png:(11,11,12,12)"/>
+        <Text name="label_apply" type="6" x="0" y="0" z="2" width="120" height="38" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="RGBA(1.00,1.00,1.00,1.00):16:GodoB" localizeinfo="TXT_LOAD" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" stroke_size="1" stroke_color="RGBA(0.00,0.00,0.00,1.00)" stroke_opacity="255"/>
+      </Image>
+      <Tranform name="node_stat" x="14" y="-180" z="15" width="418" height="28" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="1">
+        <Image name="img_eval" type="2" x="-205" y="0" z="0" width="21" height="21" anchor_x="0" anchor_y="0.5" rotation="0" visible="1" subinfo="common/icon_eval.png" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0.5" anchor_max_x="0" anchor_max_y="0.5" anchored_x="4" anchored_y="0" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0"/>
+        <Text name="label_eval" type="6" x="-185" y="0" z="1" width="65" height="24" anchor_x="0" anchor_y="0.5" rotation="0" visible="1" subinfo="RGBA(0.82,0.13,0.80,1.00):16:GodoB" localizeinfo="0000+(15)" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="1" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0.5" anchor_max_x="0" anchor_max_y="0.5" anchored_x="24" anchored_y="0" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0" stroke_size="1" stroke_color="RGBA(0.00,0.00,0.00,1.00)" stroke_opacity="255"/>
+        <Image name="img_hp" type="2" x="-119" y="0" z="2" width="21" height="21" anchor_x="0" anchor_y="0.5" rotation="0" visible="1" subinfo="common/icon_hp_stat.png" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0.5" anchor_max_x="0" anchor_max_y="0.5" anchored_x="90" anchored_y="0" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0"/>
+        <Text name="label_hp" type="6" x="-99" y="0" z="3" width="88" height="24" anchor_x="0" anchor_y="0.5" rotation="0" visible="1" subinfo="RGBA(0.78,0.20,0.16,1.00):16:GodoB" localizeinfo="0000+(15)" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="1" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0.5" anchor_max_x="0" anchor_max_y="0.5" anchored_x="110" anchored_y="0" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0" stroke_size="1" stroke_color="RGBA(0.00,0.00,0.00,1.00)" stroke_opacity="255"/>
+        <Image name="img_atk" type="2" x="-9" y="0" z="4" width="21" height="21" anchor_x="0" anchor_y="0.5" rotation="0" visible="1" subinfo="common/icon_atk_stat.png" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0.5" anchor_max_x="0" anchor_max_y="0.5" anchored_x="200" anchored_y="0" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0"/>
+        <Text name="label_atk" type="6" x="11" y="0" z="5" width="88" height="24" anchor_x="0" anchor_y="0.5" rotation="0" visible="1" subinfo="RGBA(0.28,0.69,0.16,1.00):16:GodoB" localizeinfo="0000+(15)" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="1" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0.5" anchor_max_x="0" anchor_max_y="0.5" anchored_x="220" anchored_y="0" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0" stroke_size="1" stroke_color="RGBA(0.00,0.00,0.00,1.00)" stroke_opacity="255"/>
+        <Image name="img_def" type="2" x="101" y="0" z="6" width="21" height="21" anchor_x="0" anchor_y="0.5" rotation="0" visible="1" subinfo="common/icon_def_stat.png" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0.5" anchor_max_x="0" anchor_max_y="0.5" anchored_x="310" anchored_y="0" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0"/>
+        <Text name="label_def" type="6" x="121" y="0" z="7" width="88" height="24" anchor_x="0" anchor_y="0.5" rotation="0" visible="1" subinfo="RGBA(0.26,0.58,0.88,1.00):16:GodoB" localizeinfo="0000+(15)" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="1" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0.5" anchor_max_x="0" anchor_max_y="0.5" anchored_x="330" anchored_y="0" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0" stroke_size="1" stroke_color="RGBA(0.00,0.00,0.00,1.00)" stroke_opacity="255"/>
+      </Tranform>
+    </Tranform>
+  </Tranform>
+</root>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ThanksgivingRankLayer version="1.3.0">
+  <Tranform type="1" name="node_thanksgiving_rank" x="-12.7" y="0" z="0" width="0" height="0" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Image name="btn_rank_info" type="4" subinfo="scene/colosseum/bt_ranking_help.png" x="266" y="155.3" z="0" width="50" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image name="btn_back" type="4" subinfo="scene/event/Thanksgiving2020/bt_back.png" x="266" y="155.3" z="1" width="40" height="46" visible="0" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image name="img_rank_pannel_title" type="2" subinfo="scene/event/Thanksgiving2020/frame_pocket_rank1.png" x="23" y="80" z="2" width="490" height="28" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image name="img_my_rank_pannel" type="2" subinfo="scene/event/Thanksgiving2020/frame_pocket_rankmy.png" x="23" y="-164.3" z="3" width="490" height="32" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Tranform type="1" name="node_rank_title_pos" x="16" y="123" z="4" width="0" height="0" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image name="img_title" x="0" y="0" z="0" width="218" height="40" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="3" subinfo="scene/event/Thanksgiving2020/frame_sub_title.png:(20,19,1,4)"/>
+      <Text name="label_title" x="0" y="0" z="1" width="200" height="28" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="5" subinfo="RGBA(0.00,0.00,0.00,1.00):16:GodoM" localizeinfo="THANKSGIVING_SOLO_RANKING_EVENT" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+    </Tranform>
+    <Tranform type="1" name="node_view_point" x="23" y="-41.15" z="5" width="490" height="214.3" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image name="img_remain_panel" x="197.7" y="114.5" z="6" width="140" height="22" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="3" subinfo="scale9/bg_white3.png:(8,7,15,16)" color="RGBA(0.79,0.70,0.58,1.00)">
+      <Text name="label_remain_count" x="0" y="0" z="0" width="128" height="22" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="5" subinfo="RGBA(0.12,0.13,0.05,1.00):13:GodoM" localizeinfo="TODAYS_REMAIN_COUNT" HorizontalAlignment="2" VerticalAlignment="1" autoSize="1" singleLine="1" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0" anchor_max_x="1" anchor_max_y="1" offset_left="6" offset_right="6" offset_bottom="0" offset_top="0" anchored_x="0" anchored_y="0"/>
+    </Image>
+  </Tranform>
+</ThanksgivingRankLayer>

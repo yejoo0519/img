@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<popup version="1.0">
+  <Tranform type="1" name="node_main_camera" x="0" y="0" z="-10" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" width="100" height="100"/>
+  <Image type="3" name="img_back_ground" subinfo="scene/shop/scale9/bar_gauge.png:(1.0, 1.0, 2.0, 1.0)" x="0" y="0" z="0" width="800" height="480" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Image type="3" name="img_bg_top" subinfo="scene/shop/scale9/bg_top.png:(53.0, 16.0, 28.0, 21.0)" x="0" y="211" z="0" width="800" height="58" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image type="3" name="img_gdia_cnt" subinfo="scene/worldmap/renewalWorld/frame_main_goldbarbg.png:(38,8,76,16)" x="-384" y="4.7" z="0" width="122" height="32" visible="1" rotation="0" anchor_x="0" anchor_y="0.5">
+        <Image type="2" name="img_image" subinfo="scene/worldmap/renewalWorld/icon_main_golddia.png" x="-73" y="0" z="0" width="36" height="36" visible="1" rotation="0" anchor_x="0" anchor_y="0.5"/>
+        <Text type="5" name="label_gdia" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):15" localizeinfo="0" x="6.4" y="0" z="0" width="89.25" height="26" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="2" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+      </Image>
+      <Image type="3" name="img_dia_cnt" subinfo="scene/worldmap/renewalWorld/frame_main_goldbarbg.png:(38,8,76,16)" x="-248" y="4.7" z="0" width="136" height="32" visible="1" rotation="0" anchor_x="0" anchor_y="0.5">
+        <Image type="2" name="img_image" subinfo="scene/worldmap/renewalWorld/icon_main_dia.png" x="-77.7" y="0" z="0" width="36" height="36" visible="1" rotation="0" anchor_x="0" anchor_y="0.5"/>
+        <Text type="5" name="label_dia" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):15" localizeinfo="0" x="6.4" y="0" z="0" width="103.25" height="26" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="2" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+      </Image>
+      <Image type="3" name="img_gold_cnt" subinfo="scene/worldmap/renewalWorld/frame_main_goldbarbg.png:(38,8,76,16)" x="-100" y="4.7" z="0" width="206" height="32" visible="1" rotation="0" anchor_x="0" anchor_y="0.5">
+        <Image type="2" name="img_image" subinfo="scene/worldmap/renewalWorld/icon_main_gold.png" x="-113.41" y="0" z="0" width="36" height="36" visible="1" rotation="0" anchor_x="0" anchor_y="0.5"/>
+        <Text type="5" name="label_gold" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):15" localizeinfo="0" x="6.4" y="0" z="0" width="173.25" height="26" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="2" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+      </Image>
+      <Image type="4" name="btn_reward" subinfo="scene/shop/scale9/bt_reward.png:(22.0, 2.0, 6.0, 20.0)" x="205" y="-2" z="0" width="159" height="51" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="4" name="btn_exit" subinfo="common/exit_1.png" x="366" y="1" z="0" width="50" height="52" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image type="4" name="btn_help" subinfo="common/bt_help.png" x="315" y="1" z="0" width="50" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    </Image>
+    <Image type="3" name="img_back_layer" subinfo="scene/shop/scale9/line_width.png:(3.0, 1.0, 1.0, 6.0)" x="0" y="-51.97501" z="0" width="800" height="375.95" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image type="4" name="btn_pack_btn1" subinfo="scene/shop/scale9/tab_2.png:(8.0, 22.0, 47.0, 8.0)" x="-339" y="155" z="0" width="112" height="38" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Text type="6" name="label_pb_text1" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):16" localizeinfo="RENEWAL_SHOP_0" x="0" y="0" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    </Image>
+    <Image type="4" name="btn_pack_btn2" subinfo="scene/shop/scale9/tab_2.png:(8.0, 22.0, 47.0, 8.0)" x="-226" y="155" z="0" width="112" height="38" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Text type="6" name="label_pb_text2" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):16" localizeinfo="RENEWAL_SHOP_1" x="0" y="0" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    </Image>
+    <Image type="4" name="btn_pack_btn3" subinfo="scene/shop/scale9/tab_2.png:(8.0, 22.0, 47.0, 8.0)" x="-113" y="155" z="0" width="112" height="38" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Text type="6" name="label_pb_text3" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):16" localizeinfo="RENEWAL_SHOP_2" x="0" y="0" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    </Image>
+    <Image type="4" name="btn_pack_btn4" subinfo="scene/shop/scale9/tab_2.png:(8.0, 22.0, 47.0, 8.0)" x="-0.000015" y="155" z="0" width="112" height="38" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Text type="6" name="label_pb_text4" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):16" localizeinfo="RENEWAL_SHOP_3" x="0" y="0" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    </Image>
+    <Image type="4" name="btn_pack_btn5" subinfo="scene/shop/scale9/tab_2.png:(8.0, 22.0, 47.0, 8.0)" x="113" y="155" z="0" width="112" height="38" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Text type="6" name="label_pb_text5" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):16" localizeinfo="RENEWAL_SHOP_4" x="0" y="0" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    </Image>
+    <Image type="4" name="btn_pack_btn6" subinfo="scene/shop/scale9/tab_2.png:(8.0, 22.0, 47.0, 8.0)" x="226" y="155" z="0" width="112" height="38" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Text type="6" name="label_pb_text6" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):16" localizeinfo="RENEWAL_SHOP_5" x="0" y="0" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    </Image>
+    <Image type="4" name="btn_pack_btn7" subinfo="scene/shop/scale9/tab_2.png:(8.0, 22.0, 47.0, 8.0)" x="339" y="155" z="0" width="112" height="38" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Text type="6" name="label_pb_text7" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):16" localizeinfo="RENEWAL_SHOP_6" x="0" y="0" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    </Image>
+  </Image>
+</popup>

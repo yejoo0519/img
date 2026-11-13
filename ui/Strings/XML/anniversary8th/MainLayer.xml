@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MainLayer version="1.2">
+  <Image name="img_bg" type="3" subinfo="scale9/pop2_1_bg.png:(11.0, 16.0, 18.0, 12.0)" x="-23" y="0" z="0" width="740" height="420">
+    <Image name="img_sub_bg" type="3" subinfo="scale9/pop2_2_bg.png:(18.0, 4.0, 4.0, 18.0)" x="40" y="-20" z="0" width="620" height="360" />
+    <Image name="img_title" type="2" subinfo="scene/event/anniversary2020/title.png" x="42" y="195" z="0" width="383" height="88" />
+    <Tranform type="1" name="node_layer" x="0" y="0" z="0" width="0" height="0">
+      <Tranform type="1" name="node_btn_pos_1" x="-318.5" y="86.5" z="0" width="0" height="0" />
+      <Tranform type="1" name="node_btn_pos_2" x="-318.5" y="6.5" z="0" width="63" height="67" />
+      <Tranform type="1" name="node_btn_pos_3" x="-318.5" y="-73.5" z="0" width="63" height="67" />
+      <Tranform type="1" name="node_btn_pos_4" x="-318.5" y="-153.5" z="0" width="63" height="67" />
+    </Tranform>
+    <Image name="btn_exit" type="4" subinfo="common/exit_1.png" x="360" y="199.6" z="0" width="50" height="52" />
+  </Image>
+</MainLayer>

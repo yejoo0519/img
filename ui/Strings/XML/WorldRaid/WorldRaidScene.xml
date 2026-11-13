@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="1.2.1">
+  <Tranform name="node_back_pannel" type="1" x="0" y="0" z="0" width="800" height="480"/>
+  <Image name="img_sub_left_pannel" type="3" subinfo="scene/event/world_raid/scale9/frame_bg2.png:(14,14,30,30)" x="-118" y="0" z="0" width="550" height="462">
+    <Image name="img_title" type="8" subinfo="scene/event/world_raid/txt_title.png" x="3" y="191" z="0" width="191" height="45" anchor_x="0.5" anchor_y="0.5" sublanginfo="scene/event/world_raid/txt_title_en.png" subwidth="245" subheight="37"/>
+    <Image name="btn_help" type="4" subinfo="common/bt_help.png" x="196" y="191" z="0" width="50" height="50"/>
+    <Image name="btn_rank" type="4" subinfo="scene/event/world_raid/bt_rank.png" x="244" y="191" z="0" width="40" height="44"/>
+    <Image name="img_frame_boss" type="3" subinfo="scene/event/world_raid/scale9/frame_bg3.png:(10,8,20,19)" x="-89" y="-27" z="0" width="340" height="378">
+      <Tranform name="node_frame_boss_image" type="1" x="0" y="20" z="0" width="320" height="319"/>
+      <Image name="img_frame_boss_name" type="2" subinfo="scene/event/world_raid/frame_boss_name.png" x="0" y="169" z="0" width="184" height="49"/>
+      <Image name="img_icon_boss_noti" type="2" subinfo="scene/event/world_raid/icon_clock.png" x="-144" y="-161" z="0" width="29" height="38"/>
+      <Text name="label_raid_noti" type="5" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):24" localizeinfo="남은 시간 : 00:00:00" x="0" y="-166" z="0" width="334" height="30"/>
+      <Image name="btn_info" type="4" subinfo="scene/event/world_raid/bt_info.png" x="-126" y="150" z="0" width="40" height="44"/>
+    </Image>
+    <Image name="img_frame_top_rank" type="2" subinfo="scene/event/world_raid/frame_try.png" x="177" y="-4" z="0" width="178" height="332">
+      <Image name="btn_top_rank" type="4" subinfo="scene/event/world_raid/bt_rank_refresh.png" x="61" y="142" z="0" width="36" height="36"/>
+      <Text name="label_top_rank" type="5" subinfo="RGBA(1.000, 0.843, 0.000, 1.000):22" localizeinfo="TOP_RANK" x="-16" y="142" z="0" width="126" height="38"/>
+      <Tranform name="node_view_point" type="1" x="0" y="0" z="0" width="177" height="244"/>
+      <Tranform name="node_my_rank" type="1" x="0" y="-141" z="0" width="158" height="38"/>
+    </Image>
+    <Image name="btn_frame_ticket" type="4" subinfo="scene/event/world_raid/frame_ticket.png" x="179" y="-196" z="0" width="169" height="50">
+      <Text name="label_ticket" type="5" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):18" localizeinfo="1 / 8" x="-8" y="2" z="0" width="169" height="50"/>
+    </Image>
+  </Image>
+  <Image name="img_sub_right_pannel" type="2" subinfo="scene/event/world_raid/frame_lobby_dragon_deck.png" x="277" y="60" z="0" width="226" height="338">
+    <Image name="btn_preset_0" type="4" subinfo="scene/event/world_raid/bt_deck_01_off.png" x="-84" y="139" z="0" width="35" height="35"/>
+    <Image name="btn_preset_1" type="4" subinfo="scene/event/world_raid/bt_deck_02_off.png" x="-46" y="139" z="0" width="35" height="35"/>
+    <Image name="btn_preset_2" type="4" subinfo="scene/event/world_raid/bt_deck_03_off.png" x="-8" y="139" z="0" width="35" height="35"/>
+    <Image name="btn_preset_3" type="4" subinfo="scene/event/world_raid/bt_deck_04_off.png" x="30" y="139" z="0" width="35" height="35"/>
+    <Image name="img_deck_01" type="2" subinfo="scene/event/world_raid/txt_team_01.png" x="-82" y="68" z="0" width="24" height="39"/>
+    <Image name="img_eval_bg_01" type="2" subinfo="scene/event/world_raid/frame_eval.png" x="29" y="93" z="0" width="134" height="23"/>
+    <Image name="img_eval_icon_01" type="2" subinfo="scene/event/world_raid/eval_icon.png" x="-42" y="94" z="0" width="23" height="28"/>
+    <Image name="img_icon_thumb_0101" type="2" subinfo="scene/event/world_raid/icon_empty_thumb.png" x="-30" y="53" z="0" width="45" height="45"/>
+    <Image name="img_icon_thumb_0102" type="2" subinfo="scene/event/world_raid/icon_empty_thumb.png" x="23" y="53" z="0" width="45" height="45"/>
+    <Image name="img_icon_thumb_0103" type="2" subinfo="scene/event/world_raid/icon_empty_thumb.png" x="74" y="53" z="0" width="45" height="45"/>
+    <Text name="label_select_dragon_01" type="5" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):18" localizeinfo="없음" x="-4" y="4" z="0" width="200" height="36"/>
+    <Text name="label_empty_thumb_01" type="5" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="0" x="29" y="93" z="0" width="134" height="23"/>
+    <Image name="img_deck_02" type="2" subinfo="scene/event/world_raid/txt_team_02.png" x="-85" y="-65" z="0" width="38" height="42"/>
+    <Image name="img_eval_bg_02" type="2" subinfo="scene/event/world_raid/frame_eval.png" x="29" y="-41" z="0" width="134" height="23"/>
+    <Image name="img_eval_icon_02" type="2" subinfo="scene/event/world_raid/eval_icon.png" x="-42" y="-40" z="0" width="23" height="28"/>
+    <Image name="img_icon_thumb_0201" type="2" subinfo="scene/event/world_raid/icon_empty_thumb.png" x="-30" y="-81" z="0" width="45" height="45"/>
+    <Image name="img_icon_thumb_0202" type="2" subinfo="scene/event/world_raid/icon_empty_thumb.png" x="23" y="-81" z="0" width="45" height="45"/>
+    <Image name="img_icon_thumb_0203" type="2" subinfo="scene/event/world_raid/icon_empty_thumb.png" x="74" y="-81" z="0" width="45" height="45"/>
+    <Text name="label_select_dragon_02" type="5" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):18" localizeinfo="없음" x="-4" y="-131" z="0" width="200" height="36"/>
+    <Text name="label_empty_thumb_02" type="5" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):14" localizeinfo="0" x="29" y="-41" z="0" width="134" height="23"/>
+  </Image>
+  <Image name="btn_deck" type="11" subinfo="scene/event/world_raid/bt_deck_setting.png" x="278" y="-133" z="0" width="225" height="52" anchor_x="0.5" anchor_y="0.5" sublanginfo="scene/event/world_raid/bt_deck_setting_en.png"/>
+  <Image name="btn_start" type="4" subinfo="scene/event/world_raid/bt_start.png" x="278" y="-194" z="0" width="225" height="66"/>
+  <Image name="btn_exit" type="4" subinfo="common/exit_1.png" x="380" y="218" z="0" width="50" height="52"/>
+</root>

@@ -1,0 +1,77 @@
+Dragon Village 6.38.0 / Android arm64-v8a / libcocos2dcpp.so
+SHA-256: a895faf0a3fc67bc4266b3ad84d57bfa1bf20991999c573e1635523839b4e709
+Ghidra 12.1.4. All listed addresses are ELF RVAs. Ghidra image base: 0x00100000.
+
+ScreenMode::applySafeArea(bool) at RVA 0x1d7b614 dispatches to
+CCEGLViewProtocol::setDesignResolutionSize(float,float,ResolutionPolicy)
+at RVA 0x229432c through CCEGLView's vtable slot +0x50.
+Tail call RVA 0x1d7b654: x0=view, s0=0x44480000 (800.0),
+s1=0x43f00000 (480.0), w1=fullScreen ? 0 (EXACT_FIT) : 2 (SHOW_ALL).
+The register assignments clarify the indirect call signature inferred by Ghidra.
+
+AppDelegate::applicationDidFinishLaunching (0x199ec4c), call at 0x199eca4:
+func_0x028c47c0(0);
+SplashScene::proceedScene (0x13f0eb0) at 0x13f0efc and a second splash
+call site at 0x13f1034 read CCUserDefault key "fullScreen" (default false).
+SettingGeneralLayer::onClickScreenBtn (0x1d72d44) reapplies the saved
+setting at 0x1d72dc8. Dimensions are constant in both branches.
+
+In the startup path CCFileUtils::addSearchPath (slot +0x70) is called
+at 0x199ee24, 0x199ee3c and 0x199ee5c for a runtime base path plus
+"Images", "Images", and the runtime base path. No device-size threshold,
+hd/sd choice or setContentScaleFactor call was identified in this path.
+
+Ghidra decompiler excerpts (addresses embedded in pseudocode include image base)
+ELF RVA 0x1d7b614  _ZN10ScreenMode13applySafeAreaEb
+
+void _ZN10ScreenMode13applySafeAreaEb(uint param_1)
+
+{
+  long *plVar1;
+  undefined4 uVar2;
+  
+  plVar1 = (long *)func_0x028bc5d0();
+  uVar2 = 0;
+  if ((param_1 & 1) == 0) {
+    uVar2 = 2;
+  }
+                    /* WARNING: Could not recover jumptable at 0x01e7b654. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (**(code **)(*plVar1 + 0x50))(0x44480000,0x43f00000,(int)plVar1,uVar2);
+  return;
+}
+
+
+ELF RVA 0x13f0eb0  _ZN11SplashScene12proceedSceneEv
+
+void _ZN11SplashScene12proceedSceneEv(void)
+
+{
+  long lVar1;
+  uint uVar2;
+  undefined8 uVar3;
+  undefined8 uVar4;
+  undefined1 auStack_30 [8];
+  long lStack_28;
+  
+  lVar1 = tpidr_el0;
+  lStack_28 = *(long *)(lVar1 + 0x28);
+  func_0x028bc540();
+  func_0x028bcec0(auStack_30);
+  uVar3 = func_0x028be4e0();
+  uVar2 = func_0x028c47a0(uVar3,&UNK_00da1667,0);
+  func_0x028c47b0(uVar2 & 1);
+  func_0x028c47c0(uVar2 & 1);
+  uVar3 = func_0x028bc540();
+  uVar4 = func_0x028c47d0();
+  func_0x028bd690(uVar3,uVar4);
+  if (*(long *)(lVar1 + 0x28) == lStack_28) {
+    return;
+  }
+  uVar3 = func_0x028bc9b0();
+  func_0x028c47e0();
+  (*(code *)PTR__ZdlPv_02b25410)(uVar3);
+  return;
+}
+
+

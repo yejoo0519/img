@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="1.2.1">
+  <Image name="img_quest_bg" x="0" y="0" z="0" width="600" height="408" anchor_x="0.5" anchor_y="0.5" type="3" subinfo="scale9/pop2_1_bg.png:(10,10,20,20)">
+    <Image name="img_quest_inner_bg" x="0" y="6" z="0" width="580" height="300" anchor_x="0.5" anchor_y="0.5" type="3" subinfo="scale9/pop2_2_bg.png:(10,10,20,20)"/>
+    <Tranform name="node_quest_list_layer" x="0" y="6" z="0" width="570" height="290" anchor_x="0.5" anchor_y="0.5" type="1"/>
+    <Image name="btn_close" x="300.25" y="198.5" z="0" width="50" height="52" anchor_x="0.5" anchor_y="0.5" type="4" subinfo="common/exit_1.png"/>
+    <Text name="label_quest" x="-66.5" y="-174.75" z="0" width="446.0" height="45.0" anchor_x="0.5" anchor_y="0.5" type="5" subinfo="RGBA(0.9,0.9,0.9,1.0):14" localizeinfo="EVENT_QUEST_POPUP_LABEL_3"/>
+    <Image name="btn_receive_all" x="226" y="-174.57575757575754" z="0" width="124" height="36" anchor_x="0.5" anchor_y="0.5" type="12" subinfo="scene/lemuria/main/bt_receiveAll_on.png" selectedimginfo="scene/lemuria/main/bt_receiveAll_on.png" disabledimginfo="scene/lemuria/main/bt_receiveAll_off.png" selectedimginfoLang="scene/lemuria/main/bt_receiveAll_on.png" disabledimginfoLang="scene/lemuria/main/bt_receiveAll_off.png">
+      <Text name="label_receive_all" x="0" y="0" z="0" width="100" height="30" anchor_x="0.5" anchor_y="0.5" type="5" subinfo="RGBA(0.94117647,0.94509804,0.93725490,1.00000000):12" localizeinfo="allReceiveMail"/>
+    </Image>
+  </Image>
+</root>

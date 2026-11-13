@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rank>
+  <Image type="3" name="img_panel" subinfo="scene/event/thxgiving2017/scale9/bg_1.png:(50.0, 4.0, 22.0, 7.0)" x="0" y="-13.3" z="0" width="594" height="250">
+    <Text type="5" name="label_rank" subinfo="RGBA(0.976, 0.804, 0.118, 1.000):16" localizeinfo="RANK" x="-206" y="103.1" z="0" width="160" height="30" />
+    <Text type="5" name="label_name" subinfo="RGBA(0.976, 0.804, 0.118, 1.000):16" localizeinfo="NAME" x="5" y="103.1" z="0" width="160" height="30" />
+    <Text type="5" name="label_point" subinfo="RGBA(0.976, 0.804, 0.118, 1.000):16" localizeinfo="POINT" x="218" y="103.1" z="0" width="160" height="30" />
+    <Tranform type="1" name="node_scroll" x="-3.051758E-05" y="-1.900002" z="0" width="594" height="180" />
+    <Image type="3" name="img_rank_mine" subinfo="scene/event/thxgiving2017/scale9/rank_2.png:(8.0, 10.0, 4.0, 0.0)" x="0" y="-106.9" z="0" width="594" height="30">
+      <Text type="5" name="label_rank_me" subinfo="RGBA(0.976, 0.804, 0.118, 1.000):16" localizeinfo="RANK" x="-206" y="0" z="0" width="160" height="30" />
+      <Text type="5" name="label_me" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):16" localizeinfo="NAME" x="5" y="0" z="0" width="160" height="30" />
+      <Text type="5" name="label_point_me" subinfo="RGBA(0.993, 0.993, 0.993, 1.000):16" localizeinfo="0" x="218" y="0" z="0" width="160" height="30" />
+      <Image type="2" name="img_icon_me" subinfo="" x="-92.10001" y="0" z="0" width="31" height="23" />
+    </Image>
+  </Image>
+  <Image type="4" name="btn_help" subinfo="scene/colosseum/bt_ranking_help.png" x="-246" y="108" z="0" width="50" height="50" />
+  <Text type="6" name="label_title" subinfo="RGBA(1.000, 0.722, 0.494, 1.000):16" localizeinfo="Thxgiving_8" x="0" y="119" z="0" width="300" height="30" />
+  <Text type="5" name="label_description" subinfo="RGBA(0.722, 0.557, 0.478, 1.000):16" localizeinfo="Thxgiving_7" x="15" y="-149.8" z="0" width="500" height="30" />
+</rank>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConfirmPopup version="1.2.1">
+  <Image name="img_main_bg" x="0" y="0" z="0" width="406" height="254" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scale9/frame_bg5.png:(15,15,30,33)">
+    <Image name="img_inner_bg1" x="0" y="48.5" z="0" width="364" height="116" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scale9/frame_bg4.png:(15,15,30,30)"/>
+    <Image name="img_inner_bg2" x="0" y="-35" z="1" width="364" height="36" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scale9/frame_bg4.png:(15,15,30,30)"/>
+    <Tranform type="1" name="node_text_pos" x="0" y="72.9" z="2" width="0" height="0" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Tranform type="1" name="node_alert_text_pos" x="0" y="30.2" z="3" width="0" height="0" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image name="btn_cancel" x="90" y="-85.8" z="4" width="136" height="49" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="transparent" click_mode="2">
+      <Image name="img_cancel" x="0" y="0" z="0" width="136" height="49" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scale9/bt_red3.png:(15,15,1,1)" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0" anchor_max_x="1" anchor_max_y="1" offset_left="0" offset_right="0" offset_bottom="0" offset_top="0" anchored_x="0" anchored_y="0">
+        <Text name="label_new" x="0" y="0" z="0" width="110" height="30" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="6" subinfo="RGBA(1.00,1.00,1.00,1.00):20" localizeinfo="BTN_CANCEL" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0" stroke_color="RGBA(0.31,0.01,0.01,1.00)" stroke_size="2"/>
+      </Image>
+    </Image>
+    <Image name="btn_confirm" x="-90" y="-85.8" z="5" width="136" height="49" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="transparent" click_mode="2">
+      <Image name="img_confirm" x="0" y="0" z="0" width="136" height="49" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scale9/bt_blue3.png:(15,15,1,1)" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0" anchor_max_x="1" anchor_max_y="1" offset_left="0" offset_right="0" offset_bottom="0" offset_top="0" anchored_x="0.0" anchored_y="0.0"/>
+      <Text name="label_confirm" x="0" y="0" z="1" width="110" height="30" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="6" subinfo="RGBA(1.00,1.00,1.00,1.00):20" localizeinfo="BTN_OK" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0" stroke_color="RGBA(0.00,0.13,0.27,1.00)" stroke_size="2"/>
+    </Image>
+    <Tranform type="1" name="node_un_equip" x="-169.4" y="-35" z="6" width="0" height="0" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image name="img_gold_dia" type="2" subinfo="item/medium/gold_dia.png" x="-33.4" y="-35" z="7" width="45" height="45" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Tranform type="1" name="node_gold_dia_label" x="22.5" y="0" z="0" width="0" height="0" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    </Image>
+    <Image name="btn_check" type="4" subinfo="scene/CollectionSystem/frame_collec_checkbg.png" x="163.5" y="-35" z="8" width="28" height="28" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image name="img_check" type="2" subinfo="scene/CollectionSystem/icon_check_on.png" x="1" y="0" z="0" width="29.6" height="22.4" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    </Image>
+  </Image>
+</ConfirmPopup>

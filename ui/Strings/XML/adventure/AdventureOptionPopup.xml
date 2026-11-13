@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AdventureOptionPopup version="1.3.0">
+  <Image name="img_back_pannel" type="3" subinfo="scene/adventure/AdventurePopup/AdventureOption/BackPannel.png:(40,60,339,277)" x="0" y="0" z="0" width="419" height="397" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Image name="img_option_title" type="8" subinfo="scene/adventure/AdventurePopup/AdventureOption/AutoOptionText.png" sublanginfo="scene/adventure/AdventurePopup/AdventureOption/AutoOptionText_en.png" x="0" y="157" z="0" width="215" height="35" subwidth="307" subheight="38" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="1" anchor_max_x="0.5" anchor_max_y="1" anchored_x="0" anchored_y="-41.5"/>
+    <Image name="img_option_pannel" type="2" subinfo="scene/adventure/AdventurePopup/AdventureOption/OptionPannel.png" x="0" y="63.3" z="0" width="348" height="143" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="1" anchor_max_x="0.5" anchor_max_y="1" anchored_x="0" anchored_y="-135.2">
+      <Image name="btn_check_btn_0" type="4" subinfo="scene/adventure/AdventurePopup/AdventureOption/CheckBox.png" x="144.4" y="44.80002" z="0" width="23" height="23" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image name="img_check_image_0" type="2" subinfo="scene/adventure/mission_on.png" x="0" y="0" z="0" width="25" height="18.5" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+      <Image name="btn_check_btn_1" type="4" subinfo="scene/adventure/AdventurePopup/AdventureOption/CheckBox.png" x="144.4" y="14.80002" z="0" width="23" height="23" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image name="img_check_image_1" type="2" subinfo="scene/adventure/mission_on.png" x="0" y="0" z="0" width="25" height="18.5" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+      <Image name="btn_check_btn_2" type="4" subinfo="scene/adventure/AdventurePopup/AdventureOption/CheckBox.png" x="144.4" y="-15.2" z="0" width="23" height="23" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image name="img_check_image_2" type="2" subinfo="scene/adventure/mission_on.png" x="0" y="0" z="0" width="25" height="18.5" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+      <Image name="btn_check_btn_3" type="4" subinfo="scene/adventure/AdventurePopup/AdventureOption/CheckBox.png" x="144.4" y="-45.19998" z="0" width="23" height="23" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image name="img_check_image_3" type="2" subinfo="scene/adventure/mission_on.png" x="0" y="0" z="0" width="25" height="18.5" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+      <Tranform type="1" name="node_check_btn_text_0" x="-155.6" y="44.80005" z="0" width="0" height="0" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Tranform type="1" name="node_check_btn_text_1" x="-155.6" y="14.80005" z="0" width="0" height="0" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Tranform type="1" name="node_check_btn_text_2" x="-155.6" y="-15.20001" z="0" width="0" height="0" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Tranform type="1" name="node_check_btn_text_3" x="-155.6" y="-45.20001" z="0" width="0" height="0" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    </Image>
+    <Image name="img_dragon_title" type="2" subinfo="scene/adventure/AdventurePopup/AdventureOption/DragonTitle.png" x="-88.7" y="-27.9" z="0" width="171" height="40" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="1" anchor_max_x="0.5" anchor_max_y="1" anchored_x="-88.7" anchored_y="-226.4"/>
+    <Image name="img_dragon_pannel" type="3" subinfo="scene/adventure/AdventurePopup/AdventureOption/DragonPannel.png:(87,21,174,44)" x="0" y="-91.2" z="0" width="348" height="86" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="0" anchor_max_x="0.5" anchor_max_y="1" anchored_x="0" offset_bottom="64.3" offset_top="246.7">
+      <Tranform type="1" name="node_dragon_slot" x="0" y="0" z="0" width="310" height="62" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="0" anchor_max_x="0.5" anchor_max_y="1" anchored_x="0" offset_bottom="12" offset_top="12"/>
+    </Image>
+    <Image name="btn_save" type="4" subinfo="scene/adventure/AdventurePopup/AdventureOption/SaveButton.png" x="0" y="-159.7" z="0" width="151" height="47" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="0" anchor_max_x="0.5" anchor_max_y="0" anchored_x="0" anchored_y="38.8">
+      <Image name="img_save" type="8" subinfo="scene/adventure/AdventurePopup/AdventureOption/SaveText.png" sublanginfo="scene/adventure/AdventurePopup/AdventureOption/SaveText_en.png" x="0" y="0" z="0" width="42" height="25" subwidth="53" subheight="21" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    </Image>
+    <Image name="btn_dragon_title_question" type="4" subinfo="scene/adventure/AdventurePopup/AdventureOption/QuestionBox.png" x="12.6" y="-27.9" z="0" width="23" height="23" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="1" anchor_max_x="0.5" anchor_max_y="1" anchored_x="12.6" anchored_y="-226.4"/>
+    <Image name="btn_exit" type="4" subinfo="common/exit_1.png" x="197" y="188" z="0" width="50" height="52" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" layout_mode="anchored" anchor_min_x="1" anchor_min_y="1" anchor_max_x="1" anchor_max_y="1" anchored_x="-12.5" anchored_y="-10.5"/>
+  </Image>
+</AdventureOptionPopup>

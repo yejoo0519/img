@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ThanksgivingPocketLayer version="1.3.0">
+  <Tranform type="1" name="node_thanksgiving_pocket" x="-12.7" y="0" z="0" width="0" height="0" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Image name="btn_info" type="4" subinfo="scene/colosseum/bt_ranking_help.png" x="266" y="155.3" z="0" width="50" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image name="btn_rank" type="4" subinfo="scene/event/Thanksgiving2020/bt_rank.png" x="220" y="155.3" z="1" width="40" height="46" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image name="img_network" type="8" subinfo="scene/event/Thanksgiving2020/txt_networksign.png" sublanginfo="scene/event/Thanksgiving2020/txt_networksign_en.png" x="19.2" y="142" z="2" width="293" height="17" subwidth="350" subheight="16" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image name="img_reward_effect" type="2" subinfo="scene/archa/gemlab/fail_upgrade/effect.png" x="28" y="-14" z="3" width="280" height="280" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Tranform type="1" name="node_pocket_pos" x="28" y="-34" z="4" width="0" height="0" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image name="img_my_reward_pannel" type="2" subinfo="scene/event/Thanksgiving2020/frame_pocket_openbg.png" x="-155.6" y="4" z="5" width="143" height="227" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Tranform type="1" name="node_my_reward_scroll" x="1" y="-12.3" z="0" width="110" height="135" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image name="img_my_reward" type="8" subinfo="scene/event/Thanksgiving2020/txt_addreward.png" sublanginfo="scene/event/Thanksgiving2020/txt_addreward_en.png" x="0" y="70" z="0" width="94" height="16" subwidth="106" subheight="12" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    </Image>
+    <Image name="img_pocket_reward_pannel" type="2" subinfo="scene/event/Thanksgiving2020/frame_pocket_openbg.png" x="204.9" y="4" z="6" width="143" height="227" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image name="img_succes" type="8" subinfo="scene/event/thxgiving2017/stamp.png" sublanginfo="scene/event/thxgiving2017/stamp_en.png" x="2.4" y="-4.9" z="0" width="86" height="87" subwidth="85" subheight="86" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Tranform type="1" name="node_pocket_reward_scroll" x="1" y="-12.3" z="0" width="110" height="135" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image name="img_pocket_reward" type="8" subinfo="scene/event/Thanksgiving2020/txt_rewardlist.png" sublanginfo="scene/event/Thanksgiving2020/txt_rewardlist_en.png" x="0" y="70" z="0" width="95" height="16" subwidth="112" subheight="12" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    </Image>
+    <Image name="img_pocket_count_pannel" type="2" subinfo="scene/event/Thanksgiving2020/frame_pocket_bg.png" x="28" y="-112" z="7" width="135" height="36" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image name="btn_purchase" type="4" subinfo="scene/event/Thanksgiving2020/bt_add.png" x="59.5" y="0" z="0" width="30" height="34" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Text name="label_pocketCount" x="4.5" y="0" z="2" width="76" height="22" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="5" subinfo="RGBA(1.00,1.00,1.00,1.00):15:GodoM" localizeinfo="0" HorizontalAlignment="2" VerticalAlignment="1" autoSize="0" singleLine="0" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0.5" anchor_max_x="1" anchor_max_y="0.5" offset_left="34" offset_right="25" anchored_y="0" anchored_x="0" offset_top="0" offset_bottom="0"/>
+    </Image>
+    <Image name="img_success_per_pannel" type="2" subinfo="scene/event/Thanksgiving2020/frame_pocket_chancebg.png" x="28" y="72" z="8" width="120" height="23" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Text name="label_successRate" x="0" y="0" z="0" width="120" height="23" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="5" subinfo="RGBA(1.00,1.00,1.00,1.00):16:GodoM" localizeinfo="-" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0" anchor_max_x="1" anchor_max_y="1" offset_left="0" offset_right="0" offset_bottom="0" offset_top="0" anchored_x="0" anchored_y="0"/>
+    </Image>
+    <Text name="label_pocketName" x="28" y="110" z="9" width="200" height="60" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="5" subinfo="RGBA(0.34,0.17,0.05,1.00):22:GodoB" localizeinfo="-" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    <Image name="btn_stop" type="11" subinfo="scene/event/Thanksgiving2020/bt_pocket_end.png" sublanginfo="scene/event/Thanksgiving2020/bt_pocket_end_en.png" x="-155.3" y="-103.5" z="10" width="104" height="40" subwidth="104" subheight="40" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image name="btn_gobtn" type="11" subinfo="scene/event/Thanksgiving2020/bt_pocket_open.png" sublanginfo="scene/event/Thanksgiving2020/bt_pocket_open_en.png" x="205.7" y="-103.5" z="11" width="104" height="40" subwidth="104" subheight="40" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Tranform name="node_bottomPanel" x="24.5" y="-173" z="12" width="500" height="24" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="1">
+      <Image name="img_bg" x="0" y="0" z="0" width="500" height="24" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="3" subinfo="scale9/bg_white3.png:(10,10,10,10)" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0" anchor_max_x="1" anchor_max_y="1" offset_left="0" offset_right="0" offset_bottom="0" offset_top="0" color="RGBA(0.76,0.65,0.51,1.00)" anchored_x="0" anchored_y="0"/>
+      <Image name="btn_showFailPopup" x="-110" y="0" z="1" width="240.71" height="30" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="4" subinfo="transparent" click_mode="2" anchored_click_effect="0" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0.5" anchor_max_x="0" anchor_max_y="0.5" anchored_x="140" anchored_y="0" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0">
+        <Image name="img_showFailPopupCheckbox" x="-112.36" y="0" z="0" width="16" height="17" anchor_x="0" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="2" subinfo="common/check_box2.png" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0.5" anchor_max_x="0" anchor_max_y="0.5" anchored_x="8" anchored_y="0" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0">
+          <Image name="img_showFailPopupCheck" x="7" y="1" z="0" width="20" height="17" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="2" subinfo="common/check2.png"/>
+        </Image>
+        <Text name="label_showFailPopup" x="120.36" y="0" z="1" width="190" height="22" anchor_x="1" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="5" subinfo="RGBA(0.00,0.00,0.00,1.00):14:GodoM" localizeinfo="THANKSGIVING_SHOW_FAIL_POPUP" HorizontalAlignment="0" VerticalAlignment="1" autoSize="1" singleLine="1" layout_mode="anchored" anchor_min_x="1" anchor_min_y="0.5" anchor_max_x="1" anchor_max_y="0.5" anchored_x="0" anchored_y="0" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0"/>
+      </Image>
+      <Image name="btn_showWarningPopup" x="131.79" y="0" z="2" width="232.86" height="30" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="4" subinfo="transparent" click_mode="2" anchored_click_effect="0">
+        <Image name="img_showWarningPopupCheckbox" x="-108.43" y="0" z="0" width="16" height="17" anchor_x="0" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="2" subinfo="common/check_box2.png" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0.5" anchor_max_x="0" anchor_max_y="0.5" anchored_x="8" anchored_y="0" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0">
+          <Image name="img_showFailPopupCheck_1" x="8" y="1" z="0" width="20" height="17" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="2" subinfo="common/check2.png"/>
+        </Image>
+        <Text name="label_showWaringPopup" x="116.43" y="0" z="1" width="183" height="22" anchor_x="1" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="5" subinfo="RGBA(0.00,0.00,0.00,1.00):14:GodoM" localizeinfo="THANKSGIVING_SHOW_WARNING_POPUP" HorizontalAlignment="0" VerticalAlignment="1" autoSize="1" singleLine="1" layout_mode="anchored" anchor_min_x="1" anchor_min_y="0.5" anchor_max_x="1" anchor_max_y="0.5" anchored_x="0" anchored_y="0" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0"/>
+      </Image>
+    </Tranform>
+    <Tranform type="1" name="node_pickup_bar_pos" x="0" y="-141" z="13" width="0" height="0" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image name="img_pickup_bar_bg" type="2" subinfo="scene/skypalace/info_lv_gauge_bg.png" x="28" y="0" z="0" width="190" height="16" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Text type="5" name="label_pickup_count" subinfo="RGBA(1.00,1.00,1.00,1.00):12:GodoM" localizeinfo="0/200" x="28" y="0" z="0" width="190" height="16" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+      <Tranform name="img_pickup1" type="1" x="120" y="0" z="0" width="0" height="0" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Tranform name="img_pickup2" type="1" x="120" y="0" z="0" width="0" height="0" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image name="btn_pickup_bar" type="4" subinfo="scene/event/Thanksgiving2020/luckybag_s5.png" x="0" y="0" z="0" width="30" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      </Tranform>
+    </Tranform>
+    <Tranform name="node_debug" x="-185.59" y="139.12" z="14" width="93" height="53" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="0" type="1">
+      <Text name="label_delay" x="0" y="0" z="0" width="40" height="40" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="6" subinfo="RGBA(1.00,1.00,1.00,1.00):14:GodoB" localizeinfo="1.0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0" stroke_size="1" stroke_color="RGBA(0.00,0.00,0.00,1.00)" stroke_opacity="255"/>
+      <Image name="btn_decrease" x="-30" y="0" z="1" width="15" height="21" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="4" subinfo="common/bt_left.png" click_mode="2" anchored_click_effect="0"/>
+      <Image name="btn_increase" x="30" y="0" z="1" width="15" height="21" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="180" rotation="0" visible="1" type="4" subinfo="common/bt_left.png" click_mode="2" anchored_click_effect="0"/>
+    </Tranform>
+  </Tranform>
+</ThanksgivingPocketLayer>

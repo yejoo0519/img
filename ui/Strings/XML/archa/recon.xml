@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recon version="1.2">
+  <Image type="2" name="img_bg" subinfo="scene/archa/world/bg.png" x="-69" y="0" z="0" width="960" height="576" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Tranform type="1" name="node_light" x="-124" y="119" z="0" width="100" height="100" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image type="8" name="label_light_e" subinfo="scene/archa/world/name_light.png" sublanginfo="scene/archa/world/name_light_en.png" x="0" y="0" z="0" width="136" height="30" subwidth="136" subheight="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image type="2" name="img_search_light" subinfo="scene/archa/recon/bt_search.png" x="0" y="-70" z="0" width="58" height="63" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        <Image type="2" name="img_ing_light" subinfo="scene/archa/recon/bt_searching.png" x="0" y="-70" z="0" width="145" height="56" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+          <Text type="6" name="label_status" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="ARCHA86" x="0" y="30" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+          <Text type="6" name="label_ing_timer_light" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="00:00:00" x="10" y="0" z="0" width="200" height="40" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+          <Image type="3" name="img_ing_bar_light" subinfo="scene/archa/scale9/red_gauge.png:(2.0, 5.0, 99.0, 0.0)" x="2" y="-19" z="0" width="103" height="5" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        </Image>
+        <Image type="2" name="img_complete_light" subinfo="scene/archa/recon/bt_search_finish.png" x="0" y="-70" z="0" width="220" height="130" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+          <Text type="6" name="label_status" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="ARCHA80" x="0" y="30" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+          <Text type="6" name="label_complete_timer_light" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="00:00:00" x="0" y="5" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+          <Image type="3" name="img_complete_bar_light" subinfo="scene/archa/scale9/green_gauge.png:(2.0, 5.0, 99.0, 0.0)" x="-1" y="-13" z="0" width="103" height="5" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        </Image>
+      </Image>
+      <Image type="8" name="label_light_d" subinfo="scene/archa/world/name_light_off.png" sublanginfo="scene/archa/world/name_light_off_en.png" x="0" y="0" z="0" width="136" height="30" subwidth="136" subheight="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image type="2" name="img_disable" subinfo="scene/archa/recon/icon_Impossible.png" x="1.374359" y="-66" z="0" width="59" height="59" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+    </Tranform>
+    <Tranform type="1" name="node_wind" x="-188" y="-69.775" z="1" width="100" height="100" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image type="8" name="label_wind_e" subinfo="scene/archa/world/name_wind.png" sublanginfo="scene/archa/world/name_wind_en.png" x="0" y="0" z="0" width="136" height="30" subwidth="136" subheight="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image type="2" name="img_search_wind" subinfo="scene/archa/recon/bt_search.png" x="0" y="-70" z="0" width="58" height="63" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        <Image type="2" name="img_ing_wind" subinfo="scene/archa/recon/bt_searching.png" x="0" y="-70" z="0" width="145" height="56" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+          <Text type="6" name="label_status" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="ARCHA86" x="0" y="30" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+          <Text type="6" name="label_ing_timer_wind" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="00:00:00" x="10" y="0" z="0" width="200" height="40" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+          <Image type="3" name="img_ing_bar_wind" subinfo="scene/archa/scale9/red_gauge.png:(2.0, 5.0, 99.0, 0.0)" x="2" y="-19" z="0" width="103" height="5" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        </Image>
+        <Image type="2" name="img_complete_wind" subinfo="scene/archa/recon/bt_search_finish.png" x="0" y="-70" z="0" width="220" height="130" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+          <Text type="6" name="label_status" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="ARCHA80" x="0" y="30" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+          <Text type="6" name="label_complete_timer_wind" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="00:00:00" x="0" y="5" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+          <Image type="3" name="img_complete_bar_wind" subinfo="scene/archa/scale9/green_gauge.png:(2.0, 5.0, 99.0, 0.0)" x="-1" y="-13" z="0" width="103" height="5" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        </Image>
+      </Image>
+      <Image type="8" name="label_wind_d" subinfo="scene/archa/world/name_wind_off.png" sublanginfo="scene/archa/world/name_wind_off_en.png" x="0" y="0" z="0" width="136" height="30" subwidth="136" subheight="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image type="2" name="img_disable" subinfo="scene/archa/recon/icon_Impossible.png" x="1.374359" y="-66" z="0" width="59" height="59" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+    </Tranform>
+    <Tranform type="1" name="node_fire" x="37" y="30.225" z="2" width="100" height="100" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image type="8" name="label_fire_e" subinfo="scene/archa/world/name_fire.png" sublanginfo="scene/archa/world/name_fire_en.png" x="0" y="0" z="0" width="136" height="30" subwidth="136" subheight="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image type="2" name="img_search_fire" subinfo="scene/archa/recon/bt_search.png" x="0" y="-70" z="0" width="58" height="63" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        <Image type="2" name="img_ing_fire" subinfo="scene/archa/recon/bt_searching.png" x="0" y="-70" z="0" width="145" height="56" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+          <Text type="6" name="label_status" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="ARCHA86" x="0" y="30" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+          <Text type="6" name="label_ing_timer_fire" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="00:00:00" x="10" y="0" z="0" width="200" height="40" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+          <Image type="3" name="img_ing_bar_fire" subinfo="scene/archa/scale9/red_gauge.png:(2.0, 5.0, 99.0, 0.0)" x="2" y="-19" z="0" width="103" height="5" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        </Image>
+        <Image type="2" name="img_complete_fire" subinfo="scene/archa/recon/bt_search_finish.png" x="0" y="-70" z="0" width="220" height="130" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+          <Text type="6" name="label_status" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="ARCHA80" x="0" y="30" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+          <Text type="6" name="label_complete_timer_fire" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="00:00:00" x="0" y="5" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+          <Image type="3" name="img_complete_bar_fire" subinfo="scene/archa/scale9/green_gauge.png:(2.0, 5.0, 99.0, 0.0)" x="-1" y="-13" z="0" width="103" height="5" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        </Image>
+      </Image>
+      <Image type="8" name="label_fire_d" subinfo="scene/archa/world/name_fire_off.png" sublanginfo="scene/archa/world/name_fire_off_en.png" x="0" y="0" z="0" width="136" height="30" subwidth="136" subheight="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image type="2" name="img_disable" subinfo="scene/archa/recon/icon_Impossible.png" x="1.374359" y="-66" z="0" width="59" height="59" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+    </Tranform>
+    <Tranform type="1" name="node_earth" x="217" y="-91.18781" z="3" width="100" height="100" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image type="8" name="label_earth_e" subinfo="scene/archa/world/name_earth.png" sublanginfo="scene/archa/world/name_earth_en.png" x="0" y="0" z="0" width="136" height="30" subwidth="136" subheight="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image type="2" name="img_search_earth" subinfo="scene/archa/recon/bt_search.png" x="0" y="-70" z="0" width="58" height="63" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        <Image type="2" name="img_ing_earth" subinfo="scene/archa/recon/bt_searching.png" x="0" y="-70" z="0" width="145" height="56" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+          <Text type="6" name="label_status" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="ARCHA86" x="0" y="30" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+          <Text type="6" name="label_ing_timer_earth" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="00:00:00" x="10" y="0" z="0" width="200" height="40" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+          <Image type="3" name="img_ing_bar_earth" subinfo="scene/archa/scale9/red_gauge.png:(2.0, 5.0, 99.0, 0.0)" x="2" y="-19" z="0" width="103" height="5" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        </Image>
+        <Image type="2" name="img_complete_earth" subinfo="scene/archa/recon/bt_search_finish.png" x="0" y="-70" z="0" width="220" height="130" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+          <Text type="6" name="label_status" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="ARCHA80" x="0" y="30" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+          <Text type="6" name="label_complete_timer_earth" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="00:00:00" x="0" y="5" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+          <Image type="3" name="img_complete_bar_earth" subinfo="scene/archa/scale9/green_gauge.png:(2.0, 5.0, 99.0, 0.0)" x="-1" y="-13" z="0" width="103" height="5" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        </Image>
+      </Image>
+      <Image type="8" name="label_earth_d" subinfo="scene/archa/world/name_earth_off.png" sublanginfo="scene/archa/world/name_earth_off_en.png" x="0" y="0" z="0" width="136" height="30" subwidth="136" subheight="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image type="2" name="img_disable" subinfo="scene/archa/recon/icon_Impossible.png" x="1.374359" y="-66" z="0" width="59" height="59" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+    </Tranform>
+    <Tranform type="1" name="node_dark" x="366.5767" y="50" z="4" width="100" height="100" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image type="8" name="label_dark_e" subinfo="scene/archa/world/name_dark.png" sublanginfo="scene/archa/world/name_dark_en.png" x="0" y="0" z="0" width="136" height="30" subwidth="136" subheight="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image type="2" name="img_search_dark" subinfo="scene/archa/recon/bt_search.png" x="0" y="-70" z="0" width="58" height="63" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        <Image type="2" name="img_ing_dark" subinfo="scene/archa/recon/bt_searching.png" x="0" y="-70" z="0" width="145" height="56" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+          <Text type="6" name="label_status" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="ARCHA86" x="0" y="30" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+          <Text type="6" name="label_ing_timer_dark" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="00:00:00" x="10" y="0" z="0" width="200" height="40" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+          <Image type="3" name="img_ing_bar_dark" subinfo="scene/archa/scale9/red_gauge.png:(2.0, 5.0, 99.0, 0.0)" x="2" y="-19" z="0" width="103" height="5" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        </Image>
+        <Image type="2" name="img_complete_dark" subinfo="scene/archa/recon/bt_search_finish.png" x="0" y="-70" z="0" width="220" height="130" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+          <Text type="6" name="label_status" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="ARCHA80" x="0" y="30" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+          <Text type="6" name="label_complete_timer_dark" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="00:00:00" x="0" y="5" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+          <Image type="3" name="img_complete_bar_dark" subinfo="scene/archa/scale9/green_gauge.png:(2.0, 5.0, 99.0, 0.0)" x="-1" y="-13" z="0" width="103" height="5" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        </Image>
+      </Image>
+      <Image type="8" name="label_dark_d" subinfo="scene/archa/world/name_dark_off.png" sublanginfo="scene/archa/world/name_dark_off_en.png" x="0" y="0" z="0" width="136" height="30" subwidth="136" subheight="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image type="2" name="img_disable" subinfo="scene/archa/recon/icon_Impossible.png" x="1.374359" y="-66" z="0" width="59" height="59" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+    </Tranform>
+    <Tranform type="1" name="node_water" x="190" y="150" z="5" width="100" height="100" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+      <Image type="8" name="label_water_e" subinfo="scene/archa/world/name_water.png" sublanginfo="scene/archa/world/name_water_en.png" x="0" y="0" z="0" width="136" height="30" subwidth="136" subheight="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image type="2" name="img_search_water" subinfo="scene/archa/recon/bt_search.png" x="0" y="-70" z="0" width="58" height="63" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        <Image type="2" name="img_ing_water" subinfo="scene/archa/recon/bt_searching.png" x="0" y="-70" z="0" width="145" height="56" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+          <Text type="6" name="label_status" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="ARCHA86" x="0" y="30" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+          <Text type="6" name="label_ing_timer_water" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="00:00:00" x="10" y="0" z="0" width="200" height="40" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+          <Image type="3" name="img_ing_bar_water" subinfo="scene/archa/scale9/red_gauge.png:(2.0, 5.0, 99.0, 0.0)" x="2" y="-19" z="0" width="103" height="5" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        </Image>
+        <Image type="2" name="img_complete_water" subinfo="scene/archa/recon/bt_search_finish.png" x="0" y="-70" z="0" width="220" height="130" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+          <Text type="6" name="label_status" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="ARCHA80" x="0" y="30" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+          <Text type="6" name="label_complete_timer_water" subinfo="RGBA(1.000, 1.000, 1.000, 1.000):20" localizeinfo="00:00:00" x="0" y="5" z="0" width="160" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+          <Image type="3" name="img_complete_bar_water" subinfo="scene/archa/scale9/green_gauge.png:(2.0, 5.0, 99.0, 0.0)" x="-1" y="-13" z="0" width="103" height="5" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+        </Image>
+      </Image>
+      <Image type="8" name="label_water_d" subinfo="scene/archa/world/name_water_off.png" sublanginfo="scene/archa/world/name_water_off_en.png" x="0" y="0" z="0" width="136" height="30" subwidth="136" subheight="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+        <Image type="2" name="img_disable" subinfo="scene/archa/recon/icon_Impossible.png" x="1.374359" y="-66" z="0" width="59" height="59" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      </Image>
+    </Tranform>
+  </Image>
+  <Image type="2" name="img_title_panel" subinfo="scene/archa/recon/title_bg.png" x="-292.5" y="212.5" z="1" width="215" height="55" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Image type="8" name="img_title" subinfo="scene/archa/recon/txt_title.png" sublanginfo="scene/archa/recon/txt_title_eng.png" x="-31.8721" y="4" z="0" width="127" height="30" subwidth="127" subheight="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  </Image>
+  <Image name="btn_confirm_all" x="380" y="-220" z="2" width="145" height="40" anchor_x="1" anchor_y="0" rotation="0" visible="1" type="4" subinfo="transparent" click_mode="2" layout_mode="anchored" anchor_min_x="1" anchor_min_y="0" anchor_max_x="1" anchor_max_y="0" anchored_x="-20" anchored_y="20" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0">
+    <Image name="img_confirm_all_d" x="0" y="0" z="0" width="140" height="40" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scale9/bt_2.png:(19,10,1,20)"/>
+    <Image name="img_confirm_all_e" x="0" y="0" z="1" width="140" height="40" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scale9/bt_1.png:(19,10,1,20)"/>
+    <Text name="label_confirm_all" x="0" y="0" z="2" width="125" height="40" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(0.92941176,0.92549020,1.00000000,1.00000000):20" localizeinfo="일괄 수령" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0" anchor_max_x="1" anchor_max_y="1" offset_left="10" offset_right="10" offset_bottom="0" offset_top="0" anchored_x="-72.5" anchored_y="20.0"/>
+  </Image>
+  <Image type="4" name="btn_help" subinfo="common/bt_help.png" x="-375" y="160" z="3" width="50" height="50" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  <Image type="4" name="btn_exit" subinfo="common/exit_1.png" x="367" y="200" z="4" width="50" height="52" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+</recon>

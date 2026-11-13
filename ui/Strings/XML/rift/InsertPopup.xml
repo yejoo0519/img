@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="1.0">
+  <Image name="img_bg" x="0" y="16" z="0" width="360" height="300" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scene/rift/scale9/frame_bg.png:(15,15,30,33)">
+    <Image name="img_title" x="0" y="126" z="0" width="107" height="27" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="8" subinfo="scene/rift/mine/use_tickets_kr.png" sublanginfo="scene/rift/mine/use_tickets_en.png" subwidth="123" subheight="25"/>
+    <Image name="img_inner_bg" x="0" y="-16" z="0" width="344" height="244" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scene/rift/scale9/frame_bg3.png:(15,15,30,30)">
+      <Tranform name="node_have_cnt" x="0" y="96" z="1" width="260" height="40" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1"/>
+      <Image name="btn_ok" x="-82" y="-84" z="2" width="149" height="43" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="11" subinfo="scene/rift/mine/bt_ok.png" sublanginfo="scene/rift/mine/bt_ok_en.png"/>
+      <Image name="btn_close" x="82" y="-84" z="3" width="149" height="43" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="11" subinfo="scene/rift/mine/bt_cancel.png" sublanginfo="scene/rift/mine/bt_cancel_en.png"/>
+      <Image name="img_panel" x="0" y="35" z="4" width="224" height="78" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="scene/rift/info_bg.png">
+        <Image name="img_text_img" x="0" y="22" z="0" width="103" height="23" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="8" subinfo="scene/rift/mine/Used_Ticket_kr.png" sublanginfo="scene/rift/mine/Used_Ticket_en.png" subwidth="134" subheight="21"/>
+        <Text name="label_insert_cnt" x="0" y="-15" z="0" width="90" height="26" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(1.00000000,0.99215686,1.00000000,1.00000000):20" localizeinfo="30" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+        <Image name="btn_plus" x="55" y="-15" z="0" width="14" height="30" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="scene/rift/mine/next_S_btn.png"/>
+        <Image name="btn_minus" x="-55" y="-15" z="0" width="14" height="30" anchor_x="0.5" anchor_y="0.5" rotation="180" visible="1" type="4" subinfo="scene/rift/mine/next_S_btn.png"/>
+        <Image name="btn_plus_btn2" x="90" y="-15" z="1" width="25" height="30" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="scene/rift/mine/bt_right2.png"/>
+        <Image name="btn_minus_btn2" x="-90" y="-15" z="2" width="25" height="30" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="scene/rift/mine/bt_left2.png"/>
+      </Image>
+      <Tranform name="node_predict" x="0" y="-31" z="5" width="220" height="40" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1"/>
+    </Image>
+  </Image>
+</root>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="1.3">
+  <Image name="btn_buff0" x="-260" y="0" z="0" width="228" height="259" anchor_x="0.5" anchor_y="0.5" type="4" subinfo="scene/lemuria/midgard/frame_select_buff_0101.png" visible="1" rotation="0">
+    <Tranform name="node_icon0" x="-45" y="-20" z="0" width="0" height="0" anchor_x="0.5" anchor_y="0.5" type="1" visible="1" rotation="0"/>
+    <Text name="label_value0" x="25" y="-20" z="0" width="100" height="60" anchor_x="0.5" anchor_y="0.5" type="5" subinfo="RGBA(1.00,1.00,1.00,1.00):24" localizeinfo="+20" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    <Tranform name="node_title0" x="0" y="90" z="0" width="0" height="0" anchor_x="0.5" anchor_y="0.5" type="1" visible="1" rotation="0"/>
+  </Image>
+  <Image name="btn_buff1" x="0" y="0" z="0" width="228" height="259" anchor_x="0.5" anchor_y="0.5" type="4" subinfo="scene/lemuria/midgard/frame_select_buff_0101.png" visible="1" rotation="0">
+    <Tranform name="node_icon1" x="-45" y="-20" z="0" width="0" height="0" anchor_x="0.5" anchor_y="0.5" type="1" visible="1" rotation="0"/>
+    <Text name="label_value1" x="25" y="-20" z="0" width="100" height="60" anchor_x="0.5" anchor_y="0.5" type="5" subinfo="RGBA(1.00,1.00,1.00,1.00):24" localizeinfo="20" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    <Tranform name="node_title1" x="0" y="90" z="0" width="0" height="0" anchor_x="0.5" anchor_y="0.5" type="1" visible="1" rotation="0"/>
+  </Image>
+  <Image name="btn_buff2" x="260" y="0" z="0" width="228" height="259" anchor_x="0.5" anchor_y="0.5" type="4" subinfo="scene/lemuria/midgard/frame_select_buff_0101.png" visible="1" rotation="0">
+    <Tranform name="node_icon2" x="-45" y="-10" z="0" width="0" height="0" anchor_x="0.5" anchor_y="0.5" type="1" visible="1" rotation="0"/>
+    <Text name="label_value2" x="25" y="-20" z="0" width="100" height="60" anchor_x="0.5" anchor_y="0.5" type="5" subinfo="RGBA(1.00,1.00,1.00,1.00):24" localizeinfo="20" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    <Tranform name="node_title2" x="0" y="90" z="0" width="0" height="0" anchor_x="0.5" anchor_y="0.5" type="1" visible="1" rotation="0"/>
+  </Image>
+  <Image name="btn_ok" x="0" y="-197" z="1" width="149" height="43" anchor_x="0.5" anchor_y="0" rotation="0" visible="1" type="4" subinfo="transparent" click_mode="2" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="0" anchor_max_x="0.5" anchor_max_y="0" anchored_x="0" anchored_y="43" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0">
+    <Image name="img_new_1" x="0" y="0" z="0" width="149" height="40" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scale9/bt_1.png:(19,10,1,20)" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0.5" anchor_max_x="1" anchor_max_y="0.5" offset_left="0" offset_right="0" anchored_y="0" anchored_x="0" offset_top="0" offset_bottom="0"/>
+    <Text name="label_new" x="0" y="0" z="1" width="129" height="28" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="6" subinfo="RGBA(1.00,1.00,1.00,1.00):18" localizeinfo="BTN_OK" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0.5" anchor_max_x="1" anchor_max_y="0.5" offset_left="10" offset_right="10" anchored_y="0" stroke_color="RGBA(0.11,0.23,0.35,1.00)" anchored_x="0" offset_top="0" offset_bottom="0" stroke_size="2"/>
+  </Image>
+</root>

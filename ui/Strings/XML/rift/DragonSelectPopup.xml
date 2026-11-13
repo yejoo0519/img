@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="1.2.1">
+  <Image name="img_bg" type="3" subinfo="scene/event/spiritDungeon/scale9/frame_bg.png:(15,15,30,33)" x="0" y="2" z="0" width="501" height="365" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Tranform name="node_bottom_ui" x="0" y="-26" z="0" width="500" height="296" anchor_x="0.5" anchor_y="0.5" type="1" visible="1" rotation="0">
+      <Image name="img_bg2" type="3" subinfo="scene/event/spiritDungeon/scale9/frame_bg3.png:(15,15,30,30)" x="0" y="0" z="0" width="480" height="290" anchor_x="0.5" anchor_y="0.5" visible="1" rotation="0">
+        <Tranform name="node_table" x="0" y="36" z="0" width="464" height="206" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1"/>
+        <Tranform name="node_unequip" x="-88" y="-104" z="1" width="288" height="60" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1">
+          <Image name="btn_unequip" x="-144" y="30" z="0" width="200" height="30" anchor_x="0" anchor_y="1" rotation="0" visible="1" type="4" subinfo="transparent" layout_mode="anchored" anchor_min_x="0" anchor_min_y="1" anchor_max_x="0" anchor_max_y="1" anchored_x="0" anchored_y="0" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0">
+            <Image name="img_check_box" x="-86" y="0" z="0" width="24" height="24" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="scene/rift/mine/check_box.png" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0.5" anchor_max_x="0" anchor_max_y="0.5" anchored_x="14" anchored_y="0" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0">
+              <Image name="img_check" x="0" y="0" z="0" width="23" height="18" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="scene/rift/mine/check.png"/>
+            </Image>
+            <Image name="img_unequip" x="-55" y="0" z="1" width="128" height="21" anchor_x="0" anchor_y="0.5" rotation="0" visible="1" type="8" subinfo="scene/rift/mine/unequip_kr.png" sublanginfo="scene/rift/mine/unequip_en.png" subwidth="73" subheight="23" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0.5" anchor_max_x="0" anchor_max_y="0.5" anchored_x="45" anchored_y="0" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0"/>
+          </Image>
+          <Image name="img_lock" x="-144" y="0" z="1" width="295" height="19" anchor_x="0.0" anchor_y="1.0" rotation="0" visible="1" type="8" subinfo="scene/rift/mine/select_info_txt.png" sublanginfo="scene/rift/mine/select_info_en_txt.png" subwidth="234" subheight="34"/>
+        </Tranform>
+      </Image>
+      <Image name="btn_select" x="152" y="-106" z="0" width="160" height="50" anchor_x="0.5" anchor_y="0.5" type="4" subinfo="scale9/bt_blue_00.png:(11,11,23,23)" visible="1" rotation="0">
+        <Image name="img_new" x="0" y="0" z="0" width="37" height="22" anchor_x="0.5" anchor_y="0.5" type="8" subinfo="scene/rift/mine/Select_kr.png" sublanginfo="scene/rift/mine/Select_en.png" subwidth="63" subheight="20" visible="1" rotation="0"/>
+      </Image>
+    </Tranform>
+    <Tranform name="node_top_ui" x="0" y="152" z="1" width="500" height="56" anchor_x="0.5" anchor_y="0.5" type="1" visible="1" rotation="0">
+      <Image name="btn_exit" type="4" subinfo="common/exit_1.png" x="224" y="-2" z="0" width="50" height="52" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+      <Image name="btn_cave" x="-60" y="0" z="1" width="114" height="38" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="0" type="4" subinfo="transparent">
+        <Image name="img_cave_btn" x="0" y="0" z="0" width="114" height="38" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scale9/bt_dark_red_00.png:(11,11,23,23)"/>
+        <Text name="label_new" x="0" y="-1" z="0" width="100" height="30" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(0.96470588,0.89411765,0.90196078,1.00000000):20" localizeinfo="동굴" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+      </Image>
+      <Image name="btn_filter" x="-182" y="0" z="2" width="114" height="38" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="transparent">
+        <Image name="img_filter" x="0" y="0" z="0" width="114" height="38" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scale9/bt_black_outline_00.png:(9,9,20,20)"/>
+        <Text name="label_filter" x="0" y="0" z="0" width="100" height="30" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(0.90196078,0.92156863,0.90196078,1.00000000):18" localizeinfo="TEXT_FILTER" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+      </Image>
+      <Tranform name="node_filter" x="0" y="-154" z="3" width="800" height="480" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="0" type="1">
+        <Image name="btn_filter_back" x="0" y="0" z="0" width="800" height="480" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="transparent" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0" anchor_max_x="1" anchor_max_y="1" anchored_x="0" anchored_y="0" offset_bottom="0" offset_top="0" offset_left="0" offset_right="0" click_mode="2"/>
+        <Image name="btn_block" x="-178" y="22" z="1" width="122" height="220" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="transparent" click_mode="2"/>
+        <Image name="img_filter_panel" x="-178" y="22" z="2" width="122" height="220" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scene/rift/scale9/frame_bg4.png:(15,15,30,30)">
+          <Image name="btn_filter0" x="-40" y="90" z="0" width="24" height="24" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="scene/rift/mine/check_box.png" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="1" anchor_max_x="0.5" anchor_max_y="1" anchored_x="-40" anchored_y="-20" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0">
+            <Image name="img_check0" x="0" y="0" z="0" width="23" height="18" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="scene/rift/mine/check.png"/>
+          </Image>
+          <Image name="btn_filter1" x="-40" y="60" z="1" width="24" height="24" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="scene/rift/mine/check_box.png" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="1" anchor_max_x="0.5" anchor_max_y="1" anchored_x="-40" anchored_y="-50" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0">
+            <Image name="img_check1" x="0" y="0" z="0" width="23" height="18" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="scene/rift/mine/check.png"/>
+          </Image>
+          <Image name="btn_filter2" x="-40" y="30" z="2" width="24" height="24" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="scene/rift/mine/check_box.png" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="1" anchor_max_x="0.5" anchor_max_y="1" anchored_x="-40" anchored_y="-80" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0">
+            <Image name="img_check2" x="0" y="0" z="0" width="23" height="18" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="scene/rift/mine/check.png"/>
+          </Image>
+          <Image name="btn_filter3" x="-40" y="0" z="3" width="24" height="24" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="scene/rift/mine/check_box.png" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="1" anchor_max_x="0.5" anchor_max_y="1" anchored_x="-40" anchored_y="-110" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0">
+            <Image name="img_check3" x="0" y="0" z="0" width="23" height="18" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="scene/rift/mine/check.png"/>
+          </Image>
+          <Image name="btn_filter4" x="-40" y="-30" z="4" width="24" height="24" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="scene/rift/mine/check_box.png" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="1" anchor_max_x="0.5" anchor_max_y="1" anchored_x="-40" anchored_y="-140" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0">
+            <Image name="img_check4" x="0" y="0" z="0" width="23" height="18" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="scene/rift/mine/check.png"/>
+          </Image>
+          <Image name="btn_filter5" x="-40" y="-60" z="5" width="24" height="24" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="scene/rift/mine/check_box.png" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="1" anchor_max_x="0.5" anchor_max_y="1" anchored_x="-40" anchored_y="-170" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0">
+            <Image name="img_check5" x="0" y="0" z="0" width="23" height="18" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="scene/rift/mine/check.png"/>
+          </Image>
+          <Image name="btn_filter6" x="-40" y="-90" z="6" width="24" height="24" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="scene/rift/mine/check_box.png" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="1" anchor_max_x="0.5" anchor_max_y="1" anchored_x="-40" anchored_y="-200" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0">
+            <Image name="img_check6" x="0" y="0" z="0" width="23" height="18" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="scene/rift/mine/check.png"/>
+          </Image>
+          <Text name="label_filter0" x="15" y="90" z="7" width="74" height="26" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(0.95686275,0.99215686,0.97254902,1.00000000):18" localizeinfo="ALL" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="0" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="1" anchor_max_x="0.5" anchor_max_y="1" anchored_x="15" anchored_y="-20" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0"/>
+          <Text name="label_filter1" x="15" y="60" z="8" width="74" height="26" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(0.95686275,0.99215686,0.97254902,1.00000000):18" localizeinfo="caveBookAdult" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="1" anchor_max_x="0.5" anchor_max_y="1" anchored_x="15" anchored_y="-50" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0"/>
+          <Text name="label_filter2" x="15" y="30" z="9" width="74" height="26" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(0.95686275,0.99215686,0.97254902,1.00000000):18" localizeinfo="caveBookCapsule" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="1" anchor_max_x="0.5" anchor_max_y="1" anchored_x="15" anchored_y="-80" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0"/>
+          <Text name="label_filter3" x="15" y="0" z="10" width="74" height="26" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(0.95686275,0.99215686,0.97254902,1.00000000):18" localizeinfo="caveBookAwakened" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="1" anchor_max_x="0.5" anchor_max_y="1" anchored_x="15" anchored_y="-110" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0"/>
+          <Text name="label_filter4" x="15" y="-30" z="11" width="74" height="26" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(0.95686275,0.99215686,0.97254902,1.00000000):18" localizeinfo="caveBookAwakened2" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="1" anchor_max_x="0.5" anchor_max_y="1" anchored_x="15" anchored_y="-140" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0"/>
+          <Text name="label_filter5" x="15" y="-60" z="12" width="74" height="26" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(0.95686275,0.99215686,0.97254902,1.00000000):18" localizeinfo="caveBookTranscended" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="1" anchor_max_x="0.5" anchor_max_y="1" anchored_x="15" anchored_y="-170" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0"/>
+          <Text name="label_filter6" x="15" y="-90" z="13" width="74" height="26" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(0.95686275,0.99215686,0.97254902,1.00000000):18" localizeinfo="caveBookAdvent" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" layout_mode="anchored" anchor_min_x="0.5" anchor_min_y="1" anchor_max_x="0.5" anchor_max_y="1" anchored_x="15" anchored_y="-200" offset_left="0" offset_right="0" offset_top="0" offset_bottom="0"/>
+        </Image>
+      </Tranform>
+    </Tranform>
+  </Image>
+</root>

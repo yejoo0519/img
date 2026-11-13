@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="1.2.1">
+  <Image name="img_bg" type="3" subinfo="scene/event/spiritDungeon/scale9/frame_bg.png:(15,15,30,33)" x="0" y="2" z="0" width="501" height="365" visible="1" rotation="0">
+    <Tranform name="node_top_ui" x="0" y="152" z="0" width="500" height="56" anchor_x="0.5" anchor_y="0.5" type="1" visible="1" rotation="0">
+      <Image name="btn_help" type="4" subinfo="common/bt_help.png" x="-224" y="-2" z="0" width="50" height="50" visible="1" rotation="0"/>
+      <Image name="btn_exit" type="4" subinfo="common/exit_1.png" x="224" y="-2" z="0" width="50" height="52" visible="1" rotation="0"/>
+      <Image name="img_title" x="0" y="0" z="0" width="69" height="33" anchor_x="0.5" anchor_y="0.5" type="8" subinfo="scene/event/spiritDungeon/txt_rift_en.png" sublanginfo="scene/event/spiritDungeon/txt_rift.png" subwidth="69" subheight="33" visible="1" rotation="0"/>
+    </Tranform>
+    <Tranform name="node_bottom_ui" x="0" y="-26" z="0" width="500" height="296" anchor_x="0.5" anchor_y="0.5" type="1" visible="1" rotation="0">
+      <Image name="img_bg2" type="3" subinfo="scene/event/spiritDungeon/scale9/frame_bg3.png:(15,15,30,30)" x="0" y="0.0" z="0" width="488" height="296" anchor_x="0.5" anchor_y="0.5" visible="1" rotation="0"/>
+      <Image name="img_frame1" x="-120.0" y="4.0" z="0" width="204" height="226" anchor_x="0.5" anchor_y="0.5" type="3" subinfo="scene/event/spiritDungeon/scale9/frame_bg2.png:(16,16,32,32)" visible="1" rotation="0">
+        <Image name="img_monster_bg" x="0" y="0" z="0" width="200" height="222" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/event/spiritDungeon/309/bg.png" visible="1" rotation="0"/>
+        <Tranform name="node_monster" x="-1" y="0" z="0" width="196" height="220" anchor_x="0.5" anchor_y="0.5" type="1" visible="1" rotation="0"/>
+        <Image name="img_outer_frame" x="0" y="0" z="0" width="204" height="224" anchor_x="0.5" anchor_y="0.5" type="3" subinfo="scene/event/spiritDungeon/scale9/frame_outer.png:(16,16,32,32)" visible="1" rotation="0"/>
+        <Image name="img_title_deco" x="0" y="104" z="0" width="158" height="40" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/event/spiritDungeon/frame_name.png" visible="1" rotation="0">
+          <Tranform name="node_name" x="0" y="2" z="0" width="135" height="30" anchor_x="0.5" anchor_y="0.5" type="1" visible="1" rotation="0"/>
+        </Image>
+      </Image>
+      <Image name="img_frame2" x="109.0" y="61.0" z="0" width="218" height="80" anchor_x="0.5" anchor_y="0.5" type="3" subinfo="scene/event/spiritDungeon/scale9/frame_bg4.png:(15,15,30,30)" visible="1" rotation="0">
+        <Image name="img_exp" x="39.0" y="15.0" z="0" width="36" height="14" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/event/spiritDungeon/text_exp.png" visible="1" rotation="0"/>
+        <Image name="img_new_3" x="0" y="62" z="0" width="46" height="26" anchor_x="0.5" anchor_y="0.5" type="8" subinfo="scene/event/spiritDungeon/text_Reward.png" sublanginfo="scene/event/spiritDungeon/text_Reward_en.png" subwidth="99" subheight="21" visible="1" rotation="0"/>
+        <Tranform name="node_spirit" x="-69.0" y="0.0" z="0" width="72" height="72" anchor_x="0.5" anchor_y="0.5" type="1" visible="1" rotation="0"/>
+        <Text name="label_exp" x="37.0" y="-11.0" z="0" width="120" height="30" anchor_x="0.5" anchor_y="0.5" type="6" subinfo="RGBA(1.00000000,0.87058824,0.00784314,1.00000000):22" localizeinfo="1,000,000" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+      </Image>
+      <Image name="img_frame3" x="109.0" y="-24.0" z="0" width="219" height="78" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/event/spiritDungeon/frame_bg5.png" visible="1" rotation="0">
+        <Text name="label_count" x="0" y="-16" z="0" width="140" height="36" anchor_x="0.5" anchor_y="0.5" type="6" subinfo="RGBA(0.97254902,0.97254902,0.97254902,1.00000000):26" localizeinfo="1 / 3" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+        <Image name="img_new_2" x="0" y="22" z="0" width="86" height="25" anchor_x="0.5" anchor_y="0.5" type="8" subinfo="scene/event/spiritDungeon/text_Count.png" sublanginfo="scene/event/spiritDungeon/text_Count_en.png" subwidth="75" subheight="20" visible="1" rotation="0"/>
+      </Image>
+      <Image name="btn_start" x="109.0" y="-100" z="0" width="218" height="60" anchor_x="0.5" anchor_y="0.5" type="4" subinfo="transparent" visible="1" rotation="0">
+        <Image name="btn_start" x="0" y="0" z="0" width="214" height="58" anchor_x="0.5" anchor_y="0.5" type="3" subinfo="scene/event/spiritDungeon/scale9/bt_blue.png:(11,11,23,23)" visible="1" rotation="0"/>
+        <Image name="img_new" x="0.0" y="0.0" z="0" width="100" height="37" anchor_x="0.5" anchor_y="0.5" type="8" subinfo="scene/event/spiritDungeon/txt_start.png" sublanginfo="scene/event/spiritDungeon/txt_start_en.png" subwidth="100" subheight="37" visible="1" rotation="0"/>
+      </Image>
+      <Text name="label_hot_time" x="200" y="77" z="0" width="60" height="30" anchor_x="0.5" anchor_y="0.5" type="6" subinfo="RGBA(0.97254902,0.97254902,0.97254902,1.00000000):20" localizeinfo="X2" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+      <Tranform name="node_period" x="-120.0" y="-130" z="0" width="220" height="36" anchor_x="0.5" anchor_y="0.5" type="1" visible="1" rotation="0">
+        <Text name="label_time" x="0" y="2" z="0" width="200" height="30" anchor_x="0.5" anchor_y="0.5" type="6" subinfo="RGBA(0.97254902,0.97254902,0.97254902,1.00000000):20" localizeinfo="RESET_COUNT_DONW" visible="1" rotation="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+      </Tranform>
+    </Tranform>
+  </Image>
+</root>

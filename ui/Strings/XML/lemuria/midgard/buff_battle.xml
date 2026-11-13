@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="1.2">
+  <Image name="img_buff_panel" x="-322.0" y="18.0" z="0" width="129.0" height="254.0" anchor_x="0.5" anchor_y="0.5" type="3" subinfo="scale9/back_buff.png:(16,16,35,35)">
+    <Image name="img_icon_hp" x="-28.0" y="93.0" z="0" width="30" height="35" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/buff0.png"/>
+    <Text name="label_hp" x="25.0" y="93" z="0" width="60" height="30" anchor_x="0.5" anchor_y="0.5" type="5" subinfo="RGBA(0.9,0.9,0.9,1.0):22" localizeinfo="30%"/>
+    <Image name="img_icon_atk" x="-28" y="49.0" z="0" width="30" height="32" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/buff1.png"/>
+    <Text name="label_atk" x="25" y="49" z="0" width="60" height="30" anchor_x="0.5" anchor_y="0.5" type="5" subinfo="RGBA(0.9,0.9,0.9,1.0):22" localizeinfo="20%"/>
+    <Image name="img_icon_def" x="-28.0" y="3.0" z="0" width="32" height="33" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/buff2.png"/>
+    <Text name="label_def" x="25" y="3" z="0" width="60" height="30" anchor_x="0.5" anchor_y="0.5" type="5" subinfo="RGBA(0.9,0.9,0.9,1.0):22" localizeinfo="22"/>
+    <Image name="img_icon_crit" x="-28.0" y="-42.0" z="0" width="34" height="35" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/buff3.png"/>
+    <Text name="label_crit" x="25" y="-42" z="0" width="60" height="30" anchor_x="0.5" anchor_y="0.5" type="5" subinfo="RGBA(0.9,0.9,0.9,1.0):22" localizeinfo="55"/>
+    <Image name="img_icon_dodge" x="-28.0" y="-87.0" z="0" width="44" height="36" anchor_x="0.5" anchor_y="0.5" type="2" subinfo="scene/lemuria/midgard/buff4.png"/>
+    <Text name="label_dodge" x="25" y="-87" z="0" width="60" height="30" anchor_x="0.5" anchor_y="0.5" type="5" subinfo="RGBA(0.9,0.9,0.9,1.0):22" localizeinfo="10"/>
+  </Image>
+</root>

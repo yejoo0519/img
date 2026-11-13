@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="1.2.1">
+  <Image name="btn_protector" x="0" y="0" z="1" width="800" height="480" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="scale9/bg_white.png:(2,1,1,1)" rotationX="0" rotationY="0" color="RGBA(0.00,0.00,0.00,0.50)" click_mode="0" anchored_click_effect="0"/>
+  <Tranform name="node_effect_pos" x="0" y="0" z="2" width="800" height="480" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1"/>
+  <Tranform name="node_back_layer" x="0" y="0" z="3" width="800" height="480" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1">
+    <Tranform name="node_back_1447" x="0" y="0" z="0" width="800" height="480" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="0" type="1">
+      <Image name="img_deco_L_1" x="-322.5" y="181" z="0" width="155" height="118" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="scene/mail/deco_birthday_garland.png"/>
+      <Image name="img_deco_R_1" x="322.5" y="181" z="1" width="155" height="118" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="scene/mail/deco_birthday_garland.png" rotationY="180"/>
+      <Image name="img_deco_L_2" x="-208" y="84" z="2" width="140" height="243" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="scene/mail/deco_birthday_balloon.png"/>
+      <Image name="img_deco_R_2" x="208" y="84" z="3" width="140" height="243" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="scene/mail/deco_birthday_balloon.png" rotationY="180"/>
+      <Image name="img_deco_L_3" x="-200" y="-71" z="4" width="77" height="69" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="scene/mail/deco_birthday_firework.png"/>
+      <Image name="img_deco_R_3" x="186" y="-112" z="5" width="107" height="96" anchor_x="0.5" anchor_y="0.5" rotation="30" visible="1" type="2" subinfo="scene/mail/deco_birthday_firework.png"/>
+    </Tranform>
+  </Tranform>
+  <Tranform name="node_center_layer" x="0" y="0" z="4" width="800" height="480" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1">
+    <Image name="img_bg" x="0" y="0" z="0" width="372" height="244" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scale9/mail_popup_bg1.png:(30,30,1,1)">
+      <Image name="img_bg_inner" x="0" y="4" z="0" width="350" height="120" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scale9/mail_popup_bg2.png:(60,60,1,1)"/>
+      <Image name="btn_confirm" x="0" y="-86" z="1" width="124" height="40" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="scale9/bt_1.png:(19,20,1,1)" rotationX="0" rotationY="0" click_mode="2" anchored_click_effect="0">
+        <Text name="label_confirm" x="0" y="0" z="0" width="100" height="100" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(1.00,1.00,1.00,1.00):18" localizeinfo="확인" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+      </Image>
+    </Image>
+  </Tranform>
+  <Tranform name="node_front_layer" x="0" y="0" z="5" width="800" height="480" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="1">
+    <Tranform name="node_front_1447" x="0" y="0" z="0" width="800" height="480" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="0" type="1">
+      <Image name="img_deco_title" x="0" y="138" z="0" width="254" height="137" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="2" subinfo="scene/mail/deco_birthday_title.png"/>
+    </Tranform>
+    <Tranform name="node_front_100000" x="0" y="0" z="1" width="800" height="480" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="0" type="1">
+      <Image name="img_deco_title_copy" x="0" y="116" z="0" width="342" height="63" anchor_x="0.5" anchor_y="0.5" rotationX="0" rotationY="0" rotation="0" visible="1" type="2" subinfo="scene/mail/deco_treasurebox_title.png"/>
+    </Tranform>
+  </Tranform>
+  <Text name="label_noti" x="0" y="-200" z="6" width="800" height="40" anchor_x="0.5" anchor_y="0" rotationX="0" rotationY="0" rotation="0" visible="1" type="6" subinfo="RGBA(1.00,0.94,0.72,1.00):18" localizeinfo="" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" stroke_color="RGBA(0.00,0.00,0.00,1.00)" stroke_size="2"/>
+</root>

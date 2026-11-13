@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mainLayer version="1.2.1">
+  <Image name="img_bg" x="247" y="-34" z="0" width="246" height="392" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="scene/tower/sky_rightback.png">
+    <Text name="label_floor" x="0" y="130" z="0" width="100" height="50" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(0.44,0.18,0.20,1.00):30" localizeinfo="" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    <Text name="label_info" x="0" y="51" z="1" width="190" height="100" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(0.44,0.18,0.05,1.00):12" localizeinfo="" HorizontalAlignment="1" VerticalAlignment="0" autoSize="0" singleLine="0"/>
+    <Tranform name="node_floor2_info" x="0" y="-20" z="2" width="0" height="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="1">
+      <Image name="img_137" x="-64" y="0" z="0" width="38" height="38" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="monster/profile/137.png">
+        <Image name="img_check_137" x="0" y="0" z="0" width="30" height="27" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="common/pop_check.png"/>
+      </Image>
+      <Image name="img_151" x="-32" y="0" z="1" width="38" height="38" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="monster/profile/151.png">
+        <Image name="img_check_151" x="0" y="0" z="0" width="30" height="27" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="common/pop_check.png"/>
+      </Image>
+      <Image name="img_152" x="0" y="0" z="2" width="38" height="38" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="monster/profile/152.png">
+        <Image name="img_check_152" x="0" y="0" z="0" width="30" height="27" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="common/pop_check.png"/>
+      </Image>
+      <Image name="img_153" x="32" y="0" z="3" width="38" height="38" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="monster/profile/153.png">
+        <Image name="img_check_153" x="0" y="0" z="0" width="30" height="27" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="common/pop_check.png"/>
+      </Image>
+      <Image name="img_154" x="64" y="0" z="4" width="38" height="38" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="monster/profile/154.png">
+        <Image name="img_check_154" x="0" y="0" z="0" width="30" height="27" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="common/pop_check.png"/>
+      </Image>
+      <Image name="img_146" x="-64" y="-30" z="5" width="38" height="38" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="monster/profile/146.png">
+        <Image name="img_check_146" x="0" y="0" z="0" width="30" height="27" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="common/pop_check.png"/>
+      </Image>
+      <Image name="img_147" x="-32" y="-30" z="6" width="38" height="38" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="monster/profile/147.png">
+        <Image name="img_check_147" x="0" y="0" z="0" width="30" height="27" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="common/pop_check.png"/>
+      </Image>
+      <Image name="img_148" x="0" y="-30" z="7" width="38" height="38" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="monster/profile/148.png">
+        <Image name="img_check_148" x="0" y="0" z="0" width="30" height="27" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="common/pop_check.png"/>
+      </Image>
+      <Image name="img_149" x="32" y="-30" z="8" width="38" height="38" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="monster/profile/149.png">
+        <Image name="img_check_149" x="0" y="0" z="0" width="30" height="27" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="common/pop_check.png"/>
+      </Image>
+      <Image name="img_150" x="64" y="-30" z="9" width="38" height="38" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="monster/profile/150.png">
+        <Image name="img_check_150" x="0" y="0" z="0" width="30" height="27" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="common/pop_check.png"/>
+      </Image>
+    </Tranform>
+    <Tranform name="node_floor3_info" x="0" y="-34" z="3" width="0" height="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="0" type="1">
+      <Image name="btn_buff_1" x="-66" y="0" z="1" width="32" height="32" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="common/darkspell_1.png" click_mode="0"/>
+      <Image name="btn_buff_2" x="-33" y="0" z="1" width="32" height="32" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="common/darkspell_2.png" click_mode="0"/>
+      <Image name="btn_buff_3" x="0" y="0" z="1" width="32" height="32" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="common/darkspell_3.png" click_mode="0"/>
+      <Image name="btn_buff_4" x="33" y="0" z="1" width="32" height="32" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="common/darkspell_4.png" click_mode="0"/>
+      <Image name="btn_buff_5" x="66" y="0" z="1" width="32" height="32" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="common/darkspell_5.png" click_mode="0"/>
+    </Tranform>
+    <Tranform name="node_floor4_info" x="0" y="-34" z="4" width="0" height="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="0" type="1">
+      <Image name="btn_buff_6" x="0" y="0" z="1" width="32" height="32" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="common/crazy_1.png" click_mode="0"/>
+    </Tranform>
+    <Image name="img_requireBg" x="0" y="-85" z="5" width="179" height="30" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="2" subinfo="scene/tower/sky_right_box1.png">
+      <Image name="btn_key" x="-74" y="0" z="0" width="28" height="30" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="scene/tower/sky_right_key.png" click_mode="0"/>
+      <Text name="label_require" x="0" y="0" z="1" width="120" height="30" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="5" subinfo="RGBA(1.00,1.00,0.20,1.00):14" localizeinfo="" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+    </Image>
+    <Image name="btn_enter" x="0" y="-130" z="6" width="140" height="40" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="4" subinfo="transparent" click_mode="2">
+      <Image name="img_new" x="0" y="0" z="0" width="140" height="40" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="3" subinfo="scale9/bt_4.png:(17, 20, 2, 2)" layout_mode="anchored" anchor_min_x="0" anchor_min_y="0" anchor_max_x="1" anchor_max_y="1" offset_left="0" offset_right="0" offset_bottom="0" offset_top="0" anchored_x="0" anchored_y="0"/>
+      <Text name="label_enter" x="0" y="0" z="1" width="100" height="30" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" type="6" subinfo="RGBA(1.00,1.00,1.00,1.00):18" localizeinfo="enter" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1" stroke_color="RGBA(0.36,0.15,0.15,1.00)" stroke_size="2"/>
+    </Image>
+  </Image>
+</mainLayer>

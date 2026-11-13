@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="1.3.0">
+  <Tranform name="node_bg" type="1" z="10" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="0" height="0" x="0" y="0"/>
+  <Tranform name="node_dragon_layer" type="1" z="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="800" height="480" x="0" y="0">
+    <Image name="btn_switch0" type="4" z="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="133" height="300" x="-200.5" y="15" subinfo="transparent" click_mode="0"/>
+    <Image name="btn_switch1" type="4" z="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="266" height="300" x="-1" y="15" subinfo="transparent" click_mode="0"/>
+    <Image name="btn_switch2" type="4" z="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="133" height="300" x="198.5" y="15" subinfo="transparent" click_mode="0"/>
+  </Tranform>
+  <Tranform name="node_dragon_info" type="1" z="20" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="800" height="480" x="0" y="0">
+    <Tranform name="node_dragon_spine" type="1" z="1" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="0" height="0" x="0" y="-2"/>
+    <Tranform name="node_dragon_header" type="1" z="2" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="305" height="57" x="0" y="211.5">
+      <Image name="img_dragon_name_bg" type="2" z="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="305" height="57" x="0" y="0" subinfo="scene/cave/dragon_name_bg.png"/>
+      <Image name="img_level_bg" type="2" z="1" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="34" height="34" x="-122.5" y="7" subinfo="scene/cave/lv.png">
+        <Tranform name="node_level" type="1" z="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="0" height="0" x="0" y="0"/>
+      </Image>
+      <Text name="label_dragon_name" type="5" z="2" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="220" height="34" x="0" y="7" subinfo="RGBA(0.18,0.04,0.00,1.00):16:GodoB" localizeinfo="드래곤 이름" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+      <Image name="btn_dragon_name" type="4" z="3" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="0" width="220" height="26" x="0" y="8.5" subinfo="transparent" click_mode="0"/>
+      <Tranform name="node_dragon_grade" type="1" z="4" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="0" height="0" x="126.5" y="0.5"/>
+    </Tranform>
+    <Tranform name="node_exp" type="1" z="2" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="235" height="18" x="-10" y="184">
+      <Image name="img_exp_bg" type="2" z="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="235" height="18" x="0" y="0" subinfo="scene/cave/exp_bar_bg.png"/>
+      <Image name="img_exp_progress" type="13" z="1" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="233" height="16" x="0" y="0" subinfo="common/exp_bar.png" progressinfo="0"/>
+      <Text name="label_exp" type="5" z="2" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="235" height="18" x="0" y="0" subinfo="RGBA(1.00,1.00,1.00,1.00):12:GodoB" localizeinfo="EXP: 0/0(0%)" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+    </Tranform>
+    <Tranform name="node_awakened_upgrade" type="1" z="3" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="0" width="200" height="26" x="0" y="155">
+      <Image name="img_upgrade_0" type="2" z="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="27" height="26" x="-84" y="0" subinfo="common/rev_upgrade_circle01.png"/>
+      <Image name="img_upgrade_1" type="2" z="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="27" height="26" x="-51" y="0" subinfo="common/rev_upgrade_circle01.png"/>
+      <Image name="img_upgrade_2" type="2" z="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="27" height="26" x="-18" y="0" subinfo="common/rev_upgrade_circle01.png"/>
+      <Image name="img_upgrade_3" type="2" z="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="27" height="26" x="15" y="0" subinfo="common/rev_upgrade_circle01.png"/>
+      <Image name="img_upgrade_4" type="2" z="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="27" height="26" x="48" y="0" subinfo="common/rev_upgrade_circle01.png"/>
+      <Image name="img_upgrade_5" type="2" z="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="27" height="26" x="81" y="0" subinfo="common/rev_upgrade_circle01.png"/>
+    </Tranform>
+    <Tranform name="node_stats" type="1" z="2" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="600" height="59" x="0" y="-233.5">
+      <Image name="img_stats_bg" type="3" z="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="600" height="59" x="0" y="0" subinfo="scene/cave/back_under.png:(17,12,2,43)"/>
+      <Image name="img_eval_icon" type="2" z="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="52.8" height="20" x="-256.4" y="11.5" subinfo="common/lv_eval.png"/>
+      <Image name="img_eval_bg" type="2" z="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="81" height="17" x="-189.5" y="11.5" subinfo="scene/cave/back_stat.png"/>
+      <Text name="label_eval" type="5" z="2" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="81" height="17" x="-189.5" y="11.5" subinfo="RGBA(1.00,0.04,0.94,1.00):14:GodoB" localizeinfo="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+      <Image name="img_hp_icon" type="2" z="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="52.8" height="20" x="-116.4" y="11.5" subinfo="common/lv_hp.png"/>
+      <Image name="img_hp_bg" type="2" z="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="81" height="17" x="-49.5" y="11.5" subinfo="scene/cave/back_stat.png"/>
+      <Text name="label_hp" type="5" z="2" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="81" height="17" x="-49.5" y="11.5" subinfo="RGBA(0.98,0.15,0.14,1.00):14:GodoB" localizeinfo="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+      <Image name="img_atk_icon" type="2" z="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="52.8" height="20" x="23.6" y="11.5" subinfo="common/lv_atk.png"/>
+      <Image name="img_atk_bg" type="2" z="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="81" height="17" x="90.5" y="11.5" subinfo="scene/cave/back_stat.png"/>
+      <Text name="label_atk" type="5" z="2" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="81" height="17" x="90.5" y="11.5" subinfo="RGBA(0.26,0.82,0.13,1.00):14:GodoB" localizeinfo="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+      <Image name="img_def_icon" type="2" z="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="52.8" height="20" x="173.6" y="11.5" subinfo="common/lv_def.png"/>
+      <Image name="img_def_bg" type="2" z="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="81" height="17" x="240.5" y="11.5" subinfo="scene/cave/back_stat.png"/>
+      <Text name="label_def" type="5" z="2" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="81" height="17" x="240.5" y="11.5" subinfo="RGBA(0.13,0.65,1.00,1.00):14:GodoB" localizeinfo="0" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+    </Tranform>
+    <Tranform name="node_equipment" type="1" z="2" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="444" height="59" x="0" y="-174.5">
+      <Image name="img_equipment_bg" type="3" z="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="444" height="59" x="0" y="0" subinfo="scene/cave/back_under.png:(17,12,2,43)"/>
+      <Image name="btn_dragon_skin" type="4" z="1" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="47" height="47" x="-178.5" y="-2" subinfo="scene/cave/back_item.png" click_mode="2">
+        <Text name="label_dragon_skin" type="5" z="2" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="47" height="24" x="0" y="0" subinfo="RGBA(0.55,0.56,0.55,1.00):14:GodoB" localizeinfo="SKIN" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+        <Tranform name="node_dragon_skin_icon" type="1" z="3" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="0" height="0" x="0" y="0"/>
+      </Image>
+      <Image name="btn_item" type="4" z="1" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="47" height="47" x="-125.5" y="-2" subinfo="scene/cave/back_item.png" click_mode="2">
+        <Text name="label_item" type="5" z="2" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="47" height="24" x="0" y="0" subinfo="RGBA(0.55,0.56,0.55,1.00):14:GodoB" localizeinfo="ITEM" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+        <Tranform name="node_item_icon" type="1" z="3" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="0" height="0" x="0" y="0"/>
+      </Image>
+      <Image name="btn_pendant" type="4" z="1" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="47" height="47" x="-76.5" y="-2" subinfo="scene/cave/back_item.png" click_mode="2">
+        <Text name="label_pendant" type="5" z="2" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="47" height="24" x="0" y="0" subinfo="RGBA(0.55,0.56,0.55,1.00):14:GodoB" localizeinfo="PEN" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+        <Tranform name="node_pendant_icon" type="1" z="3" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="0" height="0" x="0" y="0"/>
+      </Image>
+      <Image name="btn_gem_0" type="4" z="1" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="47" height="47" x="-26.5" y="-2" subinfo="scene/cave/back_item.png" click_mode="2">
+        <Text name="label_gem_0" type="5" z="2" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="47" height="24" x="0" y="0" subinfo="RGBA(0.55,0.56,0.55,1.00):14:GodoB" localizeinfo="GEM" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+        <Tranform name="node_gem_0_icon" type="1" z="3" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="0" height="0" x="0" y="0"/>
+        <Image name="img_gem_0_locked" type="2" z="4" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="0" width="47" height="47" x="0" y="0" subinfo="scene/cave/back_item_lock.png"/>
+      </Image>
+      <Image name="btn_gem_1" type="4" z="1" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="47" height="47" x="23.5" y="-2" subinfo="scene/cave/back_item.png" click_mode="2">
+        <Text name="label_gem_1" type="5" z="2" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="47" height="24" x="0" y="0" subinfo="RGBA(0.55,0.56,0.55,1.00):14:GodoB" localizeinfo="GEM" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+        <Tranform name="node_gem_1_icon" type="1" z="3" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="0" height="0" x="0" y="0"/>
+        <Image name="img_gem_1_locked" type="2" z="4" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="0" width="47" height="47" x="0" y="0" subinfo="scene/cave/back_item_lock.png"/>
+      </Image>
+      <Image name="btn_gem_2" type="4" z="1" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="47" height="47" x="73.5" y="-2" subinfo="scene/cave/back_item.png" click_mode="2">
+        <Text name="label_gem_2" type="5" z="2" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="47" height="24" x="0" y="0" subinfo="RGBA(0.55,0.56,0.55,1.00):14:GodoB" localizeinfo="GEM" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+        <Tranform name="node_gem_2_icon" type="1" z="3" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="0" height="0" x="0" y="0"/>
+        <Image name="img_gem_2_locked" type="2" z="4" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="0" width="47" height="47" x="0" y="0" subinfo="scene/cave/back_item_lock.png"/>
+      </Image>
+      <Image name="btn_gem_3" type="4" z="1" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="47" height="47" x="123.5" y="-2" subinfo="scene/cave/back_item.png" click_mode="2">
+        <Text name="label_gem_3" type="5" z="2" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="47" height="24" x="0" y="0" subinfo="RGBA(0.55,0.56,0.55,1.00):14:GodoB" localizeinfo="GEM" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+        <Tranform name="node_gem_3_icon" type="1" z="3" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="0" height="0" x="0" y="0"/>
+        <Image name="img_gem_3_locked" type="2" z="4" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="0" width="47" height="47" x="0" y="0" subinfo="scene/cave/back_item_lock.png"/>
+      </Image>
+      <Image name="btn_gem_4" type="4" z="1" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="47" height="47" x="173.5" y="-2" subinfo="scene/cave/back_item.png" click_mode="2">
+        <Text name="label_gem_4" type="5" z="2" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="47" height="24" x="0" y="0" subinfo="RGBA(0.55,0.56,0.55,1.00):14:GodoB" localizeinfo="GEM" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+        <Tranform name="node_gem_4_icon" type="1" z="3" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="0" height="0" x="0" y="0"/>
+        <Image name="img_gem_4_locked" type="2" z="4" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="0" width="47" height="47" x="0" y="0" subinfo="scene/cave/back_item_lock.png"/>
+      </Image>
+      <Image name="img_injury" type="2" z="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="0" width="32" height="33" x="196" y="51" subinfo="scene/cave/icon_injury.png"/>
+      <Image name="img_hungry" type="2" z="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="0" width="32" height="33" x="196" y="51" subinfo="scene/cave/icon_hungry.png"/>
+    </Tranform>
+    <Tranform name="node_buff" type="1" z="3" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="0" height="0" x="-262" y="-175"/>
+    <Image name="btn_favorite" type="4" z="3" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="46" height="51" x="250" y="-178" subinfo="common/bt_favorite_off.png" click_mode="2"/>
+    <Image name="btn_unequip_gems" type="4" z="3" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="0" width="84" height="26" x="250" y="-138" subinfo="scene/cave/bt_quick.png" click_mode="2">
+      <Text name="label_unequip_gems" type="5" z="2" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="84" height="26" x="0" y="0" subinfo="RGBA(1.00,1.00,1.00,1.00):12:GodoB" localizeinfo="UNEQUIP_GEM" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    </Image>
+  </Tranform>
+  <Tranform name="node_champion_decorations" type="1" z="21" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="800" height="480" x="0" y="0">
+    <Tranform name="node_champion_stars" type="1" z="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="0" height="0" x="10" y="-130"/>
+    <Tranform name="node_rookie_leaves" type="1" z="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="0" height="0" x="10" y="-130"/>
+    <Tranform name="node_champion_badges" type="1" z="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="0" height="0" x="-167" y="-138"/>
+  </Tranform>
+  <Tranform name="node_friend_layer" type="1" z="22" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="0" width="800" height="480" x="0" y="0">
+    <Tranform name="node_friend_code" type="1" z="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="145.39" height="43.34" x="260" y="185">
+      <Image name="btn_friend_code" type="4" z="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="145.39" height="43.34" x="0" y="0" subinfo="scene/event/anniversary2020/pluck/keyshopBg.png" click_mode="2">
+        <Text name="label_code" type="5" z="2" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="140" height="30" x="0" y="0" subinfo="RGBA(1.00,1.00,1.00,1.00):18.64:GodoB" localizeinfo="00000000" HorizontalAlignment="1" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+      </Image>
+    </Tranform>
+    <Tranform name="node_friend_code_title" type="1" z="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="90" height="30" x="220" y="210">
+      <Image name="img_friend_code_bg" type="2" z="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="90" height="30" x="0" y="0" subinfo="scene/event/anniversary2020/pluck/keyshopTitle.png"/>
+      <Text name="label_code_title" type="5" z="2" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="90" height="28" x="0" y="0" subinfo="RGBA(1.00,1.00,1.00,1.00):16.32:GodoB" localizeinfo="CODE" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="0"/>
+    </Tranform>
+    <Image name="btn_friend_book" type="4" z="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="50" height="58" x="350" y="-50" subinfo="scene/cave/bt_book.png" click_mode="2"/>
+  </Tranform>
+  <Tranform name="node_my_layer" type="1" z="22" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="800" height="480" x="0" y="0">
+    <Image name="btn_ascension" type="4" z="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="56" height="62" x="200" y="199" subinfo="scene/cave/bt_ascension.png" click_mode="2"/>
+    <Image name="btn_shelter" type="4" z="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="92" height="62" x="280" y="199" subinfo="scene/cave/bt_rest.png" click_mode="2"/>
+    <Image name="btn_skin" type="4" z="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="66" height="57" x="350" y="58" subinfo="scene/cave/bt_skin.png" click_mode="2"/>
+    <Image name="btn_my_card" type="4" z="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="66" height="58" x="350" y="-10" subinfo="scene/cave/bt_card.png" click_mode="2">
+      <Image name="img_card_new" type="2" z="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="0" width="30" height="30" x="-33" y="15" subinfo="common/new.png"/>
+    </Image>
+    <Image name="btn_inven" type="4" z="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="61" height="60" x="350" y="-80" subinfo="scene/cave/bt_inven.png" click_mode="2">
+      <Image name="img_bag_new" type="2" z="0" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="0" width="30" height="30" x="-30.5" y="15" subinfo="common/new.png"/>
+    </Image>
+    <Image name="btn_preset" type="4" x="350" y="-178" z="3" width="53" height="51" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" subinfo="scene/cave/bt_preset.png" click_mode="2"/>
+  </Tranform>
+  <Image name="btn_close" type="4" z="22" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="50" height="52" x="375" y="214" subinfo="common/exit_1.png" click_mode="2"/>
+  <Image name="btn_medalion" type="4" z="22" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="0" width="110" height="110" x="-265" y="201" subinfo="scene/cave/badge_01.png" click_mode="2"/>
+  <Tranform name="node_dragon_list" type="1" z="23" anchor_x="0.5" anchor_y="0.5" rotation="0" visible="1" width="800" height="480" x="0" y="0"/>
+</root>

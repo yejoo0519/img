@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="1.2">
+  <Image type="3" name="img_bg" subinfo="scale9/frame_bg5.png:(30,31,1,1)" x="0" y="0" z="1" width="710" height="444" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5">
+    <Image type="3" name="img_notice_bg" subinfo="scale9/chat_bg.png:(9,9,20,20)" x="-242" y="0" z="0" width="194" height="370" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image type="3" name="img_banner_bg" subinfo="scale9/chat_bg.png:(9,9,20,20)" x="102" y="0" z="0" width="481" height="370" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Image type="4" name="btn_today" subinfo="common/check_box.png" x="-330" y="-200" z="1" width="24" height="24" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Text type="5" name="label_today" subinfo="RGBA(1.00,1.00,1.00,1.00):16" localizeinfo="today_hide" x="-305" y="-200" z="1" width="240" height="24" visible="1" rotation="0" anchor_x="0" anchor_y="0.5" HorizontalAlignment="0" VerticalAlignment="1" autoSize="1" singleLine="1"/>
+    <Image type="4" name="btn_today_area" subinfo="transparent" x="-203" y="-200" z="3" width="280" height="30" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+    <Text type="5" name="label_notice" subinfo="RGBA(1.00,1.00,1.00,1.00):20" localizeinfo="GUILD_INFO_1" x="-120" y="200" z="1" width="240" height="30" visible="1" rotation="0" anchor_x="0" anchor_y="0.5" HorizontalAlignment="1" VerticalAlignment="1" autoSize="0" singleLine="1"/>
+    <Image type="4" name="btn_exit" subinfo="common/exit_1.png" x="355" y="212" z="2" width="50" height="52" visible="1" rotation="0" anchor_x="0.5" anchor_y="0.5"/>
+  </Image>
+</root>
