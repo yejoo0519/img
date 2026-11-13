@@ -25,7 +25,7 @@ main{display:flex;flex-direction:column;min-width:0}
 #stage{position:relative;width:800px;height:480px;background:#000;transform-origin:center;flex:none;overflow:hidden}
 #stage.free{overflow:visible}
 .nd{position:absolute;background-repeat:no-repeat;background-size:100% 100%}
-.nd.s9{border-style:solid;background:none}
+.s9b{position:absolute;inset:0;border-style:solid;border-color:transparent;pointer-events:none}
 .nd.miss{outline:1px dashed rgba(255,80,80,.7)}
 .nd.hid{display:none}
 #stage.showhid .nd.hid,.nd.hid.on{display:block}
@@ -101,9 +101,10 @@ function build(n, pw, ph, parent, depth){
       const l = x, t = y, r = Math.max(0, im.w - x - cw), b = Math.max(0, im.h - y - ch);
       // keep borders inside the node when it is smaller than the caps
       const k = Math.min(1, w/(l+r||1), h/(t+b||1));
-      el.classList.add('s9');
-      el.style.borderWidth = `${t*k}px ${r*k}px ${b*k}px ${l*k}px`;
-      el.style.borderImage = `url("${url(im.p)}") ${t} ${r} ${b} ${l} fill stretch`;
+      const bg = document.createElement('div'); bg.className = 's9b';
+      bg.style.borderWidth = `${t*k}px ${r*k}px ${b*k}px ${l*k}px`;
+      bg.style.borderImage = `url("${url(im.p)}") ${t} ${r} ${b} ${l} fill stretch`;
+      el.appendChild(bg);
     } else {
       el.style.backgroundImage = `url("${url(im.p)}")`;
     }
