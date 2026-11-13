@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>인게임 화면 뷰어 | 디비룡</title>
+<style>
+:root{--bg:#0f1115;--pn:#171a21;--bd:#2a2f3a;--tx:#e6e8ee;--dim:#8a93a6;--ac:#e5484d}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:var(--bg);color:var(--tx);font:13px/1.4 system-ui,-apple-system,"Malgun Gothic",sans-serif}
+#app{display:grid;grid-template-columns:240px 1fr 280px;height:100vh}
+aside{background:var(--pn);border-right:1px solid var(--bd);display:flex;flex-direction:column;min-height:0}
+aside.r{border-right:0;border-left:1px solid var(--bd)}
+aside h3{margin:0;padding:10px 12px;font-size:13px;border-bottom:1px solid var(--bd)}
+#q{margin:8px;padding:6px 8px;background:var(--bg);border:1px solid var(--bd);color:var(--tx);border-radius:6px}
+.list{overflow:auto;flex:1;padding-bottom:20px}
+.grp{padding:8px 12px 2px;color:var(--dim);font-size:11px}
+.it{padding:3px 12px 3px 20px;cursor:pointer;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.it:hover{background:#1f2430}.it.on{background:var(--ac);color:#fff}
+main{display:flex;flex-direction:column;min-width:0}
+.bar{display:flex;gap:12px;align-items:center;padding:8px 12px;border-bottom:1px solid var(--bd);flex-wrap:wrap}
+.bar b{font-size:14px}.bar label{color:var(--dim);display:flex;gap:4px;align-items:center;cursor:pointer}
+.bar select{background:var(--bg);color:var(--tx);border:1px solid var(--bd);border-radius:6px;padding:3px 6px}
+#wrap{flex:1;display:flex;align-items:center;justify-content:center;overflow:hidden;padding:12px;min-height:0}
+#stage{position:relative;width:800px;height:480px;background:#000;transform-origin:center;flex:none;overflow:hidden}
+#stage.free{overflow:visible}
+.nd{position:absolute;background-repeat:no-repeat;background-size:100% 100%}
+.nd.s9{border-style:solid;background:none}
+.nd.miss{outline:1px dashed rgba(255,80,80,.7)}
+.nd.hid{display:none}
+#stage.showhid .nd.hid,.nd.hid.on{display:block}
+.nd.off{display:none!important}
+.nd.hl{outline:2px solid #3dd68c!important;outline-offset:-1px;z-index:99999}
+.tx{position:absolute;inset:0;display:flex;white-space:nowrap;line-height:1;pointer-events:none}
+.tx.ml{white-space:normal;word-break:keep-all}
+.tx .k{opacity:.55;font-style:italic}
+#tree{font-size:12px}
+.tn{display:flex;align-items:center;gap:4px;padding:1px 6px;white-space:nowrap;cursor:default}
+.tn:hover{background:#1f2430}.tn.hl{background:#1d3b2c}
+.tn input{margin:0}.tn .ty{color:var(--dim);font-size:10px}
+.tn.h .nm{opacity:.5;text-decoration:line-through}
+#info{padding:8px 12px;border-top:1px solid var(--bd);font:11px/1.5 ui-monospace,monospace;color:var(--dim);min-height:90px;white-space:pre-wrap;word-break:break-all}
+@font-face{font-family:GodoB;src:url(__BASE__fonts/GodoB.ttf)}
+@font-face{font-family:GodoM;src:url(__BASE__fonts/GodoM.ttf)}
+@media (max-width:900px){#app{grid-template-columns:1fr;grid-template-rows:auto 1fr auto;height:auto}aside{max-height:30vh}#wrap{min-height:60vw}}
+</style>
+</head>
+<body>
+<div id="app">
+  <aside>
+    <h3>화면 목록 <span id="cnt" style="color:var(--dim);font-weight:400"></span></h3>
+    <input id="q" placeholder="검색 (예: guild, colosseum)">
+    <div class="list" id="list"></div>
+  </aside>
+  <main>
+    <div class="bar">
+      <b id="ttl">-</b>
+      <label><select id="lang"><option value="ko">한국어 이미지</option><option value="en">영어 이미지</option></select></label>
+      <label><input type="checkbox" id="showhid"> 숨김 요소도 보기</label>
+      <label><input type="checkbox" id="keys" checked> 문구 키 표시</label>
+      <label><input type="checkbox" id="free"> 화면 밖까지 보기</label>
+    </div>
+    <div id="wrap"><div id="stage"></div></div>
+  </main>
+  <aside class="r">
+    <h3>레이어</h3>
+    <div class="list" id="tree"></div>
+    <div id="info">요소에 마우스를 올리면 정보가 보여요.</div>
+  </aside>
+</div>
+<script>
+const P = new URLSearchParams(location.search);
+const BASE = P.get('base') || './';
+const DATA = P.get('data') || BASE + 'screens.json';
+document.querySelectorAll('style').forEach(s => s.textContent = s.textContent.replaceAll('__BASE__', BASE));
+
+const $ = id => document.getElementById(id);
+const TYPE = {1:'노드',2:'이미지',3:'9분할',4:'버튼',5:'글자',6:'글자',8:'이미지(언어)',9:'토글',10:'버튼',11:'버튼(언어)',12:'버튼',13:'게이지'};
+let D, cur, nodes = [], STR = {};
+const rgba = c => `rgba(${c[0]},${c[1]},${c[2]},${c[3]})`;
+const url = p => BASE + p.split('/').map(encodeURIComponent).join('/');
+
+function imgOf(n){
+  const lang = $('lang').value;
+  return (lang === 'en' && n.en) ? n.en : n.img;
+}
+
+function build(n, pw, ph, parent, depth){
+  const el = document.createElement('div');
+  el.className = 'nd';
+  const w = n.w, h = n.h;
+  el.style.width = w + 'px'; el.style.height = h + 'px';
+  el.style.left = (pw/2 + n.x - n.ax*w) + 'px';
+  el.style.top = (ph/2 - n.y - (1-n.ay)*h) + 'px';
+  if (n.r){ el.style.transformOrigin = `${n.ax*100}% ${(1-n.ay)*100}%`; el.style.transform = `rotate(${n.r}deg)`; }
+  if (n.hid) el.classList.add('hid');
+  const im = imgOf(n);
+  if (im && im.p){
+    if (n.s9 && im.w){
+      const [x,y,cw,ch] = n.s9;
+      const l = x, t = y, r = Math.max(0, im.w - x - cw), b = Math.max(0, im.h - y - ch);
+      // keep borders inside the node when it is smaller than the caps
+      const k = Math.min(1, w/(l+r||1), h/(t+b||1));
+      el.classList.add('s9');
+      el.style.borderWidth = `${t*k}px ${r*k}px ${b*k}px ${l*k}px`;
+      el.style.borderImage = `url("${url(im.p)}") ${t} ${r} ${b} ${l} fill stretch`;
+    } else {
+      el.style.backgroundImage = `url("${url(im.p)}")`;
+    }
+  } else if (im && im.miss){
+    el.classList.add('miss');
+  } else if (n.c && n.t === 3){
+    el.style.background = rgba(n.c);
+  }
+  if (n.c && n.c[3] < 1 && n.t !== 3) el.style.opacity = n.c[3];
+  if (n.txt){
+    const t = n.txt, d = document.createElement('div');
+    d.className = 'tx' + (t.one ? '' : ' ml');
+    d.style.justifyContent = ['flex-start','center','flex-end'][t.ha] || 'center';
+    d.style.textAlign = ['left','center','right'][t.ha] || 'center';
+    d.style.alignItems = ['flex-start','center','flex-end'][t.va] || 'center';
+    d.style.color = rgba(t.c);
+    d.style.fontSize = t.s + 'px';
+    d.style.fontFamily = (t.f === 'GodoM' ? 'GodoM' : 'GodoB') + ',sans-serif';
+    if (/Bold/.test(t.f)) d.style.fontWeight = 700;
+    if (t.st){ d.style.webkitTextStroke = `${t.st[1]*2}px ${rgba(t.st[0])}`; d.style.paintOrder = 'stroke fill'; }
+    const s = STR[t.key];
+    if (s) d.textContent = s;
+    else if (t.key && t.key !== '-'){ const k = document.createElement('span'); k.className = 'k'; k.textContent = t.key; d.appendChild(k); }
+    el.appendChild(d);
+  }
+  const rec = {n, el, depth, kids: []};
+  nodes.push(rec);
+  el.onmouseenter = e => { e.stopPropagation(); hl(rec, true); };
+  el.onmouseleave = e => { hl(rec, false); };
+  (n.ch || []).forEach(c => rec.kids.push(build(c, w, h, el, depth+1)));
+  parent.appendChild(el);
+  return rec;
+}
+
+function hl(rec, on){
+  document.querySelectorAll('.hl').forEach(x => x.classList.remove('hl'));
+  if (!on) return;
+  rec.el.classList.add('hl'); rec.row && rec.row.classList.add('hl');
+  const n = rec.n, im = imgOf(n);
+  $('info').textContent =
+    `${n.n}  [${TYPE[n.t]||n.t}]\n` +
+    `x ${n.x}, y ${n.y}, ${n.w}×${n.h}, anchor ${n.ax}/${n.ay}${n.r ? ', rot ' + n.r : ''}${n.hid ? ', 숨김' : ''}\n` +
+    (im ? (im.p || ('없음: ' + im.miss)) : '') + (n.s9 ? `  9분할(${n.s9.join(',')})` : '') +
+    (n.txt ? `문구 키: ${n.txt.key || '(빈칸)'}  ${n.txt.s}px ${n.txt.f}` : '');
+}
+
+function tree(){
+  const t = $('tree'); t.innerHTML = '';
+  nodes.forEach(rec => {
+    const r = document.createElement('div');
+    r.className = 'tn' + (rec.n.hid ? ' h' : '');
+    r.style.paddingLeft = (6 + rec.depth*12) + 'px';
+    const cb = document.createElement('input'); cb.type = 'checkbox';
+    if (rec.n.hid){ cb.checked = $('showhid').checked; cb.onchange = () => { rec.el.classList.toggle('on', cb.checked); rec.el.classList.toggle('off', !cb.checked); }; cb.title = '게임에서 처음엔 숨겨진 요소'; }
+    else { cb.checked = true; cb.onchange = () => rec.el.classList.toggle('off', !cb.checked); }
+    r.append(cb);
+    r.insertAdjacentHTML('beforeend', `<span class="nm"></span><span class="ty">${TYPE[rec.n.t]||''}</span>`);
+    r.querySelector('.nm').textContent = rec.n.n || '(이름 없음)';
+    r.onmouseenter = () => hl(rec, true);
+    r.onmouseleave = () => hl(rec, false);
+    rec.row = r; t.appendChild(r);
+  });
+}
+
+function show(id){
+  cur = D.screens.find(s => s.id === id); if (!cur) return;
+  history.replaceState(null, '', '#' + encodeURIComponent(id));
+  document.querySelectorAll('.it').forEach(x => x.classList.toggle('on', x.dataset.id === id));
+  $('ttl').textContent = cur.id;
+  const st = $('stage'); st.innerHTML = ''; nodes = [];
+  const W = D.design.w, H = D.design.h;
+  cur.ch.forEach(c => build(c, W, H, st, 0));
+  st.querySelectorAll('.tx:not(.ml)').forEach(d => { if (d.scrollWidth > d.clientWidth + 1 && d.clientWidth > 0) d.style.fontSize = (parseFloat(d.style.fontSize) * d.clientWidth / d.scrollWidth) + 'px'; });
+  tree(); fit();
+}
+
+function list(){
+  const q = $('q').value.trim().toLowerCase(), L = $('list'); L.innerHTML = '';
+  let g = null, c = 0;
+  D.screens.forEach(s => {
+    if (q && !s.id.toLowerCase().includes(q)) return;
+    const grp = s.id.includes('/') ? s.id.split('/')[0] : '(기타)';
+    if (grp !== g){ g = grp; L.insertAdjacentHTML('beforeend', `<div class="grp"></div>`); L.lastChild.textContent = grp; }
+    const d = document.createElement('div'); d.className = 'it' + (cur && cur.id === s.id ? ' on' : '');
+    d.dataset.id = s.id; d.textContent = s.id.split('/').slice(1).join('/') || s.id; d.title = s.id;
+    d.onclick = () => show(s.id); L.appendChild(d); c++;
+  });
+  $('cnt').textContent = c;
+}
+
+function fit(){
+  const w = $('wrap'), st = $('stage');
+  const k = Math.min((w.clientWidth-24)/D.design.w, (w.clientHeight-24)/D.design.h);
+  st.style.transform = `scale(${Math.max(.2, k)})`;
+}
+
+$('q').oninput = list;
+$('lang').onchange = () => cur && show(cur.id);
+$('showhid').onchange = e => { $('stage').classList.toggle('showhid', e.target.checked); cur && show(cur.id); };
+$('free').onchange = e => $('stage').classList.toggle('free', e.target.checked);
+$('keys').onchange = e => document.querySelectorAll('.tx .k').forEach(k => k.style.display = e.target.checked ? '' : 'none');
+addEventListener('resize', () => D && fit());
+addEventListener('hashchange', () => { const h = decodeURIComponent(location.hash.slice(1)); if (D && (!cur || cur.id !== h)) show(h); });
+
+(async () => {
+  D = await (await fetch(DATA)).json();
+  try { STR = await (await fetch(BASE + 'strings_ko.json')).json(); } catch(e) {}
+  if (P.get('hid')) { $('showhid').checked = true; $('stage').classList.add('showhid'); }
+  list();
+  const h = decodeURIComponent(location.hash.slice(1));
+  show(D.screens.some(s => s.id === h) ? h : 'Guild/GuildMainScene');
+})();
+</script>
+</body>
+</html>
